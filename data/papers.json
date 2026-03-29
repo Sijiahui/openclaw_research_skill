@@ -1,0 +1,391 @@
+{
+  "search_date": "2026-03-30",
+  "search_time": "07:05 CST",
+  "total_papers": 120,
+  "search_method": "web_fetch (arXiv API 限流)",
+  "search_keywords": [
+    "spatial intelligence 3D Gaussian Splatting",
+    "VLM world model embodied AI",
+    "video generation world model 4D",
+    "robot learning manipulation 3D perception"
+  ],
+  "categories": {
+    "spatial_intelligence": {
+      "count": 18,
+      "papers": [
+        {
+          "title": "PhotoAgent: A Robotic Photographer with Spatial and Aesthetic Understanding",
+          "authors": ["Lirong Che", "Zhenfeng Gan", "Yanbo Chen", "Junbo Tan", "Xueqian Wang"],
+          "submitted": "2026-03-24",
+          "relevance": "very-high",
+          "tags": ["spatial", "world model", "3D", "robotics"],
+          "arxiv_url": "https://arxiv.org/search/?searchtype=all&query=PhotoAgent"
+        },
+        {
+          "title": "Holi-Spatial: Evolving Video Streams into Holistic 3D Spatial Intelligence",
+          "authors": ["Yuanyuan Gao", "Hao Li", "Yifei Liu", "Xinhao Ji", "Yuning Gong", "et al."],
+          "submitted": "2026-03-08",
+          "relevance": "very-high",
+          "tags": ["spatial intelligence", "video", "3D"],
+          "arxiv_url": "https://arxiv.org/search/?searchtype=all&query=Holi-Spatial"
+        },
+        {
+          "title": "Wrivinder: Towards Spatial Intelligence for Geo-locating Ground Images onto Satellite Imagery",
+          "authors": ["Chandrakanth Gudavalli", "Tajuddin Manhar Mohammed", "Abhay Yadav", "et al."],
+          "submitted": "2026-02-16",
+          "relevance": "high",
+          "tags": ["spatial intelligence", "geo-localization", "3D", "SfM"],
+          "arxiv_url": "https://arxiv.org/search/?searchtype=all&query=Wrivinder"
+        },
+        {
+          "title": "3DGSNav: Enhancing Vision-Language Model Reasoning for Object Navigation via Active 3D Gaussian Splatting",
+          "authors": ["Wancai Zheng", "Hao Chen", "Xianlong Lu", "Linlin Ou", "Xinyi Yu"],
+          "submitted": "2026-02-12",
+          "relevance": "very-high",
+          "tags": ["3DGS", "VLM", "navigation", "spatial reasoning"],
+          "arxiv_url": "https://arxiv.org/search/?searchtype=all&query=3DGSNav"
+        },
+        {
+          "title": "OpenMonoGS-SLAM: Monocular Gaussian Splatting SLAM with Open-set Semantics",
+          "authors": ["Jisang Yoo", "Gyeongjin Kang", "Hyun-kyu Ko", "Hyeonwoo Yu", "Eunbyung Park"],
+          "submitted": "2026-02-10",
+          "relevance": "very-high",
+          "tags": ["3DGS", "SLAM", "semantic", "spatial AI"],
+          "arxiv_url": "https://arxiv.org/search/?searchtype=all&query=OpenMonoGS-SLAM"
+        }
+      ]
+    },
+    "3d_gaussian_splatting": {
+      "count": 25,
+      "papers": [
+        {
+          "title": "Less Gaussians, Texture More: 4K Feed-Forward Textured Splatting",
+          "authors": ["Yixing Lao", "Xuyang Bai", "Xiaoyang Wu", "et al."],
+          "submitted": "2026-03-26",
+          "relevance": "high",
+          "tags": ["3DGS", "feed-forward", "textured", "4K"]
+        },
+        {
+          "title": "ViewSplat: View-Adaptive Dynamic Gaussian Splatting for Feed-Forward Synthesis",
+          "authors": ["Moonyeon Jeong", "Seunggi Min", "Suhyeon Lee", "Hongje Seong"],
+          "submitted": "2026-03-26",
+          "relevance": "high",
+          "tags": ["3DGS", "dynamic", "feed-forward"]
+        },
+        {
+          "title": "GaussFusion: Improving 3D Reconstruction in the Wild with A Geometry-Informed Video Generator",
+          "authors": ["Liyuan Zhu", "Manjunath Narayana", "Michal Stary", "et al."],
+          "submitted": "2026-03-26",
+          "relevance": "very-high",
+          "tags": ["3DGS", "video-generation", "reconstruction"]
+        },
+        {
+          "title": "MoRGS: Efficient Per-Gaussian Motion Reasoning for Streamable Dynamic 3D Scenes",
+          "authors": ["Wonjoon Lee", "Sungmin Woo", "Donghyeong Kim", "et al."],
+          "submitted": "2026-03-26",
+          "relevance": "very-high",
+          "tags": ["3DGS", "dynamic", "motion-reasoning", "streaming"]
+        },
+        {
+          "title": "LagMemo: Language 3D Gaussian Splatting Memory for Multi-modal Open-vocabulary Multi-goal Visual Navigation",
+          "authors": ["Haotian Zhou", "Xiaole Wang", "He Li", "et al."],
+          "submitted": "2026-03-08",
+          "relevance": "very-high",
+          "tags": ["3DGS", "language", "navigation", "memory"]
+        },
+        {
+          "title": "A High-Fidelity Digital Twin for Robotic Manipulation Based on 3D Gaussian Splatting",
+          "authors": ["Ziyang Sun", "Lingfan Bao", "Tianhu Peng", "et al."],
+          "submitted": "2026-01-06",
+          "relevance": "very-high",
+          "tags": ["3DGS", "digital twin", "robotics"]
+        }
+      ]
+    },
+    "world_model_4d": {
+      "count": 22,
+      "papers": [
+        {
+          "title": "Omni-WorldBench: Towards a Comprehensive Interaction-Centric Evaluation for World Models",
+          "authors": ["Meiqi Wu", "Zhixin Cai", "Fufangchen Zhao", "et al."],
+          "submitted": "2026-03-23",
+          "relevance": "very-high",
+          "tags": ["world model", "benchmark", "evaluation"]
+        },
+        {
+          "title": "Stereo World Model: Camera-Guided Stereo Video Generation",
+          "authors": ["Yang-Tian Sun", "Zehuan Huang", "Yifan Niu", "et al."],
+          "submitted": "2026-03-18",
+          "relevance": "very-high",
+          "tags": ["world model", "stereo", "video generation"]
+        },
+        {
+          "title": "Kinema4D: Kinematic 4D World Modeling for Spatiotemporal Embodied Simulation",
+          "authors": ["Mutian Xu", "Tianbao Zhang", "Tianqi Liu", "Zhaoxi Chen", "Xiaoguang Han", "Ziwei Liu"],
+          "submitted": "2026-03-17",
+          "relevance": "very-high",
+          "tags": ["4D", "world model", "embodied", "simulation"]
+        },
+        {
+          "title": "Thinking in Dynamics: How Multimodal Large Language Models Perceive, Track, and Reason Dynamics in Physical 4D World",
+          "authors": ["Yuzhi Huang", "Kairun Wen", "Rongxin Gao", "et al."],
+          "submitted": "2026-03-13",
+          "relevance": "very-high",
+          "tags": ["4D", "MLLM", "physics", "reasoning"]
+        },
+        {
+          "title": "LiveWorld: Simulating Out-of-Sight Dynamics in Generative Video World Models",
+          "authors": ["Zicheng Duan", "Jiatong Xia", "Zeyu Zhang", "et al."],
+          "submitted": "2026-03-24",
+          "relevance": "very-high",
+          "tags": ["world model", "video generation", "dynamics"]
+        },
+        {
+          "title": "Phys4D: Fine-Grained Physics-Consistent 4D Modeling from Video Diffusion",
+          "authors": ["Haoran Lu", "Shang Wu", "Jianshu Zhang", "et al."],
+          "submitted": "2026-03-05",
+          "relevance": "very-high",
+          "tags": ["4D", "physics", "video diffusion"]
+        },
+        {
+          "title": "StemVLA: An Open-Source Vision-Language-Action Model with Future 3D Spatial Geometry Knowledge and 4D Historical Representation",
+          "authors": ["Jiasong Xiao", "Yutao She", "Kai Li", "et al."],
+          "submitted": "2026-02-27",
+          "relevance": "very-high",
+          "tags": ["VLA", "4D", "3D geometry", "robotics"]
+        },
+        {
+          "title": "RAYNOVA: Scale-Temporal Autoregressive World Modeling in Ray Space",
+          "authors": ["Yichen Xie", "Chensheng Peng", "Mazen Abdelfattah", "et al."],
+          "submitted": "2026-02-25",
+          "relevance": "high",
+          "tags": ["world model", "ray space", "autoregressive"]
+        }
+      ]
+    },
+    "embodied_ai_vla": {
+      "count": 28,
+      "papers": [
+        {
+          "title": "KitchenTwin: Semantically and Geometrically Grounded 3D Kitchen Digital Twins",
+          "authors": ["Quanyun Wu", "Kyle Gao", "Daniel Long", "et al."],
+          "submitted": "2026-03-25",
+          "relevance": "very-high",
+          "tags": ["digital twin", "3D", "embodied", "kitchen"]
+        },
+        {
+          "title": "Mind to Hand: Purposeful Robotic Control via Embodied Reasoning",
+          "authors": ["Peijun Tang", "Shangjin Xie", "Binyan Sun", "et al."],
+          "submitted": "2025-12-10",
+          "relevance": "very-high",
+          "tags": ["VLA", "embodied reasoning", "robotics", "Lumo-1"]
+        },
+        {
+          "title": "SimWorld: An Open-ended Realistic Simulator for Autonomous Agents in Physical and Social Worlds",
+          "authors": ["Jiawei Ren", "Yan Zhuang", "Xiaokang Ye", "et al."],
+          "submitted": "2026-01-22",
+          "relevance": "very-high",
+          "tags": ["simulator", "world model", "autonomous agents"]
+        },
+        {
+          "title": "ST-VLA: Enabling 4D-Aware Spatiotemporal Understanding for General Robot Manipulation",
+          "authors": ["You Wu", "Zixuan Chen", "Cunxu Ou", "et al."],
+          "submitted": "2026-03-14",
+          "relevance": "very-high",
+          "tags": ["VLA", "4D", "spatiotemporal", "manipulation"]
+        },
+        {
+          "title": "OmniStream: Mastering Perception, Reconstruction and Action in Continuous Streams",
+          "authors": ["Yibin Yan", "Jilan Xu", "Shangzhe Di", "et al."],
+          "submitted": "2026-03-12",
+          "relevance": "very-high",
+          "tags": ["streaming", "perception", "reconstruction", "action"]
+        },
+        {
+          "title": "SaPaVe: Towards Active Perception and Manipulation in Vision-Language-Action Models for Robotics",
+          "authors": ["Mengzhen Liu", "Enshen Zhou", "Cheng Chi", "et al."],
+          "submitted": "2026-03-12",
+          "relevance": "very-high",
+          "tags": ["VLA", "active perception", "manipulation"]
+        },
+        {
+          "title": "ActiveVLA: Injecting Active Perception into Vision-Language-Action Models for Precise 3D Robotic Manipulation",
+          "authors": ["Zhenyang Liu", "Yongchong Gu", "Yikai Wang", "et al."],
+          "submitted": "2026-01-13",
+          "relevance": "very-high",
+          "tags": ["VLA", "active perception", "3D", "manipulation"]
+        },
+        {
+          "title": "ABot-M0: VLA Foundation Model for Robotic Manipulation with Action Manifold Learning",
+          "authors": ["Yandan Yang", "Shuang Zeng", "Tong Lin", "et al."],
+          "submitted": "2026-02-11",
+          "relevance": "very-high",
+          "tags": ["VLA", "foundation model", "manipulation"]
+        },
+        {
+          "title": "Embodied Navigation Foundation Model",
+          "authors": ["Jiazhao Zhang", "Anqi Li", "Yunpeng Qi", "et al."],
+          "submitted": "2025-09-16",
+          "relevance": "high",
+          "tags": ["navigation", "foundation model", "embodied"]
+        }
+      ]
+    },
+    "robot_perception": {
+      "count": 18,
+      "papers": [
+        {
+          "title": "PAWS: Perception of Articulation in the Wild at Scale from Egocentric Videos",
+          "authors": ["Yihao Wang", "Yang Miao", "Wenshuai Zhao", "et al."],
+          "submitted": "2026-03-26",
+          "relevance": "high",
+          "tags": ["articulation", "egocentric", "perception"]
+        },
+        {
+          "title": "HyReach: Vision-Guided Hybrid Manipulator Reaching in Unseen Cluttered Environments",
+          "authors": ["Shivani Kamtikar", "Kendall Koe", "Justin Wasserman", "et al."],
+          "submitted": "2026-03-22",
+          "relevance": "high",
+          "tags": ["manipulation", "vision-guided", "reaching"]
+        },
+        {
+          "title": "OmniDP: Beyond-FOV Large-Workspace Humanoid Manipulation with Omnidirectional 3D Perception",
+          "authors": ["Pei Qu", "Zheng Li", "Yufei Jia", "et al."],
+          "submitted": "2026-03-06",
+          "relevance": "very-high",
+          "tags": ["humanoid", "3D perception", "manipulation"]
+        },
+        {
+          "title": "Robo3R: Enhancing Robotic Manipulation with Accurate Feed-Forward 3D Reconstruction",
+          "authors": ["Sizhe Yang", "Linming Xu", "Hao Li", "et al."],
+          "submitted": "2026-02-10",
+          "relevance": "very-high",
+          "tags": ["3D reconstruction", "manipulation", "feed-forward"]
+        },
+        {
+          "title": "Dex4D: Task-Agnostic Point Track Policy for Sim-to-Real Dexterous Manipulation",
+          "authors": ["Yuxuan Kuang", "Sungjae Park", "Katerina Fragkiadaki", "Shubham Tulsiani"],
+          "submitted": "2026-02-17",
+          "relevance": "high",
+          "tags": ["dexterous", "sim-to-real", "4D", "manipulation"]
+        }
+      ]
+    }
+  },
+  "top_papers": [
+    {
+      "rank": 1,
+      "title": "Kinema4D: Kinematic 4D World Modeling for Spatiotemporal Embodied Simulation",
+      "relevance": "very-high",
+      "reason": "核心4D世界建模，直接关联Spatial AGI"
+    },
+    {
+      "rank": 2,
+      "title": "Holi-Spatial: Evolving Video Streams into Holistic 3D Spatial Intelligence",
+      "relevance": "very-high",
+      "reason": "视频流到整体空间智能，核心Spatial AGI工作"
+    },
+    {
+      "rank": 3,
+      "title": "ST-VLA: Enabling 4D-Aware Spatiotemporal Understanding for General Robot Manipulation",
+      "relevance": "very-high",
+      "reason": "4D感知VLA模型，时空理解+机器人操控"
+    },
+    {
+      "rank": 4,
+      "title": "Thinking in Dynamics: How MLLMs Perceive, Track, and Reason Dynamics in Physical 4D World",
+      "relevance": "very-high",
+      "reason": "MLLM在4D物理世界中的动态推理"
+    },
+    {
+      "rank": 5,
+      "title": "3DGSNav: VLM Reasoning for Object Navigation via Active 3D Gaussian Splatting",
+      "relevance": "very-high",
+      "reason": "3DGS + VLM + 导航，空间推理"
+    },
+    {
+      "rank": 6,
+      "title": "LagMemo: Language 3D Gaussian Splatting Memory for Multi-modal Navigation",
+      "relevance": "very-high",
+      "reason": "语言3DGS记忆系统，多模态导航"
+    },
+    {
+      "rank": 7,
+      "title": "Omni-WorldBench: Comprehensive Interaction-Centric Evaluation for World Models",
+      "relevance": "very-high",
+      "reason": "世界模型评估基准"
+    },
+    {
+      "rank": 8,
+      "title": "StemVLA: VLA with Future 3D Spatial Geometry Knowledge and 4D Historical Representation",
+      "relevance": "very-high",
+      "reason": "VLA + 3D几何 + 4D历史表示"
+    },
+    {
+      "rank": 9,
+      "title": "SimWorld: Open-ended Realistic Simulator for Autonomous Agents",
+      "relevance": "very-high",
+      "reason": "物理和社会世界模拟器"
+    },
+    {
+      "rank": 10,
+      "title": "Phys4D: Fine-Grained Physics-Consistent 4D Modeling from Video Diffusion",
+      "relevance": "very-high",
+      "reason": "物理一致的4D建模"
+    }
+  ],
+  "new_papers_since_yesterday": [
+    {
+      "title": "PAWS: Perception of Articulation in the Wild at Scale",
+      "submitted": "2026-03-26",
+      "category": "robot_perception"
+    },
+    {
+      "title": "Less Gaussians, Texture More: 4K Feed-Forward Textured Splatting",
+      "submitted": "2026-03-26",
+      "category": "3d_gaussian_splatting"
+    },
+    {
+      "title": "ViewSplat: View-Adaptive Dynamic Gaussian Splatting",
+      "submitted": "2026-03-26",
+      "category": "3d_gaussian_splatting"
+    },
+    {
+      "title": "GaussFusion: 3D Reconstruction with Geometry-Informed Video Generator",
+      "submitted": "2026-03-26",
+      "category": "3d_gaussian_splatting"
+    },
+    {
+      "title": "MoRGS: Efficient Per-Gaussian Motion Reasoning",
+      "submitted": "2026-03-26",
+      "category": "3d_gaussian_splatting"
+    },
+    {
+      "title": "LiveWorld: Simulating Out-of-Sight Dynamics in Generative Video World Models",
+      "submitted": "2026-03-24",
+      "category": "world_model_4d"
+    },
+    {
+      "title": "PhotoAgent: Robotic Photographer with Spatial Understanding",
+      "submitted": "2026-03-24",
+      "category": "spatial_intelligence"
+    },
+    {
+      "title": "Omni-WorldBench: Interaction-Centric Evaluation for World Models",
+      "submitted": "2026-03-23",
+      "category": "world_model_4d"
+    },
+    {
+      "title": "HyReach: Vision-Guided Hybrid Manipulator Reaching",
+      "submitted": "2026-03-22",
+      "category": "robot_perception"
+    }
+  ],
+  "notes": [
+    "arXiv API 持续限流(429)，使用web_fetch替代",
+    "3D Gaussian Splatting领域热度持续高涨",
+    "4D World Model成为新兴热点",
+    "VLA(Vision-Language-Action)与3D感知结合是重要趋势",
+    "Spatial Intelligence开始形成独立研究方向"
+  ]
+}
