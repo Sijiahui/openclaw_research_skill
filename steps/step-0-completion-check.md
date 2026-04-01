@@ -10,7 +10,7 @@
 
 ```bash
 YESTERDAY=$(date -d yesterday +%Y-%m-%d)
-BLOG_DIR="/home/cwh/coding/auto_blog/spatial_agi"
+BLOG_DIR="/home/cwh/coding/spatial_agi"
 
 # 检查论文数量
 PAPERS_COUNT=$(ls "$BLOG_DIR"/papers/${YESTERDAY}_*.md 2>/dev/null | wc -l)

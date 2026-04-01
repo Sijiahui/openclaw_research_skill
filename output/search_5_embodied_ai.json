@@ -1,0 +1,283 @@
+搜索URL: http://export.arxiv.org/api/query?search_query=all%3Aembodied+AI&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending
+超时设置: 30秒, 最大重试: 3次
+成功获取 20 篇论文
+[
+  {
+    "title": "Vibe Coding XR: Accelerating AI + XR Prototyping with XR Blocks and Gemini",
+    "summary": "While large language models have accelerated software development through \"vibe coding\", prototyping intelligent Extended Reality (XR) experiences remains inaccessible due to the friction of complex game engines and low-level sensor integration. To bridge this gap, we contribute XR Blocks, an open-source, modular WebXR framework that abstracts spatial computing complexities into high-level, human-centered primitives. Building upon this foundation, we present Vibe Coding XR, an end-to-end rapid prototyping workflow that leverages LLMs to translate natural language intent directly into functional XR software. Using a web-based interface, creators can transform high-level prompts (e.g., \"create a dandelion that reacts to hand\") into interactive WebXR applications in under a minute. We provide a preliminary technical evaluation on a pilot dataset (VCXR60) alongside diverse application scenarios highlighting mixed-reality realism, multi-modal interaction, and generative AI integrations. By democratizing spatial software creation, this work empowers practitioners to bypass low-level hurdles and rapidly move from \"idea to reality.\" Code and live demos are available at https://xrblocks.github.io/gem and https://github.com/google/xrblocks.",
+    "link": "https://arxiv.org/abs/2603.24591v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24591v1",
+    "authors": [
+      "Ruofei Du",
+      "Benjamin Hersh",
+      "David Li",
+      "Nels Numan",
+      "Xun Qian",
+      "Yanhe Chen",
+      "Zhongyi Zhou",
+      "Xingyue Chen",
+      "Jiahao Ren",
+      "Robert Timothy Bettridge",
+      "Steve Toh",
+      "David Kim"
+    ],
+    "published": "2026-03-25T17:58:56Z"
+  },
+  {
+    "title": "The Stochastic Gap: A Markovian Framework for Pre-Deployment Reliability and Oversight-Cost Auditing in Agentic Artificial Intelligence",
+    "summary": "Agentic artificial intelligence (AI) in organizations is a sequential decision problem constrained by reliability and oversight cost. When deterministic workflows are replaced by stochastic policies over actions and tool calls, the key question is not whether a next step appears plausible, but whether the resulting trajectory remains statistically supported, locally unambiguous, and economically governable. We develop a measure-theoretic Markov framework for this setting. The core quantities are state blind-spot mass B_n(tau), state-action blind mass B^SA_{pi,n}(tau), an entropy-based human-in-the-loop escalation gate, and an expected oversight-cost identity over the workflow visitation measure.\n  We instantiate the framework on the Business Process Intelligence Challenge 2019 purchase-to-pay log (251,734 cases, 1,595,923 events, 42 distinct workflow actions) and construct a log-driven simulated agent from a chronological 80/20 split of the same process. The main empirical finding is that a large workflow can appear well supported at the state level while retaining substantial blind mass over next-step decisions: refining the operational state to include case context, economic magnitude, and actor class expands the state space from 42 to 668 and raises state-action blind mass from 0.0165 at tau=50 to 0.1253 at tau=1000. On the held-out split, m(s) = max_a pi-hat(a|s) tracks realized autonomous step accuracy within 3.4 percentage points on average.\n  The same quantities that delimit statistically credible autonomy also determine expected oversight burden. The framework is demonstrated on a large-scale enterprise procurement workflow and is designed for direct application to engineering processes for which operational event logs are available.",
+    "link": "https://arxiv.org/abs/2603.24582v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24582v1",
+    "authors": [
+      "Biplab Pal",
+      "Santanu Bhattacharya"
+    ],
+    "published": "2026-03-25T17:56:11Z"
+  },
+  {
+    "title": "Retrieval Improvements Do Not Guarantee Better Answers: A Study of RAG for AI Policy QA",
+    "summary": "Retrieval-augmented generation (RAG) systems are increasingly used to analyze complex policy documents, but achieving sufficient reliability for expert usage remains challenging in domains characterized by dense legal language and evolving, overlapping regulatory frameworks. We study the application of RAG to AI governance and policy analysis using the AI Governance and Regulatory Archive (AGORA) corpus, a curated collection of 947 AI policy documents. Our system combines a ColBERT-based retriever fine-tuned with contrastive learning and a generator aligned to human preferences using Direct Preference Optimization (DPO). We construct synthetic queries and collect pairwise preferences to adapt the system to the policy domain. Through experiments evaluating retrieval quality, answer relevance, and faithfulness, we find that domain-specific fine-tuning improves retrieval metrics but does not consistently improve end-to-end question answering performance. In some cases, stronger retrieval counterintuitively leads to more confident hallucinations when relevant documents are absent from the corpus. These results highlight a key concern for those building policy-focused RAG systems: improvements to individual components do not necessarily translate to more reliable answers. Our findings provide practical insights for designing grounded question-answering systems over dynamic regulatory corpora.",
+    "link": "https://arxiv.org/abs/2603.24580v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24580v1",
+    "authors": [
+      "Saahil Mathur",
+      "Ryan David Rittner",
+      "Vedant Ajit Thakur",
+      "Daniel Stuart Schiff",
+      "Tunazzina Islam"
+    ],
+    "published": "2026-03-25T17:54:39Z"
+  },
+  {
+    "title": "Chameleon: Episodic Memory for Long-Horizon Robotic Manipulation",
+    "summary": "Robotic manipulation often requires memory: occlusion and state changes can make decision-time observations perceptually aliased, making action selection non-Markovian at the observation level because the same observation may arise from different interaction histories. Most embodied agents implement memory via semantically compressed traces and similarity-based retrieval, which discards disambiguating fine-grained perceptual cues and can return perceptually similar but decision-irrelevant episodes. Inspired by human episodic memory, we propose Chameleon, which writes geometry-grounded multimodal tokens to preserve disambiguating context and produces goal-directed recall through a differentiable memory stack. We also introduce Camo-Dataset, a real-robot UR5e dataset spanning episodic recall, spatial tracking, and sequential manipulation under perceptual aliasing. Across tasks, Chameleon consistently improves decision reliability and long-horizon control over strong baselines in perceptually confusable settings.",
+    "link": "https://arxiv.org/abs/2603.24576v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24576v1",
+    "authors": [
+      "Xinying Guo",
+      "Chenxi Jiang",
+      "Hyun Bin Kim",
+      "Ying Sun",
+      "Yang Xiao",
+      "Yuhang Han",
+      "Jianfei Yang"
+    ],
+    "published": "2026-03-25T17:52:43Z"
+  },
+  {
+    "title": "Robust Multilingual Text-to-Pictogram Mapping for Scalable Reading Rehabilitation",
+    "summary": "Reading comprehension presents a significant challenge for children with Special Educational Needs and Disabilities (SEND), often requiring intensive one-on-one reading support. To assist therapists in scaling this support, we developed a multilingual, AI-powered interface that automatically enhances text with visual scaffolding. This system dynamically identifies key concepts and maps them to contextually relevant pictograms, supporting learners across languages. We evaluated the system across five typologically diverse languages (English, French, Italian, Spanish, and Arabic), through multilingual coverage analysis, expert clinical review by speech therapists and special education professionals, and latency assessment. Evaluation results indicate high pictogram coverage and visual scaffolding density across the five languages. Expert audits suggested that automatically selected pictograms were semantically appropriate, with combined correct and acceptable ratings exceeding 95% for the four European languages and approximately 90% for Arabic despite reduced pictogram repository coverage. System latency remained within interactive thresholds suitable for real-time educational use. These findings support the technical viability, semantic safety, and acceptability of automated multimodal scaffolding to improve accessibility for neurodiverse learners.",
+    "link": "https://arxiv.org/abs/2603.24536v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24536v1",
+    "authors": [
+      "Soufiane Jhilal",
+      "Martina Galletti"
+    ],
+    "published": "2026-03-25T17:12:14Z"
+  },
+  {
+    "title": "No Single Metric Tells the Whole Story: A Multi-Dimensional Evaluation Framework for Uncertainty Attributions",
+    "summary": "Research on explainable AI (XAI) has frequently focused on explaining model predictions. More recently, methods have been proposed to explain prediction uncertainty by attributing it to input features (uncertainty attributions). However, the evaluation of these methods remains inconsistent as studies rely on heterogeneous proxy tasks and metrics, hindering comparability. We address this by aligning uncertainty attributions with the well-established Co-12 framework for XAI evaluation. We propose concrete implementations for the correctness, consistency, continuity, and compactness properties. Additionally, we introduce conveyance, a property tailored to uncertainty attributions that evaluates whether controlled increases in epistemic uncertainty reliably propagate to feature-level attributions. We demonstrate our evaluation framework with eight metrics across combinations of uncertainty quantification and feature attribution methods on tabular and image data. Our experiments show that gradient-based methods consistently outperform perturbation-based approaches in consistency and conveyance, while Monte-Carlo dropconnect outperforms Monte-Carlo dropout in most metrics. Although most metrics rank the methods consistently across samples, inter-method agreement remains low. This suggests no single metric sufficiently evaluates uncertainty attribution quality. The proposed evaluation framework contributes to the body of knowledge by establishing a foundation for systematic comparison and development of uncertainty attribution methods.",
+    "link": "https://arxiv.org/abs/2603.24524v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24524v1",
+    "authors": [
+      "Emily Schiller",
+      "Teodor Chiaburu",
+      "Marco Zullich",
+      "Luca Longo"
+    ],
+    "published": "2026-03-25T17:02:13Z"
+  },
+  {
+    "title": "AVO: Agentic Variation Operators for Autonomous Evolutionary Search",
+    "summary": "Agentic Variation Operators (AVO) are a new family of evolutionary variation operators that replace the fixed mutation, crossover, and hand-designed heuristics of classical evolutionary search with autonomous coding agents. Rather than confining a language model to candidate generation within a prescribed pipeline, AVO instantiates variation as a self-directed agent loop that can consult the current lineage, a domain-specific knowledge base, and execution feedback to propose, repair, critique, and verify implementation edits. We evaluate AVO on attention, among the most aggressively optimized kernel targets in AI, on NVIDIA Blackwell (B200) GPUs. Over 7 days of continuous autonomous evolution on multi-head attention, AVO discovers kernels that outperform cuDNN by up to 3.5% and FlashAttention-4 by up to 10.5% across the evaluated configurations. The discovered optimizations transfer readily to grouped-query attention, requiring only 30 minutes of additional autonomous adaptation and yielding gains of up to 7.0% over cuDNN and 9.3% over FlashAttention-4. Together, these results show that agentic variation operators move beyond prior LLM-in-the-loop evolutionary pipelines by elevating the agent from candidate generator to variation operator, and can discover performance-critical micro-architectural optimizations that produce kernels surpassing state-of-the-art expert-engineered attention implementations on today's most advanced GPU hardware.",
+    "link": "https://arxiv.org/abs/2603.24517v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24517v1",
+    "authors": [
+      "Terry Chen",
+      "Zhifan Ye",
+      "Bing Xu",
+      "Zihao Ye",
+      "Timmy Liu",
+      "Ali Hassani",
+      "Tianqi Chen",
+      "Andrew Kerr",
+      "Haicheng Wu",
+      "Yang Xu",
+      "Yu-Jung Chen",
+      "Hanfeng Chen",
+      "Aditya Kane",
+      "Ronny Krashinsky",
+      "Ming-Yu Liu",
+      "Vinod Grover",
+      "Luis Ceze",
+      "Roger Bringmann",
+      "John Tran",
+      "Wei Liu",
+      "Fung Xie",
+      "Michael Lightstone",
+      "Humphrey Shi"
+    ],
+    "published": "2026-03-25T16:55:04Z"
+  },
+  {
+    "title": "Claudini: Autoresearch Discovers State-of-the-Art Adversarial Attack Algorithms for LLMs",
+    "summary": "LLM agents like Claude Code can not only write code but also be used for autonomous AI research and engineering \\citep{rank2026posttrainbench, novikov2025alphaevolve}. We show that an \\emph{autoresearch}-style pipeline \\citep{karpathy2026autoresearch} powered by Claude Code discovers novel white-box adversarial attack \\textit{algorithms} that \\textbf{significantly outperform all existing (30+) methods} in jailbreaking and prompt injection evaluations.\n  Starting from existing attack implementations, such as GCG~\\citep{zou2023universal}, the agent iterates to produce new algorithms achieving up to 40\\% attack success rate on CBRN queries against GPT-OSS-Safeguard-20B, compared to $\\leq$10\\% for existing algorithms (\\Cref{fig:teaser}, left).\n  The discovered algorithms generalize: attacks optimized on surrogate models transfer directly to held-out models, achieving \\textbf{100\\% ASR against Meta-SecAlign-70B} \\citep{chen2025secalign} versus 56\\% for the best baseline (\\Cref{fig:teaser}, middle). Extending the findings of~\\cite{carlini2025autoadvexbench}, our results are an early demonstration that incremental safety and security research can be automated using LLM agents. White-box adversarial red-teaming is particularly well-suited for this: existing methods provide strong starting points, and the optimization objective yields dense, quantitative feedback. We release all discovered attacks alongside baseline implementations and evaluation code at https://github.com/romovpa/claudini.",
+    "link": "https://arxiv.org/abs/2603.24511v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24511v1",
+    "authors": [
+      "Alexander Panfilov",
+      "Peter Romov",
+      "Igor Shilov",
+      "Yves-Alexandre de Montjoye",
+      "Jonas Geiping",
+      "Maksym Andriushchenko"
+    ],
+    "published": "2026-03-25T16:50:56Z"
+  },
+  {
+    "title": "Video-Only ToM: Enhancing Theory of Mind in Multimodal Large Language Models",
+    "summary": "As large language models (LLMs) continue to advance, there is increasing interest in their ability to infer human mental states and demonstrate a human-like Theory of Mind (ToM). Most existing ToM evaluations, however, are centered on text-based inputs, while scenarios relying solely on visual information receive far less attention. This leaves a gap, since real-world human-AI interaction typically requires multimodal understanding. In addition, many current methods regard the model as a black box and rarely probe how its internal attention behaves in multiple-choice question answering (QA). The impact of LLM hallucinations on such tasks is also underexplored from an interpretability perspective. To address these issues, we introduce VisionToM, a vision-oriented intervention framework designed to strengthen task-aware reasoning. The core idea is to compute intervention vectors that align visual representations with the correct semantic targets, thereby steering the model's attention through different layers of visual features. This guidance reduces the model's reliance on spurious linguistic priors, leading to more reliable multimodal language model (MLLM) outputs and better QA performance. Experiments on the EgoToM benchmark-an egocentric, real-world video dataset for ToM with three multiple-choice QA settings-demonstrate that our method substantially improves the ToM abilities of MLLMs. Furthermore, results on an additional open-ended generation task show that VisionToM enables MLLMs to produce free-form explanations that more accurately capture agents' mental states, pushing machine-human collaboration toward greater alignment.",
+    "link": "https://arxiv.org/abs/2603.24484v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24484v1",
+    "authors": [
+      "Siqi Liu",
+      "Xinyang Li",
+      "Bochao Zou",
+      "Junbao Zhuo",
+      "Huimin Ma",
+      "Jiansheng Chen"
+    ],
+    "published": "2026-03-25T16:24:50Z"
+  },
+  {
+    "title": "Multi-Agent Reasoning with Consistency Verification Improves Uncertainty Calibration in Medical MCQA",
+    "summary": "Miscalibrated confidence scores are a practical obstacle to deploying AI in clinical settings. A model that is always overconfident offers no useful signal for deferral. We present a multi-agent framework that combines domain-specific specialist agents with Two-Phase Verification and S-Score Weighted Fusion to improve both calibration and discrimination in medical multiple-choice question answering. Four specialist agents (respiratory, cardiology, neurology, gastroenterology) generate independent diagnoses using Qwen2.5-7B-Instruct. Each diagnosis is then subjected to a two-phase self-verification process that measures internal consistency and produces a Specialist Confidence Score (S-score). The S-scores drive a weighted fusion strategy that selects the final answer and calibrates the reported confidence. We evaluate across four experimental settings, covering 100-question and 250-question high-disagreement subsets of both MedQA-USMLE and MedMCQA. Calibration improvement is the central finding, with ECE reduced by 49-74% across all four settings, including the harder MedMCQA benchmark where these gains persist even when absolute accuracy is constrained by knowledge-intensive recall demands. On MedQA-250, the full system achieves ECE = 0.091 (74.4% reduction over the single-specialist baseline) and AUROC = 0.630 (+0.056) at 59.2% accuracy. Ablation analysis identifies Two-Phase Verification as the primary calibration driver and multi-agent reasoning as the primary accuracy driver. These results establish that consistency-based verification produces more reliable uncertainty estimates across diverse medical question types, providing a practical confidence signal for deferral in safety-critical clinical AI applications.",
+    "link": "https://arxiv.org/abs/2603.24481v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24481v1",
+    "authors": [
+      "John Ray B. Martinez"
+    ],
+    "published": "2026-03-25T16:22:53Z"
+  },
+  {
+    "title": "Counting Without Numbers \\& Finding Without Words",
+    "summary": "Every year, 10 million pets enter shelters, separated from their families. Despite desperate searches by both guardians and lost animals, 70% never reunite, not because matches do not exist, but because current systems look only at appearance, while animals recognize each other through sound. We ask, why does computer vision treat vocalizing species as silent visual objects? Drawing on five decades of cognitive science showing that animals perceive quantity approximately and communicate identity acoustically, we present the first multimodal reunification system integrating visual and acoustic biometrics. Our species-adaptive architecture processes vocalizations from 10Hz elephant rumbles to 4kHz puppy whines, paired with probabilistic visual matching that tolerates stress-induced appearance changes. This work demonstrates that AI grounded in biological communication principles can serve vulnerable populations that lack human language.",
+    "link": "https://arxiv.org/abs/2603.24470v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24470v1",
+    "authors": [
+      "Badri Narayana Patro"
+    ],
+    "published": "2026-03-25T16:13:36Z"
+  },
+  {
+    "title": "Integrating Causal Machine Learning into Clinical Decision Support Systems: Insights from Literature and Practice",
+    "summary": "Current clinical decision support systems (CDSSs) typically base their predictions on correlation, not causation. In recent years, causal machine learning (ML) has emerged as a promising way to improve decision-making with CDSSs by offering interpretable, treatment-specific reasoning. However, existing research often emphasizes model development rather than designing clinician-facing interfaces. To address this gap, we investigated how CDSSs based on causal ML should be designed to effectively support collaborative clinical decision-making. Using a design science research methodology, we conducted a structured literature review and interviewed experienced physicians. From these, we derived eight empirically grounded design requirements, developed seven design principles, and proposed nine practical design features. Our results establish guidance for designing CDSSs that deliver causal insights, integrate seamlessly into clinical workflows, and support trust, usability, and human-AI collaboration. We also reveal tensions around automation, responsibility, and regulation, highlighting the need for an adaptive certification process for ML-based medical products.",
+    "link": "https://arxiv.org/abs/2603.24448v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24448v1",
+    "authors": [
+      "Domenique Zipperling",
+      "Lukas Schmidt",
+      "Benedikt Hahn",
+      "Niklas Kühl",
+      "Steven Kimbrough"
+    ],
+    "published": "2026-03-25T16:00:06Z"
+  },
+  {
+    "title": "AI-Supervisor: Autonomous AI Research Supervision via a Persistent Research World Model",
+    "summary": "Existing automated research systems operate as stateless, linear pipelines, generating outputs without maintaining a persistent understanding of the research landscape. They process papers sequentially, propose ideas without structured gap analysis, and lack mechanisms for agents to verify or refine each other's findings. We present AutoProf (Autonomous Professor), a multi-agent orchestration framework where specialized agents provide end-to-end AI research supervision driven by human interests, from literature review through gap discovery, method development, evaluation, and paper writing, via autonomous exploration and self-correcting updates. Unlike sequential pipelines, AutoProf maintains a continuously evolving Research World Model implemented as a Knowledge Graph, capturing methods, benchmarks, limitations, and unexplored gaps as shared memory across agents. The framework introduces three contributions: first, structured gap discovery that decomposes methods into modules, evaluates them across benchmarks, and identifies module-level gaps; second, self-correcting discovery loops that analyze why modules succeed or fail, detect benchmark biases, and assess evaluation adequacy; third, self-improving development loops using cross-domain mechanism search to iteratively address failing components. All agents operate under a consensus mechanism where findings are validated before being committed to the shared model. The framework is model-agnostic, supports mainstream large language models, and scales elastically with token budget from lightweight exploration to full-scale investigation.",
+    "link": "https://arxiv.org/abs/2603.24402v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24402v1",
+    "authors": [
+      "Yunbo Long"
+    ],
+    "published": "2026-03-25T15:16:51Z"
+  },
+  {
+    "title": "The enrichment paradox: critical capability thresholds and irreversible dependency in human-AI symbiosis",
+    "summary": "As artificial intelligence assumes cognitive labor, no quantitative framework predicts when human capability loss becomes catastrophic. We present a two-variable dynamical systems model coupling capability (H) and delegation (D), grounded in three axioms: learning requires capability, practice, and disuse causes forgetting. Calibrated to four domains (education, medicine, navigation, aviation), the model identifies a critical threshold K* approximately 0.85 (scope-dependent; broader AI scope lowers K*) beyond which capability collapses abruptly-the \"enrichment paradox.\" Validated against 15 countries' PISA data (102 points, R^2 = 0.946, 3 parameters, lowest BIC), the model predicts that periodic AI failures improve capability 2.7-fold and that 20% mandatory practice preserves 92% more capability than the simulation baseline (which includes a 5% background AI-failure rate). These findings provide quantitative foundations for AI capability-threshold governance.",
+    "link": "https://arxiv.org/abs/2603.24391v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24391v1",
+    "authors": [
+      "Jeongju Park",
+      "Musu Kim",
+      "Sekyung Han"
+    ],
+    "published": "2026-03-25T15:08:43Z"
+  },
+  {
+    "title": "When AI Meets Early Childhood Education: Large Language Models as Assessment Teammates in Chinese Preschools",
+    "summary": "High-quality teacher-child interaction (TCI) is fundamental to early childhood development, yet traditional expert-based assessment faces a critical scalability challenge. In large systems like China's-serving 36 million children across 250,000+ kindergartens-the cost and time requirements of manual observation make continuous quality monitoring infeasible, relegating assessment to infrequent episodic audits that limit timely intervention and improvement tracking.\n  In this paper, we investigate whether AI can serve as a scalable assessment teammate by extracting structured quality indicators and validating their alignment with human expert judgments.\n  Our contributions include: (1) TEPE-TCI-370h (Tracing Effective Preschool Education), the first large-scale dataset of naturalistic teacher-child interactions in Chinese preschools (370 hours, 105 classrooms) with standardized ECQRS-EC and SSTEW annotations; (2) We develop Interaction2Eval, a specialized LLM-based framework addressing domain-specific challenges-child speech recognition, Mandarin homophone disambiguation, and rubric-based reasoning-achieving up to 88% agreement; (3) Deployment validation across 43 classrooms demonstrating an 18x efficiency gain in the assessment workflow, highlighting its potential for shifting from annual expert audits to monthly AI-assisted monitoring with targeted human oversight. This work not only demonstrates the technical feasibility of scalable, AI-augmented quality assessment but also lays the foundation for a new paradigm in early childhood education-one where continuous, inclusive, AI-assisted evaluation becomes the engine of systemic improvement and equitable growth.",
+    "link": "https://arxiv.org/abs/2603.24389v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24389v1",
+    "authors": [
+      "Xingming Li",
+      "Runke Huang",
+      "Yanan Bao",
+      "Yuye Jin",
+      "Yuru Jiao",
+      "Qingyong Hu"
+    ],
+    "published": "2026-03-25T15:05:34Z"
+  },
+  {
+    "title": "Causal Transfer in Medical Image Analysis",
+    "summary": "Medical imaging models frequently fail when deployed across hospitals, scanners, populations, or imaging protocols due to domain shift, limiting their clinical reliability. While transfer learning and domain adaptation address such shifts statistically, they often rely on spurious correlations that break under changing conditions. On the other hand, causal inference provides a principled way to identify invariant mechanisms that remain stable across environments. This survey introduces and systematises Causal Transfer Learning (CTL) for medical image analysis. This paradigm integrates causal reasoning with cross-domain representation learning to enable robust and generalisable clinical AI. We frame domain shift as a causal problem and analyse how structural causal models, invariant risk minimisation, and counterfactual reasoning can be embedded within transfer learning pipelines. We studied spanning classification, segmentation, reconstruction, anomaly detection, and multimodal imaging, and organised them by task, shift type, and causal assumption. A unified taxonomy is proposed that connects causal frameworks and transfer mechanisms. We further summarise datasets, benchmarks, and empirical gains, highlighting when and why causal transfer outperforms correlation-based domain adaptation. Finally, we discuss how CTL supports fairness, robustness, and trustworthy deployment in multi-institutional and federated settings, and outline open challenges and research directions for clinically reliable medical imaging AI.",
+    "link": "https://arxiv.org/abs/2603.24388v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24388v1",
+    "authors": [
+      "Mohammed M. Abdelsamea",
+      "Daniel Tweneboah Anyimadu",
+      "Tasneem Selim",
+      "Saif Alzubi",
+      "Lei Zhang",
+      "Ahmed Karam Eldaly",
+      "Xujiong Ye"
+    ],
+    "published": "2026-03-25T15:04:53Z"
+  },
+  {
+    "title": "Towards Reward Modeling for AI Tutors in Math Mistake Remediation",
+    "summary": "Evaluating the pedagogical quality of AI tutors remains challenging: standard NLG metrics do not determine whether responses identify mistakes, scaffold reasoning, or avoid revealing the answers. For the task of mistake remediation, we derive a hierarchy of pedagogical aspects from human pairwise preferences on MRBench, and synthesize minimally contrastive response pairs that differ along key aspects (e.g., mistake identification and location, targetedness, scaffolding, actionability, clarity, and coherence). We develop and release Bradley-Terry preference models trained on weighted-sum rankings that we automatically create from MRBench, synthetic pairs, and data combinations. Using only synthetic data, our best model reaches 0.69 pairwise accuracy on a human preference test, and combining weighted-sum data with targeted synthetic groups improves accuracy to 0.74, outperforming larger general-purpose reward models while using only a 0.5B-parameter backbone.",
+    "link": "https://arxiv.org/abs/2603.24375v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24375v1",
+    "authors": [
+      "Kseniia Petukhova",
+      "Ekaterina Kochmar"
+    ],
+    "published": "2026-03-25T14:56:08Z"
+  },
+  {
+    "title": "Improving Lean4 Autoformalization via Cycle Consistency Fine-tuning",
+    "summary": "Autoformalization - automatically translating natural language mathematical texts into formal proof language such as Lean4 - can help accelerate AI-assisted mathematical research, be it via proof verification or proof search. I fine-tune Qwen3.5-2B with LoRA for natural language to Lean4 formalization on FineLeanCorpus and consider three training regimes: supervised fine-tuning (SFT) with curriculum learning (difficulty 1 to 10), SFT without curriculum ordering, and reinforcement learning using group relative policy optimization (GRPO) with a cycle consistency reward. Cycle consistency measures how well the meaning of a statement is preserved through a NL to Lean4 to NL' loop, computed as cosine similarity of off-the-shelf sentence embeddings. On an unseen subset of FineLeanCorpus (FLC) and on PutnamBench, RL substantially outperforms both SFT variants (mean cycle consistency 0.669 vs. 0.513 on FLC; 0.561 vs. 0.422 on PutnamBench), while increasing cross-entropy loss by only 0.011 nats, with minimal impact on formalization quality. Curriculum ordering provides no measurable benefit over shuffled training.",
+    "link": "https://arxiv.org/abs/2603.24372v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24372v1",
+    "authors": [
+      "Arsen Shebzukhov"
+    ],
+    "published": "2026-03-25T14:53:48Z"
+  },
+  {
+    "title": "Evidence of an Emergent \"Self\" in Continual Robot Learning",
+    "summary": "A key challenge to understanding self-awareness has been a principled way of quantifying whether an intelligent system has a concept of a \"self,\" and if so how to differentiate the \"self\" from other cognitive structures. We propose that the \"self\" can be isolated by seeking the invariant portion of cognitive process that changes relatively little compared to more rapidly acquired cognitive knowledge and skills, because our self is the most persistent aspect of our experiences. We used this principle to analyze the cognitive structure of robots under two conditions: One robot learns a constant task, while a second robot is subjected to continual learning under variable tasks. We find that robots subjected to continual learning develop an invariant subnetwork that is significantly more stable (p < 0.001) compared to the control. We suggest that this principle can offer a window into exploring selfhood in other cognitive AI systems.",
+    "link": "https://arxiv.org/abs/2603.24350v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24350v1",
+    "authors": [
+      "Adidev Jhunjhunwala",
+      "Judah Goldfeder",
+      "Hod Lipson"
+    ],
+    "published": "2026-03-25T14:27:32Z"
+  },
+  {
+    "title": "Generative Artificial Intelligence and the Knowledge Gap: Toward a New Form of Informational Inequality",
+    "summary": "The knowledge gap hypothesis suggests that the diffusion of information tends to increase rather than reduce social inequalities. Subsequent research on the digital divide has extended this perspective by focusing on unequal access to and use of digital technologies. The emergence of generative artificial intelligence raises the question of whether these frameworks remain sufficient to describe current forms of informational inequality. While access to AI systems is increasingly widespread, differences may arise in how users engage with AI-generated content. This paper proposes a theoretical extension of the knowledge gap perspective by arguing that generative AI shifts the focus from access and usage to the critical evaluation of information. It is assumed that individuals with higher levels of education are more likely to question and contextualize AI-generated outputs, whereas individuals with lower levels of education may rely more directly on them. The contribution is conceptual and does not present empirical findings. It aims to provide a framework for future research on the relationship between education, AI use, and knowledge inequality.",
+    "link": "https://arxiv.org/abs/2603.24335v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24335v1",
+    "authors": [
+      "Raphael Morisco"
+    ],
+    "published": "2026-03-25T14:15:11Z"
+  }
+]

@@ -28,9 +28,9 @@ chmod +x research_analysis.sh notebooklm-proxy.sh
 ### 3. 准备目录
 ```bash
 # 创建必要的目录
-mkdir -p /home/cwh/coding/auto_blog/spatial_agi/notebooks
-mkdir -p /home/cwh/coding/auto_blog/spatial_agi/papers
-mkdir -p /home/cwh/coding/auto_blog/spatial_agi/daily_thinking
+mkdir -p /home/cwh/coding/spatial_agi/notebooks
+mkdir -p /home/cwh/coding/spatial_agi/papers
+mkdir -p /home/cwh/coding/spatial_agi/daily_thinking
 ```
 
 ## 🔍 论文选择
@@ -210,7 +210,7 @@ echo '{
   "notebook_id": "笔记本ID",
   "arxiv": "https://arxiv.org/abs/xxx",
   "questions_asked": 15
-}' >> /home/cwh/coding/auto_blog/spatial_agi/notebooks/notebook_ids.json
+}' >> /home/cwh/coding/spatial_agi/notebooks/notebook_ids.json
 ```
 
 - [ ] 记录笔记本ID
@@ -218,7 +218,7 @@ echo '{
 
 ### Step 6: 创建Markdown文档
 
-**使用模板**: `/home/cwh/coding/auto_blog/spatial_agi/papers/EXAMPLE_full_analysis_template.md`
+**使用模板**: `/home/cwh/coding/spatial_agi/papers/EXAMPLE_full_analysis_template.md`
 
 **必须包含的内容**:
 - [ ] 基本信息（标题、链接、作者、NotebookLM ID）
@@ -240,7 +240,7 @@ echo '{
 
 **保存位置**:
 ```bash
-/home/cwh/coding/auto_blog/spatial_agi/papers/2026-03-02_XX_paper_title.md
+/home/cwh/coding/spatial_agi/papers/2026-03-02_XX_paper_title.md
 ```
 
 ## 📊 时间记录
@@ -326,13 +326,13 @@ openclaw gateway status
 
 ### 1. 更新论文列表
 ```bash
-# 更新 /home/cwh/coding/auto_blog/spatial_agi/papers_list.md
+# 更新 /home/cwh/coding/spatial_agi/papers_list.md
 # 添加今日分析的论文
 ```
 
 ### 2. 生成每日思考
 ```bash
-# 创建 /home/cwh/coding/auto_blog/spatial_agi/daily_thinking/2026-03-02.md
+# 创建 /home/cwh/coding/spatial_agi/daily_thinking/2026-03-02.md
 # 基于所有论文的见解生成深度思考
 ```
 
@@ -343,7 +343,7 @@ openclaw gateway status
 
 ### 4. 提交到git
 ```bash
-cd /home/cwh/coding/auto_blog/spatial_agi
+cd /home/cwh/coding/spatial_agi
 git add .
 git commit -m "docs: 添加Spatial AGI研究 - 2026-03-02"
 git push

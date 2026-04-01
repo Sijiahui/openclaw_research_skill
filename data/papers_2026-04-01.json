@@ -1,0 +1,130 @@
+{
+  "date": "2026-04-01",
+  "search_method": "arxiv_web_search (API rate-limited, fallback to web scraping)",
+  "total_papers": 78,
+  "categories": {
+    "3D Gaussian Splatting": {
+      "count": 25,
+      "papers": [
+        {"title": "GeoHCC: Local Geometry-Aware Hierarchical Context Compression for 3D Gaussian Splatting", "published": "2026-03-30", "url": "https://arxiv.org/search/?query=GeoHCC+Gaussian+Splatting"},
+        {"title": "ObjectMorpher: 3D-Aware Image Editing via Deformable 3DGS Models", "published": "2026-03-30", "url": "https://arxiv.org/search/?query=ObjectMorpher"},
+        {"title": "SVGS: Single-View to 3D Object Editing via Gaussian Splatting", "published": "2026-03-30", "url": "https://arxiv.org/search/?query=SVGS+Gaussian+Splatting"},
+        {"title": "GS3LAM: Gaussian Semantic Splatting SLAM", "published": "2026-03-29", "url": "https://arxiv.org/search/?query=GS3LAM"},
+        {"title": "SGS-Intrinsic: Semantic-Invariant Gaussian Splatting for Sparse-View Indoor Inverse Rendering", "published": "2026-03-29", "url": "https://arxiv.org/search/?query=SGS-Intrinsic"},
+        {"title": "DiffSoup: Direct Differentiable Rasterization of Triangle Soup for Extreme Radiance Field Simplification", "published": "2026-03-28", "url": "https://arxiv.org/search/?query=DiffSoup"},
+        {"title": "arg-VU: Affordance Reasoning with Physics-Aware 3D Geometry for Visual Understanding in Robotic Surgery", "published": "2026-03-26", "url": "https://arxiv.org/search/?query=arg-VU"},
+        {"title": "Detailed Geometry and Appearance from Opportunistic Motion", "published": "2026-03-27", "url": "https://arxiv.org/search/?query=Detailed+Geometry+Appearance+Opportunistic"},
+        {"title": "Drive-Through 3D Vehicle Exterior Reconstruction via Dynamic-Scene SfM and Distortion-Aware Gaussian Splatting", "published": "2026-03-27", "url": "https://arxiv.org/search/?query=Drive-Through+3D+Vehicle"},
+        {"title": "Scene Grounding In the Wild", "published": "2026-03-27", "url": "https://arxiv.org/search/?query=Scene+Grounding+Wild"},
+        {"title": "GLINT: Modeling Scene-Scale Transparency via Gaussian Radiance Transport", "published": "2026-03-27", "url": "https://arxiv.org/search/?query=GLINT+Gaussian"},
+        {"title": "R-PGA: Robust Physical Adversarial Camouflage Generation via Relightable 3D Gaussian Splatting", "published": "2026-03-27", "url": "https://arxiv.org/search/?query=R-PGA+Gaussian"},
+        {"title": "Less Gaussians, Texture More: 4K Feed-Forward Textured Splatting", "published": "2026-03-26", "url": "https://arxiv.org/search/?query=Less+Gaussians+Texture+More"},
+        {"title": "ViewSplat: View-Adaptive Dynamic Gaussian Splatting for Feed-Forward Synthesis", "published": "2026-03-26", "url": "https://arxiv.org/search/?query=ViewSplat"},
+        {"title": "AirSplat: Alignment and Rating for Robust Feed-Forward 3D Gaussian Splatting", "published": "2026-03-26", "url": "https://arxiv.org/search/?query=AirSplat"},
+        {"title": "GaussFusion: Improving 3D Reconstruction in the Wild with A Geometry-Informed Video Generator", "published": "2026-03-27", "url": "https://arxiv.org/search/?query=GaussFusion"},
+        {"title": "MoRGS: Efficient Per-Gaussian Motion Reasoning for Streamable Dynamic 3D Scenes", "published": "2026-03-26", "url": "https://arxiv.org/search/?query=MoRGS"},
+        {"title": "Relaxed Rigidity with Ray-based Grouping for Dynamic Gaussian Splatting", "published": "2026-03-27", "url": "https://arxiv.org/search/?query=Relaxed+Rigidity+Dynamic+Gaussian"},
+        {"title": "Confidence-Based Mesh Extraction from 3D Gaussians", "published": "2026-03-25", "url": "https://arxiv.org/search/?query=Confidence+Mesh+Extraction+Gaussians"},
+        {"title": "SpectralSplats: Robust Differentiable Tracking via Spectral Moment Supervision", "published": "2026-03-25", "url": "https://arxiv.org/search/?query=SpectralSplats"},
+        {"title": "FilterGS: Traversal-Free Parallel Filtering and Adaptive Shrinking for Large-Scale LoD 3DGS", "published": "2026-03-24", "url": "https://arxiv.org/search/?query=FilterGS"},
+        {"title": "AdvSplat: Adversarial Attacks on Feed-Forward Gaussian Splatting Models", "published": "2026-03-24", "url": "https://arxiv.org/search/?query=AdvSplat"},
+        {"title": "Stochastic Ray Tracing for the Reconstruction of 3D Gaussian Splatting", "published": "2026-03-26", "url": "https://arxiv.org/search/?query=Stochastic+Ray+Tracing+Gaussian"},
+        {"title": "Pose-Free Omnidirectional Gaussian Splatting for 360-Degree Videos with Consistent Depth Priors", "published": "2026-03-26", "url": "https://arxiv.org/search/?query=Pose-Free+Omnidirectional+Gaussian"},
+        {"title": "PhotoAgent: A Robotic Photographer with Spatial and Aesthetic Understanding", "published": "2026-03-24", "url": "https://arxiv.org/search/?query=PhotoAgent+Gaussian"}
+      ]
+    },
+    "Video Generation / World Models": {
+      "count": 15,
+      "papers": [
+        {"title": "Video Generation Models as World Models: Efficient Paradigms, Architectures and Algorithms", "published": "2026-03-30", "url": "https://arxiv.org/search/?query=Video+Generation+Models+World+Models"},
+        {"title": "ProgressVLA: Progress-Guided Diffusion Policy for Vision-Language Robotic Manipulation", "published": "2026-03-29", "url": "https://arxiv.org/search/?query=ProgressVLA"},
+        {"title": "LOME: Learning Human-Object Manipulation with Action-Conditioned Egocentric World Model", "published": "2026-03-28", "url": "https://arxiv.org/search/?query=LOME+Egocentric+World+Model"},
+        {"title": "VGGRPO: Towards World-Consistent Video Generation with 4D Latent Reward", "published": "2026-03-27", "url": "https://arxiv.org/search/?query=VGGRPO"},
+        {"title": "PhysVid: Physics Aware Local Conditioning for Generative Video Models", "published": "2026-03-29", "url": "https://arxiv.org/search/?query=PhysVid"},
+        {"title": "THFM: A Unified Video Foundation Model for 4D Human Perception and Beyond", "published": "2026-03-26", "url": "https://arxiv.org/search/?query=THFM+Video+Foundation"},
+        {"title": "ArtHOI: Taming Foundation Models for Monocular 4D Reconstruction of Hand-Articulated-Object Interactions", "published": "2026-03-26", "url": "https://arxiv.org/search/?query=ArtHOI"},
+        {"title": "Out of Sight but Not Out of Mind: Hybrid Memory for Dynamic Video World Models", "published": "2026-03-28", "url": "https://arxiv.org/search/?query=Hybrid+Memory+Video+World+Models"},
+        {"title": "Persistent Robot World Models: Stabilizing Multi-Step Rollouts via Reinforcement Learning", "published": "2026-03-26", "url": "https://arxiv.org/search/?query=Persistent+Robot+World+Models"},
+        {"title": "DCARL: A Divide-and-Conquer Framework for Autoregressive Long-Trajectory Video Generation", "published": "2026-03-25", "url": "https://arxiv.org/search/?query=DCARL+Video+Generation"},
+        {"title": "DreamerAD: Efficient Reinforcement Learning via Latent World Model for Autonomous Driving", "published": "2026-03-25", "url": "https://arxiv.org/search/?query=DreamerAD"},
+        {"title": "Toward Physically Consistent Driving Video World Models under Challenging Trajectories", "published": "2026-03-25", "url": "https://arxiv.org/search/?query=Physically+Consistent+Driving+Video"},
+        {"title": "See, Remember, Explore: A Benchmark and Baselines for Streaming Spatial Reasoning (S3-Bench)", "published": "2026-03-26", "url": "https://arxiv.org/search/?query=S3-Bench+Streaming+Spatial"},
+        {"title": "Collision-Aware Vision-Language Learning for End-to-End Driving", "published": "2026-03-26", "url": "https://arxiv.org/search/?query=Collision-Aware+Driving"},
+        {"title": "Infinite Gaze Generation for Videos with Autoregressive Diffusion", "published": "2026-03-25", "url": "https://arxiv.org/search/?query=Infinite+Gaze+Generation"}
+      ]
+    },
+    "Embodied AI / Robot": {
+      "count": 18,
+      "papers": [
+        {"title": "Learning Multi-View Spatial Reasoning from Cross-View Relations", "published": "2026-03-29", "url": "https://arxiv.org/search/?query=Multi-View+Spatial+Reasoning+Cross-View"},
+        {"title": "SPREAD: Spatial-Physical REasoning via geometry Aware Diffusion", "published": "2026-03-29", "url": "https://arxiv.org/search/?query=SPREAD+Spatial+Physical"},
+        {"title": "ROSClaw: An OpenClaw ROS 2 Framework for Agentic Robot Control and Interaction", "published": "2026-03-27", "url": "https://arxiv.org/search/?query=ROSClaw"},
+        {"title": "VideoWeaver: Multimodal Multi-View Video-to-Video Transfer for Embodied Agents", "published": "2026-03-26", "url": "https://arxiv.org/search/?query=VideoWeaver"},
+        {"title": "GameplayQA: A Benchmarking Framework for Decision-Dense POV-Synced Multi-Video Understanding of 3D Virtual Agents", "published": "2026-03-25", "url": "https://arxiv.org/search/?query=GameplayQA"},
+        {"title": "SIMART: Decomposing Monolithic Meshes into Sim-ready Articulated Assets via MLLM", "published": "2026-03-24", "url": "https://arxiv.org/search/?query=SIMART"},
+        {"title": "Active Inference for Physical AI Agents -- An Engineering Perspective", "published": "2026-03-21", "url": "https://arxiv.org/search/?query=Active+Inference+Physical+AI"},
+        {"title": "ROI-Driven Foveated Attention for Unified Egocentric Representations in VLA Systems", "published": "2026-03-21", "url": "https://arxiv.org/search/?query=Foveated+Attention+VLA"},
+        {"title": "GHOST: Fast Category-agnostic Hand-Object Interaction Reconstruction from RGB Videos using Gaussian Splatting", "published": "2026-03-19", "url": "https://arxiv.org/search/?query=GHOST+Gaussian+Splatting"},
+        {"title": "Kinema4D: Kinematic 4D World Modeling for Spatiotemporal Embodied Simulation", "published": "2026-03-17", "url": "https://arxiv.org/search/?query=Kinema4D"},
+        {"title": "Ego to World: Collaborative Spatial Reasoning in Embodied Systems via Reinforcement Learning", "published": "2026-03-16", "url": "https://arxiv.org/search/?query=Ego+World+Spatial+Reasoning"},
+        {"title": "OxyGen: Unified KV Cache Management for Vision-Language-Action Models under Multi-Task Parallelism", "published": "2026-03-15", "url": "https://arxiv.org/search/?query=OxyGen+VLA"},
+        {"title": "HSImul3R: Physics-in-the-Loop Reconstruction of Simulation-Ready Human-Scene Interactions", "published": "2026-03-16", "url": "https://arxiv.org/search/?query=HSImul3R"},
+        {"title": "Splat2Real: Novel-view Scaling for Physical AI with 3D Gaussian Splatting", "published": "2026-03-11", "url": "https://arxiv.org/search/?query=Splat2Real"},
+        {"title": "Why Cognitive Robotics Matters: Lessons from OntoAgent and LLM Deployment in HARMONIC", "published": "2026-03-20", "url": "https://arxiv.org/search/?query=Cognitive+Robotics+OntoAgent"},
+        {"title": "Contextual Graph Representations for Task-Driven 3D Perception and Planning", "published": "2026-03-11", "url": "https://arxiv.org/search/?query=Contextual+Graph+3D+Perception"},
+        {"title": "The Era of End-to-End Autonomy: Transitioning from Rule-Based Driving to Large Driving Models", "published": "2026-03-16", "url": "https://arxiv.org/search/?query=End-to-End+Autonomy+Driving"},
+        {"title": "AgentComm-Bench: Stress-Testing Cooperative Embodied AI Under Latency, Packet Loss, and Bandwidth Collapse", "published": "2026-03-18", "url": "https://arxiv.org/search/?query=AgentComm-Bench"}
+      ]
+    },
+    "Spatial Intelligence / VLM / 3D": {
+      "count": 12,
+      "papers": [
+        {"title": "SpatialPoint: Spatial-aware Point Prediction for Embodied Localization", "published": "2026-03-16", "url": "https://arxiv.org/search/?query=SpatialPoint"},
+        {"title": "HiSpatial: Taming Hierarchical 3D Spatial Understanding in Vision-Language Models", "published": "2026-03-26", "url": "https://arxiv.org/search/?query=HiSpatial"},
+        {"title": "Meanings and Measurements: Multi-Agent Probabilistic Grounding for Vision-Language Navigation", "published": "2026-03-19", "url": "https://arxiv.org/search/?query=Multi-Agent+Probabilistic+VLN"},
+        {"title": "RoboStream: Weaving Spatio-Temporal Reasoning with Memory in VLMs for Robotics", "published": "2026-03-13", "url": "https://arxiv.org/search/?query=RoboStream"},
+        {"title": "GST-VLA: Structured Gaussian Spatial Tokens for 3D Depth-Aware VLA Models", "published": "2026-03-09", "url": "https://arxiv.org/search/?query=GST-VLA"},
+        {"title": "Holi-Spatial: Evolving Video Streams into Holistic 3D Spatial Intelligence", "published": "2026-03-08", "url": "https://arxiv.org/search/?query=Holi-Spatial"},
+        {"title": "Thinking with Geometry: Active Geometry Integration for Spatial Reasoning", "published": "2026-03-25 (v1: 2026-02-05)", "url": "https://arxiv.org/search/?query=Thinking+Geometry+Spatial"},
+        {"title": "Thinking in Structures: Evaluating Spatial Intelligence through Reasoning on Constrained Manifolds", "published": "2026-02-08", "url": "https://arxiv.org/search/?query=Thinking+Structures+Spatial+Intelligence"},
+        {"title": "G²VLM: Geometry Grounded Vision Language Model with Unified 3D Reconstruction and Spatial Reasoning", "published": "2025-11-27", "url": "https://arxiv.org/search/?query=G2VLM+Geometry"},
+        {"title": "Allocentric Perceiver: Disentangling Allocentric Reasoning from Egocentric Visual Priors", "published": "2026-02-05", "url": "https://arxiv.org/search/?query=Allocentric+Perceiver"},
+        {"title": "CoV: Chain-of-View Prompting for Spatial Reasoning", "published": "2026-01-09", "url": "https://arxiv.org/search/?query=Chain-of-View+Spatial"},
+        {"title": "PanoEnv: Exploring 3D Spatial Intelligence in Panoramic Environments with RL", "published": "2026-02-25", "url": "https://arxiv.org/search/?query=PanoEnv+Spatial"}
+      ]
+    },
+    "UAV / Drone": {
+      "count": 8,
+      "papers": [
+        {"title": "AeroDaaS: A Programmable Drones-as-a-Service Platform for Intelligent Aerial Systems", "published": "2026-02-28", "url": "https://arxiv.org/search/?query=AeroDaaS"},
+        {"title": "VLN-Pilot: Large Vision-Language Model as an Autonomous Indoor Drone Operator", "published": "2026-02-05", "url": "https://arxiv.org/search/?query=VLN-Pilot"},
+        {"title": "VLA-AN: An Efficient and Onboard Vision-Language-Action Framework for Aerial Navigation", "published": "2025-12-19", "url": "https://arxiv.org/search/?query=VLA-AN+Aerial"},
+        {"title": "CoDrone: Autonomous Drone Navigation Assisted by Edge and Cloud Foundation Models", "published": "2025-12-23", "url": "https://arxiv.org/search/?query=CoDrone"},
+        {"title": "AeroVerse: UAV-Agent Benchmark Suite for Simulating, Pre-training, Finetuning, and Evaluating Aerospace Embodied World Models", "published": "2025-11-20", "url": "https://arxiv.org/search/?query=AeroVerse+UAV"},
+        {"title": "Agentic AI-RAN Empowering Synergetic Sensing, Communication, Computing, and Control", "published": "2026-01-23", "url": "https://arxiv.org/search/?query=Agentic+AI-RAN+UAV"},
+        {"title": "AirV2X: Unified Air-Ground Vehicle-to-Everything Collaboration", "published": "2025-07-02", "url": "https://arxiv.org/search/?query=AirV2X"},
+        {"title": "Exploiting Light To Enhance The Endurance and Navigation of Lighter-Than-Air Micro-Drones", "published": "2026-01-19", "url": "https://arxiv.org/search/?query=Light+Micro-Drones"}
+      ]
+    }
+  },
+  "top_picks": [
+    {"rank": 1, "title": "Video Generation Models as World Models: Efficient Paradigms, Architectures and Algorithms", "reason": "综述论文，系统梳理视频生成模型作为世界模型的方法"},
+    {"rank": 2, "title": "VGGRPO: Towards World-Consistent Video Generation with 4D Latent Reward", "reason": "4D latent reward实现世界一致性视频生成"},
+    {"rank": 3, "title": "Kinema4D: Kinematic 4D World Modeling for Spatiotemporal Embodied Simulation", "reason": "运动学4D世界建模，Spatial AGI核心方向"},
+    {"rank": 4, "title": "HiSpatial: Taming Hierarchical 3D Spatial Understanding in VLMs", "reason": "VLM层级3D空间理解"},
+    {"rank": 5, "title": "GaussFusion: Improving 3D Reconstruction in the Wild with A Geometry-Informed Video Generator", "reason": "3DGS + 几何感知视频生成器，融合重建与生成"},
+    {"rank": 6, "title": "Ego to World: Collaborative Spatial Reasoning in Embodied Systems via RL", "reason": "多智能体协作空间推理基准"},
+    {"rank": 7, "title": "PhotoAgent: A Robotic Photographer with Spatial and Aesthetic Understanding (3DGS)", "reason": "3DGS世界模型机器人应用"},
+    {"rank": 8, "title": "Persistent Robot World Models: Stabilizing Multi-Step Rollouts via RL", "reason": "稳定多步rollout的机器人世界模型"},
+    {"rank": 9, "title": "Holi-Spatial: Evolving Video Streams into Holistic 3D Spatial Intelligence", "reason": "视频流→整体3D空间智能"},
+    {"rank": 10, "title": "GST-VLA: Structured Gaussian Spatial Tokens for 3D Depth-Aware VLA", "reason": "高斯空间token注入VLA，3D感知行动模型"}
+  ],
+  "trends": [
+    "4D世界建模持续火热：VGGRPO, Kinema4D, Persistent Robot World Models",
+    "几何感知VLM：HiSpatial, GST-VLA, Thinking with Geometry将3D几何引入语言模型",
+    "3DGS + 生成式AI融合：GaussFusion, ViewSplat, AirSplat将3DGS与视频生成结合",
+    "Embodied AI系统化：ROSClaw框架、千GPU训练平台、Active Inference理论",
+    "视频生成作为世界模型成为主流范式",
+    "UAV领域VLA化：VLN-Pilot, VLA-AN将VLA应用于无人机导航"
+  ]
+}

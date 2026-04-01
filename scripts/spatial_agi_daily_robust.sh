@@ -4,7 +4,7 @@
 # 不使用 set -e，我们自己处理错误
 
 WORKSPACE="/home/cwh/.openclaw/workspace"
-BLOG_DIR="/home/cwh/coding/auto_blog/spatial_agi"
+BLOG_DIR="/home/cwh/coding/spatial_agi"
 SKILL_DIR="$WORKSPACE/skills/spatial-agi-research"
 SCRIPTS_DIR="$SKILL_DIR/scripts"
 DATE=$(date +%Y-%m-%d)
@@ -366,7 +366,7 @@ prepare_git_commit() {
 #!/bin/bash
 # 研究完成后自动提交（健壮版本 v6.0）
 
-BLOG_DIR="/home/cwh/coding/auto_blog/spatial_agi"
+BLOG_DIR="/home/cwh/coding/spatial_agi"
 DATE=$(date '+%Y-%m-%d')
 LOG_FILE="/tmp/spatial_agi_research_$DATE.log"
 

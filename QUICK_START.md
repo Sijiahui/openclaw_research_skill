@@ -117,7 +117,7 @@ export PROXY_TYPE=socks5
 ### Step 5: 创建Markdown文档（**必须**）
 
 **使用模板**：
-- 模板位置：`/home/cwh/coding/auto_blog/spatial_agi/papers/EXAMPLE_full_analysis_template.md`
+- 模板位置：`/home/cwh/coding/spatial_agi/papers/EXAMPLE_full_analysis_template.md`
 - 参考这个1542行的完整示例
 
 **必须包含的内容**：
@@ -133,7 +133,7 @@ export PROXY_TYPE=socks5
 
 **保存位置**：
 ```bash
-/home/cwh/coding/auto_blog/spatial_agi/papers/YYYY-MM-DD_XX_paper_title.md
+/home/cwh/coding/spatial_agi/papers/YYYY-MM-DD_XX_paper_title.md
 ```
 
 ### Step 6: 生成每日思考
@@ -245,7 +245,7 @@ PROXY_HOST=127.0.0.1 PROXY_PORT=1080 PROXY_TYPE=socks5 \
 ## 📚 参考资源
 
 - **Skill文档**: `~/.openclaw/workspace/skills/spatial-agi-research/SKILL.md`
-- **示例文档**: `/home/cwh/coding/auto_blog/spatial_agi/papers/EXAMPLE_full_analysis_template.md`
+- **示例文档**: `/home/cwh/coding/spatial_agi/papers/EXAMPLE_full_analysis_template.md`
 - **research-assistant技能**: `~/.openclaw/workspace/skills/research-assistant/SKILL.md`
 - **NotebookLM网页**: https://notebooklm.google.com
 

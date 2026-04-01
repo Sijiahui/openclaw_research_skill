@@ -27,7 +27,7 @@
 
 ```bash
 YESTERDAY=$(date -d yesterday +%Y-%m-%d)
-THINKING_YESTERDAY="/home/cwh/coding/auto_blog/spatial_agi/daily_thinking/${YESTERDAY}.md"
+THINKING_YESTERDAY="/home/cwh/coding/spatial_agi/daily_thinking/${YESTERDAY}.md"
 
 if [ -f "$THINKING_YESTERDAY" ]; then
     echo "📖 阅读昨天的思考..."
@@ -41,7 +41,7 @@ fi
 
 ```bash
 TODAY=$(date +%Y-%m-%d)
-PAPERS_DIR="/home/cwh/coding/auto_blog/spatial_agi/papers"
+PAPERS_DIR="/home/cwh/coding/spatial_agi/papers"
 
 echo "📚 阅读今天的论文..."
 for PAPER in "$PAPERS_DIR"/${TODAY}_*.md; do
@@ -53,7 +53,7 @@ done
 
 ### 3. 生成思考文档
 
-**文件路径**: `/home/cwh/coding/auto_blog/spatial_agi/daily_thinking/$(date +%Y-%m-%d).md`
+**文件路径**: `/home/cwh/coding/spatial_agi/daily_thinking/$(date +%Y-%m-%d).md`
 
 **必需章节**（按顺序）：
 

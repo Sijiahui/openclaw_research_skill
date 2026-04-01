@@ -6,7 +6,7 @@ set -e
 
 # 参数
 DATE=${1:-$(date +%Y-%m-%d)}
-THINKING_FILE="/home/cwh/coding/auto_blog/spatial_agi/daily_thinking/${DATE}.md"
+THINKING_FILE="/home/cwh/coding/spatial_agi/daily_thinking/${DATE}.md"
 
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo "🔍 验证思考文档: $DATE"

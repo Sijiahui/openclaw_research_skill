@@ -1,0 +1,272 @@
+搜索URL: http://export.arxiv.org/api/query?search_query=all%3AGaussian+Splatting&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending
+超时设置: 30秒, 最大重试: 3次
+成功获取 20 篇论文
+[
+  {
+    "title": "DreamerAD: Efficient Reinforcement Learning via Latent World Model for Autonomous Driving",
+    "summary": "We introduce DreamerAD, the first latent world model framework that enables efficient reinforcement learning for autonomous driving by compressing diffusion sampling from 100 steps to 1 - achieving 80x speedup while maintaining visual interpretability. Training RL policies on real-world driving data incurs prohibitive costs and safety risks. While existing pixel-level diffusion world models enable safe imagination-based training, they suffer from multi-step diffusion inference latency (2s/frame) that prevents high-frequency RL interaction. Our approach leverages denoised latent features from video generation models through three key mechanisms: (1) shortcut forcing that reduces sampling complexity via recursive multi-resolution step compression, (2) an autoregressive dense reward model operating directly on latent representations for fine-grained credit assignment, and (3) Gaussian vocabulary sampling for GRPO that constrains exploration to physically plausible trajectories. DreamerAD achieves 87.7 EPDMS on NavSim v2, establishing state-of-the-art performance and demonstrating that latent-space RL is effective for autonomous driving.",
+    "link": "https://arxiv.org/abs/2603.24587v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24587v1",
+    "authors": [
+      "Pengxuan Yang",
+      "Yupeng Zheng",
+      "Deheng Qian",
+      "Zebin Xing",
+      "Qichao Zhang",
+      "Linbo Wang",
+      "Yichen Zhang",
+      "Shaoyu Guo",
+      "Zhongpu Xia",
+      "Qiang Chen",
+      "Junyu Han",
+      "Lingyun Xu",
+      "Yifeng Pan",
+      "Dongbin Zhao"
+    ],
+    "published": "2026-03-25T17:57:09Z"
+  },
+  {
+    "title": "Gaussian limits of lattice Higgs models with complete symmetry breaking",
+    "summary": "Given any compact connected matrix Lie group $G$ and any lattice dimension $d\\ge 2$, we construct a massive Gaussian scaling limit for the $G$-valued lattice Yang-Mills-Higgs theory in the \"complete breakdown of symmetry\" regime. This limit arises as the lattice spacing tends to zero and the (inverse) gauge coupling constant tends to infinity sufficiently fast, causing the theory to \"abelianize\" and yield a Gaussian limit. This complements a recent work by Chatterjee (arXiv:2401.10507), which obtained a similar scaling limit in the special case $G= SU(2)$.",
+    "link": "https://arxiv.org/abs/2603.24555v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24555v1",
+    "authors": [
+      "Frederick Rajasekaran",
+      "Oren Yakir",
+      "Yanxin Zhou"
+    ],
+    "published": "2026-03-25T17:32:14Z"
+  },
+  {
+    "title": "Generalized and Scalable Deep Gaussian Process Emulation",
+    "summary": "Gaussian process (GP) emulators have become essential tools for approximating complex simulators, significantly reducing computational demands in optimization, sensitivity analysis, and model calibration. While traditional GP emulators effectively model continuous and Gaussian-distributed simulator outputs with homogeneous variability, they typically struggle with discrete, heteroskedastic Gaussian, or non-Gaussian data, limiting their applicability to increasingly common stochastic simulators. In this work, we introduce a scalable Generalized Deep Gaussian Process (GDGP) emulation framework designed to accommodate simulators with heteroskedastic Gaussian outputs and a wide range of non-Gaussian response distributions, including Poisson, negative binomial, and categorical distributions. The GDGP framework leverages the expressiveness of DGPs and extends them to latent GP structures, enabling it to capture the complex, non-stationary behavior inherent in many simulators while also modeling non-Gaussian simulator outputs. We make GDGP scalable by incorporating the Vecchia approximation for settings with a large number of input locations, while also developing efficient inference procedures for handling large numbers of replicates. In particular, we present methodological developments that further enhance the computation of the approach for heteroskedastic Gaussian responses. We demonstrate through a series of synthetic and empirical examples that these extensions deliver the practical application of GDGP emulators and a unified methodology capable of addressing diverse modeling challenges. The proposed GDGP framework is implemented in the open-source R package dgpsi.",
+    "link": "https://arxiv.org/abs/2603.24538v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24538v1",
+    "authors": [
+      "Deyu Ming",
+      "Daniel Williamson"
+    ],
+    "published": "2026-03-25T17:12:54Z"
+  },
+  {
+    "title": "Project and Generate: Divergence-Free Neural Operators for Incompressible Flows",
+    "summary": "Learning-based models for fluid dynamics often operate in unconstrained function spaces, leading to physically inadmissible, unstable simulations. While penalty-based methods offer soft regularization, they provide no structural guarantees, resulting in spurious divergence and long-term collapse. In this work, we introduce a unified framework that enforces the incompressible continuity equation as a hard, intrinsic constraint for both deterministic and generative modeling. First, to project deterministic models onto the divergence-free subspace, we integrate a differentiable spectral Leray projection grounded in the Helmholtz-Hodge decomposition, which restricts the regression hypothesis space to physically admissible velocity fields. Second, to generate physically consistent distributions, we show that simply projecting model outputs is insufficient when the prior is incompatible. To address this, we construct a divergence-free Gaussian reference measure via a curl-based pushforward, ensuring the entire probability flow remains subspace-consistent by construction. Experiments on 2D Navier-Stokes equations demonstrate exact incompressibility up to discretization error and substantially improved stability and physical consistency.",
+    "link": "https://arxiv.org/abs/2603.24500v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24500v1",
+    "authors": [
+      "Xigui Li",
+      "Hongwei Zhang",
+      "Ruoxi Jiang",
+      "Deshu Chen",
+      "Chensen Lin",
+      "Limei Han",
+      "Yuan Qi",
+      "Xin Guo",
+      "Yuan Cheng"
+    ],
+    "published": "2026-03-25T16:40:58Z"
+  },
+  {
+    "title": "Reflected diffusion models adapt to low-dimensional data",
+    "summary": "While the mathematical foundations of score-based generative models are increasingly well understood for unconstrained Euclidean spaces, many practical applications involve data restricted to bounded domains. This paper provides a statistical analysis of reflected diffusion models on the hypercube $[0,1]^D$ for target distributions supported on $d$-dimensional linear subspaces. A primary challenge in this setting is the absence of Gaussian transition kernels, which play a central role in standard theory in $\\mathbb{R}^D$. By employing an easily implementable infinite series expansion of the transition densities, we develop analytic tools to bound the score function and its approximation by sparse ReLU networks. For target densities with Sobolev smoothness $α$, we establish a convergence rate in the $1$-Wasserstein distance of order $n^{-\\frac{α+1-δ}{2α+d}}$ for arbitrarily small $δ> 0$, demonstrating that the generative algorithm fully adapts to the intrinsic dimension $d$. These results confirm that the presence of reflecting boundaries does not degrade the fundamental statistical efficiency of the diffusion paradigm, matching the almost optimal rates known for unconstrained settings.",
+    "link": "https://arxiv.org/abs/2603.24495v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24495v1",
+    "authors": [
+      "Asbjørn Holk",
+      "Claudia Strauch",
+      "Lukas Trottner"
+    ],
+    "published": "2026-03-25T16:37:33Z"
+  },
+  {
+    "title": "Model Predictive Path Integral Control as Preconditioned Gradient Descent",
+    "summary": "Model Predictive Path Integral (MPPI) control is a popular sampling-based method for trajectory optimization in nonlinear and nonconvex settings, yet its optimization structure remains only partially understood. We develop a variational, optimization-theoretic interpretation of MPPI by lifting constrained trajectory optimization to a KL-regularized problem over distributions and reducing it to a negative log-partition (free-energy) objective over a tractable sampling family. For a general parametric family, this yields a preconditioned gradient method on the distribution parameters and a natural multi-step extension of MPPI. For the fixed-covariance Gaussian family, we show that classical MPPI is recovered exactly as a preconditioned gradient descent step with unit step size. This interpretation enables a direct convergence analysis: under bounded feasible sets, we derive an explicit upper bound on the smoothness constant and a simple sufficient condition guaranteeing descent of exact MPPI. Numerical experiments support the theory and illustrate the effect of key hyperparameters on performance.",
+    "link": "https://arxiv.org/abs/2603.24489v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24489v1",
+    "authors": [
+      "Mahyar Fazlyab",
+      "Sina Sharifi",
+      "Jiarui Wang"
+    ],
+    "published": "2026-03-25T16:30:05Z"
+  },
+  {
+    "title": "Short-Term Turbulence Prediction for Seeing Using Machine Learning",
+    "summary": "Optical turbulence, driven by fluctuations of the atmospheric refractive index, poses a significant challenge to ground-based optical systems, as it distorts the propagation of light. This degradation affects both astronomical observations and free-space optical communications. While adaptive optics systems correct turbulence effects in real-time, their reactive nature limits their effectiveness under rapidly changing conditions, underscoring the need for predictive solutions. In this study, we address the problem of short-term turbulence forecasting by leveraging machine learning models to predict the atmospheric seeing parameter up to two hours in advance. We compare statistical and deep learning approaches, with a particular focus on probabilistic models that not only produce accurate forecasts but also quantify predictive uncertainty, crucial for robust decision-making in dynamic environments. Our evaluation includes Gaussian processes (GP) for statistical modeling, recurrent neural networks (RNNs) and long short-term memory networks (LSTMs) as deterministic baselines, and our novel implementation of a normalizing flow for time series (FloTS) as a flexible probabilistic deep learning method. All models are trained exclusively on historical seeing data, allowing for a fair performance comparison. We show that FloTS achieves the best overall balance between predictive accuracy and well-calibrated uncertainty.",
+    "link": "https://arxiv.org/abs/2603.24466v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24466v1",
+    "authors": [
+      "Mary Joe Medlej",
+      "Rahul Srinivasan",
+      "Simon Prunet",
+      "Aziz Ziad",
+      "Christophe Giordano"
+    ],
+    "published": "2026-03-25T16:12:23Z"
+  },
+  {
+    "title": "Continuous-Time Learning of Probability Distributions: A Case Study in a Digital Trial of Young Children with Type 1 Diabetes",
+    "summary": "Understanding how biomarker distributions evolve over time is a central challenge in digital health and chronic disease monitoring. In diabetes, changes in the distribution of glucose measurements can reveal patterns of disease progression and treatment response that conventional summary measures miss. Motivated by a 26-week clinical trial comparing the closed-loop insulin delivery system t:slim X2 with standard therapy in children with type 1 diabetes, we propose a probabilistic framework to model the continuous-time evolution of time-indexed distributions using continuous glucose monitoring data (CGM) collected every five minutes. We represent the glucose distribution as a Gaussian mixture, with time-varying mixture weights governed by a neural ODE. We estimate the model parameter using a distribution-matching criterion based on the maximum mean discrepancy. The resulting framework is interpretable, computationally efficient, and sensitive to subtle temporal distributional changes. Applied to CGM trial data, the method detects treatment-related improvements in glucose dynamics that are difficult to capture with traditional analytical approaches.",
+    "link": "https://arxiv.org/abs/2603.24427v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24427v1",
+    "authors": [
+      "Antonio Álvarez-López",
+      "Marcos Matabuena"
+    ],
+    "published": "2026-03-25T15:36:03Z"
+  },
+  {
+    "title": "Le MuMo JEPA: Multi-Modal Self-Supervised Representation Learning with Learnable Fusion Tokens",
+    "summary": "Self-supervised learning has emerged as a powerful paradigm for learning visual representations without manual annotations, yet most methods still operate on a single modality and therefore miss the complementary structure available from heterogeneous sensors. We present Le MuMo JEPA, a self-supervised framework that learns unified representations from RGB images and aligned companion modalities. In our driving experiments, the second modality is camera-aligned LiDAR depth; we also evaluate RGB-thermal training and transfer on the Teledyne FLIR ADAS benchmark. Our approach extends LeJEPA to the multi-modal setting by learning fusion tokens that act as a latent bottleneck between modality-specific patch stems inside a shared transformer. Our default model employs a pruned fusion strategy: after an initial cross-modal attention layer, modality-specific tokens are dropped, forcing cross-modal information into the shared fusion-token grid as an efficient latent bottleneck before Sketched Isotropic Gaussian Regularization (SIGReg) is applied to the joint multimodal CLS embedding. On Waymo, Le MuMo JEPA gives the strongest performance-efficiency trade-off on downstream patch probes among the from-scratch multimodal baselines, improving CenterNet detection and dense depth while remaining competitive on segmentation. Under from-scratch training on nuScenes, Le MuMo JEPA remains the strongest model, and it also gives the best FLIR results, especially after Waymo-initialized fine-tuning. It also retains the best overall accuracy-efficiency balance in our study at substantially lower compute, memory, and estimated training time.",
+    "link": "https://arxiv.org/abs/2603.24327v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24327v1",
+    "authors": [
+      "Ciem Cornelissen",
+      "Sam Leroux",
+      "Pieter Simoens"
+    ],
+    "published": "2026-03-25T14:09:59Z"
+  },
+  {
+    "title": "Emergence of unique hues from sparse coding of color in natural scenes",
+    "summary": "Our subjective experience of color is typically described by abstract properties such as hue, saturation, and brightness that do not directly correspond to sensory signals arising from cones in the retina. Along the hue dimension, certain colors -- red, green, blue, and yellow -- appear unique in that they are not perceived as a combination of other colors, and the pairs red-green and blue-yellow appear opposites. However, the anatomical and physiological correlates of these 'unique hues' within the brain and the reason for their existence remain a mystery. Here, we demonstrate a direct connection between these hues and the statistics of the natural visual environment. Analysis of simulated cone responses on a dataset of 503 calibrated natural images reveals a strongly non-Gaussian distribution in 3D color space, with heavy tails in distinct, asymmetrically arranged directions. A sparse coding model is then adapted to this data so as to minimize the total sum of coefficients on the basis vectors for representing the data. A six basis-vector model converges to the four unique hues in addition to black and white. Moreover, we find that the nonlinear nature of inference in the sparse coding model yields both excitatory and inhibitory interactions among latent variables; the former facilitates combining adjacent pairs of unique hues to encode intermediate hues situated between them, while the latter enforces mutual exclusivity between opposite unique hues. Together, these findings shed new light on the distribution of color in the natural environment and provide a linking principle between this structure and the phenomenology of color appearance.",
+    "link": "https://arxiv.org/abs/2603.24293v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24293v1",
+    "authors": [
+      "Alexander Belsten",
+      "E. Paxon Frady",
+      "Bruno A. Olshausen"
+    ],
+    "published": "2026-03-25T13:29:24Z"
+  },
+  {
+    "title": "Incremental Learning-Based Open-Set Classification of Unknown UAVs via RF Signal Semantics",
+    "summary": "The proliferation of civilian and commercial unmanned aerial vehicles (UAVs) has heightened the demand for reliable radio frequency (RF)-based drone identification systems that can operate under dynamic and uncertain airspace conditions. Most existing RF-based recognition methods adopt a closed-set assumption, where all UAV types are known during training. Such an assumption becomes unrealistic in practical deployments, as new or unknown UAVs frequently emerge, leading to overconfident misclassifications and inefficient retraining cycles. To address these challenges, this paper proposes a unified incremental open-set learning framework for RF-based UAV recognition that enables both novel class discovery and incremental adaptation. The framework first performs open-set recognition to separate unknown signals from known classes in the semantic feature space, followed by an unsupervised clustering module that discovers new UAV categories by selecting between K-Means and Gaussian Mixture Models (GMM) based on composite validity scores. Subsequently, a lightweight incremental learning module integrates the newly discovered classes through a memory-bounded replay mechanism that mitigates catastrophic forgetting. Experiments on a real-world UAV RF dataset comprising 24 classes (18 known and 6 unknown) show effective open-set detection, promising clustering performance under the evaluated noise settings, and stable incremental adaptation with minimal storage cost, supporting the potential of the proposed framework for open-world UAV recognition.",
+    "link": "https://arxiv.org/abs/2603.24268v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24268v1",
+    "authors": [
+      "Julie Liu",
+      "Irshad A. Meer",
+      "Cicek Cavdar",
+      "Mustafa Ozger"
+    ],
+    "published": "2026-03-25T13:01:06Z"
+  },
+  {
+    "title": "Uncertainty Quantification of Spline Predictors on Compact Riemannian Manifolds",
+    "summary": "To predict smooth physical phenomena from observations, spline interpolation provides an interpretable framework by minimizing an energy functional associated with the Laplacian operator. This work proposes a methodology to construct a spline predictor on a compact Riemannian manifold, while quantifying the uncertainty inherent in the classical deterministic solution. Our approach leverages the equivalence between spline interpolation and universal kriging with a specific covariance kernel. By adopting a Gaussian random field framework, we generate stochastic simulations that reflect prediction uncertainty. However, on compact manifolds, the covariance kernel depends on the generally unknown spectrum of the Laplace-Beltrami operator. To address this, we introduce a finite element approximation based on a triangulation of the manifold. This leads to the use of intrinsic Gaussian Markov Random Fields (GMRF) and allows for the incorporation of anisotropies through local modifications of the Riemannian metric. The method is validated using a temperature study on a sphere, where the operator's spectrum is known, and is further extended to a test case on a cylindrical surface.",
+    "link": "https://arxiv.org/abs/2603.24259v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24259v1",
+    "authors": [
+      "Charlie Sire",
+      "Mike Pereira"
+    ],
+    "published": "2026-03-25T12:52:39Z"
+  },
+  {
+    "title": "Embracing Heteroscedasticity for Probabilistic Time Series Forecasting",
+    "summary": "Probabilistic time series forecasting (PTSF) aims to model the full predictive distribution of future observations, enabling both accurate forecasting and principled uncertainty quantification. A central requirement of PTSF is to embrace heteroscedasticity, as real-world time series exhibit time-varying conditional variances induced by nonstationary dynamics, regime changes, and evolving external conditions. However, most existing non-autoregressive generative approaches to PTSF, such as TimeVAE and $K^2$VAE, rely on MSE-based training objectives that implicitly impose a homoscedastic assumption, thereby fundamentally limiting their ability to model temporal heteroscedasticity. To address this limitation, we propose the Location-Scale Gaussian VAE (LSG-VAE), a simple but effective framework that explicitly parameterizes both the predictive mean and time-dependent variance through a location-scale likelihood formulation. This design enables LSG-VAE to faithfully capture heteroscedastic aleatoric uncertainty and introduces an adaptive attenuation mechanism that automatically down-weights highly volatile observations during training, leading to improved robustness in trend prediction. Extensive experiments on nine benchmark datasets demonstrate that LSG-VAE consistently outperforms fifteen strong generative baselines while maintaining high computational efficiency suitable for real-time deployment.",
+    "link": "https://arxiv.org/abs/2603.24254v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24254v1",
+    "authors": [
+      "Yijun Wang",
+      "Qiyuan Zhuang",
+      "Xiu-Shen Wei"
+    ],
+    "published": "2026-03-25T12:48:50Z"
+  },
+  {
+    "title": "Attack Assessment and Augmented Identity Recognition for Human Skeleton Data",
+    "summary": "Machine learning models trained on small data sets for security applications are especially vulnerable to adversarial attacks. Person identification from LiDAR based skeleton data requires time consuming and expensive data acquisition for each subject identity. Recently, Assessment and Augmented Identity Recognition for Skeletons (AAIRS) has been used to train Hierarchical Co-occurrence Networks for Person Identification (HCN-ID) with small LiDAR based skeleton data sets. However, AAIRS does not evaluate robustness of HCN-ID to adversarial attacks or inoculate the model to defend against such attacks. Popular perturbation-based approaches to generating adversarial attacks are constrained to targeted perturbations added to real training samples, which is not ideal for inoculating models with small training sets. Thus, we propose Attack-AAIRS, a novel addition to the AAIRS framework. Attack-AAIRS leverages a small real data set and a GAN generated synthetic data set to assess and improve model robustness against unseen adversarial attacks. Rather than being constrained to perturbations of limited real training samples, the GAN learns the distribution of adversarial attack samples that exploit weaknesses in HCN-ID. Attack samples drawn from this distribution augment training for inoculation of the HCN-ID to improve robustness. Ten-fold cross validation of Attack-AAIRS yields increased robustness to unseen attacks- including FGSM, PGD, Additive Gaussian Noise, MI-FGSM, and BIM. The HCN-ID Synthetic Data Quality Score for Attack-AAIRS indicates that generated attack samples are of similar quality to the original benign synthetic samples generated by AAIRS. Furthermore, inoculated models show consistent final test accuracy with the original model trained on real data, demonstrating that our method improves robustness to adversarial attacks without reducing test performance on real data.",
+    "link": "https://arxiv.org/abs/2603.24232v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24232v1",
+    "authors": [
+      "Joseph G. Zalameda",
+      "Megan A. Witherow",
+      "Alexander M. Glandon",
+      "Jose Aguilera",
+      "Khan M. Iftekharuddin"
+    ],
+    "published": "2026-03-25T12:07:38Z"
+  },
+  {
+    "title": "Unlocking Few-Shot Capabilities in LVLMs via Prompt Conditioning and Head Selection",
+    "summary": "Current Large Vision Language Models (LVLMs) excel at many zero-shot tasks like image captioning, visual question answering and OCR. However, these same models suffer from poor performance at image classification tasks, underperforming against CLIP-based methods. Notably, this gap is surprising because many LVLMs use CLIP-pretrained vision encoders. Yet LVLMs are not inherently limited by CLIP's architecture with independent vision and text encoders. In CLIP, this separation biases classification toward class-name matching rather than joint visual-text reasoning. In this paper we show that, despite their poor raw performance, LVLMs can improve visual feature class separability at inference using prompt conditioning, and LVLMs' internal representations, especially attention heads, can outperform the model itself at zero-shot and few-shot classification. We introduce Head Ensemble Classifiers (HEC) to bridge the performance gap between CLIP-based and LVLM-based classification methods. Inspired by Gaussian Discriminant Analysis, HEC ranks the most discriminative vision and text heads and combines them into a training-free classifier. We show that HEC achieves state-of-the-art performance in few-shot and zero-shot classification across 12 datasets.",
+    "link": "https://arxiv.org/abs/2603.24181v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24181v1",
+    "authors": [
+      "Adhemar de Senneville",
+      "Xavier Bou",
+      "Jérémy Anger",
+      "Rafael Grompone",
+      "Gabriele Facciolo"
+    ],
+    "published": "2026-03-25T11:00:22Z"
+  },
+  {
+    "title": "A convergent Plug-and-Play Majorization-Minimization algorithm for Poisson inverse problems",
+    "summary": "In this paper, we present a novel variational plug-and-play algorithm for Poisson inverse problems. Our approach minimizes an explicit functional which is the sum of a Kullback-Leibler data fidelity term and a regularization term based on a pre-trained neural network. By combining classical likelihood maximization methods with recent advances in gradient-based denoisers, we allow the use of pre-trained Gaussian denoisers without sacrificing convergence guarantees. The algorithm is formulated in the majorization-minimization framework, which guarantees convergence to a stationary point. Numerical experiments confirm state-of-the-art performance in deconvolution and tomography under moderate noise, and demonstrate clear superiority in high-noise conditions, making this method particularly valuable for nuclear medicine applications.",
+    "link": "https://arxiv.org/abs/2603.24156v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24156v1",
+    "authors": [
+      "Thibaut Modrzyk",
+      "Ane Etxebeste",
+      "Élie Bretin",
+      "Voichita Maxim"
+    ],
+    "published": "2026-03-25T10:25:20Z"
+  },
+  {
+    "title": "LightSplat: Fast and Memory-Efficient Open-Vocabulary 3D Scene Understanding in Five Seconds",
+    "summary": "Open-vocabulary 3D scene understanding enables users to segment novel objects in complex 3D environments through natural language. However, existing approaches remain slow, memory-intensive, and overly complex due to iterative optimization and dense per-Gaussian feature assignments. To address this, we propose LightSplat, a fast and memory-efficient training-free framework that injects compact 2-byte semantic indices into 3D representations from multi-view images. By assigning semantic indices only to salient regions and managing them with a lightweight index-feature mapping, LightSplat eliminates costly feature optimization and storage overhead. We further ensure semantic consistency and efficient inference via single-step clustering that links geometrically and semantically related masks in 3D. We evaluate our method on LERF-OVS, ScanNet, and DL3DV-OVS across complex indoor-outdoor scenes. As a result, LightSplat achieves state-of-the-art performance with up to 50-400x speedup and 64x lower memory, enabling scalable language-driven 3D understanding. For more details, visit our project page https://vision3d-lab.github.io/lightsplat/.",
+    "link": "https://arxiv.org/abs/2603.24146v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24146v1",
+    "authors": [
+      "Jaehun Bang",
+      "Jinhyeok Kim",
+      "Minji Kim",
+      "Seungheon Jeong",
+      "Kyungdon Joo"
+    ],
+    "published": "2026-03-25T10:12:22Z"
+  },
+  {
+    "title": "Efficient Controller Learning from Human Preferences and Numerical Data Via Multi-Modal Surrogate Models",
+    "summary": "Tuning control policies manually to meet high-level objectives is often time-consuming. Bayesian optimization provides a data-efficient framework for automating this process using numerical evaluations of an objective function. However, many systems, particularly those involving humans, require optimization based on subjective criteria. Preferential Bayesian optimization addresses this by learning from pairwise comparisons instead of quantitative measurements, but relying solely on preference data can be inefficient. We propose a multi-fidelity, multi-modal Bayesian optimization framework that integrates low-fidelity numerical data with high-fidelity human preferences. Our approach employs Gaussian process surrogate models with both hierarchical, autoregressive and non-hierarchical, coregionalization-based structures, enabling efficient learning from mixed-modality data. We illustrate the framework by tuning an autonomous vehicle's trajectory planner, showing that combining numerical and preference data significantly reduces the need for experiments involving the human decision maker while effectively adapting driving style to individual preferences.",
+    "link": "https://arxiv.org/abs/2603.24138v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24138v1",
+    "authors": [
+      "Lukas Theiner",
+      "Maik Pfefferkorn",
+      "Yongpeng Zhao",
+      "Sebastian Hirt",
+      "Rolf Findeisen"
+    ],
+    "published": "2026-03-25T10:04:03Z"
+  },
+  {
+    "title": "Aitchison Geometry on the Simplex for Uncertainty Quantification in Bayesian Hyperspectral Image Unmixing",
+    "summary": "Most algorithms for hyperspectral image unmixing produce point estimates of fractional abundances of the materials to be separated. However, in the absence of reliable ground truth, the ability to perform abundance uncertainty quantification (UQ) should be an important feature of algorithms, e.g. to evaluate how hard the unmixing problem is and how much the results should be trusted. The usual modeling assumptions in Bayesian models for unmixing rely heavily on the Euclidean geometry of the simplex and typically disregard spatial information. In addition, to our knowledge, abundance UQ is close to nonexistent. In this paper, we propose to leverage Aitchinson geometry from the compositional data analysis literature to provide practitioners with alternative tools for modeling prior abundance distributions. In particular we show how to design simplex-valued Gaussian Process priors using this geometry. Then we link Aitchinson geometry to constrained sampling algorithms in the literature, and propose UQ diagnostics that comply with the constraints on abundance vectors. We illustrate these concepts on real and simulated data.",
+    "link": "https://arxiv.org/abs/2603.24108v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24108v1",
+    "authors": [
+      "Hector Blondel",
+      "Lucas Drumetz",
+      "Thierry Chonavel"
+    ],
+    "published": "2026-03-25T09:14:04Z"
+  },
+  {
+    "title": "Gaussian Phase Noise Effects on Hybrid Precoding MIMO Systems for Sub-THz Transmission",
+    "summary": "The sub-THz spectrum offers numerous advantages, including massive multiple-input multiple-output (MIMO) technology with large antenna arrays that enhance spectral efficiency (SE) of future systems. Hybrid precoding (HP) thus emerges as a cost-effective alternative to fully digital precoding regarding complexity and energy consumption. However, sub-THz frequencies introduce hardware challenges, particularly phase noise (PN) from local oscillators (LOs). We analyze PN impact on MIMO systems using HP, leveraging singular value decomposition and common LO architecture. We adopt the Gaussian PN (GPN) model, recognized as accurate for describing PN behavior in sub-THz transmissions. We derive a lower bound on achievable SE and provide closed-form bit error rate expressions for quadrature amplitude modulation (QAM), specifically 4-QAM and 16-QAM, under high-SNR and strong GPN conditions. These analytical results are validated through Monte Carlo simulations. We show that GPN can be effectively counteracted with a single pilot symbol in single-user MIMO systems, unlike single-input single-output systems where mitigation proves infeasible. Simulation results compare conventional QAM against polar-QAM tailored for GPN-impaired systems. Finally, we introduce perspectives for further improvements in performance and energy efficiency.",
+    "link": "https://arxiv.org/abs/2603.24099v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24099v1",
+    "authors": [
+      "Yaya Bello",
+      "Yahia Medjahdi",
+      "Laurent Clavier",
+      "Arthur Louchart"
+    ],
+    "published": "2026-03-25T09:02:14Z"
+  }
+]

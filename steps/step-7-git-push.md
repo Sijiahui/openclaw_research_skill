@@ -59,7 +59,7 @@ sessions_spawn \
 ### 1. 切换到博客目录
 
 ```bash
-cd /home/cwh/coding/auto_blog/spatial_agi
+cd /home/cwh/coding/spatial_agi
 ```
 
 ### 2. 检查变更
@@ -257,7 +257,7 @@ git status
 #!/bin/bash
 # auto_push.sh
 
-cd /home/cwh/coding/auto_blog/spatial_agi
+cd /home/cwh/coding/spatial_agi
 
 # 检查是否有未提交的变更
 if ! git diff-index --quiet HEAD --; then
@@ -330,7 +330,7 @@ To github.com:ahangchen/spatial_agi.git
 
 ```bash
 # 最终验证脚本
-cd /home/cwh/coding/auto_blog/spatial_agi
+cd /home/cwh/coding/spatial_agi
 
 # 检查1: 是否有未提交的变更
 if ! git diff-index --quiet HEAD --; then

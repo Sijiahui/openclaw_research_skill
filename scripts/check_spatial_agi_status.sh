@@ -4,7 +4,7 @@
 DATE=$(date +%Y-%m-%d)
 STATE_FILE="/tmp/spatial_agi_state_$DATE.json"
 LOG_FILE="/tmp/spatial_agi_research_$DATE.log"
-BLOG_DIR="/home/cwh/coding/auto_blog/spatial_agi"
+BLOG_DIR="/home/cwh/coding/spatial_agi"
 
 echo "=== Spatial AGI 研究任务状态检查 ==="
 echo "日期: $DATE"

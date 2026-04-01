@@ -58,7 +58,7 @@ for PAPER_INFO in $PAPERS; do
 1. 使用web_fetch工具读取arXiv HTML页面
 2. 询问3个核心问题（核心算法、与Spatial AGI关系、创新点/局限）
 3. 创建详细markdown文档（至少500行）
-4. 保存到 /home/cwh/coding/auto_blog/spatial_agi/papers/
+4. 保存到 /home/cwh/coding/spatial_agi/papers/
 
 3个核心问题:
 Q1: 这篇文章的核心算法原理是什么？请详细描述：1) 核心思想和动机，2) 主要技术方法，3) 算法流程和关键步骤，4) 输入输出。
@@ -114,7 +114,7 @@ echo "📥 读取arXiv页面: $ARXIV_HTML"
 ```bash
 # 使用收集的信息创建markdown文档
 # 至少500行，包含完整的分析
-# 保存到: /home/cwh/coding/auto_blog/spatial_agi/papers/YYYY-MM-DD_XX_paper_title.md
+# 保存到: /home/cwh/coding/spatial_agi/papers/YYYY-MM-DD_XX_paper_title.md
 ```
 
 ## 文档模板

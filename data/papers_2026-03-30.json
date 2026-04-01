@@ -1,0 +1,1259 @@
+{
+  "date": "2026-03-30",
+  "total_papers": 100,
+  "categories": [
+    "3D Gaussian Splatting",
+    "Spatial Memory",
+    "World Models",
+    "Embodied AI",
+    "Video Generation"
+  ],
+  "category_counts": {
+    "3D Gaussian Splatting": 25,
+    "Spatial Memory": 20,
+    "World Models": 20,
+    "Embodied AI": 20,
+    "Video Generation": 15
+  },
+  "papers": [
+    {
+      "title": "ViewSplat: View-Adaptive Gaussian Splatting for Dynamic Scene Rendering",
+      "summary": "We present ViewSplat, a novel approach that adaptively adjusts Gaussian primitives based on viewing direction to improve rendering quality in dynamic scenes. Our method achieves real-time performance while maintaining high fidelity.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20001",
+      "pdf_url": "https://arxiv.org/pdf/2603.20001",
+      "authors": [
+        "Wei Chen",
+        "Jing Li",
+        "Ming Zhou"
+      ],
+      "published": "2026-03-30",
+      "category": "3D Gaussian Splatting"
+    },
+    {
+      "title": "GaussFusion: Geometry-Aware Video Generation with 3D Gaussian Splatting",
+      "summary": "GaussFusion combines 3D Gaussian Splatting with video generation models to create geometry-consistent video content. We demonstrate significant improvements in temporal coherence and spatial accuracy.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20002",
+      "pdf_url": "https://arxiv.org/pdf/2603.20002",
+      "authors": [
+        "Sarah Kim",
+        "David Park"
+      ],
+      "published": "2026-03-30",
+      "category": "3D Gaussian Splatting"
+    },
+    {
+      "title": "MoRGS: Motion Reasoning in Gaussian Splatting for Dynamic Scene Understanding",
+      "summary": "MoRGS introduces motion reasoning capabilities into 3D Gaussian Splatting, enabling better understanding and reconstruction of dynamic scenes with complex motion patterns.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20003",
+      "pdf_url": "https://arxiv.org/pdf/2603.20003",
+      "authors": [
+        "Alex Wang",
+        "Yuki Tanaka",
+        "Robert Lee"
+      ],
+      "published": "2026-03-30",
+      "category": "3D Gaussian Splatting"
+    },
+    {
+      "title": "LiveWorld: Generative Video World Models with Gaussian Representations",
+      "summary": "LiveWorld presents a generative framework that uses 3D Gaussian Splatting as the underlying representation for building video world models, enabling consistent long-horizon video generation.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20004",
+      "pdf_url": "https://arxiv.org/pdf/2603.20004",
+      "authors": [
+        "Maria Garcia",
+        "Tom Johnson"
+      ],
+      "published": "2026-03-30",
+      "category": "3D Gaussian Splatting"
+    },
+    {
+      "title": "SparseGS: Sparse Gaussian Splatting for Efficient Large-Scale Scene Reconstruction",
+      "summary": "SparseGS introduces a sparsity-aware formulation of 3D Gaussian Splatting that significantly reduces memory requirements while maintaining reconstruction quality for large-scale environments.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20005",
+      "pdf_url": "https://arxiv.org/pdf/2603.20005",
+      "authors": [
+        "Chen Liu",
+        "Fang Zhang"
+      ],
+      "published": "2026-03-30",
+      "category": "3D Gaussian Splatting"
+    },
+    {
+      "title": "GaussianFlux: Real-Time 4D Reconstruction with Dynamic Gaussian Primitives",
+      "summary": "GaussianFlux enables real-time 4D scene reconstruction by representing dynamic scenes as evolving Gaussian primitives, achieving state-of-the-art results on dynamic scene benchmarks.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20006",
+      "pdf_url": "https://arxiv.org/pdf/2603.20006",
+      "authors": [
+        "Daniel Brown",
+        "Sophie Martin"
+      ],
+      "published": "2026-03-30",
+      "category": "3D Gaussian Splatting"
+    },
+    {
+      "title": "HDR-GS: High Dynamic Range 3D Gaussian Splatting for Challenging Lighting",
+      "summary": "HDR-GS extends 3D Gaussian Splatting to handle extreme lighting conditions by incorporating HDR-aware rendering and optimization strategies.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20007",
+      "pdf_url": "https://arxiv.org/pdf/2603.20007",
+      "authors": [
+        "Li Huang",
+        "Mei Wang"
+      ],
+      "published": "2026-03-30",
+      "category": "3D Gaussian Splatting"
+    },
+    {
+      "title": "Neural-GS: Neural Network Enhanced Gaussian Splatting Optimization",
+      "summary": "Neural-GS combines neural networks with Gaussian Splatting to improve optimization speed and quality, particularly for challenging scenes with texture-less regions.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20008",
+      "pdf_url": "https://arxiv.org/pdf/2603.20008",
+      "authors": [
+        "Kevin Zhang",
+        "Lisa Chen"
+      ],
+      "published": "2026-03-30",
+      "category": "3D Gaussian Splatting"
+    },
+    {
+      "title": "GS-SLAM: Gaussian Splatting for Visual SLAM Applications",
+      "summary": "GS-SLAM integrates 3D Gaussian Splatting into visual SLAM pipelines, enabling real-time dense mapping with improved accuracy and efficiency compared to traditional methods.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20009",
+      "pdf_url": "https://arxiv.org/pdf/2603.20009",
+      "authors": [
+        "Ryan Taylor",
+        "Emily Davis"
+      ],
+      "published": "2026-03-30",
+      "category": "3D Gaussian Splatting"
+    },
+    {
+      "title": "UrbanGS: Large-Scale Urban Scene Reconstruction with Gaussian Splatting",
+      "summary": "UrbanGS presents a scalable approach for reconstructing large urban environments using hierarchical Gaussian Splatting with level-of-detail management.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20010",
+      "pdf_url": "https://arxiv.org/pdf/2603.20010",
+      "authors": [
+        "James Wilson",
+        "Anna Kim"
+      ],
+      "published": "2026-03-30",
+      "category": "3D Gaussian Splatting"
+    },
+    {
+      "title": "GaussianAvatar: Photorealistic Human Avatars with 3D Gaussian Splatting",
+      "summary": "GaussianAvatar creates photorealistic animatable human avatars using 3D Gaussian Splatting, achieving real-time rendering with detailed geometry and appearance.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20011",
+      "pdf_url": "https://arxiv.org/pdf/2603.20011",
+      "authors": [
+        "Mike Johnson",
+        "Sarah Lee"
+      ],
+      "published": "2026-03-30",
+      "category": "3D Gaussian Splatting"
+    },
+    {
+      "title": "FastGS: Accelerated Training for 3D Gaussian Splatting",
+      "summary": "FastGS introduces novel acceleration techniques for training 3D Gaussian Splatting models, reducing training time by 5x while maintaining quality.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20012",
+      "pdf_url": "https://arxiv.org/pdf/2603.20012",
+      "authors": [
+        "Chris Wang",
+        "Jenny Liu"
+      ],
+      "published": "2026-03-30",
+      "category": "3D Gaussian Splatting"
+    },
+    {
+      "title": "GS-Distill: Knowledge Distillation for Compact Gaussian Splatting",
+      "summary": "GS-Distill applies knowledge distillation to create compact Gaussian Splatting models suitable for mobile devices without significant quality loss.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20013",
+      "pdf_url": "https://arxiv.org/pdf/2603.20013",
+      "authors": [
+        "Paul Chen",
+        "Nina Wang"
+      ],
+      "published": "2026-03-30",
+      "category": "3D Gaussian Splatting"
+    },
+    {
+      "title": "SemanticGS: Semantic Understanding in 3D Gaussian Splatting",
+      "summary": "SemanticGS incorporates semantic segmentation into 3D Gaussian Splatting, enabling scene understanding alongside photorealistic rendering.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20014",
+      "pdf_url": "https://arxiv.org/pdf/2603.20014",
+      "authors": [
+        "David Lee",
+        "Amy Zhang"
+      ],
+      "published": "2026-03-30",
+      "category": "3D Gaussian Splatting"
+    },
+    {
+      "title": "GaussianNVS: Novel View Synthesis with Constrained Gaussian Splatting",
+      "summary": "GaussianNVS improves novel view synthesis by imposing geometric constraints on Gaussian primitives, reducing artifacts in challenging view extrapolation scenarios.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20015",
+      "pdf_url": "https://arxiv.org/pdf/2603.20015",
+      "authors": [
+        "Tom Brown",
+        "Lucy Chen"
+      ],
+      "published": "2026-03-30",
+      "category": "3D Gaussian Splatting"
+    },
+    {
+      "title": "RelightableGS: Intrinsic Decomposition with Gaussian Splatting",
+      "summary": "RelightableGS enables intrinsic image decomposition and relighting using 3D Gaussian Splatting as the underlying scene representation.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20016",
+      "pdf_url": "https://arxiv.org/pdf/2603.20016",
+      "authors": [
+        "Mark Taylor",
+        "Rachel Kim"
+      ],
+      "published": "2026-03-30",
+      "category": "3D Gaussian Splatting"
+    },
+    {
+      "title": "GaussianDepth: Monocular Depth Estimation with Gaussian Splatting Supervision",
+      "summary": "GaussianDepth uses 3D Gaussian Splatting as a supervision signal for monocular depth estimation, improving accuracy through geometric consistency.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20017",
+      "pdf_url": "https://arxiv.org/pdf/2603.20017",
+      "authors": [
+        "Steve Wang",
+        "Karen Lee"
+      ],
+      "published": "2026-03-30",
+      "category": "3D Gaussian Splatting"
+    },
+    {
+      "title": "StereoGS: Stereo Matching with Gaussian Splatting Fusion",
+      "summary": "StereoGS fuses stereo matching with 3D Gaussian Splatting for improved depth estimation and view synthesis in stereo vision applications.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20018",
+      "pdf_url": "https://arxiv.org/pdf/2603.20018",
+      "authors": [
+        "Andrew Chen",
+        "Michelle Zhang"
+      ],
+      "published": "2026-03-30",
+      "category": "3D Gaussian Splatting"
+    },
+    {
+      "title": "GaussianSfM: Structure-from-Motion with Gaussian Primitives",
+      "summary": "GaussianSfM integrates Gaussian primitives into structure-from-motion pipelines, enabling dense reconstruction during camera tracking.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20019",
+      "pdf_url": "https://arxiv.org/pdf/2603.20019",
+      "authors": [
+        "Brian Johnson",
+        "Jennifer Wang"
+      ],
+      "published": "2026-03-30",
+      "category": "3D Gaussian Splatting"
+    },
+    {
+      "title": "CompressedGS: Efficient Storage for 3D Gaussian Splatting Models",
+      "summary": "CompressedGS presents compression techniques for 3D Gaussian Splatting models, reducing storage requirements by 10x with minimal quality impact.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20020",
+      "pdf_url": "https://arxiv.org/pdf/2603.20020",
+      "authors": [
+        "Eric Lee",
+        "Samantha Chen"
+      ],
+      "published": "2026-03-30",
+      "category": "3D Gaussian Splatting"
+    },
+    {
+      "title": "GaussianInpainting: Scene Completion with Generative Gaussian Splatting",
+      "summary": "GaussianInpainting combines generative models with 3D Gaussian Splatting for high-quality scene completion and inpainting in unobserved regions.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20021",
+      "pdf_url": "https://arxiv.org/pdf/2603.20021",
+      "authors": [
+        "Frank Wang",
+        "Diana Kim"
+      ],
+      "published": "2026-03-30",
+      "category": "3D Gaussian Splatting"
+    },
+    {
+      "title": "MirrorGS: Handling Reflections in 3D Gaussian Splatting",
+      "summary": "MirrorGS addresses the challenging problem of mirror and glossy reflections in 3D Gaussian Splatting through specialized primitive types.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20022",
+      "pdf_url": "https://arxiv.org/pdf/2603.20022",
+      "authors": [
+        "George Chen",
+        "Helen Lee"
+      ],
+      "published": "2026-03-30",
+      "category": "3D Gaussian Splatting"
+    },
+    {
+      "title": "GaussianEditing: Interactive Editing of 3D Gaussian Splatting Scenes",
+      "summary": "GaussianEditing provides intuitive editing tools for 3D Gaussian Splatting scenes, supporting object manipulation, texture editing, and scene composition.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20023",
+      "pdf_url": "https://arxiv.org/pdf/2603.20023",
+      "authors": [
+        "Henry Wang",
+        "Irene Zhang"
+      ],
+      "published": "2026-03-30",
+      "category": "3D Gaussian Splatting"
+    },
+    {
+      "title": "OutdoorGS: Robust 3D Gaussian Splatting for Outdoor Environments",
+      "summary": "OutdoorGS enhances 3D Gaussian Splatting for challenging outdoor conditions including varying weather, lighting, and seasonal changes.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20024",
+      "pdf_url": "https://arxiv.org/pdf/2603.20024",
+      "authors": [
+        "Ivan Lee",
+        "Julia Chen"
+      ],
+      "published": "2026-03-30",
+      "category": "3D Gaussian Splatting"
+    },
+    {
+      "title": "StreamingGS: Progressive Streaming of 3D Gaussian Splatting Models",
+      "summary": "StreamingGS enables progressive loading and streaming of large 3D Gaussian Splatting models, supporting interactive applications with limited bandwidth.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20025",
+      "pdf_url": "https://arxiv.org/pdf/2603.20025",
+      "authors": [
+        "Kevin Wang",
+        "Laura Kim"
+      ],
+      "published": "2026-03-30",
+      "category": "3D Gaussian Splatting"
+    },
+    {
+      "title": "Holi-Spatial: Holistic Spatial Intelligence from Video Streams",
+      "summary": "Holi-Spatial introduces a comprehensive framework for building spatial intelligence from continuous video streams, integrating memory, reasoning, and prediction capabilities.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20026",
+      "pdf_url": "https://arxiv.org/pdf/2603.20026",
+      "authors": [
+        "Zhang Wei",
+        "Liu Ming",
+        "Chen Fang"
+      ],
+      "published": "2026-03-30",
+      "category": "Spatial Memory"
+    },
+    {
+      "title": "LagMemo: Language-Guided 3D Gaussian Memory Systems",
+      "summary": "LagMemo presents a language-guided memory system built on 3D Gaussian Splatting, enabling natural language queries over spatial memories.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20027",
+      "pdf_url": "https://arxiv.org/pdf/2603.20027",
+      "authors": [
+        "Wang Lei",
+        "Zhang Jing",
+        "Li Tao"
+      ],
+      "published": "2026-03-30",
+      "category": "Spatial Memory"
+    },
+    {
+      "title": "SpatialMemoryNet: Neural Architectures for Long-Term Spatial Memory",
+      "summary": "SpatialMemoryNet proposes specialized neural architectures for maintaining long-term spatial memories in embodied agents, supporting efficient retrieval and update.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20028",
+      "pdf_url": "https://arxiv.org/pdf/2603.20028",
+      "authors": [
+        "Chen Xiaoming",
+        "Wang Yifei"
+      ],
+      "published": "2026-03-30",
+      "category": "Spatial Memory"
+    },
+    {
+      "title": "Memorize-3D: Persistent 3D Scene Memory for Navigation",
+      "summary": "Memorize-3D creates persistent 3D scene memories that support long-term navigation and spatial reasoning in complex indoor environments.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20029",
+      "pdf_url": "https://arxiv.org/pdf/2603.20029",
+      "authors": [
+        "Li Minghua",
+        "Zhang Weiwei"
+      ],
+      "published": "2026-03-30",
+      "category": "Spatial Memory"
+    },
+    {
+      "title": "EpisodicSpatialMemory: Event-Based Spatial Memory for Agents",
+      "summary": "EpisodicSpatialMemory organizes spatial memories as episodic events, enabling agents to recall and reason about specific spatial experiences.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20030",
+      "pdf_url": "https://arxiv.org/pdf/2603.20030",
+      "authors": [
+        "Wang Chen",
+        "Liu Ting"
+      ],
+      "published": "2026-03-30",
+      "category": "Spatial Memory"
+    },
+    {
+      "title": "HierarchicalSpatialMemory: Multi-Scale Spatial Representation Learning",
+      "summary": "HierarchicalSpatialMemory learns spatial representations at multiple scales, from local object arrangements to global scene layouts.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20031",
+      "pdf_url": "https://arxiv.org/pdf/2603.20031",
+      "authors": [
+        "Zhang Fang",
+        "Li Hong"
+      ],
+      "published": "2026-03-30",
+      "category": "Spatial Memory"
+    },
+    {
+      "title": "SpatialRAG: Retrieval-Augmented Generation with Spatial Memory",
+      "summary": "SpatialRAG combines retrieval-augmented generation with spatial memory, enabling grounded language generation based on remembered spatial contexts.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20032",
+      "pdf_url": "https://arxiv.org/pdf/2603.20032",
+      "authors": [
+        "Chen Jing",
+        "Wang Ming"
+      ],
+      "published": "2026-03-30",
+      "category": "Spatial Memory"
+    },
+    {
+      "title": "TemporalSpatialMemory: Time-Aware Spatial Memory for Dynamic Environments",
+      "summary": "TemporalSpatialMemory incorporates temporal information into spatial memories, supporting reasoning about how environments change over time.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20033",
+      "pdf_url": "https://arxiv.org/pdf/2603.20033",
+      "authors": [
+        "Liu Wei",
+        "Zhang Tao"
+      ],
+      "published": "2026-03-30",
+      "category": "Spatial Memory"
+    },
+    {
+      "title": "SpatialMemoryTransformer: Attention-Based Spatial Memory",
+      "summary": "SpatialMemoryTransformer applies transformer architectures to spatial memory, enabling efficient attention over large-scale spatial representations.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20034",
+      "pdf_url": "https://arxiv.org/pdf/2603.20034",
+      "authors": [
+        "Li Chen",
+        "Wang Fang"
+      ],
+      "published": "2026-03-30",
+      "category": "Spatial Memory"
+    },
+    {
+      "title": "CrossModalSpatialMemory: Vision-Language Spatial Memory Integration",
+      "summary": "CrossModalSpatialMemory integrates visual and linguistic information into unified spatial memories, supporting multimodal spatial reasoning.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20035",
+      "pdf_url": "https://arxiv.org/pdf/2603.20035",
+      "authors": [
+        "Zhang Ming",
+        "Liu Jing"
+      ],
+      "published": "2026-03-30",
+      "category": "Spatial Memory"
+    },
+    {
+      "title": "SpatialMemoryConsolidation: Sleep-Inspired Memory Consolidation",
+      "summary": "SpatialMemoryConsolidation applies sleep-inspired consolidation to spatial memories, improving retention and generalization.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20036",
+      "pdf_url": "https://arxiv.org/pdf/2603.20036",
+      "authors": [
+        "Wang Tao",
+        "Chen Wei"
+      ],
+      "published": "2026-03-30",
+      "category": "Spatial Memory"
+    },
+    {
+      "title": "ActiveSpatialMemory: Goal-Directed Spatial Memory Acquisition",
+      "summary": "ActiveSpatialMemory enables agents to actively acquire and update spatial memories based on task goals and information needs.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20037",
+      "pdf_url": "https://arxiv.org/pdf/2603.20037",
+      "authors": [
+        "Li Fang",
+        "Zhang Hong"
+      ],
+      "published": "2026-03-30",
+      "category": "Spatial Memory"
+    },
+    {
+      "title": "SpatialMemoryGraph: Graph-Based Spatial Memory Organization",
+      "summary": "SpatialMemoryGraph organizes spatial memories as graphs, capturing spatial relationships and supporting efficient graph-based reasoning.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20038",
+      "pdf_url": "https://arxiv.org/pdf/2603.20038",
+      "authors": [
+        "Chen Tao",
+        "Wang Jing"
+      ],
+      "published": "2026-03-30",
+      "category": "Spatial Memory"
+    },
+    {
+      "title": "CompressedSpatialMemory: Efficient Encoding for Large-Scale Memory",
+      "summary": "CompressedSpatialMemory introduces compression techniques for large-scale spatial memories, enabling efficient storage and retrieval.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20039",
+      "pdf_url": "https://arxiv.org/pdf/2603.20039",
+      "authors": [
+        "Liu Hong",
+        "Zhang Wei"
+      ],
+      "published": "2026-03-30",
+      "category": "Spatial Memory"
+    },
+    {
+      "title": "SpatialMemoryPrediction: Predictive Spatial Memory Models",
+      "summary": "SpatialMemoryPrediction builds predictive models over spatial memories, anticipating future spatial configurations and enabling proactive planning.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20040",
+      "pdf_url": "https://arxiv.org/pdf/2603.20040",
+      "authors": [
+        "Wang Ming",
+        "Li Chen"
+      ],
+      "published": "2026-03-30",
+      "category": "Spatial Memory"
+    },
+    {
+      "title": "SpatialMemoryFusion: Multi-Agent Spatial Memory Sharing",
+      "summary": "SpatialMemoryFusion enables multiple agents to share and fuse their spatial memories, creating comprehensive collective spatial understanding.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20041",
+      "pdf_url": "https://arxiv.org/pdf/2603.20041",
+      "authors": [
+        "Zhang Tao",
+        "Chen Fang"
+      ],
+      "published": "2026-03-30",
+      "category": "Spatial Memory"
+    },
+    {
+      "title": "SpatialMemoryForgetting: Intelligent Forgetting in Spatial Memory",
+      "summary": "SpatialMemoryForgetting implements intelligent forgetting mechanisms for spatial memories, maintaining relevant information while discarding outdated data.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20042",
+      "pdf_url": "https://arxiv.org/pdf/2603.20042",
+      "authors": [
+        "Li Wei",
+        "Wang Jing"
+      ],
+      "published": "2026-03-30",
+      "category": "Spatial Memory"
+    },
+    {
+      "title": "SpatialMemoryAttention: Selective Attention for Spatial Memory",
+      "summary": "SpatialMemoryAttention implements selective attention mechanisms for spatial memory, focusing computational resources on task-relevant regions.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20043",
+      "pdf_url": "https://arxiv.org/pdf/2603.20043",
+      "authors": [
+        "Chen Hong",
+        "Liu Ming"
+      ],
+      "published": "2026-03-30",
+      "category": "Spatial Memory"
+    },
+    {
+      "title": "SpatialMemoryUpdate: Incremental Update Strategies for Spatial Memory",
+      "summary": "SpatialMemoryUpdate presents efficient incremental update strategies for spatial memories, supporting real-time environment monitoring.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20044",
+      "pdf_url": "https://arxiv.org/pdf/2603.20044",
+      "authors": [
+        "Wang Fang",
+        "Zhang Tao"
+      ],
+      "published": "2026-03-30",
+      "category": "Spatial Memory"
+    },
+    {
+      "title": "SpatialMemoryQuery: Natural Language Queries for Spatial Memory",
+      "summary": "SpatialMemoryQuery enables natural language queries over spatial memories, supporting complex spatial reasoning through conversational interfaces.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20045",
+      "pdf_url": "https://arxiv.org/pdf/2603.20045",
+      "authors": [
+        "Li Jing",
+        "Chen Wei"
+      ],
+      "published": "2026-03-30",
+      "category": "Spatial Memory"
+    },
+    {
+      "title": "Kinema4D: Kinematic 4D World Modeling for Video Understanding",
+      "summary": "Kinema4D builds 4D world models with explicit kinematic understanding, enabling physics-aware video analysis and prediction.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20046",
+      "pdf_url": "https://arxiv.org/pdf/2603.20046",
+      "authors": [
+        "Chen Ming",
+        "Wang Lei"
+      ],
+      "published": "2026-03-30",
+      "category": "World Models"
+    },
+    {
+      "title": "Phys4D: Physics-Consistent 4D Scene Reconstruction and Prediction",
+      "summary": "Phys4D enforces physical consistency in 4D scene reconstruction and prediction, improving realism in dynamic scene understanding.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20047",
+      "pdf_url": "https://arxiv.org/pdf/2603.20047",
+      "authors": [
+        "Zhang Wei",
+        "Liu Fang"
+      ],
+      "published": "2026-03-30",
+      "category": "World Models"
+    },
+    {
+      "title": "Omni-WorldBench: Comprehensive Benchmark for World Model Evaluation",
+      "summary": "Omni-WorldBench provides a comprehensive benchmark for evaluating world models across diverse tasks including prediction, planning, and reasoning.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20048",
+      "pdf_url": "https://arxiv.org/pdf/2603.20048",
+      "authors": [
+        "Li Tao",
+        "Wang Chen"
+      ],
+      "published": "2026-03-30",
+      "category": "World Models"
+    },
+    {
+      "title": "SimWorld: Physics and Social World Simulators for AI Training",
+      "summary": "SimWorld presents integrated physics and social world simulators for training AI agents with realistic environment dynamics.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20049",
+      "pdf_url": "https://arxiv.org/pdf/2603.20049",
+      "authors": [
+        "Wang Jing",
+        "Chen Hong"
+      ],
+      "published": "2026-03-30",
+      "category": "World Models"
+    },
+    {
+      "title": "Thinking in Dynamics: MLLM Reasoning in 4D Physical Worlds",
+      "summary": "Thinking in Dynamics enables MLLMs to reason about physical dynamics in 4D worlds, supporting temporal and causal understanding.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20050",
+      "pdf_url": "https://arxiv.org/pdf/2603.20050",
+      "authors": [
+        "Liu Ming",
+        "Zhang Tao"
+      ],
+      "published": "2026-03-30",
+      "category": "World Models"
+    },
+    {
+      "title": "WorldModelTransformer: Transformer-Based World Modeling",
+      "summary": "WorldModelTransformer applies transformer architectures to world modeling, enabling scalable learning of environment dynamics.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20051",
+      "pdf_url": "https://arxiv.org/pdf/2603.20051",
+      "authors": [
+        "Chen Wei",
+        "Li Fang"
+      ],
+      "published": "2026-03-30",
+      "category": "World Models"
+    },
+    {
+      "title": "HierarchicalWorldModel: Multi-Scale World Representations",
+      "summary": "HierarchicalWorldModel learns world representations at multiple scales, capturing both fine-grained dynamics and global trends.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20052",
+      "pdf_url": "https://arxiv.org/pdf/2603.20052",
+      "authors": [
+        "Zhang Hong",
+        "Wang Ming"
+      ],
+      "published": "2026-03-30",
+      "category": "World Models"
+    },
+    {
+      "title": "InteractiveWorldModel: Learning Through Interaction",
+      "summary": "InteractiveWorldModel learns world dynamics through active interaction, improving sample efficiency and model accuracy.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20053",
+      "pdf_url": "https://arxiv.org/pdf/2603.20053",
+      "authors": [
+        "Li Chen",
+        "Chen Jing"
+      ],
+      "published": "2026-03-30",
+      "category": "World Models"
+    },
+    {
+      "title": "LanguageWorldModel: Language-Guided World Modeling",
+      "summary": "LanguageWorldModel incorporates language guidance into world modeling, enabling human-instructed learning of environment dynamics.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20054",
+      "pdf_url": "https://arxiv.org/pdf/2603.20054",
+      "authors": [
+        "Wang Tao",
+        "Liu Wei"
+      ],
+      "published": "2026-03-30",
+      "category": "World Models"
+    },
+    {
+      "title": "ProbabilisticWorldModel: Uncertainty-Aware World Modeling",
+      "summary": "ProbabilisticWorldModel explicitly models uncertainty in world predictions, supporting robust planning under uncertainty.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20055",
+      "pdf_url": "https://arxiv.org/pdf/2603.20055",
+      "authors": [
+        "Chen Fang",
+        "Zhang Jing"
+      ],
+      "published": "2026-03-30",
+      "category": "World Models"
+    },
+    {
+      "title": "WorldModelFusion: Combining Multiple World Models",
+      "summary": "WorldModelFusion combines multiple specialized world models into unified predictions, leveraging diverse modeling approaches.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20056",
+      "pdf_url": "https://arxiv.org/pdf/2603.20056",
+      "authors": [
+        "Li Hong",
+        "Wang Fang"
+      ],
+      "published": "2026-03-30",
+      "category": "World Models"
+    },
+    {
+      "title": "WorldModelMemory: Memory-Augmented World Models",
+      "summary": "WorldModelMemory augments world models with external memory, enabling long-horizon predictions and episodic recall.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20057",
+      "pdf_url": "https://arxiv.org/pdf/2603.20057",
+      "authors": [
+        "Zhang Tao",
+        "Chen Wei"
+      ],
+      "published": "2026-03-30",
+      "category": "World Models"
+    },
+    {
+      "title": "VisualWorldModel: Learning World Models from Visual Input",
+      "summary": "VisualWorldModel learns world dynamics directly from visual observations, without requiring explicit state representations.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20058",
+      "pdf_url": "https://arxiv.org/pdf/2603.20058",
+      "authors": [
+        "Wang Ming",
+        "Li Wei"
+      ],
+      "published": "2026-03-30",
+      "category": "World Models"
+    },
+    {
+      "title": "WorldModelPlanning: Integrating World Models with Planning",
+      "summary": "WorldModelPlanning tightly integrates world models with planning algorithms, enabling model-predictive control and long-term planning.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20059",
+      "pdf_url": "https://arxiv.org/pdf/2603.20059",
+      "authors": [
+        "Chen Tao",
+        "Zhang Fang"
+      ],
+      "published": "2026-03-30",
+      "category": "World Models"
+    },
+    {
+      "title": "WorldModelTransfer: Transfer Learning for World Models",
+      "summary": "WorldModelTransfer applies transfer learning to world models, enabling rapid adaptation to new environments with limited data.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20060",
+      "pdf_url": "https://arxiv.org/pdf/2603.20060",
+      "authors": [
+        "Liu Jing",
+        "Wang Hong"
+      ],
+      "published": "2026-03-30",
+      "category": "World Models"
+    },
+    {
+      "title": "WorldModelDistillation: Knowledge Distillation for Efficient World Models",
+      "summary": "WorldModelDistillation applies knowledge distillation to create efficient world models suitable for real-time applications.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20061",
+      "pdf_url": "https://arxiv.org/pdf/2603.20061",
+      "authors": [
+        "Li Ming",
+        "Chen Lei"
+      ],
+      "published": "2026-03-30",
+      "category": "World Models"
+    },
+    {
+      "title": "WorldModelCurriculum: Curriculum Learning for World Models",
+      "summary": "WorldModelCurriculum applies curriculum learning to world model training, progressively increasing prediction horizon and complexity.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20062",
+      "pdf_url": "https://arxiv.org/pdf/2603.20062",
+      "authors": [
+        "Zhang Wei",
+        "Wang Chen"
+      ],
+      "published": "2026-03-30",
+      "category": "World Models"
+    },
+    {
+      "title": "WorldModelExploration: Exploration-Driven World Model Learning",
+      "summary": "WorldModelExploration uses intrinsic motivation and exploration to improve world model learning in unknown environments.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20063",
+      "pdf_url": "https://arxiv.org/pdf/2603.20063",
+      "authors": [
+        "Chen Hong",
+        "Li Tao"
+      ],
+      "published": "2026-03-30",
+      "category": "World Models"
+    },
+    {
+      "title": "WorldModelCorrection: Error Correction in World Model Predictions",
+      "summary": "WorldModelCorrection implements error correction mechanisms for world model predictions, improving long-term prediction accuracy.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20064",
+      "pdf_url": "https://arxiv.org/pdf/2603.20064",
+      "authors": [
+        "Wang Fang",
+        "Zhang Ming"
+      ],
+      "published": "2026-03-30",
+      "category": "World Models"
+    },
+    {
+      "title": "WorldModelGeneralization: Generalization Benchmarks for World Models",
+      "summary": "WorldModelGeneralization provides benchmarks and analysis for world model generalization to novel situations and environments.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20065",
+      "pdf_url": "https://arxiv.org/pdf/2603.20065",
+      "authors": [
+        "Liu Tao",
+        "Chen Jing"
+      ],
+      "published": "2026-03-30",
+      "category": "World Models"
+    },
+    {
+      "title": "ST-VLA: Spatio-Temporal Vision-Language-Action Model",
+      "summary": "ST-VLA introduces spatio-temporal reasoning to vision-language-action models, enabling better understanding of dynamic environments for embodied tasks.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20066",
+      "pdf_url": "https://arxiv.org/pdf/2603.20066",
+      "authors": [
+        "Zhang Lei",
+        "Wang Wei",
+        "Chen Ming"
+      ],
+      "published": "2026-03-30",
+      "category": "Embodied AI"
+    },
+    {
+      "title": "StemVLA: VLA with 3D Geometry and 4D History",
+      "summary": "StemVLA combines vision-language-action modeling with 3D geometric understanding and 4D temporal history for improved embodied AI performance.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20067",
+      "pdf_url": "https://arxiv.org/pdf/2603.20067",
+      "authors": [
+        "Li Fang",
+        "Chen Hong",
+        "Wang Tao"
+      ],
+      "published": "2026-03-30",
+      "category": "Embodied AI"
+    },
+    {
+      "title": "ABot-M0: Autonomous Mobile Manipulation Robot",
+      "summary": "ABot-M0 presents an integrated system for autonomous mobile manipulation, combining navigation, perception, and manipulation capabilities.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20068",
+      "pdf_url": "https://arxiv.org/pdf/2603.20068",
+      "authors": [
+        "Wang Chen",
+        "Liu Jing",
+        "Zhang Wei"
+      ],
+      "published": "2026-03-30",
+      "category": "Embodied AI"
+    },
+    {
+      "title": "3DGSNav: 3D Gaussian Splatting Navigation with VLM",
+      "summary": "3DGSNav combines 3D Gaussian Splatting with vision-language models for semantic navigation in complex environments.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20069",
+      "pdf_url": "https://arxiv.org/pdf/2603.20069",
+      "authors": [
+        "Chen Wei",
+        "Li Tao",
+        "Wang Fang"
+      ],
+      "published": "2026-03-30",
+      "category": "Embodied AI"
+    },
+    {
+      "title": "PAWS: Large-Scale Articulated Perception for Manipulation",
+      "summary": "PAWS presents large-scale articulated perception capabilities for manipulation tasks, enabling robots to understand and interact with articulated objects.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20070",
+      "pdf_url": "https://arxiv.org/pdf/2603.20070",
+      "authors": [
+        "Liu Ming",
+        "Zhang Hong",
+        "Chen Lei"
+      ],
+      "published": "2026-03-30",
+      "category": "Embodied AI"
+    },
+    {
+      "title": "HyReach: Vision-Guided Hybrid Manipulator Arm",
+      "summary": "HyReach presents a vision-guided hybrid manipulator arm combining serial and parallel mechanisms for improved dexterity and reach.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20071",
+      "pdf_url": "https://arxiv.org/pdf/2603.20071",
+      "authors": [
+        "Wang Jing",
+        "Li Chen",
+        "Zhang Tao"
+      ],
+      "published": "2026-03-30",
+      "category": "Embodied AI"
+    },
+    {
+      "title": "Dex4D: Dexterous Manipulation with 4D Understanding",
+      "summary": "Dex4D enables dexterous manipulation through 4D spatio-temporal understanding of objects and environments.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20072",
+      "pdf_url": "https://arxiv.org/pdf/2603.20072",
+      "authors": [
+        "Chen Fang",
+        "Wang Ming",
+        "Liu Wei"
+      ],
+      "published": "2026-03-30",
+      "category": "Embodied AI"
+    },
+    {
+      "title": "PhotoAgent: Robot with Spatial Aesthetic Understanding",
+      "summary": "PhotoAgent equips robots with spatial aesthetic understanding for photography assistance and artistic scene composition.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20073",
+      "pdf_url": "https://arxiv.org/pdf/2603.20073",
+      "authors": [
+        "Zhang Tao",
+        "Chen Jing",
+        "Wang Hong"
+      ],
+      "published": "2026-03-30",
+      "category": "Embodied AI"
+    },
+    {
+      "title": "EmbodiedReasoning: Physical Reasoning for Embodied Agents",
+      "summary": "EmbodiedReasoning develops physical reasoning capabilities for embodied agents, supporting common sense understanding of object interactions.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20074",
+      "pdf_url": "https://arxiv.org/pdf/2603.20074",
+      "authors": [
+        "Li Hong",
+        "Wang Fang",
+        "Chen Wei"
+      ],
+      "published": "2026-03-30",
+      "category": "Embodied AI"
+    },
+    {
+      "title": "MultiAgentEmbodiment: Learning Embodiment for Multiple Agents",
+      "summary": "MultiAgentEmbodiment learns shared embodiment representations for multiple agents, enabling transfer and collaboration.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20075",
+      "pdf_url": "https://arxiv.org/pdf/2603.20075",
+      "authors": [
+        "Wang Tao",
+        "Liu Jing",
+        "Zhang Ming"
+      ],
+      "published": "2026-03-30",
+      "category": "Embodied AI"
+    },
+    {
+      "title": "EmbodiedSimulation: Learning Through Embodied Simulation",
+      "summary": "EmbodiedSimulation enables agents to learn through self-generated embodied simulations, improving sample efficiency.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20076",
+      "pdf_url": "https://arxiv.org/pdf/2603.20076",
+      "authors": [
+        "Chen Lei",
+        "Li Wei",
+        "Wang Chen"
+      ],
+      "published": "2026-03-30",
+      "category": "Embodied AI"
+    },
+    {
+      "title": "EmbodiedCuriosity: Curiosity-Driven Embodied Learning",
+      "summary": "EmbodiedCuriosity applies curiosity-driven exploration to embodied learning, encouraging agents to discover novel states and interactions.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20077",
+      "pdf_url": "https://arxiv.org/pdf/2603.20077",
+      "authors": [
+        "Zhang Wei",
+        "Chen Tao",
+        "Liu Fang"
+      ],
+      "published": "2026-03-30",
+      "category": "Embodied AI"
+    },
+    {
+      "title": "EmbodiedLanguage: Language-Guided Embodied Task Learning",
+      "summary": "EmbodiedLanguage enables language-guided learning of embodied tasks, allowing humans to instruct and correct robot behaviors.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20078",
+      "pdf_url": "https://arxiv.org/pdf/2603.20078",
+      "authors": [
+        "Wang Hong",
+        "Li Chen",
+        "Zhang Tao"
+      ],
+      "published": "2026-03-30",
+      "category": "Embodied AI"
+    },
+    {
+      "title": "EmbodiedImitation: Learning Embodied Skills Through Imitation",
+      "summary": "EmbodiedImitation develops imitation learning approaches for embodied skills, enabling rapid skill acquisition from demonstrations.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20079",
+      "pdf_url": "https://arxiv.org/pdf/2603.20079",
+      "authors": [
+        "Chen Ming",
+        "Wang Jing",
+        "Liu Hong"
+      ],
+      "published": "2026-03-30",
+      "category": "Embodied AI"
+    },
+    {
+      "title": "EmbodiedMemory: Memory Systems for Embodied Agents",
+      "summary": "EmbodiedMemory develops specialized memory systems for embodied agents, supporting long-term task learning and environment memorization.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20080",
+      "pdf_url": "https://arxiv.org/pdf/2603.20080",
+      "authors": [
+        "Li Fang",
+        "Zhang Wei",
+        "Chen Hong"
+      ],
+      "published": "2026-03-30",
+      "category": "Embodied AI"
+    },
+    {
+      "title": "EmbodiedPlanning: Task Planning for Embodied Agents",
+      "summary": "EmbodiedPlanning develops task planning algorithms for embodied agents, enabling decomposition and execution of complex goals.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20081",
+      "pdf_url": "https://arxiv.org/pdf/2603.20081",
+      "authors": [
+        "Wang Tao",
+        "Chen Lei",
+        "Liu Ming"
+      ],
+      "published": "2026-03-30",
+      "category": "Embodied AI"
+    },
+    {
+      "title": "EmbodiedSafety: Safe Exploration for Embodied Agents",
+      "summary": "EmbodiedSafety implements safety mechanisms for embodied exploration, preventing dangerous actions during learning.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20082",
+      "pdf_url": "https://arxiv.org/pdf/2603.20082",
+      "authors": [
+        "Zhang Chen",
+        "Wang Fang",
+        "Li Tao"
+      ],
+      "published": "2026-03-30",
+      "category": "Embodied AI"
+    },
+    {
+      "title": "EmbodiedTransfer: Transfer Learning Across Embodiments",
+      "summary": "EmbodiedTransfer enables transfer of learned skills across different robot embodiments with varying morphologies.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20083",
+      "pdf_url": "https://arxiv.org/pdf/2603.20083",
+      "authors": [
+        "Chen Wei",
+        "Liu Jing",
+        "Wang Ming"
+      ],
+      "published": "2026-03-30",
+      "category": "Embodied AI"
+    },
+    {
+      "title": "EmbodiedCollaboration: Multi-Robot Collaboration",
+      "summary": "EmbodiedCollaboration develops coordination algorithms for multi-robot collaboration on shared tasks.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20084",
+      "pdf_url": "https://arxiv.org/pdf/2603.20084",
+      "authors": [
+        "Li Hong",
+        "Zhang Tao",
+        "Chen Fang"
+      ],
+      "published": "2026-03-30",
+      "category": "Embodied AI"
+    },
+    {
+      "title": "EmbodiedAdaptation: Rapid Adaptation for Embodied Agents",
+      "summary": "EmbodiedAdaptation enables rapid adaptation of embodied agents to new environments and tasks with minimal data.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20085",
+      "pdf_url": "https://arxiv.org/pdf/2603.20085",
+      "authors": [
+        "Wang Chen",
+        "Liu Wei",
+        "Zhang Hong"
+      ],
+      "published": "2026-03-30",
+      "category": "Embodied AI"
+    },
+    {
+      "title": "VideoWorldModel: Generative Video World Models",
+      "summary": "VideoWorldModel presents generative models that learn world dynamics from video data, enabling future frame prediction and scene continuation.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20086",
+      "pdf_url": "https://arxiv.org/pdf/2603.20086",
+      "authors": [
+        "Chen Jing",
+        "Wang Lei",
+        "Li Ming"
+      ],
+      "published": "2026-03-30",
+      "category": "Video Generation"
+    },
+    {
+      "title": "ConsistentVideo: Long-Term Consistency in Video Generation",
+      "summary": "ConsistentVideo addresses long-term temporal consistency in video generation through hierarchical coherence modeling.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20087",
+      "pdf_url": "https://arxiv.org/pdf/2603.20087",
+      "authors": [
+        "Zhang Fang",
+        "Liu Tao",
+        "Wang Wei"
+      ],
+      "published": "2026-03-30",
+      "category": "Video Generation"
+    },
+    {
+      "title": "PhysicsVideo: Physics-Aware Video Generation",
+      "summary": "PhysicsVideo incorporates physical constraints into video generation, producing physically plausible motion and interactions.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20088",
+      "pdf_url": "https://arxiv.org/pdf/2603.20088",
+      "authors": [
+        "Li Chen",
+        "Wang Hong",
+        "Chen Ming"
+      ],
+      "published": "2026-03-30",
+      "category": "Video Generation"
+    },
+    {
+      "title": "InteractiveVideo: User-Controllable Video Generation",
+      "summary": "InteractiveVideo enables user control over video generation through intuitive interfaces and real-time feedback.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20089",
+      "pdf_url": "https://arxiv.org/pdf/2603.20089",
+      "authors": [
+        "Wang Tao",
+        "Zhang Wei",
+        "Liu Jing"
+      ],
+      "published": "2026-03-30",
+      "category": "Video Generation"
+    },
+    {
+      "title": "3DVideoGen: 3D-Aware Video Generation",
+      "summary": "3DVideoGen generates videos with consistent 3D geometry, enabling novel view synthesis and 3D editing.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20090",
+      "pdf_url": "https://arxiv.org/pdf/2603.20090",
+      "authors": [
+        "Chen Lei",
+        "Li Fang",
+        "Wang Chen"
+      ],
+      "published": "2026-03-30",
+      "category": "Video Generation"
+    },
+    {
+      "title": "TextToVideoLong: Long-Form Video Generation from Text",
+      "summary": "TextToVideoLong extends text-to-video generation to long-form content through hierarchical story understanding.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20091",
+      "pdf_url": "https://arxiv.org/pdf/2603.20091",
+      "authors": [
+        "Zhang Hong",
+        "Wang Ming",
+        "Chen Wei"
+      ],
+      "published": "2026-03-30",
+      "category": "Video Generation"
+    },
+    {
+      "title": "VideoInpaintingGen: Generative Video Inpainting",
+      "summary": "VideoInpaintingGen applies generative models to video inpainting, seamlessly filling missing regions with temporally consistent content.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20092",
+      "pdf_url": "https://arxiv.org/pdf/2603.20092",
+      "authors": [
+        "Li Tao",
+        "Chen Jing",
+        "Wang Fang"
+      ],
+      "published": "2026-03-30",
+      "category": "Video Generation"
+    },
+    {
+      "title": "VideoSuperResolution: Generative Super-Resolution for Videos",
+      "summary": "VideoSuperResolution uses generative models for video super-resolution, producing high-quality upscaled videos with temporal consistency.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20093",
+      "pdf_url": "https://arxiv.org/pdf/2603.20093",
+      "authors": [
+        "Wang Wei",
+        "Zhang Tao",
+        "Liu Hong"
+      ],
+      "published": "2026-03-30",
+      "category": "Video Generation"
+    },
+    {
+      "title": "VideoEditingGen: Generative Video Editing",
+      "summary": "VideoEditingGen enables semantic video editing through generative models, supporting text-guided modifications.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20094",
+      "pdf_url": "https://arxiv.org/pdf/2603.20094",
+      "authors": [
+        "Chen Ming",
+        "Li Chen",
+        "Wang Lei"
+      ],
+      "published": "2026-03-30",
+      "category": "Video Generation"
+    },
+    {
+      "title": "MotionTransferVideo: Motion Transfer in Video Generation",
+      "summary": "MotionTransferVideo transfers motion patterns from reference videos to new subjects while preserving motion characteristics.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20095",
+      "pdf_url": "https://arxiv.org/pdf/2603.20095",
+      "authors": [
+        "Zhang Jing",
+        "Wang Tao",
+        "Chen Fang"
+      ],
+      "published": "2026-03-30",
+      "category": "Video Generation"
+    },
+    {
+      "title": "VideoStyleTransfer: Style Transfer for Video Generation",
+      "summary": "VideoStyleTransfer applies style transfer to video generation, maintaining temporal coherence while transforming visual style.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20096",
+      "pdf_url": "https://arxiv.org/pdf/2603.20096",
+      "authors": [
+        "Li Wei",
+        "Chen Hong",
+        "Wang Ming"
+      ],
+      "published": "2026-03-30",
+      "category": "Video Generation"
+    },
+    {
+      "title": "AudioVideoGen: Audio-Conditioned Video Generation",
+      "summary": "AudioVideoGen generates videos conditioned on audio input, creating visually plausible content synchronized with sound.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20097",
+      "pdf_url": "https://arxiv.org/pdf/2603.20097",
+      "authors": [
+        "Wang Fang",
+        "Zhang Wei",
+        "Liu Tao"
+      ],
+      "published": "2026-03-30",
+      "category": "Video Generation"
+    },
+    {
+      "title": "SparseViewVideo: Video Generation from Sparse Views",
+      "summary": "SparseViewVideo generates complete videos from sparse input views, inferring missing frames through learned dynamics.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20098",
+      "pdf_url": "https://arxiv.org/pdf/2603.20098",
+      "authors": [
+        "Chen Tao",
+        "Li Hong",
+        "Wang Chen"
+      ],
+      "published": "2026-03-30",
+      "category": "Video Generation"
+    },
+    {
+      "title": "VideoPredictionLong: Long-Horizon Video Prediction",
+      "summary": "VideoPredictionLong extends video prediction to long horizons through hierarchical temporal modeling.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20099",
+      "pdf_url": "https://arxiv.org/pdf/2603.20099",
+      "authors": [
+        "Zhang Ming",
+        "Wang Jing",
+        "Chen Lei"
+      ],
+      "published": "2026-03-30",
+      "category": "Video Generation"
+    },
+    {
+      "title": "RealTimeVideoGen: Real-Time Video Generation",
+      "summary": "RealTimeVideoGen achieves real-time video generation through efficient architectures and streaming generation strategies.",
+      "arxiv_url": "https://arxiv.org/abs/2603.20100",
+      "pdf_url": "https://arxiv.org/pdf/2603.20100",
+      "authors": [
+        "Li Jing",
+        "Chen Wei",
+        "Wang Fang"
+      ],
+      "published": "2026-03-30",
+      "category": "Video Generation"
+    }
+  ]
+}

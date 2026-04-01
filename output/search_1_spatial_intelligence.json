@@ -1,0 +1,285 @@
+搜索URL: http://export.arxiv.org/api/query?search_query=all%3Aspatial+intelligence&start=0&max_results=20&sortBy=submittedDate&sortOrder=descending
+超时设置: 30秒, 最大重试: 3次
+成功获取 20 篇论文
+[
+  {
+    "title": "Vibe Coding XR: Accelerating AI + XR Prototyping with XR Blocks and Gemini",
+    "summary": "While large language models have accelerated software development through \"vibe coding\", prototyping intelligent Extended Reality (XR) experiences remains inaccessible due to the friction of complex game engines and low-level sensor integration. To bridge this gap, we contribute XR Blocks, an open-source, modular WebXR framework that abstracts spatial computing complexities into high-level, human-centered primitives. Building upon this foundation, we present Vibe Coding XR, an end-to-end rapid prototyping workflow that leverages LLMs to translate natural language intent directly into functional XR software. Using a web-based interface, creators can transform high-level prompts (e.g., \"create a dandelion that reacts to hand\") into interactive WebXR applications in under a minute. We provide a preliminary technical evaluation on a pilot dataset (VCXR60) alongside diverse application scenarios highlighting mixed-reality realism, multi-modal interaction, and generative AI integrations. By democratizing spatial software creation, this work empowers practitioners to bypass low-level hurdles and rapidly move from \"idea to reality.\" Code and live demos are available at https://xrblocks.github.io/gem and https://github.com/google/xrblocks.",
+    "link": "https://arxiv.org/abs/2603.24591v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24591v1",
+    "authors": [
+      "Ruofei Du",
+      "Benjamin Hersh",
+      "David Li",
+      "Nels Numan",
+      "Xun Qian",
+      "Yanhe Chen",
+      "Zhongyi Zhou",
+      "Xingyue Chen",
+      "Jiahao Ren",
+      "Robert Timothy Bettridge",
+      "Steve Toh",
+      "David Kim"
+    ],
+    "published": "2026-03-25T17:58:56Z"
+  },
+  {
+    "title": "The Stochastic Gap: A Markovian Framework for Pre-Deployment Reliability and Oversight-Cost Auditing in Agentic Artificial Intelligence",
+    "summary": "Agentic artificial intelligence (AI) in organizations is a sequential decision problem constrained by reliability and oversight cost. When deterministic workflows are replaced by stochastic policies over actions and tool calls, the key question is not whether a next step appears plausible, but whether the resulting trajectory remains statistically supported, locally unambiguous, and economically governable. We develop a measure-theoretic Markov framework for this setting. The core quantities are state blind-spot mass B_n(tau), state-action blind mass B^SA_{pi,n}(tau), an entropy-based human-in-the-loop escalation gate, and an expected oversight-cost identity over the workflow visitation measure.\n  We instantiate the framework on the Business Process Intelligence Challenge 2019 purchase-to-pay log (251,734 cases, 1,595,923 events, 42 distinct workflow actions) and construct a log-driven simulated agent from a chronological 80/20 split of the same process. The main empirical finding is that a large workflow can appear well supported at the state level while retaining substantial blind mass over next-step decisions: refining the operational state to include case context, economic magnitude, and actor class expands the state space from 42 to 668 and raises state-action blind mass from 0.0165 at tau=50 to 0.1253 at tau=1000. On the held-out split, m(s) = max_a pi-hat(a|s) tracks realized autonomous step accuracy within 3.4 percentage points on average.\n  The same quantities that delimit statistically credible autonomy also determine expected oversight burden. The framework is demonstrated on a large-scale enterprise procurement workflow and is designed for direct application to engineering processes for which operational event logs are available.",
+    "link": "https://arxiv.org/abs/2603.24582v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24582v1",
+    "authors": [
+      "Biplab Pal",
+      "Santanu Bhattacharya"
+    ],
+    "published": "2026-03-25T17:56:11Z"
+  },
+  {
+    "title": "Latent-WAM: Latent World Action Modeling for End-to-End Autonomous Driving",
+    "summary": "We introduce Latent-WAM, an efficient end-to-end autonomous driving framework that achieves strong trajectory planning through spatially-aware and dynamics-informed latent world representations. Existing world-model-based planners suffer from inadequately compressed representations, limited spatial understanding, and underutilized temporal dynamics, resulting in sub-optimal planning under constrained data and compute budgets. Latent-WAM addresses these limitations with two core modules: a Spatial-Aware Compressive World Encoder (SCWE) that distills geometric knowledge from a foundation model and compresses multi-view images into compact scene tokens via learnable queries, and a Dynamic Latent World Model (DLWM) that employs a causal Transformer to autoregressively predict future world status conditioned on historical visual and motion representations. Extensive experiments on NAVSIM v2 and HUGSIM demonstrate new state-of-the-art results: 89.3 EPDMS on NAVSIM v2 and 28.9 HD-Score on HUGSIM, surpassing the best prior perception-free method by 3.2 EPDMS with significantly less training data and a compact 104M-parameter model.",
+    "link": "https://arxiv.org/abs/2603.24581v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24581v1",
+    "authors": [
+      "Linbo Wang",
+      "Yupeng Zheng",
+      "Qiang Chen",
+      "Shiwei Li",
+      "Yichen Zhang",
+      "Zebin Xing",
+      "Qichao Zhang",
+      "Xiang Li",
+      "Deheng Qian",
+      "Pengxuan Yang",
+      "Yihang Dong",
+      "Ce Hao",
+      "Xiaoqing Ye",
+      "Junyu han",
+      "Yifeng Pan",
+      "Dongbin Zhao"
+    ],
+    "published": "2026-03-25T17:56:07Z"
+  },
+  {
+    "title": "Retrieval Improvements Do Not Guarantee Better Answers: A Study of RAG for AI Policy QA",
+    "summary": "Retrieval-augmented generation (RAG) systems are increasingly used to analyze complex policy documents, but achieving sufficient reliability for expert usage remains challenging in domains characterized by dense legal language and evolving, overlapping regulatory frameworks. We study the application of RAG to AI governance and policy analysis using the AI Governance and Regulatory Archive (AGORA) corpus, a curated collection of 947 AI policy documents. Our system combines a ColBERT-based retriever fine-tuned with contrastive learning and a generator aligned to human preferences using Direct Preference Optimization (DPO). We construct synthetic queries and collect pairwise preferences to adapt the system to the policy domain. Through experiments evaluating retrieval quality, answer relevance, and faithfulness, we find that domain-specific fine-tuning improves retrieval metrics but does not consistently improve end-to-end question answering performance. In some cases, stronger retrieval counterintuitively leads to more confident hallucinations when relevant documents are absent from the corpus. These results highlight a key concern for those building policy-focused RAG systems: improvements to individual components do not necessarily translate to more reliable answers. Our findings provide practical insights for designing grounded question-answering systems over dynamic regulatory corpora.",
+    "link": "https://arxiv.org/abs/2603.24580v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24580v1",
+    "authors": [
+      "Saahil Mathur",
+      "Ryan David Rittner",
+      "Vedant Ajit Thakur",
+      "Daniel Stuart Schiff",
+      "Tunazzina Islam"
+    ],
+    "published": "2026-03-25T17:54:39Z"
+  },
+  {
+    "title": "EndoVGGT: GNN-Enhanced Depth Estimation for Surgical 3D Reconstruction",
+    "summary": "Accurate 3D reconstruction of deformable soft tissues is essential for surgical robotic perception. However, low-texture surfaces, specular highlights, and instrument occlusions often fragment geometric continuity, posing a challenge for existing fixed-topology approaches. To address this, we propose EndoVGGT, a geometry-centric framework equipped with a Deformation-aware Graph Attention (DeGAT) module. Rather than using static spatial neighborhoods, DeGAT dynamically constructs feature-space semantic graphs to capture long-range correlations among coherent tissue regions. This enables robust propagation of structural cues across occlusions, enforcing global consistency and improving non-rigid deformation recovery. Extensive experiments on SCARED show that our method significantly improves fidelity, increasing PSNR by 24.6% and SSIM by 9.1% over prior state-of-the-art. Crucially, EndoVGGT exhibits strong zero-shot cross-dataset generalization to the unseen SCARED and EndoNeRF domains, confirming that DeGAT learns domain-agnostic geometric priors. These results highlight the efficacy of dynamic feature-space modeling for consistent surgical 3D reconstruction.",
+    "link": "https://arxiv.org/abs/2603.24577v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24577v1",
+    "authors": [
+      "Falong Fan",
+      "Yi Xie",
+      "Arnis Lektauers",
+      "Bo Liu",
+      "Jerzy Rozenblit"
+    ],
+    "published": "2026-03-25T17:53:34Z"
+  },
+  {
+    "title": "Chameleon: Episodic Memory for Long-Horizon Robotic Manipulation",
+    "summary": "Robotic manipulation often requires memory: occlusion and state changes can make decision-time observations perceptually aliased, making action selection non-Markovian at the observation level because the same observation may arise from different interaction histories. Most embodied agents implement memory via semantically compressed traces and similarity-based retrieval, which discards disambiguating fine-grained perceptual cues and can return perceptually similar but decision-irrelevant episodes. Inspired by human episodic memory, we propose Chameleon, which writes geometry-grounded multimodal tokens to preserve disambiguating context and produces goal-directed recall through a differentiable memory stack. We also introduce Camo-Dataset, a real-robot UR5e dataset spanning episodic recall, spatial tracking, and sequential manipulation under perceptual aliasing. Across tasks, Chameleon consistently improves decision reliability and long-horizon control over strong baselines in perceptually confusable settings.",
+    "link": "https://arxiv.org/abs/2603.24576v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24576v1",
+    "authors": [
+      "Xinying Guo",
+      "Chenxi Jiang",
+      "Hyun Bin Kim",
+      "Ying Sun",
+      "Yang Xiao",
+      "Yuhang Han",
+      "Jianfei Yang"
+    ],
+    "published": "2026-03-25T17:52:43Z"
+  },
+  {
+    "title": "VFIG: Vectorizing Complex Figures in SVG with Vision-Language Models",
+    "summary": "Scalable Vector Graphics (SVG) are an essential format for technical illustration and digital design, offering precise resolution independence and flexible semantic editability. In practice, however, original vector source files are frequently lost or inaccessible, leaving only \"flat\" rasterized versions (e.g., PNG or JPEG) that are difficult to modify or scale. Manually reconstructing these figures is a prohibitively labor-intensive process, requiring specialized expertise to recover the original geometric intent. To bridge this gap, we propose VFIG, a family of Vision-Language Models trained for complex and high-fidelity figure-to-SVG conversion. While this task is inherently data-driven, existing datasets are typically small-scale and lack the complexity of professional diagrams. We address this by introducing VFIG-DATA, a large-scale dataset of 66K high-quality figure-SVG pairs, curated from a diverse mix of real-world paper figures and procedurally generated diagrams. Recognizing that SVGs are composed of recurring primitives and hierarchical local structures, we introduce a coarse-to-fine training curriculum that begins with supervised fine-tuning (SFT) to learn atomic primitives and transitions to reinforcement learning (RL) refinement to optimize global diagram fidelity, layout consistency, and topological edge cases. Finally, we introduce VFIG-BENCH, a comprehensive evaluation suite with novel metrics designed to measure the structural integrity of complex figures. VFIG achieves state-of-the-art performance among open-source models and performs on par with GPT-5.2, achieving a VLM-Judge score of 0.829 on VFIG-BENCH.",
+    "link": "https://arxiv.org/abs/2603.24575v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24575v1",
+    "authors": [
+      "Qijia He",
+      "Xunmei Liu",
+      "Hammaad Memon",
+      "Ziang Li",
+      "Zixian Ma",
+      "Jaemin Cho",
+      "Jason Ren",
+      "Daniel S Weld",
+      "Ranjay Krishna"
+    ],
+    "published": "2026-03-25T17:52:23Z"
+  },
+  {
+    "title": "Towards Training-Free Scene Text Editing",
+    "summary": "Scene text editing seeks to modify textual content in natural images while maintaining visual realism and semantic consistency. Existing methods often require task-specific training or paired data, limiting their scalability and adaptability. In this paper, we propose TextFlow, a training-free scene text editing framework that integrates the strengths of Attention Boost (AttnBoost) and Flow Manifold Steering (FMS) to enable flexible, high-fidelity text manipulation without additional training. Specifically, FMS preserves the structural and style consistency by modeling the visual flow of characters and background regions, while AttnBoost enhances the rendering of textual content through attention-based guidance. By jointly leveraging these complementary modules, our approach performs end-to-end text editing through semantic alignment and spatial refinement in a plug-and-play manner. Extensive experiments demonstrate that our framework achieves visual quality and text accuracy comparable to or superior to those of training-based counterparts, generalizing well across diverse scenes and languages. This study advances scene text editing toward a more efficient, generalizable, and training-free paradigm. Code is available at https://github.com/lyb18758/TextFlow",
+    "link": "https://arxiv.org/abs/2603.24571v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24571v1",
+    "authors": [
+      "Yubo Li",
+      "Xugong Qin",
+      "Peng Zhang",
+      "Hailun Lin",
+      "Gangyan Zeng",
+      "Kexin Zhang"
+    ],
+    "published": "2026-03-25T17:50:31Z"
+  },
+  {
+    "title": "Completeness of Unbounded Best-First Minimax and Descent Minimax",
+    "summary": "In this article, we focus on search algorithms for two-player perfect information games, whose objective is to determine the best possible strategy, and ideally a winning strategy.\n  Unfortunately, some search algorithms for games in the literature are not able to always determine a winning strategy, even with an infinite search time. This is the case, for example, of the following algorithms: Unbounded Best-First Minimax and Descent Minimax, which are core algorithms in state-of-the-art knowledge-free reinforcement learning.\n  They were then improved with the so-called completion technique. However, whether this technique sufficiently improves these algorithms to allow them to always determine a winning strategy remained an open question until now.\n  To answer this question, we generalize the two algorithms (their versions using the completion technique), and we show that any algorithm of this class of algorithms computes the best strategy.\n  Finally, we experimentally show that the completion technique improves winning performance.",
+    "link": "https://arxiv.org/abs/2603.24572v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24572v1",
+    "authors": [
+      "Quentin Cohen-Solal"
+    ],
+    "published": "2026-03-25T17:50:31Z"
+  },
+  {
+    "title": "Anti-I2V: Safeguarding your photos from malicious image-to-video generation",
+    "summary": "Advances in diffusion-based video generation models, while significantly improving human animation, poses threats of misuse through the creation of fake videos from a specific person's photo and text prompts. Recent efforts have focused on adversarial attacks that introduce crafted perturbations to protect images from diffusion-based models. However, most existing approaches target image generation, while relatively few explicitly address image-to-video diffusion models (VDMs), and most primarily focus on UNet-based architectures. Hence, their effectiveness against Diffusion Transformer (DiT) models remains largely under-explored, as these models demonstrate improved feature retention, and stronger temporal consistency due to larger capacity and advanced attention mechanisms. In this work, we introduce Anti-I2V, a novel defense against malicious human image-to-video generation, applicable across diverse diffusion backbones. Instead of restricting noise updates to the RGB space, Anti-I2V operates in both the $L$*$a$*$b$* and frequency domains, improving robustness and concentrating on salient pixels. We then identify the network layers that capture the most distinct semantic features during the denoising process to design appropriate training objectives that maximize degradation of temporal coherence and generation fidelity. Through extensive validation, Anti-I2V demonstrates state-of-the-art defense performance against diverse video diffusion models, offering an effective solution to the problem.",
+    "link": "https://arxiv.org/abs/2603.24570v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24570v1",
+    "authors": [
+      "Duc Vu",
+      "Anh Nguyen",
+      "Chi Tran",
+      "Anh Tran"
+    ],
+    "published": "2026-03-25T17:48:10Z"
+  },
+  {
+    "title": "The Free-Market Algorithm: Self-Organizing Optimization for Open-Ended Complex Systems",
+    "summary": "We introduce the Free-Market Algorithm (FMA), a novel metaheuristic inspired by free-market economics. Unlike Genetic Algorithms, Particle Swarm Optimization, and Simulated Annealing -- which require prescribed fitness functions and fixed search spaces -- FMA uses distributed supply-and-demand dynamics where fitness is emergent, the search space is open-ended, and solutions take the form of hierarchical pathway networks. Autonomous agents discover rules, trade goods, open and close firms, and compete for demand with no centralized controller.\n  FMA operates through a three-layer architecture: a universal market mechanism (supply, demand, competition, selection), pluggable domain-specific behavioral rules, and domain-specific observation. The market mechanism is identical across applications; only the behavioral rules change.\n  Validated in two unrelated domains. In prebiotic chemistry, starting from 900 bare atoms (C, H, O, N), FMA discovers all 12 feasible amino acid formulas, all 5 nucleobases, the formose sugar chain, and Krebs cycle intermediates in under 5 minutes on a laptop -- with up to 240 independent synthesis routes per product. In macroeconomic forecasting, reading a single input-output table with zero estimated parameters, FMA achieves Mean Absolute Error of 0.42 percentage points for non-crisis GDP prediction, comparable to professional forecasters, portable to 33 countries.\n  Assembly Theory alignment shows that FMA provides the first explicit, tunable mechanism for the selection signatures described by Sharma et al. (Nature, 2023). The event-driven assembly dynamics resonate with foundational programs in physics -- causal set theory, relational quantum mechanics, constructor theory -- suggesting that Darwinian market dynamics may reflect a deeper organizational principle that lead to the unfolding of Nature itself.",
+    "link": "https://arxiv.org/abs/2603.24559v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24559v1",
+    "authors": [
+      "Martin Jaraiz"
+    ],
+    "published": "2026-03-25T17:41:25Z"
+  },
+  {
+    "title": "LensWalk: Agentic Video Understanding by Planning How You See in Videos",
+    "summary": "The dense, temporal nature of video presents a profound challenge for automated analysis. Despite the use of powerful Vision-Language Models, prevailing methods for video understanding are limited by the inherent disconnect between reasoning and perception: they rely on static, pre-processed information and cannot actively seek raw evidence from video as their understanding evolves. To address this, we introduce LensWalk, a flexible agentic framework that empowers a Large Language Model reasoner to control its own visual observation actively. LensWalk establishes a tight reason-plan-observe loop where the agent dynamically specifies, at each step, the temporal scope and sampling density of the video it observes. Using a suite of versatile, Vision-Language Model based tools parameterized by these specifications, the agent can perform broad scans for cues, focus on specific segments for fact extraction, and stitch evidence from multiple moments for holistic verification. This design allows for progressive, on-demand evidence gathering that directly serves the agent's evolving chain of thought. Without requiring any model fine-tuning, LensWalk delivers substantial, plug-and-play performance gains on multiple model recipes, boosting their accuracy by over 5\\% on challenging long-video benchmarks like LVBench and Video-MME. Our analysis reveals that enabling an agent to control how it sees is key to unlocking more accurate, robust, and interpretable video reasoning.",
+    "link": "https://arxiv.org/abs/2603.24558v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24558v1",
+    "authors": [
+      "Keliang Li",
+      "Yansong Li",
+      "Hongze Shen",
+      "Mengdi Liu",
+      "Hong Chang",
+      "Shiguang Shan"
+    ],
+    "published": "2026-03-25T17:38:54Z"
+  },
+  {
+    "title": "Geometric Curvature Governs Work in Open Quantum Steady States",
+    "summary": "Classical thermodynamics admits a geometric formulation in which work is associated with areas enclosed by cycles in state space. Whether an analogous structure persists in driven, dissipative quantum systems remains an open question. Here we show that quasistatic work in open quantum steady states is governed by an emergent geometric curvature in control-parameter space arising from steady-state coherence. For a driven dissipative two-level system, we construct a work one-form whose curvature determines the work produced in cyclic processes. The work vanishes under strong dephasing, identifying coherence as a necessary condition for nontrivial geometry. However, its magnitude is set not by the coherence itself but by the spatial structure of the curvature: cycles enclosing comparable areas produce different work depending on their location in parameter space. Reversing the cycle orientation reverses the sign of the work, confirming its geometric origin. These results establish a geometric framework for open quantum thermodynamics and identify curvature as the organizing principle of thermodynamic response, with direct implications for driven light--matter systems in cavity quantum electrodynamics.",
+    "link": "https://arxiv.org/abs/2603.24557v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24557v1",
+    "authors": [
+      "Eric R. Bittner"
+    ],
+    "published": "2026-03-25T17:36:06Z"
+  },
+  {
+    "title": "Evaluating Chunking Strategies For Retrieval-Augmented Generation in Oil and Gas Enterprise Documents",
+    "summary": "Retrieval-Augmented Generation (RAG) has emerged as a framework to address the constraints of Large Language Models (LLMs). Yet, its effectiveness fundamentally hinges on document chunking - an often-overlooked determinant of its quality. This paper presents an empirical study quantifying performance differences across four chunking strategies: fixed-size sliding window, recursive, breakpoint-based semantic, and structure-aware. We evaluated these methods using a proprietary corpus of oil and gas enterprise documents, including text-heavy manuals, table-heavy specifications, and piping and instrumentation diagrams (P and IDs). Our findings show that structure-aware chunking yields higher overall retrieval effectiveness, particularly in top-K metrics, and incurs significantly lower computational costs than semantic or baseline strategies. Crucially, all four methods demonstrated limited effectiveness on P and IDs, underscoring a core limitation of purely text-based RAG within visually and spatially encoded documents. We conclude that while explicit structure preservation is essential for specialised domains, future work must integrate multimodal models to overcome current limitations.",
+    "link": "https://arxiv.org/abs/2603.24556v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24556v1",
+    "authors": [
+      "Samuel Taiwo",
+      "Mohd Amaluddin Yusoff"
+    ],
+    "published": "2026-03-25T17:35:24Z"
+  },
+  {
+    "title": "Orientation Reconstruction of Proteins using Coulomb Explosions",
+    "summary": "We solve the orientation recovery of a tumbling protein in the gas phase from single-event measurements of the spatial positions of its ions after an X-ray laser induced explosion. We simulate diffracted X-ray signal and ion dynamics under experimental conditions and compare our method to conventional orientation recovery in single-particle imaging with X-ray free-electron lasers using only diffraction data. We reconstruct 3D diffraction intensities using orientations recovered from the ion signatures and retrieve the electron density with established phase-retrieval algorithms. We test our orientation recovery procedure on 56 proteins ranging from 14 to 52 kDa (1800 to 6500 atoms), achieving roughly an angular error of around 5°. The resulting 3D electron-density reconstructions are compared to ground-truth volumes simulated at the same nominal resolution, and achieve the resolution at the edge of the detector in conditions similar to current single-particle imaging setups. We investigate the reconstruction quality and demonstrate that ion data can be used for reliable orientation recovery of particles in single-particle imaging, achieving orientation on par or better than currently used recovery techniques. This work shows the potential of ion detection for retrieving additional information from the sample fragmentation, and boost single particle imaging with X-ray lasers in the cases where the diffraction signal is a limiting factor.",
+    "link": "https://arxiv.org/abs/2603.24553v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24553v1",
+    "authors": [
+      "Tomas André",
+      "Alfredo Bellisario",
+      "Nicusor Timneanu",
+      "Carl Caleman"
+    ],
+    "published": "2026-03-25T17:28:34Z"
+  },
+  {
+    "title": "The role of spatial context and multitask learning in the detection of organic and conventional farming systems based on Sentinel-2 time series",
+    "summary": "Organic farming is a key element in achieving more sustainable agriculture. For a better understanding of the development and impact of organic farming, comprehensive, spatially explicit information is needed. This study presents an approach for the discrimination of organic and conventional farming systems using intra-annual Sentinel-2 time series. In addition, it examines two factors influencing this discrimination: the joint learning of crop type information in a concurrent task and the role of spatial context. A Vision Transformer model based on the Temporo-Spatial Vision Transformer (TSViT) architecture was used to construct a classification model for the two farming systems. The model was extended for simultaneous learning of the crop type, creating a multitask learning setting. By varying the patch size presented to the model, we tested the influence of spatial context on the classification accuracy of both tasks. We show that discrimination between organic and conventional farming systems using multispectral remote sensing data is feasible. However, classification performance varies substantially across crop types. For several crops, such as winter rye, winter wheat, and winter oat, F1 scores of 0.8 or higher can be achieved. In contrast, other agricultural land use classes, such as permanent grassland, orchards, grapevines, and hops, cannot be reliably distinguished, with F1 scores for the organic management class of 0.4 or lower. Joint learning of farming system and crop type provides only limited additional benefits over single-task learning. In contrast, incorporating wider spatial context improves the performance of both farming system and crop type classification. Overall, we demonstrate that a classification of agricultural farming systems is possible in a diverse agricultural region using multispectral remote sensing data.",
+    "link": "https://arxiv.org/abs/2603.24552v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24552v1",
+    "authors": [
+      "Jan Hemmerling",
+      "Marcel Schwieder",
+      "Philippe Rufin",
+      "Leon-Friedrich Thomas",
+      "Mirela Tulbure",
+      "Patrick Hostert",
+      "Stefan Erasmi"
+    ],
+    "published": "2026-03-25T17:28:20Z"
+  },
+  {
+    "title": "A Sociolinguistic Analysis of Automatic Speech Recognition Bias in Newcastle English",
+    "summary": "Automatic Speech Recognition (ASR) systems are widely used in everyday communication, education, healthcare, and industry, yet their performance remains uneven across speakers, particularly when dialectal variation diverges from the mainstream accents represented in training data. This study investigates ASR bias through a sociolinguistic analysis of Newcastle English, a regional variety of North-East England that has been shown to challenge current speech recognition technologies. Using spontaneous speech from the Diachronic Electronic Corpus of Tyneside English (DECTE), we evaluate the output of a state-of-the-art commercial ASR system and conduct a fine-grained analysis of more than 3,000 transcription errors. Errors are classified by linguistic domain and examined in relation to social variables including gender, age, and socioeconomic status. In addition, an acoustic case study of selected vowel features demonstrates how gradient phonetic variation contributes directly to misrecognition.\n  The results show that phonological variation accounts for the majority of errors, with recurrent failures linked to dialect-specific features like vowel quality and glottalisation, as well as local vocabulary and non-standard grammatical forms. Error rates also vary across social groups, with higher error frequencies observed for men and for speakers at the extremes of the age spectrum. These findings indicate that ASR errors are not random but socially patterned and can be explained from a sociolinguistic perspective. Thus, the study demonstrates the importance of incorporating sociolinguistic expertise into the evaluation and development of speech technologies and argues that more equitable ASR systems require explicit attention to dialectal variation and community-based speech data.",
+    "link": "https://arxiv.org/abs/2603.24549v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24549v1",
+    "authors": [
+      "Dana Serditova",
+      "Kevin Tang"
+    ],
+    "published": "2026-03-25T17:24:47Z"
+  },
+  {
+    "title": "SEGAR: Selective Enhancement for Generative Augmented Reality",
+    "summary": "Generative world models offer a compelling foundation for augmented-reality (AR) applications: by predicting future image sequences that incorporate deliberate visual edits, they enable temporally coherent, augmented future frames that can be computed ahead of time and cached, avoiding per-frame rendering from scratch in real time. In this work, we present SEGAR, a preliminary framework that combines a diffusion-based world model with a selective correction stage to support this vision. The world model generates augmented future frames with region-specific edits while preserving others, and the correction stage subsequently aligns safety-critical regions with real-world observations while preserving intended augmentations elsewhere. We demonstrate this pipeline in driving scenarios as a representative setting where semantic region structure is well defined and real-world feedback is readily available. We view this as an early step toward generative world models as practical AR infrastructure, where future frames can be generated, cached, and selectively corrected on demand.",
+    "link": "https://arxiv.org/abs/2603.24541v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24541v1",
+    "authors": [
+      "Fanjun Bu",
+      "Chenyang Yuan",
+      "Hiroshi Yasuda"
+    ],
+    "published": "2026-03-25T17:15:45Z"
+  },
+  {
+    "title": "CliPPER: Contextual Video-Language Pretraining on Long-form Intraoperative Surgical Procedures for Event Recognition",
+    "summary": "Video-language foundation models have proven to be highly effective in zero-shot applications across a wide range of tasks. A particularly challenging area is the intraoperative surgical procedure domain, where labeled data is scarce, and precise temporal understanding is often required for complex downstream tasks. To address this challenge, we introduce CliPPER (Contextual Video-Language Pretraining on Long-form Intraoperative Surgical Procedures for Event Recognition), a novel video-language pretraining framework trained on surgical lecture videos. Our method is designed for fine-grained temporal video-text recognition and introduces several novel pretraining strategies to improve multimodal alignment in long-form surgical videos. Specifically, we propose Contextual Video-Text Contrastive Learning (VTC_CTX) and Clip Order Prediction (COP) pretraining objectives, both of which leverage temporal and contextual dependencies to enhance local video understanding. In addition, we incorporate a Cycle-Consistency Alignment over video-text matches within the same surgical video to enforce bidirectional consistency and improve overall representation coherence. Moreover, we introduce a more refined alignment loss, Frame-Text Matching (FTM), to improve the alignment between video frames and text. As a result, our model establishes a new state-of-the-art across multiple public surgical benchmarks, including zero-shot recognition of phases, steps, instruments, and triplets. The source code and pretraining captions can be found at https://github.com/CAMMA-public/CliPPER.",
+    "link": "https://arxiv.org/abs/2603.24539v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24539v1",
+    "authors": [
+      "Florian Stilz",
+      "Vinkle Srivastav",
+      "Nassir Navab",
+      "Nicolas Padoy"
+    ],
+    "published": "2026-03-25T17:14:36Z"
+  },
+  {
+    "title": "Representation Learning to Study Temporal Dynamics in Tutorial Scaffolding",
+    "summary": "Adaptive scaffolding enhances learning, yet the field lacks robust methods for measuring it within authentic tutoring dialogue. This gap has become more pressing with the rise of remote human tutoring and large language model-based systems. We introduce an embedding-based approach that analyzes scaffolding dynamics by aligning the semantics of dialogue turns, problem statements, and correct solutions. Specifically, we operationalize alignment by computing cosine similarity between tutor and student contributions and task-relevant content. We apply this framework to 1,576 real-world mathematics tutoring dialogues from the Eedi Question Anchored Tutoring Dialogues dataset. The analysis reveals systematic differences in task alignment and distinct temporal patterns in how participants ground their contributions in problem and solution content. Further, mixed-effects models show that role-specific semantic alignment predicts tutorial progression beyond baseline features such as message order and length. Tutor contributions exhibited stronger grounding in problem content early in interactions. In contrast, student solution alignment was modestly positively associated with progression. These findings support scaffolding as a continuous, role-sensitive process grounded in task semantics. By capturing role-specific alignment over time, this approach provides a principled method for analyzing instructional dialogue and evaluating conversational tutoring systems.",
+    "link": "https://arxiv.org/abs/2603.24535v1",
+    "pdf_url": "https://arxiv.org/pdf/2603.24535v1",
+    "authors": [
+      "Conrad Borchers",
+      "Jiayi Zhang",
+      "Ashish Gurung"
+    ],
+    "published": "2026-03-25T17:11:56Z"
+  }
+]

@@ -9,7 +9,7 @@
 ### 1. 定位文件
 
 ```bash
-PAPERS_LIST="/home/cwh/coding/auto_blog/spatial_agi/papers_list.md"
+PAPERS_LIST="/home/cwh/coding/spatial_agi/papers_list.md"
 ```
 
 ### 2. 添加今天的论文条目
