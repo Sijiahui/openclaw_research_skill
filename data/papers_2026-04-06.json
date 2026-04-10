@@ -1,0 +1,796 @@
+{
+  "date": "2026-04-06",
+  "total_papers": 51,
+  "papers": [
+    {
+      "title": "Lifting Unlabeled Internet-level Data for 3D Scene Understanding",
+      "authors": [
+        "Yixin Chen",
+        "Yaowei Zhang",
+        "Huangyue Yu",
+        "Junchao He",
+        "Yan Wang",
+        "Jiangyong Huang",
+        "Hongyu Shen",
+        "Junfeng Ni",
+        "Shaofei Wang",
+        "Baoxiong Jia",
+        "Song-Chun Zhu",
+        "Siyuan Huang"
+      ],
+      "published": "2026-04-02",
+      "arxiv_url": "https://arxiv.org/abs/2604.02329",
+      "category": "3d_understanding",
+      "relevance_score": 9
+    },
+    {
+      "title": "EgoSim: Egocentric World Simulator for Embodied Interaction Generation",
+      "authors": [
+        "Jinkun Hao",
+        "Mingda Jia",
+        "Ruiyan Wang",
+        "Xihui Liu",
+        "Ran Yi",
+        "Lizhuang Ma",
+        "Jiangmiao Pang",
+        "Xudong Xu"
+      ],
+      "published": "2026-04-01",
+      "arxiv_url": "https://arxiv.org/abs/2604.02190",
+      "category": "world_model",
+      "relevance_score": 9
+    },
+    {
+      "title": "SpatialStack: Layered Geometry-Language Fusion for 3D VLM Spatial Reasoning",
+      "authors": [
+        "Jiang Zhang",
+        "Shijie Zhou",
+        "Bangya Liu",
+        "Achuta Kadambi",
+        "Zhiwen Fan"
+      ],
+      "published": "2026-03-28",
+      "arxiv_url": "https://arxiv.org/abs/2603.19234",
+      "category": "spatial_intelligence",
+      "relevance_score": 9
+    },
+    {
+      "title": "DIAL: Decoupling Intent and Action via Latent World Modeling for End-to-End VLA",
+      "authors": [
+        "Yi Chen",
+        "Yuying Ge",
+        "Hui Zhou",
+        "Mingyu Ding",
+        "Yixiao Ge",
+        "Xihui Liu"
+      ],
+      "published": "2026-03-31",
+      "arxiv_url": "https://arxiv.org/abs/2603.19234",
+      "category": "world_model",
+      "relevance_score": 9
+    },
+    {
+      "title": "OccSim: Multi-kilometer Simulation with Long-horizon Occupancy World Models",
+      "authors": [
+        "Tianran Liu",
+        "Shengwen Zhao",
+        "Mozhgan Pourkeshavarz",
+        "Weican Li",
+        "Nicholas Rhinehart"
+      ],
+      "published": "2026-03-30",
+      "arxiv_url": "https://arxiv.org/abs/2603.19234",
+      "category": "world_model",
+      "relevance_score": 9
+    },
+    {
+      "title": "SceneTeract: Agentic Functional Affordances and VLM Grounding in 3D Scenes",
+      "authors": [
+        "Léopold Maillard",
+        "Francis Engelmann",
+        "Tom Durand",
+        "Boxiao Pan",
+        "Yang You",
+        "Or Litany",
+        "Leonidas Guibas",
+        "Maks Ovsjanikov"
+      ],
+      "published": "2026-03-31",
+      "arxiv_url": "https://arxiv.org/abs/2603.19234",
+      "category": "embodied_ai",
+      "relevance_score": 9
+    },
+    {
+      "title": "Ego to World: Collaborative Spatial Reasoning in Embodied Systems via Reinforcement Learning",
+      "authors": [
+        "Heng Zhou",
+        "Li Kang",
+        "Yiran Qin",
+        "Xiufeng Song",
+        "Ao Yu",
+        "Zilu Zhang",
+        "Haoming Song",
+        "Kaixin Xu",
+        "Yuchen Fan",
+        "Dongzhan Zhou",
+        "Xiaohong Liu",
+        "Ruimao Zhang",
+        "Philip Torr",
+        "Lei Bai",
+        "Zhenfei Yin"
+      ],
+      "published": "2026-03-16",
+      "arxiv_url": "https://arxiv.org/abs/2603.19234",
+      "category": "spatial_intelligence",
+      "relevance_score": 9
+    },
+    {
+      "title": "Think, Act, Build: An Agentic Framework with Vision Language Models for Zero-Shot 3D Visual Grounding",
+      "authors": [
+        "Haibo Wang",
+        "Zihao Lin",
+        "Zhiyang Xu",
+        "Lifu Huang"
+      ],
+      "published": "2026-04-01",
+      "arxiv_url": "https://arxiv.org/abs/2604.02103",
+      "category": "spatial_intelligence",
+      "relevance_score": 8
+    },
+    {
+      "title": "SpatialAnt: Autonomous Zero-Shot Robot Navigation via Active Scene Reconstruction and Visual Anticipation",
+      "authors": [
+        "Jiwen Zhang",
+        "Xiangyu Shi",
+        "Siyuan Wang",
+        "Zerui Li",
+        "Zhongyu Wei",
+        "Qi Wu"
+      ],
+      "published": "2026-03-29",
+      "arxiv_url": "https://arxiv.org/abs/2603.19234",
+      "category": "spatial_intelligence",
+      "relevance_score": 8
+    },
+    {
+      "title": "Learning Multi-View Spatial Reasoning from Cross-View Relations",
+      "authors": [
+        "Suchae Jeong",
+        "Jaehwi Song",
+        "Haeone Lee",
+        "Hanna Kim",
+        "Jian Kim",
+        "Dongjun Lee",
+        "Dong Kyu Shin",
+        "Changyeon Kim",
+        "Dongyoon Hahm",
+        "Woogyeol Jin",
+        "Juheon Choi",
+        "Kimin Lee"
+      ],
+      "published": "2026-03-29",
+      "arxiv_url": "https://arxiv.org/abs/2603.19234",
+      "category": "spatial_intelligence",
+      "relevance_score": 8
+    },
+    {
+      "title": "F3DGS: Federated 3D Gaussian Splatting for Decentralized Multi-Agent World Modeling",
+      "authors": [
+        "Morui Zhu",
+        "Mohammad Dehghani Tezerjani",
+        "Mátyás Szántó",
+        "Márton Vaitkus",
+        "Song Fu",
+        "Qing Yang"
+      ],
+      "published": "2026-04-02",
+      "arxiv_url": "https://arxiv.org/abs/2604.02317",
+      "category": "3dgs",
+      "relevance_score": 8
+    },
+    {
+      "title": "LESV: Language Embedded Sparse Voxel Fusion for Open-Vocabulary 3D Scene Understanding",
+      "authors": [
+        "Fusang Wang",
+        "Nathan Piasco",
+        "Moussab Bennehar",
+        "Luis Roldão",
+        "Dzmitry Tsishkou",
+        "Fabien Moutarde"
+      ],
+      "published": "2026-04-01",
+      "arxiv_url": "https://arxiv.org/abs/2604.02289",
+      "category": "3dgs",
+      "relevance_score": 8
+    },
+    {
+      "title": "WorldFlow3D: Flowing Through 3D Distributions for Unbounded World Generation",
+      "authors": [
+        "Amogh Joshi",
+        "Julian Ost",
+        "Felix Heide"
+      ],
+      "published": "2026-03-30",
+      "arxiv_url": "https://arxiv.org/abs/2603.19234",
+      "category": "world_model",
+      "relevance_score": 8
+    },
+    {
+      "title": "LinkS²Bench for UAV-Satellite Dynamic Cross-View Spatial Intelligence",
+      "authors": [
+        "Dian Liu",
+        "Jie Feng",
+        "Di Li",
+        "Yuhui Zheng",
+        "Guanbin Li",
+        "Weisheng Dong",
+        "Guangming Shi"
+      ],
+      "published": "2026-04-02",
+      "arxiv_url": "https://arxiv.org/abs/2604.02330",
+      "category": "spatial_intelligence",
+      "relevance_score": 7
+    },
+    {
+      "title": "Resonance4D: Frequency-Domain Motion Supervision for Preset-Free Physical Parameter Learning in 4D Dynamic Physical Scene Simulation",
+      "authors": [
+        "Changshe Zhang",
+        "Jie Feng",
+        "Siyu Chen",
+        "Guanbin Li",
+        "Ronghua Shang",
+        "Junpeng Zhang"
+      ],
+      "published": "2026-04-02",
+      "arxiv_url": "https://arxiv.org/abs/2604.02323",
+      "category": "3dgs",
+      "relevance_score": 7
+    },
+    {
+      "title": "Director: Instance-aware Gaussian Splatting for Dynamic Scene Modeling and Understanding",
+      "authors": [
+        "Yuheng Jiang",
+        "Yiwen Cai",
+        "Zihao Wang",
+        "Yize Wu",
+        "Sicheng Li",
+        "Zhuo Su",
+        "Shaohui Jiao",
+        "Lan Xu"
+      ],
+      "published": "2026-04-02",
+      "arxiv_url": "https://arxiv.org/abs/2604.02320",
+      "category": "3dgs",
+      "relevance_score": 7
+    },
+    {
+      "title": "Diff3R: Feed-forward 3D Gaussian Splatting with Uncertainty-aware Differentiable Optimization",
+      "authors": [
+        "Yueh-Cheng Liu",
+        "Jozef Hladký",
+        "Matthias Nießner",
+        "Angela Dai"
+      ],
+      "published": "2026-04-01",
+      "arxiv_url": "https://arxiv.org/abs/2604.02290",
+      "category": "3dgs",
+      "relevance_score": 7
+    },
+    {
+      "title": "Compact Keyframe-Optimized Multi-Agent Gaussian Splatting SLAM",
+      "authors": [
+        "Monica M. Q. Li",
+        "Pierre-Yves Lajoie",
+        "Jialiang Liu",
+        "Giovanni Beltrame"
+      ],
+      "published": "2026-04-01",
+      "arxiv_url": "https://arxiv.org/abs/2604.02222",
+      "category": "3dgs",
+      "relevance_score": 7
+    },
+    {
+      "title": "HCLSM: Hierarchical Causal Latent State Machines for Object-Centric World Modeling",
+      "authors": [
+        "Jaber Jaber",
+        "Osama Jaber"
+      ],
+      "published": "2026-03-30",
+      "arxiv_url": "https://arxiv.org/abs/2603.19234",
+      "category": "world_model",
+      "relevance_score": 7
+    },
+    {
+      "title": "LatentPilot: Scene-Aware Vision-and-Language Navigation by Dreaming Ahead with Latent Visual Reasoning",
+      "authors": [
+        "Haihong Hao",
+        "Lei Chen",
+        "Mingfei Han",
+        "Changlin Li",
+        "Dong An",
+        "Yuqiang Yang",
+        "Zhihui Li",
+        "Xiaojun Chang"
+      ],
+      "published": "2026-03-30",
+      "arxiv_url": "https://arxiv.org/abs/2603.19234",
+      "category": "world_model",
+      "relevance_score": 7
+    },
+    {
+      "title": "Policy-Guided World Model Planning for Language-Conditioned Visual Navigation",
+      "authors": [],
+      "published": "2026-03-26",
+      "arxiv_url": "https://arxiv.org/abs/2603.19234",
+      "category": "world_model",
+      "relevance_score": 7
+    },
+    {
+      "title": "Boosting Vision-Language-Action Finetuning with Feasible Action Neighborhood Prior",
+      "authors": [
+        "Haochen Niu",
+        "Kanyu Zhang",
+        "Shuyu Yin",
+        "Qinghai Guo",
+        "Peilin Liu",
+        "Fei Wen"
+      ],
+      "published": "2026-04-01",
+      "arxiv_url": "https://arxiv.org/abs/2604.02109",
+      "category": "embodied_ai",
+      "relevance_score": 7
+    },
+    {
+      "title": "PRISM: A Multi-View Multi-Capability Retail Video Dataset for Embodied Vision-Language Models",
+      "authors": [
+        "Amirreza Rouhi",
+        "Parikshit Sakurikar",
+        "Satya Sai Reddy",
+        "Narsimha Menga",
+        "Anirudh Govil",
+        "Sri Harsha Chittajallu",
+        "Rajat Aggarwal",
+        "Anoop Namboodiri",
+        "Sashi Reddi"
+      ],
+      "published": "2026-03-31",
+      "arxiv_url": "https://arxiv.org/abs/2603.19234",
+      "category": "embodied_ai",
+      "relevance_score": 7
+    },
+    {
+      "title": "FocusVLA: Focused Visual Utilization for Vision-Language-Action Models",
+      "authors": [
+        "Yichi Zhang",
+        "Weihao Yuan",
+        "Yizhuo Zhang",
+        "Xidong Zhang",
+        "Jia Wan"
+      ],
+      "published": "2026-03-30",
+      "arxiv_url": "https://arxiv.org/abs/2603.19234",
+      "category": "embodied_ai",
+      "relevance_score": 7
+    },
+    {
+      "title": "ManipArena: Comprehensive Real-world Evaluation of Reasoning-Oriented Generalist Robot Manipulation",
+      "authors": [
+        "Yu Sun",
+        "Meng Cao",
+        "Ping Yang",
+        "Rongtao Xu",
+        "Yunxiao Yan",
+        "Runze Xu",
+        "Liang Ma",
+        "Roy Gan",
+        "Andy Zhai",
+        "Qingxuan Chen",
+        "Zunnan Xu",
+        "Hao Wang",
+        "Jincheng Yu",
+        "Lucy Liang",
+        "Qian Wang",
+        "Ivan Laptev",
+        "Ian D Reid",
+        "Xiaodan Liang"
+      ],
+      "published": "2026-03-30",
+      "arxiv_url": "https://arxiv.org/abs/2603.19234",
+      "category": "embodied_ai",
+      "relevance_score": 7
+    },
+    {
+      "title": "X-GS: An Extensible Open Framework for Perceiving and Thinking via 3D Gaussian Splatting",
+      "authors": [
+        "Yueen Ma",
+        "Zenglin Xu",
+        "Irwin King"
+      ],
+      "published": "2026-03-10",
+      "arxiv_url": "https://arxiv.org/abs/2603.19234",
+      "category": "3dgs",
+      "relevance_score": 7
+    },
+    {
+      "title": "ActionParty: Multi-Subject Action Binding in Generative Video Games",
+      "authors": [
+        "Alexander Pondaven",
+        "Ziyi Wu",
+        "Igor Gilitschenski",
+        "Philip Torr",
+        "Sergey Tulyakov",
+        "Fabio Pizzati",
+        "Aliaksandr Siarohin"
+      ],
+      "published": "2026-04-02",
+      "arxiv_url": "https://arxiv.org/abs/2604.02331",
+      "category": "spatial_intelligence",
+      "relevance_score": 6
+    },
+    {
+      "title": "ProDiG: Progressive Diffusion-Guided Gaussian Splatting for Aerial to Ground Reconstruction",
+      "authors": [],
+      "published": "2026-04-02",
+      "arxiv_url": "https://arxiv.org/abs/2604.02327",
+      "category": "3dgs",
+      "relevance_score": 6
+    },
+    {
+      "title": "TRiGS: Temporal Rigid-Body Motion for Scalable 4D Gaussian Splatting",
+      "authors": [
+        "Suwoong Yeom",
+        "Joonsik Nam",
+        "Seunggyu Choi",
+        "Lucas Yunkyu Lee",
+        "Sangmin Kim",
+        "Jaesik Park",
+        "Joonsoo Kim",
+        "Kugjin Yun",
+        "Kyeongbo Kong",
+        "Sukju Kang"
+      ],
+      "published": "2026-04-01",
+      "arxiv_url": "https://arxiv.org/abs/2604.02265",
+      "category": "3dgs",
+      "relevance_score": 6
+    },
+    {
+      "title": "ARGS: Auto-Regressive Gaussian Splatting via Parallel Progressive Next-Scale Prediction",
+      "authors": [
+        "Quanyuan Ruan",
+        "Kewei Shi",
+        "Jiabao Lei",
+        "Xifeng Gao",
+        "Xiaoguang Han"
+      ],
+      "published": "2026-04-01",
+      "arxiv_url": "https://arxiv.org/abs/2604.02241",
+      "category": "3dgs",
+      "relevance_score": 6
+    },
+    {
+      "title": "GS3LAM: Gaussian Semantic Splatting SLAM",
+      "authors": [
+        "Linfei Li",
+        "Lin Zhang",
+        "Zhong Wang",
+        "Ying Shen"
+      ],
+      "published": "2026-03-29",
+      "arxiv_url": "https://arxiv.org/abs/2603.19234",
+      "category": "3dgs",
+      "relevance_score": 6
+    },
+    {
+      "title": "Tex3D: Objects as Attack Surfaces via Adversarial 3D Textures for Vision-Language-Action Models",
+      "authors": [
+        "Jiawei Chen",
+        "Simin Huang",
+        "Jiawei Du",
+        "Shuaihang Chen",
+        "Yu Tian",
+        "Mingjie Wei",
+        "Chao Yu",
+        "Zhaoxia Yin"
+      ],
+      "published": "2026-04-02",
+      "arxiv_url": "https://arxiv.org/abs/2604.02318",
+      "category": "embodied_ai",
+      "relevance_score": 6
+    },
+    {
+      "title": "SMASH: Mastering Scalable Whole-Body Skills for Humanoid Ping-Pong with Egocentric Vision",
+      "authors": [
+        "Junli Ren",
+        "Yinghui Li",
+        "Kai Zhang",
+        "Penglin Fu",
+        "Haoran Jiang",
+        "Yixuan Pan",
+        "Guangjun Zeng",
+        "Tao Huang",
+        "Weizhong Guo",
+        "Peng Lu",
+        "Tianyu Li",
+        "Jingbo Wang",
+        "Li Chen",
+        "Hongyang Li",
+        "Ping Luo"
+      ],
+      "published": "2026-04-01",
+      "arxiv_url": "https://arxiv.org/abs/2604.02038",
+      "category": "embodied_ai",
+      "relevance_score": 6
+    },
+    {
+      "title": "CARLA-Air: Fly Drones Inside a CARLA World -- A Unified Infrastructure for Air-Ground Embodied Intelligence",
+      "authors": [
+        "Tianle Zeng",
+        "Hanxuan Chen",
+        "Yanci Wen",
+        "Hong Zhang"
+      ],
+      "published": "2026-03-30",
+      "arxiv_url": "https://arxiv.org/abs/2603.19234",
+      "category": "embodied_ai",
+      "relevance_score": 6
+    },
+    {
+      "title": "GenSplat: Efficient Camera Pose Augmentation for View Generalization in Robotic Policy Learning",
+      "authors": [
+        "Sen Wang",
+        "Huaiyi Dong",
+        "Jingyi Tian",
+        "Jiayi Li",
+        "Zhuo Yang",
+        "Tongtong Cao",
+        "Anlin Chen",
+        "Shuang Wu",
+        "Le Wang",
+        "Sanping Zhou"
+      ],
+      "published": "2026-03-30",
+      "arxiv_url": "https://arxiv.org/abs/2603.19234",
+      "category": "3dgs",
+      "relevance_score": 6
+    },
+    {
+      "title": "4D Representation for Training-Free Agentic Reasoning from Monocular Laparoscopic Video",
+      "authors": [
+        "Maximilian Fehrentz",
+        "Nicolas Stellwag",
+        "Robert Wiebe",
+        "Nicole Thorisch",
+        "Fabian Grob",
+        "Patrick Remerscheid",
+        "Ken-Joel Simmoteit",
+        "Benjamin D. Killeen",
+        "Christian Heiliger",
+        "Nassir Navab"
+      ],
+      "published": "2026-04-01",
+      "arxiv_url": "https://arxiv.org/abs/2604.02162",
+      "category": "spatial_intelligence",
+      "relevance_score": 6
+    },
+    {
+      "title": "RAAP: Retrieval-Augmented Affordance Prediction with Cross-Image Action Alignment",
+      "authors": [
+        "Qiyuan Zhuang",
+        "He-Yang Xu",
+        "Yijun Wang",
+        "Xin-Yang Zhao",
+        "Yang-Yang Li",
+        "Xiu-Shen Wei"
+      ],
+      "published": "2026-03-31",
+      "arxiv_url": "https://arxiv.org/abs/2603.19234",
+      "category": "embodied_ai",
+      "relevance_score": 6
+    },
+    {
+      "title": "ProCap: Projection-Aware Captioning for Spatial Augmented Reality",
+      "authors": [
+        "Zimo Cao",
+        "Yuchen Deng",
+        "Haibin Ling",
+        "Bingyao Huang"
+      ],
+      "published": "2026-04-01",
+      "arxiv_url": "https://arxiv.org/abs/2604.02188",
+      "category": "spatial_intelligence",
+      "relevance_score": 5
+    },
+    {
+      "title": "GEMM-GS: Accelerating 3D Gaussian Splatting on Tensor Cores with GEMM-Compatible Blending",
+      "authors": [
+        "Haomin Li",
+        "Bowen Zhu",
+        "Fangxin Liu",
+        "Zongwu Wang",
+        "Xinran Liang",
+        "Li Jiang",
+        "Haibing Guan"
+      ],
+      "published": "2026-04-02",
+      "arxiv_url": "https://arxiv.org/abs/2604.02328",
+      "category": "3dgs",
+      "relevance_score": 5
+    },
+    {
+      "title": "GS^2: Graph-based Spatial Distribution Optimization for Compact 3D Gaussian Splatting",
+      "authors": [
+        "Xianben Yang",
+        "Tao Wang",
+        "Yuxuan Li",
+        "Yi Jin",
+        "Haibin Ling"
+      ],
+      "published": "2026-04-02",
+      "arxiv_url": "https://arxiv.org/abs/2604.02296",
+      "category": "3dgs",
+      "relevance_score": 5
+    },
+    {
+      "title": "RT-GS: Gaussian Splatting with Reflection and Transmittance Primitives",
+      "authors": [
+        "Kunnong Zeng",
+        "Chensheng Peng",
+        "Yichen Xie",
+        "Masayoshi Tomizuka",
+        "Cem Yuksel"
+      ],
+      "published": "2026-04-01",
+      "arxiv_url": "https://arxiv.org/abs/2604.02252",
+      "category": "3dgs",
+      "relevance_score": 5
+    },
+    {
+      "title": "DirectFisheye-GS: Enabling Native Fisheye Input in Gaussian Splatting with Cross-View Joint Optimization",
+      "authors": [
+        "Zhengxian Yang",
+        "Fei Xie",
+        "Xutao Xue",
+        "Rui Zhang",
+        "Taicheng Huang",
+        "Yang Liu",
+        "Mengqi Ji",
+        "Tao Yu"
+      ],
+      "published": "2026-04-01",
+      "arxiv_url": "https://arxiv.org/abs/2604.02185",
+      "category": "3dgs",
+      "relevance_score": 5
+    },
+    {
+      "title": "Satellite-Free Training for Drone-View Geo-Localization (3DGS-based)",
+      "authors": [
+        "Tao Liu",
+        "Yingzhi Zhang",
+        "Kan Ren",
+        "Xiaoqi Zhao"
+      ],
+      "published": "2026-04-01",
+      "arxiv_url": "https://arxiv.org/abs/2604.02168",
+      "category": "3dgs",
+      "relevance_score": 5
+    },
+    {
+      "title": "Safety, Security, and Cognitive Risks in World Models",
+      "authors": [
+        "Manoj Parmar"
+      ],
+      "published": "2026-04-01",
+      "arxiv_url": "https://arxiv.org/abs/2604.02182",
+      "category": "world_model",
+      "relevance_score": 5
+    },
+    {
+      "title": "Data-Model Co-Driven Continuous Channel Map Construction: A Perceptive Foundation for Embodied Intelligent Agents in 6G Networks",
+      "authors": [
+        "Tianrun Qi",
+        "Cheng-Xiang Wang",
+        "Chen Huang",
+        "Junling Li",
+        "John S Thompson"
+      ],
+      "published": "2026-04-01",
+      "arxiv_url": "https://arxiv.org/abs/2604.02160",
+      "category": "world_model",
+      "relevance_score": 5
+    },
+    {
+      "title": "Cross-Modal Visuo-Tactile Object Perception",
+      "authors": [
+        "Anirvan Dutta",
+        "Simone Tasciotti",
+        "Claudia Cusseddu",
+        "Ang Li",
+        "Panayiota Poirazi",
+        "Julijana Gjorgjieva",
+        "Etienne Burdet",
+        "Patrick van der Smagt",
+        "Mohsen Kaboli"
+      ],
+      "published": "2026-04-02",
+      "arxiv_url": "https://arxiv.org/abs/2604.02326",
+      "category": "embodied_ai",
+      "relevance_score": 5
+    },
+    {
+      "title": "ContraMap: Contrastive Uncertainty Mapping for Robot Environment Representation",
+      "authors": [
+        "Chi Cuong Le",
+        "Weiming Zhi"
+      ],
+      "published": "2026-03-29",
+      "arxiv_url": "https://arxiv.org/abs/2603.19234",
+      "category": "embodied_ai",
+      "relevance_score": 5
+    },
+    {
+      "title": "Hi-LOAM: Hierarchical Implicit Neural Fields for LiDAR Odometry and Mapping",
+      "authors": [
+        "Zhiliu Yang",
+        "Jianyuan Zhang",
+        "Lianhui Zhao",
+        "Jinyu Dai",
+        "Zhu Yang"
+      ],
+      "published": "2026-04-02",
+      "arxiv_url": "https://arxiv.org/abs/2604.02282",
+      "category": "spatial_intelligence",
+      "relevance_score": 5
+    },
+    {
+      "title": "SplatHLoc: Hierarchical Visual Relocalization with Nearest View Synthesis from Feature Gaussian Splatting",
+      "authors": [
+        "Huaqi Tao",
+        "Bingxi Liu",
+        "Guangcheng Chen",
+        "Fulin Tang",
+        "Li He",
+        "Hong Zhang"
+      ],
+      "published": "2026-03-30",
+      "arxiv_url": "https://arxiv.org/abs/2603.19234",
+      "category": "3dgs",
+      "relevance_score": 5
+    },
+    {
+      "title": "ResAdapt: Adaptive Resolution for Efficient Multimodal Reasoning",
+      "authors": [
+        "Huanxuan Liao",
+        "Zhongtao Jiang",
+        "Yupu Hao",
+        "Yuqiao Tan",
+        "Shizhu He",
+        "Ben Wang",
+        "Jun Zhao",
+        "Kun Xu",
+        "Kang Liu"
+      ],
+      "published": "2026-03-30",
+      "arxiv_url": "https://arxiv.org/abs/2603.19234",
+      "category": "vlm",
+      "relevance_score": 5
+    },
+    {
+      "title": "AffordTissue: Dense Affordance Prediction for Tool-Action Specific Tissue Interaction",
+      "authors": [
+        "Aiza Maksutova",
+        "Lalithkumar Seenivasan",
+        "Hao Ding",
+        "Jiru Xu",
+        "Chenhao Yu",
+        "Chenyan Jing",
+        "Yiqing Shen",
+        "Mathias Unberath"
+      ],
+      "published": "2026-04-01",
+      "arxiv_url": "https://arxiv.org/abs/2604.02108",
+      "category": "embodied_ai",
+      "relevance_score": 5
+    }
+  ]
+}

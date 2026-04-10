@@ -1,0 +1,4499 @@
+{
+  "date": "2026-04-07",
+  "total": 419,
+  "scored": 158,
+  "top_papers": [
+    {
+      "arxiv_id": "2604.02586",
+      "title": "Title: TrackerSplat: Exploiting Point Tracking for Fast and Robust Dynamic 3D Gaussians Reconstruction",
+      "authors": "Daheng Yin, Isaac Ding, Yili Jin, Jianxin Shi, Jiangchuan Liu",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02586",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 8
+    },
+    {
+      "arxiv_id": "2604.02497",
+      "title": "Title: Delaunay Canopy: Building Wireframe Reconstruction from Airborne LiDAR Point Clouds via Delaunay Graph",
+      "authors": "Donghyun Kim, Chanyoung Kim, Youngjoong Kwon, Seong Jae Hwang",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02497",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 6
+    },
+    {
+      "arxiv_id": "2604.02915",
+      "title": "Title: GP-4DGS: Probabilistic 4D Gaussian Splatting from Monocular Video via Variational Gaussian Processes",
+      "authors": "Mijeong Kim, Jungtaek Kim, Bohyung Han",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02915",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 6
+    },
+    {
+      "arxiv_id": "2604.02996",
+      "title": "Title: Rendering Multi-Human and Multi-Object with 3D Gaussian Splatting",
+      "authors": "Weiquan Wang, Jun Xiao, Feifei Shao, Yi Yang, Yueting Zhuang, Long Chen",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02996",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 6
+    },
+    {
+      "arxiv_id": "2604.03069",
+      "title": "Title: SparseSplat: Towards Applicable Feed-Forward 3D Gaussian Splatting with Pixel-Unaligned Prediction",
+      "authors": "Zicheng Zhang, Xiangting Meng, Ke Wu, Wenchao Ding",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.03069",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 6
+    },
+    {
+      "arxiv_id": "2509.16806",
+      "title": "Title: MedGS: Gaussian Splatting for Multi-Modal 3D Medical Imaging",
+      "authors": "Ignacy Kolton, Weronika Smolak-Dyżewska, Joanna Kaleta, Żaneta Świderska-Chadaj, Marcin Mazur, Mirosław Dziekiewicz, Tomasz Markiewicz, Przemysław Spurek",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2509.16806",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 6
+    },
+    {
+      "arxiv_id": "2511.17207",
+      "title": "Title: SING3R-SLAM: Submap-based Indoor Monocular Gaussian SLAM with 3D Reconstruction Priors",
+      "authors": "Kunyi Li, Michael Niemeyer, Sen Wang, Stefano Gasperini, Nassir Navab, Federico Tombari",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2511.17207",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 6
+    },
+    {
+      "arxiv_id": "2512.13122",
+      "title": "Title: DePT3R: Joint Dense Point Tracking and 3D Reconstruction of Dynamic Scenes in a Single Forward Pass",
+      "authors": "Vivek Alumootil, Tuan-Anh Vu",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2512.13122",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 6
+    },
+    {
+      "arxiv_id": "2602.06343",
+      "title": "Title: Uncertainty-Aware 4D Gaussian Splatting for Monocular Occluded Human Rendering",
+      "authors": "Weiquan Wang, Feifei Shao, Lin Li, Zhen Wang, Jun Xiao, Long Chen",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2602.06343",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 6
+    },
+    {
+      "arxiv_id": "2604.03096",
+      "title": "Title: An Open-Source LiDAR and Monocular Off-Road Autonomous Navigation Stack",
+      "authors": "Rémi Marsal, Quentin Picard, Adrien Poiré, Sébastien Kerbourc&#39;h, Thibault Toralba, Clément Yver, Alexandre Chapoutot, David Filliat",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.03096",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 6
+    },
+    {
+      "arxiv_id": "2604.02851",
+      "title": "Title: Streaming Real-Time Rendered Scenes as 3D Gaussians",
+      "authors": "Matti Siekkinen, Teemu Kämäräinen",
+      "category": "cs.GR",
+      "arxiv_url": "https://arxiv.org/abs/2604.02851",
+      "published": "2026-04-07",
+      "source": "cs.GR",
+      "score": 6
+    },
+    {
+      "arxiv_id": "2604.02447",
+      "title": "Title: PlayGen-MoG: Framework for Diverse Multi-Agent Play Generation via Mixture-of-Gaussians Trajectory Prediction",
+      "authors": "Kevin Song",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02447",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2604.02546",
+      "title": "Title: Contrastive Language-Colored Pointmap Pretraining for Unified 3D Scene Understanding",
+      "authors": "Ye Mao, Weixun Luo, Ranran Huang, Junpeng Jing, Krystian Mikolajczyk",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02546",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2604.02603",
+      "title": "Title: Rascene: High-Fidelity 3D Scene Imaging with mmWave Communication Signals",
+      "authors": "Kunzhe Song, Geo Jie Zhou, Xiaoming Liu, Huacheng Zeng",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02603",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2604.02639",
+      "title": "Title: Cross-Vehicle 3D Geometric Consistency for Self-Supervised Surround Depth Estimation on Articulated Vehicles",
+      "authors": "Weimin Liu, Jiyuan Qiu, Wenjun Wang, Joshua H. Meng",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02639",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2604.02696",
+      "title": "Title: VBGS-SLAM: Variational Bayesian Gaussian Splatting Simultaneous Localization and Mapping",
+      "authors": "Yuhan Zhu, Yanyu Zhang, Jie Xu, Wei Ren",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02696",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2604.02714",
+      "title": "Title: ExploreVLA: Dense World Modeling and Exploration for End-to-End Autonomous Driving",
+      "authors": "Zihao Sheng, Xin Ye, Jingru Luo, Sikai Chen, Liu Ren",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02714",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2604.02828",
+      "title": "Title: NavCrafter: Exploring 3D Scenes from a Single Image",
+      "authors": "Hongbo Duan, Peiyu Zhuang, Yi Liu, Zhengyang Zhang, Yuxin Zhang, Pengting Luo, Fangming Liu, Xueqian Wang",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02828",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2511.23292",
+      "title": "Title: FACT-GS: Frequency-Aligned Complexity-Aware Texture Reparameterization for 2D Gaussian Splatting",
+      "authors": "Tianhao Xie, Linlian Jiang, Xinxin Zuo, Yang Wang, Tiberiu Popa",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2511.23292",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2512.03424",
+      "title": "Title: DM3D: Deformable Mamba via Offset-Guided Differentiable Scanning for Point Cloud Understanding",
+      "authors": "Bin Liu, Chunyang Wang, Xuelian Liu, Ge Zhang",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2512.03424",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2601.16672",
+      "title": "Title: ReWeaver: Towards Simulation-Ready and Topology-Accurate Garment Reconstruction",
+      "authors": "Ming Li, Hui Shan, Kai Zheng, Chentao Shen, Siyu Liu, Yanwei Fu, Zhen Chen, Xiangru Huang",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2601.16672",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2602.10516",
+      "title": "Title: 3DXTalker: Unifying Identity, Lip Sync, Emotion, and Spatial Dynamics in Expressive 3D Talking Avatars",
+      "authors": "Zhongju Wang, Zhenhong Sun, Beier Wang, Yifu Wang, Daoyi Dong, Huadong Mo, Hongdong Li",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2602.10516",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2604.01479",
+      "title": "Title: UniRecGen: Unifying Multi-View 3D Reconstruction and Generation",
+      "authors": "Zhisheng Huang, Jiahao Chen, Cheng Lin, Chenyu Hu, Hanzhuo Huang, Zhengming Yu, Mengfei Li, Yuheng Liu, Zekai Gu, Zibo Zhao, Yuan Liu, Xin Li, Wenping Wang",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.01479",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2604.01972",
+      "title": "Title: SDesc3D: Towards Layout-Aware 3D Indoor Scene Generation from Short Descriptions",
+      "authors": "Jie Feng, Jiawei Shen, Junjia Huang, Junpeng Zhang, Mingtao Feng, Weisheng Dong, Guanbin Li",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.01972",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2508.04728",
+      "title": "Title: Neural Field-Based 3D Surface Reconstruction of Microstructures from Multi-Detector Signals in Scanning Electron Microscopy",
+      "authors": "Shuo Chen, Yijin Li, Xi Zheng, Guofeng Zhang",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2508.04728",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2511.15279",
+      "title": "Title: Look, Zoom, Understand: The Robotic Eyeball for Embodied Perception",
+      "authors": "Jiashu Yang, Yifan Han, Yucheng Xie, Ning Guo, Wenzhao Lian",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2511.15279",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2604.02643",
+      "title": "Title: Differentiable SpaTiaL: Symbolic Learning and Reasoning with Geometric Temporal Logic for Manipulation Tasks",
+      "authors": "Licheng Luo, Kaier Liang, Cristian-Ioan Vasile, Mingyu Cai",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.02643",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2604.02779",
+      "title": "Title: Vision-Based End-to-End Learning for UAV Traversal of Irregular Gaps via Differentiable Simulation",
+      "authors": "Linzuo Zhang, Yu Hu, Feng Yu, Yang Deng, Wenxian Yu, Danping Zou",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.02779",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2604.02786",
+      "title": "Title: QuadAgent: A Responsive Agent System for Vision-Language Guided Quadrotor Agile Flight",
+      "authors": "Ao Zhuang, Feng Yu, Tianbao Zhang, Linzuo Zhang, Danping Zou",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.02786",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2604.02812",
+      "title": "Title: Learning Structured Robot Policies from Vision-Language Models via Synthetic Neuro-Symbolic Supervision",
+      "authors": "Alessandro Adami, Tommaso Tubaldo, Marco Todescato, Ruggero Carli, Pietro Falco",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.02812",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 4
+    }
+  ],
+  "all_papers": [
+    {
+      "arxiv_id": "2604.02371",
+      "title": "Title: Internalized Reasoning for Long-Context Visual Document Understanding",
+      "authors": "Austin Veselka",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02371",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02392",
+      "title": "Title: Beyond Fixed Inference: Quantitative Flow Matching for Adaptive Image Denoising",
+      "authors": "Jigang Duan, Genwei Ma, Xu Jiang, Wenfeng Xu, Ping Yang, Xing Zhao",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02392",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02396",
+      "title": "Title: Environment-Aware Channel Prediction for Vehicular Communications: A Multimodal Visual Feature Fusion Framework",
+      "authors": "Xuejian Zhang, Ruisi He, Minseok Kim, Inocent Calist, Mi Yang, Ziyi Qi",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02396",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02397",
+      "title": "Title: Variational Encoder--Multi-Decoder (VE-MD) for Privacy-by-functional-design (Group) Emotion Recognition",
+      "authors": "Anderson Augusma (UGA, LIG, M-PSI), Dominique Vaufreydaz (LIG, M-PSI), Fédérique Letué (SVH)",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02397",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02409",
+      "title": "Title: LumiVideo: An Intelligent Agentic System for Video Color Grading",
+      "authors": "Yuchen Guo, Junli Gong, Hongmin Cai, Yiu-ming Cheung, Weifeng Su",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02409",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02446",
+      "title": "Title: From Elevation Maps To Contour Lines: SVM and Decision Trees to Detect Violin Width Reduction",
+      "authors": "Philémon Beghin, Anne-Emmanuelle Ceulemans, François Glineur",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02446",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02447",
+      "title": "Title: PlayGen-MoG: Framework for Diverse Multi-Agent Play Generation via Mixture-of-Gaussians Trajectory Prediction",
+      "authors": "Kevin Song",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02447",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2604.02457",
+      "title": "Title: Street-Legal Physical-World Adversarial Rim for License Plates",
+      "authors": "Nikhil Kalidasu, Sahana Ganapathy",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02457",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02467",
+      "title": "Title: VERTIGO: Visual Preference Optimization for Cinematic Camera Trajectory Generation",
+      "authors": "Mengtian Li, Yuwei Lu, Feifei Li, Chenqi Gan, Zhifeng Xie, Xi Wang",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02467",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02468",
+      "title": "Title: Hierarchical, Interpretable, Label-Free Concept Bottleneck Model",
+      "authors": "Haodong Xie, Yujun Cai, Rahul Singh Maharjan, Yiwei Wang, Federico Tavella, Angelo Cangelosi",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02468",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02477",
+      "title": "Title: Guideline2Graph: Profile-Aware Multimodal Parsing for Executable Clinical Decision Graphs",
+      "authors": "Onur Selim Kilic, Yeti Z. Gurbuz, Cem O. Yaldiz, Afra Nawar, Etrit Haxholli, Ogul Can, Eli Waxman",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02477",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02479",
+      "title": "Title: Generating Satellite Imagery Data for Wildfire Detection through Mask-Conditioned Generative AI",
+      "authors": "Valeria Martin, K. Brent Venable, Derek Morgan",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02479",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02486",
+      "title": "Title: VLMs Need Words: Vision Language Models Ignore Visual Detail In Favor of Semantic Anchors",
+      "authors": "Haz Sameen Shahgir, Xiaofu Chen, Yu Fu, Erfan Shayegani, Nael Abu-Ghazaleh, Yova Kementchedjhieva, Yue Dong",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02486",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02492",
+      "title": "Title: Token-Efficient Multimodal Reasoning via Image Prompt Packaging",
+      "authors": "Joong Ho Choi, Jiayang Zhao, Avani Appalla, Himansh Mukesh, Dhwanil Vasani, Boyi Qian",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02492",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02497",
+      "title": "Title: Delaunay Canopy: Building Wireframe Reconstruction from Airborne LiDAR Point Clouds via Delaunay Graph",
+      "authors": "Donghyun Kim, Chanyoung Kim, Youngjoong Kwon, Seong Jae Hwang",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02497",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 6
+    },
+    {
+      "arxiv_id": "2604.02502",
+      "title": "Title: An Explainable Vision-Language Model Framework with Adaptive PID-Tversky Loss for Lumbar Spinal Stenosis Diagnosis",
+      "authors": "Md. Sajeebul Islam Sk., Md. Mehedi Hasan Shawon, Md. Golam Rabiul Alam",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02502",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02509",
+      "title": "Title: Rapidly deploying on-device eye tracking by distilling visual foundation models",
+      "authors": "Cheng Jiang, Jogendra Kundu, David Colmenares, Fengting Yang, Joseph Robinson, Yatong An, Ali Behrooz",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02509",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02532",
+      "title": "Title: Feature Attribution Stability Suite: How Stable Are Post-Hoc Attributions?",
+      "authors": "Kamalasankari Subramaniakuppusamy, Jugal Gajjar",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02532",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02543",
+      "title": "Title: Overconfidence and Calibration in Medical VQA: Empirical Findings and Hallucination-Aware Mitigation",
+      "authors": "Ji Young Byun, Young-Jin Park, Jean-Philippe Corbeil, Asma Ben Abacha",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02543",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02546",
+      "title": "Title: Contrastive Language-Colored Pointmap Pretraining for Unified 3D Scene Understanding",
+      "authors": "Ye Mao, Weixun Luo, Ranran Huang, Junpeng Jing, Krystian Mikolajczyk",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02546",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2604.02570",
+      "title": "Title: WSVD: Weighted Low-Rank Approximation for Fast and Efficient Execution of Low-Precision Vision-Language Models",
+      "authors": "Haiyu Wang, Yutong Wang, Jack Jiang, Sai Qian Zhang",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02570",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02583",
+      "title": "Title: FusionBERT: Multi-View Image-3D Retrieval via Cross-Attention Visual Fusion and Normal-Aware 3D Encoder",
+      "authors": "Wei Li, Yufan Ren, Hanqing Jiang, Jianhui Ding, Zhen Peng, Leman Feng, Yichun Shentu, Guoqiang Xu, Baigui Sun",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02583",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02586",
+      "title": "Title: TrackerSplat: Exploiting Point Tracking for Fast and Robust Dynamic 3D Gaussians Reconstruction",
+      "authors": "Daheng Yin, Isaac Ding, Yili Jin, Jianxin Shi, Jiangchuan Liu",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02586",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 8
+    },
+    {
+      "arxiv_id": "2604.02593",
+      "title": "Title: Moondream Segmentation: From Words to Masks",
+      "authors": "Ethan Reid",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02593",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02603",
+      "title": "Title: Rascene: High-Fidelity 3D Scene Imaging with mmWave Communication Signals",
+      "authors": "Kunzhe Song, Geo Jie Zhou, Xiaoming Liu, Huacheng Zeng",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02603",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2604.02616",
+      "title": "Title: Unlocking Multi-Site Clinical Data: A Federated Approach to Privacy-First Child Autism Behavior Analysis",
+      "authors": "Guangyu Sun, Wenhan Wu, Zhishuai Guo, Ziteng Wang, Pegah Khosravi, Chen Chen",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02616",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02627",
+      "title": "Title: Smart Transfer: Leveraging Vision Foundation Model for Rapid Building Damage Mapping with Post-Earthquake VHR Imagery",
+      "authors": "Hao Li, Liwei Zou, Wenping Yin, Gulsen Taskin, Naoto Yokoya, Danfeng Hong, Wufan Zhao",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02627",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02639",
+      "title": "Title: Cross-Vehicle 3D Geometric Consistency for Self-Supervised Surround Depth Estimation on Articulated Vehicles",
+      "authors": "Weimin Liu, Jiyuan Qiu, Wenjun Wang, Joshua H. Meng",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02639",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2604.02654",
+      "title": "Title: Drift-Resilient Temporal Priors for Visual Tracking",
+      "authors": "Yuqing Huang, Liting Lin, Weijun Zhuang, Zhenyu He, Xin Li",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02654",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02689",
+      "title": "Title: Efficient3D: A Unified Framework for Adaptive and Debiased Token Reduction in 3D MLLMs",
+      "authors": "Yuhui Lin, Siyue Yu, Yuxing Yang, Guangliang Cheng, Jimin Xiao",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02689",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02692",
+      "title": "Title: Parser-Oriented Structural Refinement for a Stable Layout Interface in Document Parsing",
+      "authors": "Fuyuan Liu, Dianyu Yu, He Ren, Nayu Liu, Xiaomian Kang, Delai Qiu, Fa Zhang, Genpeng Zhen, Shengping Liu, Jiaen Liang, Wei Huang, Yining Wang, Junnan Zhu",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02692",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02694",
+      "title": "Title: DocShield: Towards AI Document Safety via Evidence-Grounded Agentic Reasoning",
+      "authors": "Fanwei Zeng, Changtao Miao, Jing Huang, Zhiya Tan, Shutao Gong, Xiaoming Yu, Yang Wang, Weibin Yao, Joey Tianyi Zhou, Jianshu Li, Yin Yan",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02694",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02695",
+      "title": "Title: XrayClaw: Cooperative-Competitive Multi-Agent Alignment for Trustworthy Chest X-ray Diagnosis",
+      "authors": "Shawn Young, Lijian Xu",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02695",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02696",
+      "title": "Title: VBGS-SLAM: Variational Bayesian Gaussian Splatting Simultaneous Localization and Mapping",
+      "authors": "Yuhan Zhu, Yanyu Zhang, Jie Xu, Wei Ren",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02696",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2604.02714",
+      "title": "Title: ExploreVLA: Dense World Modeling and Exploration for End-to-End Autonomous Driving",
+      "authors": "Zihao Sheng, Xin Ye, Jingru Luo, Sikai Chen, Liu Ren",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02714",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2604.02719",
+      "title": "Title: MOMO: Mars Orbital Model Foundation Model for Mars Orbital Applications",
+      "authors": "Mirali Purohit, Bimal Gajera, Irish Mehta, Bhanu Tokas, Jacob Adler, Steven Lu, Scott Dickenshied, Serina Diniega, Brian Bue, Umaa Rebbapragada, Hannah Kerner",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02719",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02736",
+      "title": "Title: THOM: Generating Physically Plausible Hand-Object Meshes From Text",
+      "authors": "Uyoung Jeong, Yihalem Yimolal Tiruneh, Hyung Jin Chang, Seungryul Baek, Kwang In Kim",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02736",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02748",
+      "title": "Title: Visual Instruction-Finetuned Language Model for Versatile Brain MR Image Tasks",
+      "authors": "Jonghun Kim, Sinyoung Ra, Hyunjin Park",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02748",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02752",
+      "title": "Title: Differentiable Stroke Planning with Dual Parameterization for Efficient and High-Fidelity Painting Creation",
+      "authors": "Jinfan Liu, Wuze Zhang, Zhangli Hu, Zhehan Zhao, Ye Chen, Bingbing Ni",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02752",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02753",
+      "title": "Title: DeCo-DETR: Decoupled Cognition DETR for efficient Open-Vocabulary Object Detection",
+      "authors": "Siheng Wang, Yanshu Li, Bohan Hu, Zhengdao Li, Haibo Zhan, Linshan Li, Weiming Liu, Ruizhi Qian, Guangxin Wu, Hao Zhang, Jifeng Shen, Piotr Koniusz, Zhengtao Yao, Junhao Dong, Qiang Sun",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02753",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02764",
+      "title": "Title: InverseDraping: Recovering Sewing Patterns from 3D Garment Surfaces via BoxMesh Bridging",
+      "authors": "Leyang Jin, Zirong Jin, Zisheng Ye, Haokai Pang, Xiaoguang Han, Yujian Zheng, Hao Li",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02764",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02773",
+      "title": "Title: Generalized Small Object Detection:A Point-Prompted Paradigm and Benchmark",
+      "authors": "Haoran Zhu, Wen Yang, Guangyou Yang, Chang Xu, Ruixiang Zhang, Fang Xu, Haijian Zhang, Gui-Song Xia",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02773",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02780",
+      "title": "Title: A Unified Perspective on Adversarial Membership Manipulation in Vision Models",
+      "authors": "Ruize Gao, Kaiwen Zhou, Yongqiang Chen, Feng Liu",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02780",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02784",
+      "title": "Title: EnsemHalDet: Robust VLM Hallucination Detection via Ensemble of Internal State Detectors",
+      "authors": "Ryuhei Miyazato, Shunsuke Kitada, Kei Harada",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02784",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02785",
+      "title": "Title: CANDLE: Illumination-Invariant Semantic Priors for Color Ambient Lighting Normalization",
+      "authors": "Rong-Lin Jian, Ting-Yao Chen, Yu-Fan Lin, Chia-Ming Lee, Fu-En Yang, Yu-Chiang Frank Wang, Chih-Chung Hsu",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02785",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02787",
+      "title": "Title: LumaFlux: Lifting 8-Bit Worlds to HDR Reality with Physically-Guided Diffusion Transformers",
+      "authors": "Shreshth Saini, Hakan Gedik, Neil Birkbeck, Yilin Wang, Balu Adsumilli, Alan C. Bovik",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02787",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02799",
+      "title": "Title: UNICA: A Unified Neural Framework for Controllable 3D Avatars",
+      "authors": "Jiahe Zhu, Xinyao Wang, Yiyu Zhuang, Yanwen Wang, Jing Tian, Yao Yao, Hao Zhu",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02799",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02804",
+      "title": "Title: PaveBench: A Versatile Benchmark for Pavement Distress Perception and Interactive Vision-Language Analysis",
+      "authors": "Dexiang Li, Zhenning Che, Haijun Zhang, Dongliang Zhou, Zhao Zhang, Yahong Han",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02804",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02808",
+      "title": "Title: CMCC-ReID: Cross-Modality Clothing-Change Person Re-Identification",
+      "authors": "Haoxuan Xu, Hanzi Wang, Guanglin Niu",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02808",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02816",
+      "title": "Title: QAPruner: Quantization-Aware Vision Token Pruning for Multimodal Large Language Models",
+      "authors": "Xinhao Wang, Zhonyu Xia, Zhiwei Lin, Zhe Li, Yongtao Wang",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02816",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02817",
+      "title": "Title: MMPhysVideo: Scaling Physical Plausibility in Video Generation via Joint Multimodal Modeling",
+      "authors": "Shubo Lin, Xuanyang Zhang, Wei Cheng, Weiming Hu, Gang Yu, Jin Gao",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02817",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02828",
+      "title": "Title: NavCrafter: Exploring 3D Scenes from a Single Image",
+      "authors": "Hongbo Duan, Peiyu Zhuang, Yi Liu, Zhengyang Zhang, Yuxin Zhang, Pengting Luo, Fangming Liu, Xueqian Wang",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02828",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2604.02829",
+      "title": "Title: STRNet: Visual Navigation with Spatio-Temporal Representation through Dynamic Graph Aggregation",
+      "authors": "Hao Ren, Zetong Bi, Yiming Zeng, Zhaoliang Wan, Lu Qi, Hui Cheng",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02829",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02836",
+      "title": "Title: Factorized Multi-Resolution HashGrid for Efficient Neural Radiance Fields: Execution on Edge-Devices",
+      "authors": "Kim Jun-Seong, Mingyu Kim, GeonU Kim, Tae-Hyun Oh, Jin-Hwa Kim",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02836",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02845",
+      "title": "Title: Deformation-based In-Context Learning for Point Cloud Understanding",
+      "authors": "Chengxing Lin, Jinhong Deng, Yinjie Lei, Wen Li",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02845",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02846",
+      "title": "Title: Adaptive Local Frequency Filtering for Fourier-Encoded Implicit Neural Representations",
+      "authors": "Ligen Shi, Jun Qiu, Yuhang Zheng, Chang Liu",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02846",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02847",
+      "title": "Title: HiDiGen: Hierarchical Diffusion for B-Rep Generation with Explicit Topological Constraints",
+      "authors": "Shurui Liu, Weide Chen, Ancong Wu",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02847",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02860",
+      "title": "Title: A Paradigm Shift: Fully End-to-End Training for Temporal Sentence Grounding in Videos",
+      "authors": "Allen He, Qi Liu, Kun Liu, Xinchen Liu, Wu Liu",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02860",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02867",
+      "title": "Title: HairOrbit: Multi-view Aware 3D Hair Modeling from Single Portraits",
+      "authors": "Leyang Jin, Yujian Zheng, Bingkui Tong, Yuda Qiu, Zhenyu Xie, Hao Li",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02867",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02870",
+      "title": "Title: Token Warping Helps MLLMs Look from Nearby Viewpoints",
+      "authors": "Phillip Y. Lee, Chanho Park, Mingue Park, Seungwoo Yoo, Juil Koo, Minhyuk Sung",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02870",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02871",
+      "title": "Title: SPG: Sparse-Projected Guides with Sparse Autoencoders for Zero-Shot Anomaly Detection",
+      "authors": "Tomoyasu Nanaumi, Yukino Tsuzuki, Junichi Okubo, Junichiro Fujii, Takayoshi Yamashita",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02871",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02877",
+      "title": "Title: Unlocking Positive Transfer in Incrementally Learning Surgical Instruments: A Self-reflection Hierarchical Prompt Framework",
+      "authors": "Yu Zhu, Kang Li, Zheng Li, Pheng-Ann Heng",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02877",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02880",
+      "title": "Title: InstructTable: Improving Table Structure Recognition Through Instructions",
+      "authors": "Boming Chen, Zining Wang, Zhentao Guo, Jianqiang Liu, Chen Duan, Yu Gu, Kai zhou, Pengfei Yan",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02880",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02883",
+      "title": "Title: Information-Regularized Constrained Inversion for Stable Avatar Editing from Sparse Supervision",
+      "authors": "Zhenxiao Liang, Qixing Huang",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02883",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02891",
+      "title": "Title: Progressive Video Condensation with MLLM Agent for Long-form Video Understanding",
+      "authors": "Yufei Yin, Yuchen Xing, Qianke Meng, Minghao Chen, Yan Yang, Zhou Yu",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02891",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02893",
+      "title": "Title: Toward an Artificial General Teacher: Procedural Geometry Data Generation and Visual Grounding with Vision-Language Models",
+      "authors": "Hai Nguyen-Truong, Alper Balbay, Tunga Bayrak",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02893",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02896",
+      "title": "Title: EvaNet: Towards More Efficient and Consistent Infrared and Visible Image Fusion Assessment",
+      "authors": "Chunyang Cheng, Tianyang Xu, Xiao-Jun Wu, Tao Zhou, Hui Li, Zhangyong Tang, Josef Kittler",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02896",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02903",
+      "title": "Title: RayMamba: Ray-Aligned Serialization for Long-Range 3D Object Detection",
+      "authors": "Cheng Lu, Mingqian Ji, Shanshan Zhang, Zhihao Li, Jian Yang",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02903",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02905",
+      "title": "Title: UniSpector: Towards Universal Open-set Defect Recognition via Spectral-Contrastive Visual Prompting",
+      "authors": "Geonuk Kim, Minhoi Kim, Kangil Lee, Minsu Kim, Hyeonseong Jeon, Jeonghoon Han, Hyoungjoon Lim, Junho Yim",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02905",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02908",
+      "title": "Title: SentiAvatar: Towards Expressive and Interactive Digital Humans",
+      "authors": "Chuhao Jin, Rui Zhang, Qingzhe Gao, Haoyu Shi, Dayu Wu, Yichen Jiang, Yihan Wu, Ruihua Song",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02908",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02915",
+      "title": "Title: GP-4DGS: Probabilistic 4D Gaussian Splatting from Monocular Video via Variational Gaussian Processes",
+      "authors": "Mijeong Kim, Jungtaek Kim, Bohyung Han",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02915",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 6
+    },
+    {
+      "arxiv_id": "2604.02930",
+      "title": "Title: BEVPredFormer: Spatio-temporal Attention for BEV Instance Prediction in Autonomous Driving",
+      "authors": "Miguel Antunes-García, Santiago Montiel-Marín, Fabio Sánchez-García, Rodrigo Gutiérrez-Moreno, Rafael Barea, Luis M. Bergasa",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02930",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02934",
+      "title": "Title: PolyReal: A Benchmark for Real-World Polymer Science Workflows",
+      "authors": "Wanhao Liu, Weida Wang, Jiaqing Xie, Suorong Yang, Jue Wang, Benteng Chen, Guangtao Mei, Zonglin Yang, Shufei Zhang, Yuchun Mo, Lang Cheng, Jin Zeng, Houqiang Li, Wanli Ouyang, Yuqiang Li",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02934",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02935",
+      "title": "Title: Modality-Specific Hierarchical Enhancement for RGB-D Camouflaged Object Detection",
+      "authors": "Yuzhen Niu, Yangqing Wang, Ri Cheng, Fusheng Li, Rongshen Wang, Zhichen Yang",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02935",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02941",
+      "title": "Title: MMTalker: Multiresolution 3D Talking Head Synthesis with Multimodal Feature Fusion",
+      "authors": "Bin Liu, Zhixiang Xiong, Zhifen He, Bo Li",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02941",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02946",
+      "title": "Title: Learning from Synthetic Data via Provenance-Based Input Gradient Guidance",
+      "authors": "Koshiro Nagano, Ryo Fujii, Ryo Hachiuma, Fumiaki Sato, Taiki Sekii, Hideo Saito",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02946",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02948",
+      "title": "Title: CrossWeaver: Cross-modal Weaving for Arbitrary-Modality Semantic Segmentation",
+      "authors": "Zelin Zhang, Kedi Li, Huiqi Liang, Tao Zhang, Chuanzhi Xu",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02948",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02956",
+      "title": "Title: Collaborative Multi-Mode Pruning for Vision-Language Models",
+      "authors": "Zimeng Wu, Yunhong Wang, Donghao Wang, Jiaxin Chen",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02956",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02966",
+      "title": "Title: Visual Prototype Conditioned Focal Region Generation for UAV-Based Object Detection",
+      "authors": "Wenhao Li, Zimeng Wu, Yu Wu, Zehua Fu, Jiaxin Chen",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02966",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02973",
+      "title": "Title: Exploring Motion-Language Alignment for Text-driven Motion Generation",
+      "authors": "Ruxi Gu, Zilei Wang, Wei Wang",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02973",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02977",
+      "title": "Title: Effect of Input Resolution on Retinal Vessel Segmentation Performance: An Empirical Study Across Five Datasets",
+      "authors": "Amarnath R",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02977",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02979",
+      "title": "Title: Not All Frames Deserve Full Computation: Accelerating Autoregressive Video Generation via Selective Computation and Predictive Extrapolation",
+      "authors": "Hanshuai Cui, Zhiqing Tang, Zhi Yao, Fanshuai Meng, Weijia Jia, Wei Zhao",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02979",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02996",
+      "title": "Title: Rendering Multi-Human and Multi-Object with 3D Gaussian Splatting",
+      "authors": "Weiquan Wang, Jun Xiao, Feifei Shao, Yi Yang, Yueting Zhuang, Long Chen",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02996",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 6
+    },
+    {
+      "arxiv_id": "2604.03002",
+      "title": "Title: Explicit Time-Frequency Dynamics for Skeleton-Based Gait Recognition",
+      "authors": "Seoyeon Ko, Yeojin Song, Egene Chung, Luca Quagliato, Taeyong Lee, Junhyug Noh",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.03002",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03039",
+      "title": "Title: GenSmoke-GS: A Multi-Stage Method for Novel View Synthesis from Smoke-Degraded Images Using a Generative Model",
+      "authors": "Qida Cao, Xinyuan Hu, Changyue Shi, Jiajun Ding, Zhou Yu, Jun Yu",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.03039",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03040",
+      "title": "Title: QVAD: A Question-Centric Agentic Framework for Efficient and Training-Free Video Anomaly Detection",
+      "authors": "Lokman Bekit, Hamza Karim, Nghia T Nguyen, Yasin Yilmaz",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.03040",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.03045",
+      "title": "Title: STEAR: Layer-Aware Spatiotemporal Evidence Intervention for Hallucination Mitigation in Video Large Language Models",
+      "authors": "Linfeng Fan, Yuan Tian, Ziwei Li, Zhiwu Lu",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.03045",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03061",
+      "title": "Title: Can Nano Banana 2 Replace Traditional Image Restoration Models? An Evaluation of Its Performance on Image Restoration Tasks",
+      "authors": "Weixiong Sun, Xiang Yin, Chao Dong",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.03061",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03064",
+      "title": "Title: Gram-MMD: A Texture-Aware Metric for Image Realism Assessment",
+      "authors": "Joé Napolitano, Pascal Nguyen",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.03064",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03069",
+      "title": "Title: SparseSplat: Towards Applicable Feed-Forward 3D Gaussian Splatting with Pixel-Unaligned Prediction",
+      "authors": "Zicheng Zhang, Xiangting Meng, Ke Wu, Wenchao Ding",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.03069",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 6
+    },
+    {
+      "arxiv_id": "2604.03072",
+      "title": "Title: MI-Pruner: Crossmodal Mutual Information-guided Token Pruner for Efficient MLLMs",
+      "authors": "Jiameng Li, Aleksei Tiulpin, Matthew B. Blaschko",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.03072",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03094",
+      "title": "Title: A Data-Centric Vision Transformer Baseline for SAR Sea Ice Classification",
+      "authors": "David Mike-Ewewie, Panhapiseth Lim, Priyanka Kumar",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.03094",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03114",
+      "title": "Title: Can VLMs Truly Forget? Benchmarking Training-Free Visual Concept Unlearning",
+      "authors": "Zhangyun Tan, Zeliang Zhang, Susan Liang, Yolo Yunlong Tang, Lisha Chen, Chenliang Xu",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.03114",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.03117",
+      "title": "Title: Revealing Physical-World Semantic Vulnerabilities: Universal Adversarial Patches for Infrared Vision-Language Models",
+      "authors": "Chengyin Hu, Yuxian Dong, Yikun Guo, Xiang Chen, Junqi Wu, Jiahuan Long, Yiwei Wei, Tingsong Jiang, Wen Yao",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.03117",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.03118",
+      "title": "Title: Salt: Self-Consistent Distribution Matching with Cache-Aware Training for Fast Video Generation",
+      "authors": "Xingtong Ge, Yi Zhang, Yushi Huang, Dailan He, Xiahong Wang, Bingqi Ma, Guanglu Song, Yu Liu, Jun Zhang",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.03118",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03120",
+      "title": "Title: SCC-Loc: A Unified Semantic Cascade Consensus Framework for UAV Thermal Geo-Localization",
+      "authors": "Xiaoran Zhang, Yu Liu, Jinyu Liang, Kangqiushi Li, Zhiwei Huang, Huaxin Xiao",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.03120",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.03134",
+      "title": "Title: SD-FSMIS: Adapting Stable Diffusion for Few-Shot Medical Image Segmentation",
+      "authors": "Meihua Li, Yang Zhang, Weizhao He, Hu Qu, Yisong Li",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.03134",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03156",
+      "title": "Title: CAMEO: A Conditional and Quality-Aware Multi-Agent Image Editing Orchestrator",
+      "authors": "Yuhan Pu, Hao Zheng, Ziqian Mo, Hill Zhang, Tianyi Fan, Shuhong Wu, Jiaheng Wei",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.03156",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.03172",
+      "title": "Title: EffiMiniVLM: A Compact Dual-Encoder Regression Framework",
+      "authors": "Yin-Loon Khor, Yi-Jie Wong, Yan Chai Hum",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.03172",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.03176",
+      "title": "Title: SFFNet: Synergistic Feature Fusion Network With Dual-Domain Edge Enhancement for UAV Image Object Detection",
+      "authors": "Wenfeng Zhang, Jun Ni, Yue Meng, Xiaodong Pei, Wei Hu, Qibing Qin, Lei Huang",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.03176",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.03198",
+      "title": "Title: The Eleventh NTIRE 2026 Efficient Super-Resolution Challenge Report",
+      "authors": "Bin Ren, Hang Guo, Yan Shu, Jiaqi Ma, Ziteng Cui, Shuhong Liu, Guofeng Mei, Lei Sun, Zongwei Wu, Fahad Shahbaz Khan, Salman Khan, Radu Timofte, Yawei Li, Hongyuan Yu, Pufan Xu, Chen Wu, Long Peng, Jiaojiao Yi, Siyang Yi, Yuning Cui, Jingyuan Xia, Xing Mou, Keji He, Jinlin Wu, Zongang Gao, Sen Yang, Rui Zheng, Fengguo Li, Yecheng Lei, Wenkai Min, Jie Liu, Keye Cao, Shubham Sharma, Manish Prasad, Haobo Li, Matin Fazel, Abdelhak Bentaleb, Rui Chen, Shurui Shi, Zitao Dai, Qingliang Liu, Yang Cheng, Jing Hu, Xuan Zhang, Rui Ding, Tingyi Zhang, Hui Deng, Mengyang Wang, Fulin Liu, Jing Wei, Qian Wang, Hongying Liu, Mingyang Li, Guanglu Dong, Zheng Yang, Chao Ren, Hongbo Fang, Lingxuan Li, Lin Si, Pan Gao, Moncef Gabbouj, Watchara Ruangsang, Supavadee Aramvith",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.03198",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03203",
+      "title": "Title: PR3DICTR: A modular AI framework for medical 3D image-based detection and outcome prediction",
+      "authors": "Daniel C. MacRae, Luuk van der Hoek, Robert van der Wal, Suzanne P.M. de Vette, Hendrike Neh, Baoqiang Ma, Peter M.A. van Ooijen, Lisanne V. van Dijk",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.03203",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.03212",
+      "title": "Title: ProtoFlow: Mitigating Forgetting in Class-Incremental Remote Sensing Segmentation via Low-Curvature Prototype Flow",
+      "authors": "Jiekai Wu, Rong Fu, Chuangqi Li, Zijian Zhang, Guangxin Wu, Hao Zhang, Shiyin Lin, Jianyuan Ni, Yang Li, Dongxu Zhang, Amir H. Gandomi, Simon Fong, Pengbin Feng",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.03212",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03225",
+      "title": "Title: VOSR: A Vision-Only Generative Model for Image Super-Resolution",
+      "authors": "Rongyuan Wu, Lingchen Sun, Zhengqiang Zhang, Xiangtao Kong, Jixin Zhao, Shihao Wang, Lei Zhang",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.03225",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03231",
+      "title": "Title: CoME-VL: Scaling Complementary Multi-Encoder Vision-Language Learning",
+      "authors": "Ankan Deria, Komal Kumar, Xilin He, Imran Razzak, Hisham Cholakkal, Fahad Shahbaz Khan, Salman Khan",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.03231",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02338",
+      "title": "Title: LiME: Lightweight Mixture of Experts for Efficient Multimodal Multi-task Learning",
+      "authors": "Md Kowsher, Haris Mansoor, Nusrat Jahan Prottasha, Ozlem Garibay, Victor Zhu, Zhengping Ji, Chen Chen",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02338",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02355",
+      "title": "Title: From Broad Exploration to Stable Synthesis: Entropy-Guided Optimization for Autoregressive Image Generation",
+      "authors": "Han Song, Yucheng Zhou, Jianbing Shen, Yu Cheng",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02355",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02448",
+      "title": "Title: Managing Diabetic Retinopathy with Deep Learning: A Data Centric Overview",
+      "authors": "Shramana Dey, Zahir Khan, T. A. PramodKumar, B. Uma Shankar, Ashis K. Dhara, Ramachandran Rajalakshmi, Rajiv Raman, Sushmita Mitra",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02448",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02564",
+      "title": "Title: Why Invariance is Not Enough for Biomedical Domain Generalization and How to Fix It",
+      "authors": "Sebo Diaz, Polina Golland, Elfar Adalsteinsson, Neel Dey",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02564",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02624",
+      "title": "Title: Wavelength-multiplexed massively parallel diffractive optical information storage and image projection",
+      "authors": "Che-Yung Shen, Yuhang Li, Cagatay Isil, Jingxi Li, Leon Lenk, Tianyi Gan, Guangdong Ma, Fazil Onuralp Ardic, Mona Jarrahi, Aydogan Ozcan",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02624",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02707",
+      "title": "Title: A Rapid Instrument Exchange System for Humanoid Robots in Minimally Invasive Surgery",
+      "authors": "Bingcong Zhang, Yihang Lyv, Lianbo Ma, Yushi He, Pengfei Wei, Xingchi Liu, Jinhua Li, Jianchang Zhao, Lizhi Pan",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02707",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02710",
+      "title": "Title: V2X-QA: A Comprehensive Reasoning Dataset and Benchmark for Multimodal Large Language Models in Autonomous Driving Across Ego, Infrastructure, and Cooperative Views",
+      "authors": "Junwei You, Pei Li, Zhuoyu Jiang, Weizhe Tang, Zilin Huang, Rui Gan, Jiaxi Liu, Yan Zhao, Sikai Chen, Bin Ran",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02710",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02742",
+      "title": "Title: Task-Guided Prompting for Unified Remote Sensing Image Restoration",
+      "authors": "Wenli Huang, Yang Wu, Xiaomeng Xin, Zhihong Liu, Jinjun Wang, Ye Deng",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02742",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02868",
+      "title": "Title: Few-Shot Distribution-Aligned Flow Matching for Data Synthesis in Medical Image Segmentation",
+      "authors": "Jie Yang, Ziqi Ye, Aihua Ke, Jian Luo, Bo Cai, Xiaosong Wang",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.02868",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03037",
+      "title": "Title: ARM: Advantage Reward Modeling for Long-Horizon Manipulation",
+      "authors": "Yiming Mao, Zixi Yu, Weixin Mao, Yinhao Li, Qirui Hu, Zihan Lan, Minzhao Zhu, Hua Chen",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.03037",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.03112",
+      "title": "Title: ARIQA-3DS: A Stereoscopic Image Quality Assessment Dataset for Realistic Augmented Reality",
+      "authors": "Aymen Sekhri, Seyed Ali Amirshahi, Mohamed-Chaker Larabi",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.03112",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.03179",
+      "title": "Title: Understanding the Role of Hallucination in Reinforcement Post-Training of Multimodal Reasoning Models",
+      "authors": "Gengwei Zhang, Jie Peng, Zhen Tan, Mufan Qiu, Hossein Nourkhiz Mahjoub, Vaishnav Tadiparthi, Kwonjoon Lee, Yanyong Zhang, Tianlong Chen",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.03179",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03181",
+      "title": "Title: Multi-View Video Diffusion Policy: A 3D Spatio-Temporal-Aware Video Action Model",
+      "authors": "Peiyan Li, Yixiang Chen, Yuan Xu, Jiabing Yang, Xiangnan Wu, Jun Guo, Nan Sun, Long Qian, Xinghang Li, Xin Xiao, Jing Liu, Nianfeng Liu, Tao Kong, Yan Huang, Liang Wang, Tieniu Tan",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.03181",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.03191",
+      "title": "Title: The Compression Gap: Why Discrete Tokenization Limits Vision-Language-Action Model Scaling",
+      "authors": "Takuya Shiba",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.03191",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.03224",
+      "title": "Title: HyperCT: Low-Rank Hypernet for Unified Chest CT Analysis",
+      "authors": "Fengbei Liu, Sunwoo Kwak, Hao Phung, Nusrat Binta Nizam, Ilan Richter, Nir Uriel, Hadar Averbuch-Elor, Daborah Estrin, Mert R. Sabuncu",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.03224",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2407.16341",
+      "title": "Title: Motion Capture from Inertial and Vision Sensors",
+      "authors": "Xiaodong Chen, Wu Liu, Qian Bao, Xinchen Liu, Ruoli Dai, Yongdong Zhang, Tao Mei",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2407.16341",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2408.12406",
+      "title": "Title: Generalized SAM: Efficient Fine-Tuning of SAM for Variable Input Image Sizes",
+      "authors": "Sota Kato, Hinako Mitsuoka, Kazuhiro Hotta",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2408.12406",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2408.12974",
+      "title": "Title: Accuracy Improvement of Cell Image Segmentation Using Feedback Former",
+      "authors": "Hinako Mitsuoka, Kazuhiro Hotta",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2408.12974",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2410.10238",
+      "title": "Title: ForgeryGPT: A Multimodal LLM for Interpretable Image Forgery Detection and Localization",
+      "authors": "Jiawei Liu, Fanrui Zhang, Jiaying Zhu, Esther Sun, Dong Li, Qiang Zhang, Zheng-Jun Zha",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2410.10238",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2503.09158",
+      "title": "Title: FaVChat: Hierarchical Prompt-Query Guided Facial Video Understanding with Data-Efficient GRPO",
+      "authors": "Fufangchen Zhao, Songbai Tan, Xuerui Qiu, Linrui Xun, Wenhao Jiang, Jinkai Zheng, Hehe Fan, Jian Gao, Danfeng Yan, Ming Li",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2503.09158",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2504.17180",
+      "title": "Title: We&#39;ll Fix it in Post: Improving Text-to-Video Generation with Neuro-Symbolic Feedback",
+      "authors": "Minkyu Choi, S P Sharan, Harsh Goel, Sahil Shah, Sandeep Chinchali",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2504.17180",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2505.15263",
+      "title": "Title: gen2seg: Generative Models Enable Generalizable Instance Segmentation",
+      "authors": "Om Khangaonkar, Hamed Pirsiavash",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2505.15263",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2506.03198",
+      "title": "Title: FLEX: A Largescale Multimodal, Multiview Dataset for Learning Structured Representations for Fitness Action Quality Assessment",
+      "authors": "Hao Yin, Lijun Gu, Paritosh Parmar, Lin Xu, Tianxiao Guo, Xiujin Liu, Weiwei Fu, Yang Zhang, Tianyou Zheng",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2506.03198",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2507.21584",
+      "title": "Title: TARS: MinMax Token-Adaptive Preference Strategy for Hallucination Reduction in MLLMs",
+      "authors": "Kejia Zhang, Keda Tao, Zhiming Luo, Chang Liu, Jiasheng Tang, Huan Wang",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2507.21584",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2507.22264",
+      "title": "Title: SmartCLIP: Modular Vision-language Alignment with Identification Guarantees",
+      "authors": "Shaoan Xie, Lingjing Kong, Yujia Zheng, Yu Yao, Zeyu Tang, Eric P. Xing, Guangyi Chen, Kun Zhang",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2507.22264",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2509.04276",
+      "title": "Title: PAOLI: Pose-free Articulated Object Learning from Sparse-view Images",
+      "authors": "Jianning Deng, Kartic Subr, Hakan Bilen",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2509.04276",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2509.16806",
+      "title": "Title: MedGS: Gaussian Splatting for Multi-Modal 3D Medical Imaging",
+      "authors": "Ignacy Kolton, Weronika Smolak-Dyżewska, Joanna Kaleta, Żaneta Świderska-Chadaj, Marcin Mazur, Mirosław Dziekiewicz, Tomasz Markiewicz, Przemysław Spurek",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2509.16806",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 6
+    },
+    {
+      "arxiv_id": "2509.23880",
+      "title": "Title: Learning Adaptive Pseudo-Label Selection for Semi-Supervised 3D Object Detection",
+      "authors": "Taehun Kong, Tae-Kyun Kim",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2509.23880",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2511.08666",
+      "title": "Title: Privacy Beyond Pixels: Latent Anonymization for Privacy-Preserving Video Understanding",
+      "authors": "Joseph Fioresi, Ishan Rajendrakumar Dave, Mubarak Shah",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2511.08666",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2511.12834",
+      "title": "Title: SAGA: Source Attribution of Generative AI Videos",
+      "authors": "Rohit Kundu, Vishal Mohanty, Hao Xiong, Shan Jia, Athula Balachandran, Amit K. Roy-Chowdhury",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2511.12834",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2511.17207",
+      "title": "Title: SING3R-SLAM: Submap-based Indoor Monocular Gaussian SLAM with 3D Reconstruction Priors",
+      "authors": "Kunyi Li, Michael Niemeyer, Sen Wang, Stefano Gasperini, Nassir Navab, Federico Tombari",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2511.17207",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 6
+    },
+    {
+      "arxiv_id": "2511.17722",
+      "title": "Title: Can Vision-Language Models Count? A Synthetic Benchmark and Analysis of Attention-Based Interventions",
+      "authors": "Saurav Sengupta, Nazanin Moradinasab, Jiebei Liu, Donald E. Brown",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2511.17722",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2511.21331",
+      "title": "Title: The More, the Merrier: Contrastive Fusion for Higher-Order Multimodal Alignment",
+      "authors": "Stefanos Koutoupis, Michaela Areti Zervou, Konstantinos Kontras, Maarten De Vos, Panagiotis Tsakalides, Grigorios Tsagkatakis",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2511.21331",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2511.23292",
+      "title": "Title: FACT-GS: Frequency-Aligned Complexity-Aware Texture Reparameterization for 2D Gaussian Splatting",
+      "authors": "Tianhao Xie, Linlian Jiang, Xinxin Zuo, Yang Wang, Tiberiu Popa",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2511.23292",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2512.00129",
+      "title": "Title: Analysis of Invasive Breast Cancer in Mammograms Using YOLO, Explainability, and Domain Adaptation",
+      "authors": "Jayan Adhikari, Prativa Joshi, Sushish Baral",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2512.00129",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2512.03424",
+      "title": "Title: DM3D: Deformable Mamba via Offset-Guided Differentiable Scanning for Point Cloud Understanding",
+      "authors": "Bin Liu, Chunyang Wang, Xuelian Liu, Ge Zhang",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2512.03424",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2512.07951",
+      "title": "Title: Preserving Source Video Realism: High-Fidelity Face Swapping for Cinematic Quality",
+      "authors": "Zekai Luo, Zongze Du, Zhouhang Zhu, Hao Zhong, Muzhi Zhu, Wen Wang, Yuling Xi, Chenchen Jing, Hao Chen, Chunhua Shen",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2512.07951",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2512.08980",
+      "title": "Title: Training Multi-Image Vision Agents via End2End Reinforcement Learning",
+      "authors": "Chengqi Dong, Chuhuai Yue, Hang He, Rongge Mao, Fenghe Tang, S Kevin Zhou, Zekun Xu, Xiaohan Wang, Jiajun Chai, Guojun Yin",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2512.08980",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2512.09112",
+      "title": "Title: GimbalDiffusion: Gravity-Aware Camera Control for Video Generation",
+      "authors": "Frédéric Fortier-Chouinard, Yannick Hold-Geoffroy, Valentin Deschaintre, Matheus Gadelha, Jean-François Lalonde",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2512.09112",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2512.13122",
+      "title": "Title: DePT3R: Joint Dense Point Tracking and 3D Reconstruction of Dynamic Scenes in a Single Forward Pass",
+      "authors": "Vivek Alumootil, Tuan-Anh Vu",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2512.13122",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 6
+    },
+    {
+      "arxiv_id": "2512.18809",
+      "title": "Title: FedVideoMAE: Efficient Privacy-Preserving Federated Video Moderation",
+      "authors": "Ziyuan Tao, Chuanzhi Xu, Sandaru Jayawardana, Adnan Mahmood, Wei Bao, Kanchana Thilakarathna, Teng Joon Lim",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2512.18809",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2601.03127",
+      "title": "Title: Unified Thinker: A General Reasoning Modular Core for Image Generation",
+      "authors": "Sashuai Zhou, Qiang Zhou, Jijin Hu, Hanqing Yang, Yue Cao, Junpeng Ma, Yinchao Ma, Jun Song, Tiezheng Ge, Cheng Yu, Bo Zheng, Zhou Zhao",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2601.03127",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2601.13633",
+      "title": "Title: EGM: Efficient Visual Grounding Language Models",
+      "authors": "Guanqi Zhan, Changye Li, Zhijian Liu, Yao Lu, Yi Wu, Song Han, Ligeng Zhu",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2601.13633",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2601.16672",
+      "title": "Title: ReWeaver: Towards Simulation-Ready and Topology-Accurate Garment Reconstruction",
+      "authors": "Ming Li, Hui Shan, Kai Zheng, Chentao Shen, Siyu Liu, Yanwei Fu, Zhen Chen, Xiangru Huang",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2601.16672",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2601.16933",
+      "title": "Title: Reward-Forcing: Autoregressive Video Generation with Reward Feedback",
+      "authors": "Jingran Zhang, Ning Li, Yuanhao Ban, Andrew Bai, Justin Cui",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2601.16933",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2601.21957",
+      "title": "Title: PaddleOCR-VL-1.5: Towards a Multi-Task 0.9B VLM for Robust In-the-Wild Document Parsing",
+      "authors": "Cheng Cui, Ting Sun, Suyin Liang, Tingquan Gao, Zelun Zhang, Jiaxuan Liu, Xueqing Wang, Changda Zhou, Hongen Liu, Manhui Lin, Yue Zhang, Yubo Zhang, Yi Liu, Dianhai Yu, Yanjun Ma",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2601.21957",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2602.00683",
+      "title": "Title: Video Understanding: Through A Temporal Lens",
+      "authors": "Thong Thanh Nguyen",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2602.00683",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2602.06343",
+      "title": "Title: Uncertainty-Aware 4D Gaussian Splatting for Monocular Occluded Human Rendering",
+      "authors": "Weiquan Wang, Feifei Shao, Lin Li, Zhen Wang, Jun Xiao, Long Chen",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2602.06343",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 6
+    },
+    {
+      "arxiv_id": "2602.10516",
+      "title": "Title: 3DXTalker: Unifying Identity, Lip Sync, Emotion, and Spatial Dynamics in Expressive 3D Talking Avatars",
+      "authors": "Zhongju Wang, Zhenhong Sun, Beier Wang, Yifu Wang, Daoyi Dong, Huadong Mo, Hongdong Li",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2602.10516",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2602.13889",
+      "title": "Title: Parameter-Efficient Fine-Tuning of DINOv2 for Large-Scale Font Classification",
+      "authors": "Daniel Chen, Zaria Zinn, Marcus Lowe",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2602.13889",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2603.01765",
+      "title": "Title: Efficient Test-Time Optimization for Depth Completion via Low-Rank Decoder Adaptation",
+      "authors": "Minseok Seo, Wonjun Lee, Jaehyuk Jang, Changick Kim",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2603.01765",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2603.12711",
+      "title": "Title: Text-Phase Synergy Network with Dual Priors for Unsupervised Cross-Domain Image Retrieval",
+      "authors": "Jing Yang, Hui Xue, Shipeng Zhu, Pengfei Fang",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2603.12711",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2603.14267",
+      "title": "Title: DiFlowDubber: Discrete Flow Matching for Automated Video Dubbing via Cross-Modal Alignment and Synchronization",
+      "authors": "Ngoc-Son Nguyen, Thanh V. T. Tran, Jeongsoo Choi, Hieu-Nghia Huynh-Nguyen, Truong-Son Hy, Van Nguyen",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2603.14267",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2603.17069",
+      "title": "Title: Edge-Efficient Two-Stream Multimodal Architecture for Non-Intrusive Bathroom Fall Detection",
+      "authors": "Haitian Wang, Yiren Wang, Xinyu Wang, Sheldon Fung, Atif Mansoor",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2603.17069",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2603.18545",
+      "title": "Title: CoDA: Exploring Chain-of-Distribution Attacks and Post-Hoc Token-Space Repair for Medical Vision-Language Models",
+      "authors": "Xiang Chen, Fangfang Yang, Chunlei Meng, Yuxian Dong, Ang Li, Yiwei Wei, Jiahuan Long, Jiujiang Guo, Chengyin Hu",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2603.18545",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2603.20554",
+      "title": "Title: When Negation Is a Geometry Problem in Vision-Language Models",
+      "authors": "Fawaz Sammani, Tzoulio Chamiti, Paul Gavrikov, Nikos Deligiannis",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2603.20554",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2603.23766",
+      "title": "Title: Semantic Iterative Reconstruction: One-Shot Universal Anomaly Detection",
+      "authors": "Ning Zhu",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2603.23766",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2603.24326",
+      "title": "Title: Boosting Document Parsing Efficiency and Performance with Coarse-to-Fine Visual Processing",
+      "authors": "Cheng Cui, Ting Sun, Suyin Liang, Tingquan Gao, Zelun Zhang, Jiaxuan Liu, Xueqing Wang, Changda Zhou, Hongen Liu, Manhui Lin, Yue Zhang, Yubo Zhang, Jing Zhang, Jun Zhang, Xing Wei, Yi Liu, Dianhai Yu, Yanjun Ma",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2603.24326",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2603.25744",
+      "title": "Title: MuRF: Unlocking the Multi-Scale Potential of Vision Foundation Models",
+      "authors": "Bocheng Zou, Mu Cai, Mark Stanley, Dingfu Lu, Yong Jae Lee",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2603.25744",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2603.26584",
+      "title": "Title: Scene Grounding In the Wild",
+      "authors": "Tamir Cohen, Leo Segre, Shay Shomer-Chai, Shai Avidan, Hadar Averbuch-Elor",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2603.26584",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.00799",
+      "title": "Title: Multimodal Language Models Cannot Spot Spatial Inconsistencies",
+      "authors": "Om Khangaonkar, Hadi J. Rad, Hamed Pirsiavash",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.00799",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.01447",
+      "title": "Title: Better Rigs, Not Bigger Networks: A Body Model Ablation for Gaussian Avatars",
+      "authors": "Derek Austin",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.01447",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.01479",
+      "title": "Title: UniRecGen: Unifying Multi-View 3D Reconstruction and Generation",
+      "authors": "Zhisheng Huang, Jiahao Chen, Cheng Lin, Chenyu Hu, Hanzhuo Huang, Zhengming Yu, Mengfei Li, Yuheng Liu, Zekai Gu, Zibo Zhao, Yuan Liu, Xin Li, Wenping Wang",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.01479",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2604.01581",
+      "title": "Title: Satellite-Free Training for Drone-View Geo-Localization",
+      "authors": "Tao Liu, Yingzhi Zhang, Kan Ren, Xiaoqi Zhao",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.01581",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.01833",
+      "title": "Title: Language-Pretraining-Induced Bias: A Strong Foundation for General Vision Tasks",
+      "authors": "Yaxin Luo, Zhiqiang Shen",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.01833",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.01848",
+      "title": "Title: Semantic Richness or Geometric Reasoning? The Fragility of VLM&#39;s Visual Invariance",
+      "authors": "Jason Qiu, Zachary Meurer, Xavier Thomas, Deepti Ghadiyaram",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.01848",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.01903",
+      "title": "Title: Light-ResKAN: A Parameter-Sharing Lightweight KAN with Gram Polynomials for Efficient SAR Image Recognition",
+      "authors": "Pan Yi, Weijie Li, Xiaodong Chen, Jiehua Zhang, Li Liu, Yongxiang Liu",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.01903",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.01972",
+      "title": "Title: SDesc3D: Towards Layout-Aware 3D Indoor Scene Generation from Short Descriptions",
+      "authors": "Jie Feng, Jiawei Shen, Junjia Huang, Junpeng Zhang, Mingtao Feng, Weisheng Dong, Guanbin Li",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.01972",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2604.01989",
+      "title": "Title: Attention at Rest Stays at Rest: Breaking Visual Inertia for Cognitive Hallucination Mitigation",
+      "authors": "Boyang Gong, Yu Zheng, Fanye Kong, Jie Zhou, Jiwen Lu",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2604.01989",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2502.09018",
+      "title": "Title: Zero-shot Concept Bottleneck Models",
+      "authors": "Shin&#39;ya Yamaguchi, Kosuke Nishida, Daiki Chijiwa, Yasutoshi Ida",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2502.09018",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2508.04728",
+      "title": "Title: Neural Field-Based 3D Surface Reconstruction of Microstructures from Multi-Detector Signals in Scanning Electron Microscopy",
+      "authors": "Shuo Chen, Yijin Li, Xi Zheng, Guofeng Zhang",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2508.04728",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2509.11485",
+      "title": "Title: Geometric Analysis of Magnetic Labyrinthine Stripe Evolution via U-Net Segmentation",
+      "authors": "Vinícius Yu Okubo, Kotaro Shimizu, B.S. Shivaran, Gia-Wei Chern, Hae Yong Kim",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2509.11485",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2509.19454",
+      "title": "Title: ROPA: Synthetic Robot Pose Generation for RGB-D Bimanual Data Augmentation",
+      "authors": "Jason Chen, I-Chun Arthur Liu, Gaurav Sukhatme, Daniel Seita",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2509.19454",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2511.15279",
+      "title": "Title: Look, Zoom, Understand: The Robotic Eyeball for Embodied Perception",
+      "authors": "Jiashu Yang, Yifan Han, Yucheng Xie, Ning Guo, Wenzhao Lian",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2511.15279",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2601.06162",
+      "title": "Title: Forget Many, Forget Right: Scalable and Precise Concept Unlearning in Diffusion Models",
+      "authors": "Kaiyuan Deng, Gen Li, Yang Xiao, Bo Hui, Xiaolong Ma",
+      "category": "cs.CV",
+      "arxiv_url": "https://arxiv.org/abs/2601.06162",
+      "published": "2026-04-07",
+      "source": "cs.CV",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02387",
+      "title": "Title: A Dynamic Toolkit for Transmission Characteristics of Precision Reducers with Explicit Contact Geometry",
+      "authors": "Jiacheng Miao, Chao Liu, Qiliang Wang, Yunhui Guan, Weidong He",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.02387",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02401",
+      "title": "Title: Backup-Based Safety Filters: A Comparative Review of Backup CBF, Model Predictive Shielding, and gatekeeper",
+      "authors": "Taekyung Kim, Aswin D. Menon, Akshunn Trivedi, Dimitra Panagou",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.02401",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02408",
+      "title": "Title: F2F-AP: Flow-to-Future Asynchronous Policy for Real-time Dynamic Manipulation",
+      "authors": "Haoyu Wei, Xiuwei Xu, Ziyang Cheng, Hang Yin, Angyuan Ma, Bingyao Yu, Jie Zhou, Jiwen Lu",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.02408",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02441",
+      "title": "Title: Adaptive Learned State Estimation based on KalmanNet",
+      "authors": "Arian Mehrfard, Bharanidhar Duraisamy, Stefan Haag, Florian Geiss, Mirko Mählisch",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.02441",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02523",
+      "title": "Title: Tune to Learn: How Controller Gains Shape Robot Policy Learning",
+      "authors": "Antonia Bronars, Younghyo Park, Pulkit Agrawal",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.02523",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02563",
+      "title": "Title: From Impact to Insight: Dynamics-Aware Proprioceptive Terrain Sensing on Granular Media",
+      "authors": "Yifeng Zhang, Yue Wu, Jake Futterman, Jacob Meseha, Eduardo Rosales, Irie Cooper, J. Diego Caporale, Feifei Qian",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.02563",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02609",
+      "title": "Title: Elastomeric Strain Limitation for Design of Soft Pneumatic Actuators",
+      "authors": "Gregory M. Campbell",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.02609",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02643",
+      "title": "Title: Differentiable SpaTiaL: Symbolic Learning and Reasoning with Geometric Temporal Logic for Manipulation Tasks",
+      "authors": "Licheng Luo, Kaier Liang, Cristian-Ioan Vasile, Mingyu Cai",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.02643",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2604.02706",
+      "title": "Title: ALIVE-LIO: Degeneracy-Aware Learning of Inertial Velocity for Enhancing ESKF-Based LiDAR-Inertial Odometry",
+      "authors": "Seongjun Kim, Daehan Lee, Junwoo Hong, Sanghyun Park, Hyunyoung Jo, Soohee Han",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.02706",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02744",
+      "title": "Title: Learning Locomotion on Complex Terrain for Quadrupedal Robots with Foot Position Maps and Stability Rewards",
+      "authors": "Matthew Hwang, Yubin Liu, Ryo Hakoda, Takeshi Oishi",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.02744",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02745",
+      "title": "Title: Geometrically-Constrained Radar-Inertial Odometry via Continuous Point-Pose Uncertainty Modeling",
+      "authors": "Wooseong Yang, Dongjae Lee, Minwoo Jung, Ayoung Kim",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.02745",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02759",
+      "title": "Title: OMNI-PoseX: A Fast Vision Model for 6D Object Pose Estimation in Embodied Tasks",
+      "authors": "Michael Zhang, Wei Ying, Fangwen Chen, Shifeng Bai, Hanwen Kang",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.02759",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02779",
+      "title": "Title: Vision-Based End-to-End Learning for UAV Traversal of Irregular Gaps via Differentiable Simulation",
+      "authors": "Linzuo Zhang, Yu Hu, Feng Yu, Yang Deng, Wenxian Yu, Danping Zou",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.02779",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2604.02786",
+      "title": "Title: QuadAgent: A Responsive Agent System for Vision-Language Guided Quadrotor Agile Flight",
+      "authors": "Ao Zhuang, Feng Yu, Tianbao Zhang, Linzuo Zhang, Danping Zou",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.02786",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2604.02812",
+      "title": "Title: Learning Structured Robot Policies from Vision-Language Models via Synthetic Neuro-Symbolic Supervision",
+      "authors": "Alessandro Adami, Tommaso Tubaldo, Marco Todescato, Ruggero Carli, Pietro Falco",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.02812",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2604.02820",
+      "title": "Title: MFE: A Multimodal Hand Exoskeleton with Interactive Force, Pressure and Thermo-haptic Feedback",
+      "authors": "Ziyuan Tang, Yitian Guo, Chenxi Xiao",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.02820",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02821",
+      "title": "Title: Goal-Conditioned Neural ODEs with Guaranteed Safety and Stability for Learning-Based All-Pairs Motion Planning",
+      "authors": "Dechuan Liu, Ruigang Wang, Ian R. Manchester",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.02821",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02827",
+      "title": "Title: Orientation Matters: Learning Radiation Patterns of Multi-Rotor UAVs In-Flight to Enhance Communication Availability Modeling",
+      "authors": "Martin Zoula, Daniel Bonilla Licea, Jan Faigl, Václav Navrátil, Martin Saska",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.02827",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02878",
+      "title": "Title: An Asynchronous Two-Speed Kalman Filter for Real-Time UUV Cooperative Navigation Under Acoustic Delays",
+      "authors": "Shuyue Li, Miguel López-Benítez, Eng Gee Lim, Fei Ma, Qian Dong, Mengze Cao, Limin Yu, Xiaohui Qin",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.02878",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02892",
+      "title": "Title: RAGE: A Tightly Coupled Radar-Aided Grip Estimator For Autonomous Race Cars",
+      "authors": "Davide Malvezzi, Nicola Musiu, Eugenio Mascaro, Francesco Iacovacci, Marko Bertogna",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.02892",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02911",
+      "title": "Title: Learning Task-Invariant Properties via Dreamer: Enabling Efficient Policy Transfer for Quadruped Robots",
+      "authors": "Junyang Liang, Yuxuan Liu, Yabin Chang, Junfan Lin, Junkai Ji, Hui Li, Changxin Huang, Jianqiang Li",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.02911",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02965",
+      "title": "Title: Open-Loop Planning, Closed-Loop Verification: Speculative Verification for VLA",
+      "authors": "Zihua Wang, Zhitao Lin, Ruibo Li, Yu Zhang, Xu Yang, Siya Mi, Xiu-Shen Wei",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.02965",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03006",
+      "title": "Title: A Flow Matching Framework for Soft-Robot Inverse Dynamics",
+      "authors": "Hang Yang, Fangju Yang, Yangming Zhang, Ibrahim Alsarraj, Yuhao Wang, Zhenye Luo, Zixi Chen, Ke Wu",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.03006",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.03008",
+      "title": "Title: Asymptotically-Bounded 3D Frontier Exploration enhanced with Bayesian Information Gain",
+      "authors": "John Lewis, Meysam Basiri, Pedro U. Lima",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.03008",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.03023",
+      "title": "Title: Behavior-Constrained Reinforcement Learning with Receding-Horizon Credit Assignment for High-Performance Control",
+      "authors": "Siwei Ju, Jan Tauberschmidt, Oleg Arenz, Peter van Vliet, Jan Peters",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.03023",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03042",
+      "title": "Title: Enhancing Multi-Robot Exploration Using Probabilistic Frontier Prioritization with Dirichlet Process Gaussian Mixtures",
+      "authors": "John Lewis Devassy, Meysam Basiri, Mário A. T. Figueiredo, Pedro U. Lima",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.03042",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2604.03065",
+      "title": "Title: Joint Prediction of Human Motions and Actions in Human-Robot Collaboration",
+      "authors": "Alessandra Bulanti, Alessandro Carfì, Fulvio Mastrogiovanni",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.03065",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.03092",
+      "title": "Title: Flash-Mono: Feed-Forward Accelerated Gaussian Splatting Monocular SLAM",
+      "authors": "Zicheng Zhang, Ke Wu, Xiangting Meng, Keyu Liu, Jieru Zhao, Wenchao Ding",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.03092",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2604.03096",
+      "title": "Title: An Open-Source LiDAR and Monocular Off-Road Autonomous Navigation Stack",
+      "authors": "Rémi Marsal, Quentin Picard, Adrien Poiré, Sébastien Kerbourc&#39;h, Thibault Toralba, Clément Yver, Alexandre Chapoutot, David Filliat",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.03096",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 6
+    },
+    {
+      "arxiv_id": "2604.03139",
+      "title": "Title: FSUNav: A Cerebrum-Cerebellum Architecture for Fast, Safe, and Universal Zero-Shot Goal-Oriented Navigation",
+      "authors": "Mingao Tan, Yiyang Li, Shanze Wang, Xinming Zhang, Wei Zhang",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.03139",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.03200",
+      "title": "Title: Safety-Critical Centralized Nonlinear MPC for Cooperative Payload Transportation by Two Quadrupedal Robots",
+      "authors": "Ruturaj S. Sambhus, Yicheng Zeng, Kapi Ketan Mehta, Jeeseop Kim, Kaveh Akbari Hamed",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.03200",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.03132",
+      "title": "Title: Minimal Information Control Invariance via Vector Quantization",
+      "authors": "Ege Yuceel, Teodor Tchalakov, Sayan Mitra",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2604.03132",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2509.19579",
+      "title": "Title: Terra: Hierarchical Terrain-Aware 3D Scene Graph for Task-Agnostic Outdoor Mapping",
+      "authors": "Chad R. Samuelson, Abigail Austin, Seth Knoop, Blake Romrell, Gabriel R. Slade, Timothy W. McLain, Joshua G. Mangelson",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2509.19579",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2511.01770",
+      "title": "Title: Lightweight Learning from Actuation-Space Demonstrations via Flow Matching for Whole-Body Soft Robotic Grasping",
+      "authors": "Liudi Yang, Yang Bai, Yuhao Wang, Ibrahim Alsarraj, Gitta Kutyniok, Zhanchi Wang, Ke Wu",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2511.01770",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2511.17266",
+      "title": "Title: Simulation of Active Soft Nets for Capture of Space Debris",
+      "authors": "Leone Costi, Dario Izzo",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2511.17266",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2601.10722",
+      "title": "Title: A Survey of Real-Time Support, Analysis, and Advancements in ROS 2",
+      "authors": "Daniel Casini, Jian-Jia Chen, Jing Li, Federico Reghenzani, Harun Teper",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2601.10722",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2601.14617",
+      "title": "Title: UniCon: A Unified System for Efficient Robot Learning Transfers",
+      "authors": "Yunfeng Lin, Li Xu, Yong Yu, Jiangmiao Pang, Weinan Zhang",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2601.14617",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2603.06928",
+      "title": "Title: Failure Mechanisms and Risk Estimation for Legged Robot Locomotion on Granular Slopes",
+      "authors": "Xingjue Liao, Feifei Qian",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2603.06928",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2603.29512",
+      "title": "Title: Communication Outage-Resistant UUV State Estimation: A Variational History Distillation Approach",
+      "authors": "Shuyue Li, Miguel López-Benítez, Eng Gee Lim, Fei Ma, Qian Dong, Mengze Cao, Limin Yu, Xiaohui Qin",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2603.29512",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2506.01167",
+      "title": "Title: Accelerated Learning with Linear Temporal Logic using Differentiable Simulation",
+      "authors": "Alper Kamil Bozkurt, Calin Belta, Ming C. Lin",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2506.01167",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2507.04356",
+      "title": "Title: Mission-Aligned Learning-Informed Control of Autonomous Systems: Formulation and Foundations",
+      "authors": "Vyacheslav Kungurtsev, Monicah Cherop Naibei, Gustav Sir, Akhil Anand, Sebastien Gros, Haozhe Tian, Homayoun Hamedmoghadam",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2507.04356",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2512.24493",
+      "title": "Title: Bayesian Safety Guarantees for Port-Hamiltonian Systems with Learned Energy Functions",
+      "authors": "Chi Ho Leung, Philip E. Paré",
+      "category": "cs.RO",
+      "arxiv_url": "https://arxiv.org/abs/2512.24493",
+      "published": "2026-04-07",
+      "source": "cs.RO",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02851",
+      "title": "Title: Streaming Real-Time Rendered Scenes as 3D Gaussians",
+      "authors": "Matti Siekkinen, Teemu Kämäräinen",
+      "category": "cs.GR",
+      "arxiv_url": "https://arxiv.org/abs/2604.02851",
+      "published": "2026-04-07",
+      "source": "cs.GR",
+      "score": 6
+    },
+    {
+      "arxiv_id": "2603.29585",
+      "title": "Title: Learn2Fold: Structured Origami Generation with World Model Planning",
+      "authors": "Yanjia Huang, Yunuo Chen, Ying Jiang, Jinru Han, Zhengzhong Tu, Yin Yang, Chenfanfu Jiang",
+      "category": "cs.GR",
+      "arxiv_url": "https://arxiv.org/abs/2603.29585",
+      "published": "2026-04-07",
+      "source": "cs.GR",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02334",
+      "title": "Title: Holos: A Web-Scale LLM-Based Multi-Agent System for the Agentic Web",
+      "authors": "Xiaohang Nie, Zihan Guo, Zicai Cui, Jiachi Yang, Zeyi Chen, Leheyi De, Yu Zhang, Junwei Liao, Bo Huang, Yingxuan Yang, Zhi Han, Zimian Peng, Linyao Chen, Wenzheng Tom Tang, Zongkai Liu, Tao Zhou, Botao Amber Hu, Shuyang Tang, Jianghao Lin, Weiwen Liu, Muning Wen, Yuanjian Zhou, Weinan Zhang",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02334",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02368",
+      "title": "Title: Xpertbench: Expert Level Tasks with Rubrics-Based Evaluation",
+      "authors": "Xue Liu, Xin Ma, Yuxin Ma, Yongchang Peng, Duo Wang, Zhoufutu Wen, Ge Zhang, Kaiyuan Zhang, Xinyu Chen, Tianci He, Jiani Hou, Liang Hu, Ziyun Huang, Yongzhe Hui, Jianpeng Jiao, Chennan Ju, Yingru Kong, Yiran Li, Mengyun Liu, Luyao Ma, Fei Ni, Yiqing Ni, Yueyan Qiu, Yanle Ren, Zilin Shi, Zaiyuan Wang, Wenjie Yue, Shiyu Zhang, Xinyi Zhang, Kaiwen Zhao, Zhenwei Zhu",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02368",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02434",
+      "title": "Title: Compositional Neuro-Symbolic Reasoning",
+      "authors": "Anugyan Das, Omkar Ghugarkar, Vishvesh Bhat, Asad Aali",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02434",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02476",
+      "title": "Title: Understanding the Nature of Generative AI as Threshold Logic in High-Dimensional Space",
+      "authors": "Ilya Levin",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02476",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02478",
+      "title": "Title: AIVV: Neuro-Symbolic LLM Agent-Integrated Verification and Validation for Trustworthy Autonomous Systems",
+      "authors": "Jiyong Kwon, Ujin Jeon, Sooji Lee, Guang Lin",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02478",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2604.02500",
+      "title": "Title: I must delete the evidence: AI Agents Explicitly Cover up Fraud and Violent Crime",
+      "authors": "Thomas Rivasseau, Benjamin Fung",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02500",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02504",
+      "title": "Title: A Comprehensive Framework for Long-Term Resiliency Investment Planning under Extreme Weather Uncertainty for Electric Utilities",
+      "authors": "Emma Benjaminson",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02504",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02528",
+      "title": "Title: Interpretable Deep Reinforcement Learning for Element-level Bridge Life-cycle Optimization",
+      "authors": "Seyyed Amirhossein Moayyedi, David Y. Yang",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02528",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02545",
+      "title": "Title: Competency Questions as Executable Plans: a Controlled RAG Architecture for Cultural Heritage Storytelling",
+      "authors": "Naga Sowjanya Barla, Jacopo de Berardinis",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02545",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02585",
+      "title": "Title: Mitigating LLM biases toward spurious social contexts using direct preference optimization",
+      "authors": "Hyunji Nam, Dorottya Demszky",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02585",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02605",
+      "title": "Title: Do Audio-Visual Large Language Models Really See and Hear?",
+      "authors": "Ramaneswaran Selvakumar, Kaousheik Jayakumar, S Sakshi, Sreyan Ghosh, Ruohan Gao, Dinesh Manocha",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02605",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02617",
+      "title": "Title: AutoVerifier: An Agentic Automated Verification Framework Using Large Language Models",
+      "authors": "Yuntao Du, Minh Dinh, Kaiyuan Zhang, Ninghui Li",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02617",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02618",
+      "title": "Title: OntoKG: Ontology-Oriented Knowledge Graph Construction with Intrinsic-Relational Routing",
+      "authors": "Yitao Li, Zhanlin Liu, Anuranjan Pandey, Muni Srikanth",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02618",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02666",
+      "title": "Title: Let&#39;s Have a Conversation: Designing and Evaluating LLM Agents for Interactive Optimization",
+      "authors": "Joshua Drossman, Alexandre Jacquillat, Sébastien Martin",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02666",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02721",
+      "title": "Title: GrandCode: Achieving Grandmaster Level in Competitive Programming via Agentic Reinforcement Learning",
+      "authors": "DeepReinforce Team: Xiaoya Li, Xiaofei Sun, Guoyin Wang, Songqiao Su, Chris Shum, Jiwei Li",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02721",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02733",
+      "title": "Title: DeltaLogic: Minimal Premise Edits Reveal Belief-Revision Failures in Logical Reasoning Models",
+      "authors": "Amit Dhanda",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02733",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02734",
+      "title": "Title: Aligning Progress and Feasibility: A Neuro-Symbolic Dual Memory Framework for Long-Horizon LLM Agents",
+      "authors": "Bin Wen, Ruoxuan Zhang, Yang Chen, Hongxia Xie, Lan-Zhe Guo",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02734",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02770",
+      "title": "Title: Improving Role Consistency in Multi-Agent Collaboration via Quantitative Role Clarity",
+      "authors": "Guoling Zhou, Wenpei Han, Fengqin Yang, Li Wang, Yingcong Zhou, Zhiguo Fu",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02770",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02794",
+      "title": "Title: CharTool: Tool-Integrated Visual Reasoning for Chart Understanding",
+      "authors": "Situo Zhang, Yifan Zhang, Zichen Zhu, Da Ma, Lei Pan, Danyang Zhang, Zihan Zhao, Lu Chen, Kai Yu",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02794",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02834",
+      "title": "Title: ESL-Bench: An Event-Driven Synthetic Longitudinal Benchmark for Health Agents",
+      "authors": "Chao Li, Cailiang Liu, Ang Gao, Kexin Deng, Shu Zhang, Langping Xu, Xiaotong Shi, Xionghao Ding, Jian Pei, Xun Jiang",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02834",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02863",
+      "title": "Title: EMS: Multi-Agent Voting via Efficient Majority-then-Stopping",
+      "authors": "Yiqing Liu, Hantao Yao, Wu Liu, Yongdong Zhang",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02863",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02869",
+      "title": "Title: Multi-Turn Reinforcement Learning for Tool-Calling Agents with Iterative Reward Calibration",
+      "authors": "Wachiravit Modecrua, Krittanon Kaewtawee, Krittin Pachtrachai, Touchapon Kraisingkorn",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02869",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02910",
+      "title": "Title: Analysis of Optimality of Large Language Models on Planning Problems",
+      "authors": "Bernd Bohnet, Michael C. Mozer, Kevin Swersky, Wil Cunningham, Aaron Parisi, Kathleen Kenealy, Noah Fiedel",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02910",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02947",
+      "title": "Title: AgentHazard: A Benchmark for Evaluating Harmful Behavior in Computer-Use Agents",
+      "authors": "Yunhao Feng, Yifan Ding, Yingshui Tan, Xingjun Ma, Yige Li, Yutao Wu, Yifeng Gao, Kun Zhai, Yanming Guo",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02947",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02967",
+      "title": "Title: FoE: Forest of Errors Makes the First Solution the Best in Large Reasoning Models",
+      "authors": "Kehan Jiang, Haonan Dong, Zhaolu Kang, Zhengzhou Zhu, Guojie Song",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02967",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02971",
+      "title": "Title: InfoSeeker: A Scalable Hierarchical Parallel Agent Framework for Web Information Seeking",
+      "authors": "Ka Yiu Lee, Yuxuan Huang, Zhiyuan He, Huichi Zhou, Weilin Luo, Kun Shao, Meng Fang, Jun Wang",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02971",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.03016",
+      "title": "Title: Agentic-MME: What Agentic Capability Really Brings to Multimodal Intelligence?",
+      "authors": "Qianshan Wei, Yishan Yang, Siyi Wang, Jinglin Chen, Binyu Wang, Jiaming Wang, Shuang Chen, Zechen Li, Yang Shi, Yuqi Tang, Weining Wang, Yi Yu, Chaoyou Fu, Qi Li, Yi-Fan Zhang",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.03016",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.03071",
+      "title": "Title: Automatic Textbook Formalization",
+      "authors": "Fabian Gloeckle, Ahmad Rammal, Charles Arnal, Remi Munos, Vivien Cabannes, Gabriel Synnaeve, Amaury Hayat",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.03071",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03157",
+      "title": "Title: Chart-RL: Policy Optimization Reinforcement Learning for Enhanced Visual Reasoning in Chart Question Answering with Vision Language Models",
+      "authors": "Yunfei Bai, Amit Dhanda, Shekhar Jain",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.03157",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03201",
+      "title": "Title: Coupled Control, Structured Memory, and Verifiable Action in Agentic AI (SCRAT -- Stochastic Control with Retrieval and Auditable Trajectories): A Comparative Perspective from Squirrel Locomotion and Scatter-Hoarding",
+      "authors": "Maximiliano Armesto, Christophe Kolb",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.03201",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2112.07874",
+      "title": "Title: Linguistic Frameworks Go Toe-to-Toe at Neuro-Symbolic Language Modeling",
+      "authors": "Jakob Prange, Nathan Schneider, Lingpeng Kong",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2112.07874",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2302.08150",
+      "title": "Title: Reanalyzing L2 Preposition Learning with Bayesian Mixed Effects and a Pretrained Language Model",
+      "authors": "Jakob Prange, Man Ho Ivy Wong",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2302.08150",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2305.18915",
+      "title": "Title: Empirical Sufficiency Lower Bounds for Language Modeling with Locally-Bootstrapped Semantic Structures",
+      "authors": "Jakob Prange, Emmanuele Chersoni",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2305.18915",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02341",
+      "title": "Title: LLM Reasoning with Process Rewards for Outcome-Guided Steps",
+      "authors": "Mohammad Rezaei, Jens Lehmann, Sahar Vahdati",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02341",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02343",
+      "title": "Title: Haiku to Opus in Just 10 bits: LLMs Unlock Massive Compression Gains",
+      "authors": "Roy Rinberg, Annabelle Michael Carrell, Simon Henniger, Nicholas Carlini, Keri Warr",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02343",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02345",
+      "title": "Title: UI-Oceanus: Scaling GUI Agents with Synthetic Environmental Dynamics",
+      "authors": "Mengzhou Wu, Yuzhe Guo, Yuan Cao, Haochuan Lu, Songhe Zhu, Pingzhe Qu, Xin Chen, Kang Qin, Zhongpu Wang, Xiaode Zhang, Xinyi Wang, Wei Dai, Gang Cao, Yuetang Deng, Zhi Gong, Dezhi Ran, Linyi Li, Wei Yang, Tao Xie",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02345",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02346",
+      "title": "Title: DrugPlayGround: Benchmarking Large Language Models and Embeddings for Drug Discovery",
+      "authors": "Tianyu Liu, Sihan Jiang, Fan Zhang, Kunyang Sun, Teresa Head-Gordon, Hongyu Zhao",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02346",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02349",
+      "title": "Title: OPRIDE: Offline Preference-based Reinforcement Learning via In-Dataset Exploration",
+      "authors": "Yiqin Yang, Hao Hu, Yihuan Mao, Jin Zhang, Chengjie Wu, Yuhua Jiang, Xu Yang, Runpeng Xie, Yi Fan, Bo Liu, Yang Gao, Bo Xu, Chongjie Zhang",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02349",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02350",
+      "title": "Title: Differentiable Symbolic Planning: A Neural Architecture for Constraint Reasoning with Learned Feasibility",
+      "authors": "Venkatakrishna Reddy Oruganti",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02350",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02352",
+      "title": "Title: An Initial Exploration of Contrastive Prompt Tuning to Generate Energy-Efficient Code",
+      "authors": "Sophie Weidmann, Fernando Castor",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02352",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02353",
+      "title": "Title: Prism: Policy Reuse via Interpretable Strategy Mapping in Reinforcement Learning",
+      "authors": "Thomas Pravetz",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02353",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02358",
+      "title": "Title: Dynamic Mask Enhanced Intelligent Multi-UAV Deployment for Urban Vehicular Networks",
+      "authors": "Gaoxiang Cao, Wenke Yuan, Yunpeng Hou, Huasen He, Quan Zheng, Jian Yang",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02358",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02359",
+      "title": "Title: Using LLM-as-a-Judge/Jury to Advance Scalable, Clinically-Validated Safety Evaluations of Model Responses to Users Demonstrating Psychosis",
+      "authors": "May Lynn Reese, Markela Zeneli, Mindy Ng, Jacob Haimes, Andreea Damien, Elizabeth Stade",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02359",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02361",
+      "title": "Title: TRACE: Traceroute-based Internet Route change Analysis with Ensemble Learning",
+      "authors": "Raul Suzuki, Rodrigo Moreira, Pedro Henrique A. Damaso de Melo, Larissa F. Rodrigues Moreira, Flávio de Oliveira Silva",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02361",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02362",
+      "title": "Title: CIPHER: Conformer-based Inference of Phonemes from High-density EEG",
+      "authors": "Varshith Madishetty",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02362",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02369",
+      "title": "Title: Beyond Message Passing: Toward Semantically Aligned Agent Communication",
+      "authors": "Dun Yuan, Fuyuan Lyu, Ye Yuan, Weixu Zhang, Bowei He, Jiayi Geng, Linfeng Du, Zipeng Sun, Yankai Chen, Changjiang Han, Jikun Kang, Alex Chen, Haolun Wu, Xue Liu",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02369",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02370",
+      "title": "Title: A Survey on AI for 6G: Challenges and Opportunities",
+      "authors": "Constantina Chatzieleftheriou, Eirini Liotou",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02370",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02382",
+      "title": "Title: Ambig-IaC: Multi-level Disambiguation for Interactive Cloud Infrastructure-as-Code Synthesis",
+      "authors": "Zhenning Yang, Kaden Gruizenga, Tongyuan Miao, Patrick Tser Jern Kon, Hui Guan, Ang Chen",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02382",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02389",
+      "title": "Title: Audio Spatially-Guided Fusion for Audio-Visual Navigation",
+      "authors": "Xinyu Zhou, Yinfeng Yu",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02389",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2604.02390",
+      "title": "Title: Spatial-Aware Conditioned Fusion for Audio-Visual Navigation",
+      "authors": "Shaohang Wu, Yinfeng Yu",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02390",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2604.02391",
+      "title": "Title: Reliability-Aware Geometric Fusion for Robust Audio-Visual Navigation",
+      "authors": "Teng Liu, Yinfeng Yu",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02391",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02398",
+      "title": "Title: Improving MPI Error Detection and Repair with Large Language Models and Bug References",
+      "authors": "Scott Piersall, Yang Gao, Shenyang Liu, Liqiang Wang",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02398",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02399",
+      "title": "Title: A Synthesis Method of Safe Rust Code Based on Pushdown Colored Petri Nets",
+      "authors": "Kaiwen Zhang, Guanjun Liu",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02399",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02415",
+      "title": "Title: Generative models on phase space",
+      "authors": "Zachary Bogorad, Ibrahim Elsharkawy, Yonatan Kahn, Andrew J. Larkoski, Noam Levi",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02415",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02430",
+      "title": "Title: Self-Directed Task Identification",
+      "authors": "Timothy Gould, Sidike Paheding",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02430",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02450",
+      "title": "Title: Do We Need Frontier Models to Verify Mathematical Proofs?",
+      "authors": "Aaditya Naik, Guruprerana Shabadi, Rajeev Alur, Mayur Naik",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02450",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02451",
+      "title": "Title: Skeleton-based Coherence Modeling in Narratives",
+      "authors": "Nishit Asnani, Rohan Badlani",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02451",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02458",
+      "title": "Title: When simulations look right but causal effects go wrong: Large language models as behavioral simulators",
+      "authors": "Zonghan Li, Feng Ji",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02458",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02459",
+      "title": "Title: On the Geometric Structure of Layer Updates in Deep Language Models",
+      "authors": "Jun-Sik Yoo",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02459",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02483",
+      "title": "Title: A Multimodal Vision Transformer-based Modeling Framework for Prediction of Fluid Flows in Energy Systems",
+      "authors": "Kiran Yalamanchi, Shivam Barwey, Ibrahim Jarrah, Pinaki Pal",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02483",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02490",
+      "title": "Title: Automated Malware Family Classification using Weighted Hierarchical Ensembles of Large Language Models",
+      "authors": "Samita Bai, Hamed Jelodar, Tochukwu Emmanuel Nwankwo, Parisa Hamedi, Mohammad Meymani, Roozbeh Razavi-Far, Ali A. Ghorbani",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02490",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02512",
+      "title": "Title: Social Meaning in Large Language Models: Structure, Magnitude, and Pragmatic Prompting",
+      "authors": "Roland Mühlenbernd",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02512",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02513",
+      "title": "Title: Sparse Bayesian Learning Algorithms Revisited: From Learning Majorizers to Structured Algorithmic Learning using Neural Networks",
+      "authors": "Rushabha Balaji, Kuan-Lin Chen, Danijela Cabric, Bhaskar D. Rao",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02513",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02522",
+      "title": "Title: Opal: Private Memory for Personal AI",
+      "authors": "Darya Kaviani, Alp Eren Ozdarendeli, Jinhao Zhu, Yu Ding, Raluca Ada Popa",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02522",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02527",
+      "title": "Title: Jump Start or False Start? A Theoretical and Empirical Evaluation of LLM-initialized Bandits",
+      "authors": "Adam Bayley, Xiaodan Zhu, Raquel Aoki, Yanshuai Cao, Kevin H. Wilson",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02527",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02548",
+      "title": "Title: From Theory to Practice: Code Generation Using LLMs for CAPEC and CWE Frameworks",
+      "authors": "Murtuza Shahzad, Joseph Wilson, Ibrahim Al Azher, Hamed Alhoori, Mona Rahimi",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02548",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02557",
+      "title": "Title: Pragmatics Meets Culture: Culturally-adapted Artwork Description Generation and Evaluation",
+      "authors": "Lingjun Zhao, Dayeon Ki, Marine Carpuat, Hal Daumé III",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02557",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02567",
+      "title": "Title: Generative AI Use in Entrepreneurship: An Integrative Review and an Empowerment-Entrapment Framework",
+      "authors": "Jackson G. Lu, Gerui Gloria Zhao, Anna Manyi Zheng",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02567",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02574",
+      "title": "Title: Understanding the Effects of Safety Unalignment on Large Language Models",
+      "authors": "John T. Halloran",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02574",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02578",
+      "title": "Title: High Volatility and Action Bias Distinguish LLMs from Humans in Group Coordination",
+      "authors": "Sahaj Singh Maini, Robert L. Goldstone, Zoran Tiganj",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02578",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02598",
+      "title": "Title: Making Written Theorems Explorable by Grounding Them in Formal Representations",
+      "authors": "Hita Kambhamettu, Will Crichton, Sean Welleck, Harrison Goldstein, Andrew Head",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02598",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02600",
+      "title": "Title: LitPivot: Developing Well-Situated Research Ideas Through Dynamic Contextualization and Critique within the Literature Landscape",
+      "authors": "Hita Kambhamettu, Bhavana Dalvi Mishra, Andrew Head, Jonathan Bragg, Aakanksha Naik, Joseph Chee Chang, Pao Siangliulue",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02600",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02623",
+      "title": "Title: Poison Once, Exploit Forever: Environment-Injected Memory Poisoning Attacks on Web Agents",
+      "authors": "Wei Zou, Mingwen Dong, Miguel Romero Calvo, Wei Zou, Shuaichen Chang, Jiang Guo, Dongkyu Lee, Xing Niu, Xiaofei Ma, Yanjun Qi, Jiarong Jiang",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02623",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02629",
+      "title": "Title: Toys that listen, talk, and play: Understanding Children&#39;s Sensemaking and Interactions with AI Toys",
+      "authors": "Aayushi Dangol, Meghna Gupta, Daeun Yoo, Robert Wolfe, Jason Yip, Franziska Roesner, Julie A. Kientz",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02629",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02633",
+      "title": "Title: Analytic Drift Resister for Non-Exemplar Continual Graph Learning",
+      "authors": "Lei Song, Shihan Guan, Youyong Kong",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02633",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02645",
+      "title": "Title: Speaking of Language: Reflections on Metalanguage Research in NLP",
+      "authors": "Nathan Schneider, Antonios Anastasopoulos",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02645",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02648",
+      "title": "Title: GBQA: A Game Benchmark for Evaluating LLMs as Quality Assurance Engineers",
+      "authors": "Shufan Jiang, Chios Chen, Zhiyang Chen",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02648",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02651",
+      "title": "Title: Communication-free Sampling and 4D Hybrid Parallelism for Scalable Mini-batch GNN Training",
+      "authors": "Cunyang Wei, Siddharth Singh, Aishwarya Sarkar, Daniel Nichols, Tisha Patel, Aditya K. Ranjan, Sayan Ghosh, Ali Jannesari, Nathan R. Tallent, Abhinav Bhatele",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02651",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02652",
+      "title": "Title: Generalization Limits of Reinforcement Learning Alignment",
+      "authors": "Haruhi Shida, Koo Imai, Keigo Kansa",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02652",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02659",
+      "title": "Title: Low-Rank Compression of Pretrained Models via Randomized Subspace Iteration",
+      "authors": "Farhad Pourkamali-Anaraki",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02659",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02668",
+      "title": "Title: Too Polite to Disagree: Understanding Sycophancy Propagation in Multi-Agent Systems",
+      "authors": "Vira Kasprova, Amruta Parulekar, Abdulrahman AlRabah, Krishna Agaram, Ritwik Garg, Sagar Jha, Nimet Beyza Bozdag, Dilek Hakkani-Tur",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02668",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02674",
+      "title": "Title: Do Agent Societies Develop Intellectual Elites? The Hidden Power Laws of Collective Cognition in LLM Multi-Agent Systems",
+      "authors": "Kavana Venkatesh, Jiaming Cui",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02674",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02678",
+      "title": "Title: Eligibility-Aware Evidence Synthesis: An Agentic Framework for Clinical Trial Meta-Analysis",
+      "authors": "Yao Zhao, Zhiyue Zhang, Yanxun Xu",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02678",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02685",
+      "title": "Title: Finding Belief Geometries with Sparse Autoencoders",
+      "authors": "Matthew Levinson",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02685",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02686",
+      "title": "Title: Beyond Semantic Manipulation: Token-Space Attacks on Reward Models",
+      "authors": "Yuheng Zhang, Mingyue Huo, Minghao Zhu, Mengxue Zhang, Nan Jiang",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02686",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02699",
+      "title": "Title: Trivial Vocabulary Bans Improve LLM Reasoning More Than Deep Linguistic Constraints",
+      "authors": "Rodney Jehu-Appiah",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02699",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02709",
+      "title": "Title: Evaluating the Formal Reasoning Capabilities of Large Language Models through Chomsky Hierarchy",
+      "authors": "Yihong Dong, Xiaoha Jian, Xue Jiang, Xuyuan Guo, Zhiyuan Fan, Jiaru Qian, Kechi Zhang, Jia Li, Zhi Jin, Ge Li",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02709",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02729",
+      "title": "Title: IndustryCode: A Benchmark for Industry Code Generation",
+      "authors": "Puyu Zeng, Zhaoxi Wang, Zhixu Duan, Liang Feng, Shaobo Wang, Cunxiang Wang, Jinghang Wang, Bing Zhao, Hu Wei, Linfeng Zhang",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02729",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02740",
+      "title": "Title: Cross Event Detection and Topic Evolution Mining in cross events for Man Made Disasters in Social Media Streams",
+      "authors": "Pramod Bide, Sudhir Dhage, Mohammed Afaan Ansari, Rudresh Veerkhare",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02740",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02766",
+      "title": "Title: Random Is Hard to Beat: Active Selection in online DPO with Modern LLMs",
+      "authors": "Giyeong Oh, Junghyun Lee, Jaehyun Park, Youngjae Yu, Wonho Bae, Junhyug Noh",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02766",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02767",
+      "title": "Title: SentinelAgent: Intent-Verified Delegation Chains for Securing Federal Multi-Agent AI Systems",
+      "authors": "KrishnaSaiReddy Patil",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02767",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02783",
+      "title": "Title: Disrupting Cognitive Passivity: Rethinking AI-Assisted Data Literacy through Cognitive Alignment",
+      "authors": "Yongsu Ahn, Nam Wook Kim, Benjamin Bach",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02783",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02795",
+      "title": "Title: Rubrics to Tokens: Bridging Response-level Rubrics and Token-level Rewards in Instruction Following Tasks",
+      "authors": "Tianze Xu, Yanzhao Zheng, Pengrui Lu, Lyumanshan Ye, Yong Wu, Zhentao Zhang, Yuanqiang Yu, Chao Ma, Jihuai Zhu, Pengfei Liu, Baohua Dong, Hangcheng Zhu, Ruohui Huang, Gang Yu",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02795",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02811",
+      "title": "Title: ChatSVA: Bridging SVA Generation for Hardware Verification via Task-Specific LLMs",
+      "authors": "Lik Tung Fu, Jie Zhou, Shaokai Ren, Mengli Zhang, Jia Xiong, Hugo Jiang, Nan Guan, Xi Wang, Jun Yang",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02811",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02837",
+      "title": "Title: Towards Secure Agent Skills: Architecture, Threat Taxonomy, and Security Analysis",
+      "authors": "Zhiyuan Li, Jingzheng Wu, Xiang Ling, Xing Cui, Tianyue Luo",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02837",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02850",
+      "title": "Title: High-resolution probabilistic estimation of three-dimensional regional ocean dynamics from sparse surface observations",
+      "authors": "Niloofar Asefi, Tianning Wu, Ruoying He, Ashesh Chattopadhyay",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02850",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02861",
+      "title": "Title: LLM+Graph@VLDB&#39;2025 Workshop Summary",
+      "authors": "Yixiang Fang, Arijit Khan, Tianxing Wu, Da Yan, Shu Wang",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02861",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02881",
+      "title": "Title: One Model to Translate Them All? A Journey to Mount Doom for Multilingual Model Merging",
+      "authors": "Baban Gain, Asif Ekbal, Trilok Nath Singh",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02881",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02889",
+      "title": "Title: Rethinking Forward Processes for Score-Based Data Assimilation in High Dimensions",
+      "authors": "Eunbi Yoon, Donghan Kim, Dae Wook Kim",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02889",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02912",
+      "title": "Title: Corporations Constitute Intelligence",
+      "authors": "Gilad Abiri",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02912",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02913",
+      "title": "Title: Split and Conquer Partial Deepfake Speech",
+      "authors": "Inbal Rimon, Oren Gal, Haim Permuter",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02913",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02923",
+      "title": "Title: Council Mode: Mitigating Hallucination and Bias in LLMs via Multi-Agent Consensus",
+      "authors": "Shuai Wu, Xue Li, Yanna Feng, Yufang Li, Zhijun Wang",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02923",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02951",
+      "title": "Title: How Annotation Trains Annotators: Competence Development in Social Influence Recognition",
+      "authors": "Maciej Markiewicz, Beata Bajcar, Wiktoria Mieleszczenko-Kowszewicz, Aleksander Szczęsny, Tomasz Adamczyk, Grzegorz Chodak, Karolina Ostrowska, Aleksandra Sawczuk, Jolanta Babiak, Jagoda Szklarczyk, Przemysław Kazienko",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02951",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02954",
+      "title": "Title: LogicPoison: Logical Attacks on Graph Retrieval-Augmented Generation",
+      "authors": "Yilin Xiao, Jin Chen, Qinggang Zhang, Yujing Zhang, Chuang Zhou, Longhao Yang, Lingfei Ren, Xin Yang, Xiao Huang",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02954",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02985",
+      "title": "Title: Prompt Compression in the Wild: Measuring Latency, Rate Adherence, and Quality for Faster LLM Inference",
+      "authors": "Cornelius Kummer, Lena Jurkschat, Michael Färber, Sahar Vahdati",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02985",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02986",
+      "title": "Title: Mitigating Reward Hacking in RLHF via Advantage Sign Robustness",
+      "authors": "Shinnosuke Ono, Johannes Ackermann, Soichiro Nishimori, Takashi Ishida, Masashi Sugiyama",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02986",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02988",
+      "title": "Title: Self-Optimizing Multi-Agent Systems for Deep Research",
+      "authors": "Arthur Câmara, Vincent Slot, Jakub Zavrel",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02988",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.02990",
+      "title": "Title: FedSQ: Optimized Weight Averaging via Fixed Gating",
+      "authors": "Cristian Pérez-Corral, Jose I. Mestre, Alberto Fernández-Hernández, Manuel F. Dolz, José Duato, Enrique S. Quintana-Ortí",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02990",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03004",
+      "title": "Title: R2-Write: Reflection and Revision for Open-Ended Writing with Deep Reasoning",
+      "authors": "Wanlong Liu, Bo Zhang, Chenliang Li, Shaopeng Lai, Yuning Wu, Xuanyu Lei, Ming Yan",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.03004",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03014",
+      "title": "Title: User-Aware Conditional Generative Total Correlation Learning for Multi-Modal Recommendation",
+      "authors": "Jing Du, Zesheng Ye, Congbo Ma, Feng Liu, Flora. D. Salim",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.03014",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03022",
+      "title": "Title: Comparing the Impact of Pedagogy-Informed Custom and General-Purpose GAI Chatbots on Students&#39; Science Problem-Solving Processes and Performance Using Heterogeneous Interaction Network Analysis",
+      "authors": "Hanyu Su, Huilin Zhang, Shihui Feng",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.03022",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03035",
+      "title": "Title: Beyond Isolated Tasks: A Framework for Evaluating Coding Agents on Sequential Software Evolution",
+      "authors": "KN Ajay Shastry, Ganesh Senrayan, Shrey Satapara, Pranoy Panda, Chaitanya Devaguptapu",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.03035",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.03043",
+      "title": "Title: Analyzing Healthcare Interoperability Vulnerabilities: Formal Modeling and Graph-Theoretic Approach",
+      "authors": "Jawad Mohammed, Gahangir Hossain",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.03043",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03044",
+      "title": "Title: JoyAI-LLM Flash: Advancing Mid-Scale LLMs with Token Efficiency",
+      "authors": "Aichen Cai, Anmeng Zhang, Anyu Li, Bo Zhang, Bohua Cai, Chang Li, Changjian Jiang, Changkai Lu, Chao Xue, Chaocai Liang, Cheng Zhang, Dongkai Liu, Fei Wang, Guoqiang Huang, Haijian Ke, Han Lin, Hao Wang, Ji Miao, Jiacheng Zhang, Jialong Shi, Jifeng Zhu, Jingjing Qian, Junhui Luo, Junwu Xiong, Lam So, Liang Huang, Ming Ke, Mingyang Li, Panfeng Shi, Peng Hao, Qi Wang, Qian Lai, Qiaoqiao Yuan, Qingyu Yin, Qiong Cao, Qixiang Wang, Rongcheng Bian, Rongduo Han, Shaoqiang Zheng, Shi Hu, Shi Suo, Shijie Ren, Shijin Zhang, Shiying Fan, Shuai Xie, Tianyi Zhang, Wei Liu, Wentao Tan, Xianghan Meng, Xiaodong He, Xing Pan, Xiran Wang, Xuyang Peng, Ya Zhang, Yang Liu, Yangyang Duan, Yanxu Chen, Yicheng Gong, Yidan Huang, Yifei Liu, Yinhao Bai, Yongqiang Liu, Yuesong Zhang, Yuqi Zhang, Zerui Xie, Zhenfang Wang, Zhennan Shen, Zheyuan Liu, Zhuwei Zeng",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.03044",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03050",
+      "title": "Title: MECO: A Multimodal Dataset for Emotion and Cognitive Understanding in Older Adults",
+      "authors": "Hongbin Chen, Jie Li, Wei Wang, Siyang Song, Xiao Gu, Jianqing Li, Wentao Xiang",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.03050",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03057",
+      "title": "Title: Querying Structured Data Through Natural Language Using Language Models",
+      "authors": "Hontan Valentin-Micu, Bunea Andrei-Alexandru, Tantaroudas Nikolaos Dimitrios, Popovici Dan-Matei",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.03057",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03058",
+      "title": "Title: Verbalizing LLMs&#39; assumptions to explain and control sycophancy",
+      "authors": "Myra Cheng, Isabel Sieh, Humishka Zope, Sunny Yu, Lujain Ibrahim, Aryaman Arora, Jared Moore, Desmond Ong, Dan Jurafsky, Diyi Yang",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.03058",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03070",
+      "title": "Title: Credential Leakage in LLM Agent Skills: A Large-Scale Empirical Study",
+      "authors": "Zhihao Chen, Ying Zhang, Yi Liu, Gelei Deng, Yuekang Li, Yanjun Zhang, Jianting Ning, Leo Yu Zhang, Lei Ma, Zhiqiang Li",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.03070",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.03081",
+      "title": "Title: Supply-Chain Poisoning Attacks Against LLM Coding Agent Skill Ecosystems",
+      "authors": "Yubin Qu, Yi Liu, Tongcheng Geng, Gelei Deng, Yuekang Li, Leo Yu Zhang, Ying Zhang, Lei Ma",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.03081",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.03098",
+      "title": "Title: Co-Evolution of Policy and Internal Reward for Language Agents",
+      "authors": "Xinyu Wang, Hanwei Wu, Jingwei Song, Shuyuan Zhang, Jiayi Zhang, Fanqi Kong, Tung Sum Thomas Kwok, Xiao-Wen Chang, Yuyu Luo, Chenglin Wu, Bang Liu",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.03098",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.03104",
+      "title": "Title: AlertStar: Path-Aware Alert Prediction on Hyper-Relational Knowledge Graphs",
+      "authors": "Zahra Makki Nayeri, Mohsen Rezvani",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.03104",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03121",
+      "title": "Title: An Independent Safety Evaluation of Kimi K2.5",
+      "authors": "Zheng-Xin Yong, Parv Mahajan, Andy Wang, Ida Caspary, Yernat Yestekov, Zora Che, Mosh Levy, Elle Najt, Dennis Murphy, Prashant Kulkarni, Lev McKinney, Kei Nishimura-Gasparian, Ram Potham, Aengus Lynch, Michael L. Chen",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.03121",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03127",
+      "title": "Title: Domain-Adapted Retrieval for In-Context Annotation of Pedagogical Dialogue Acts",
+      "authors": "Jinsook Lee, Kirk Vanacore, Zhuqian Zhou, Bakhtawar Ahtisham, Rene F. Kizilcec",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.03127",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03131",
+      "title": "Title: A Systematic Security Evaluation of OpenClaw and Its Variants",
+      "authors": "Yuhang Wang, Haichang Gao, Zhenxing Niu, Zhaoxiang Liu, Wenjing Zhang, Xiang Wang, Shiguo Lian",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.03131",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03135",
+      "title": "Title: AI-Assisted Unit Test Writing and Test-Driven Code Refactoring: A Case Study",
+      "authors": "Ema Smolic, Mario Brcic, Luka Hobor, Mihael Kovac",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.03135",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03144",
+      "title": "Title: InCoder-32B-Thinking: Industrial Code World Model for Thinking",
+      "authors": "Jian Yang, Wei Zhang, Jiajun Wu, Junhang Cheng, Tuney Zheng, Fanglin Xu, Weicheng Gu, Lin Jing, Yaxin Du, Joseph Li, Yizhi Li, Yan Xing, Chuan Hao, Ran Tao, Ruihao Gong, Aishan Liu, Zhoujun Li, Mingjie Tang, Chenghua Lin, Siheng Chen, Wayne Xin Zhao, Xianglong Liu, Ming Zhou, Bryan Dai, Weifeng Lv",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.03144",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.03147",
+      "title": "Title: Valence-Arousal Subspace in LLMs: Circular Emotion Geometry and Multi-Behavioral Control",
+      "authors": "Lihao Sun, Lewen Yan, Xiaoya Lu, Andrew Lee, Jie Zhang, Jing Shao",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.03147",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03174",
+      "title": "Title: Beyond the Parameters: A Technical Survey of Contextual Enrichment in Large Language Models: From In-Context Prompting to Causal Retrieval-Augmented Generation",
+      "authors": "Prakhar Bansal, Shivangi Agarwal",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.03174",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03189",
+      "title": "Title: Reflective Context Learning: Studying the Optimization Primitives of Context Space",
+      "authors": "Nikita Vassilyev, William Berrios, Ruowang Zhang, Bo Han, Douwe Kiela, Shikib Mehri",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.03189",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03190",
+      "title": "Title: Gradient Boosting within a Single Attention Layer",
+      "authors": "Saleh Sargolzaei",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.03190",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03192",
+      "title": "Title: Reliability Gated Multi-Teacher Distillation for Low Resource Abstractive Summarization",
+      "authors": "Dipto Sumit, Ankan Kumar Roy, Sadia Khair Rodela, Atia Haque Asha, Mourchona Afrin, Niloy Farhan, Farig Yousuf Sadeque",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.03192",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.03226",
+      "title": "Title: Enhancing Robustness of Federated Learning via Server Learning",
+      "authors": "Van Sy Mai, Kushal Chakrabarti, Richard J. La, Dipankar Maity",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.03226",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2502.20689",
+      "title": "Title: WiseMind: a knowledge-guided multi-agent framework for accurate and empathetic psychiatric diagnosis",
+      "authors": "Yuqi Wu, Guangya Wan, Jingjing Li, Shengming Zhao, Lingfeng Ma, Tianyi Ye, Ion Pop, Yanbo Zhang, Jie Chen",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2502.20689",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2509.12643",
+      "title": "Title: Learn to Relax with Large Language Models: Solving Constraint Optimization Problems via Bidirectional Coevolution",
+      "authors": "Beidan Liu, Zhengqiu Zhu, Chen Gao, Tianle Pu, Yong Zhao, Wei Qi, Quanjun Yin",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2509.12643",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2510.27176",
+      "title": "Title: Glia: A Human-Inspired AI for Automated Systems Design and Optimization",
+      "authors": "Pouya Hamadanian, Pantea Karimi, Arash Nasr-Esfahany, Kimia Noorbakhsh, Joseph Chandler, Ali ParandehGheibi, Mohammad Alizadeh, Hari Balakrishnan",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.27176",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2511.02734",
+      "title": "Title: CostBench: Evaluating Multi-Turn Cost-Optimal Planning and Adaptation in Dynamic Environments for LLM Tool-Use Agents",
+      "authors": "Jiayu Liu, Cheng Qian, Zhaochen Su, Qing Zong, Shijue Huang, Bingxiang He, Yi R. Fung",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2511.02734",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2512.16300",
+      "title": "Title: Code-in-the-Loop Forensics: Agentic Tool Use for Image Forgery Detection",
+      "authors": "Fanrui Zhang, Qiang Zhang, Sizhuo Zhou, Jianwen Sun, Chuanhao Li, Jiaxin Ai, Yukang Feng, Yujie Zhang, Wenjie Li, Zizhen Li, Yifan Chang, Jiawei Liu, Kaipeng Zhang",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2512.16300",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2601.00290",
+      "title": "Title: ClinicalReTrial: Clinical Trial Redesign with Self-Evolving Agents",
+      "authors": "Sixue Xing, Kerui Wu, Xuanye Xia, Meng Jiang, Jintai Chen, Tianfan Fu",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2601.00290",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2601.13518",
+      "title": "Title: AgenticRed: Evolving Agentic Systems for Red-Teaming",
+      "authors": "Jiayi Yuan, Jonathan Nöther, Natasha Jaques, Goran Radanović",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2601.13518",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2601.23048",
+      "title": "Title: From Abstract to Contextual: What LLMs Still Cannot Do in Mathematics",
+      "authors": "Bowen Cao, Dongdong Zhang, Yixia Li, Junpeng Liu, Shijue Huang, Chufan Shi, Hongyuan Lu, Yaokang Wu, Guanhua Chen, Wai Lam, Furu Wei",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2601.23048",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2603.17714",
+      "title": "Title: From Virtual Environments to Real-World Trials: Emerging Trends in Autonomous Driving",
+      "authors": "A. Humnabadkar, A. Sikdar, B. Cave, H. Zhang, N. Bessis, A. Behera",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2603.17714",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2603.22869",
+      "title": "Title: Chain-of-Authorization: Embedding authorization into large language models",
+      "authors": "Yang Li, Yule Liu, Xinlei He, Youjian Zhao, Qi Li, Ke Xu",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2603.22869",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2603.25326",
+      "title": "Title: Evaluating Language Models for Harmful Manipulation",
+      "authors": "Canfer Akbulut, Rasmi Elasmar, Abhishek Roy, Anthony Payne, Priyanka Suresh, Lujain Ibrahim, Seliem El-Sayed, Charvi Rastogi, Ashyana Kachra, Will Hawkins, Kristian Lum, Laura Weidinger",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2603.25326",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2603.26535",
+      "title": "Title: PAPO: Stabilizing Rubric Integration Training via Decoupled Advantage Normalization",
+      "authors": "Zelin Tan, Zhouliang Yu, Bohan Lin, Zijie Geng, Hejia Geng, Yudong Zhang, Mulei Zhang, Yang Chen, Shuyue Hu, Zhenfei Yin, Chen Zhang, Lei Bai",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2603.26535",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.00901",
+      "title": "Title: Experience as a Compass: Multi-agent RAG with Evolving Orchestration and Agent Prompts",
+      "authors": "Sha Li, Naren Ramakrishnan",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.00901",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.01202",
+      "title": "Title: Therefore I am. I Think",
+      "authors": "Esakkivel Esakkiraja, Sai Rajeswar, Denis Akhiyarov, Rajagopal Venkatesaramani",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.01202",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.01449",
+      "title": "Title: When AI Gets it Wrong: Reliability and Risk in AI-Assisted Medication Decision Systems",
+      "authors": "Khalid Adnan Alsayed",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.01449",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.01624",
+      "title": "Title: OSCAR: Orchestrated Self-verification and Cross-path Refinement",
+      "authors": "Yash Shah, Abhijit Chakraborty, Naresh Kumar Devulapally, Vishnu Lokhande, Vivek Gupta",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.01624",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.01732",
+      "title": "Title: Solving the Two-dimensional single stock size Cutting Stock Problem with SAT and MaxSAT",
+      "authors": "Tuyen Van Kieu, Chi Linh Hoang, Khanh Van To",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.01732",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.02315",
+      "title": "Title: Beyond the Assistant Turn: User Turn Generation as a Probe of Interaction Awareness in Language Models",
+      "authors": "Sarath Shekkizhar, Romain Cosentino, Adam Earle",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.02315",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2402.01207",
+      "title": "Title: Efficient Causal Graph Discovery Using Large Language Models",
+      "authors": "Thomas Jiralerspong, Xiaoyin Chen, Yash More, Vedant Shah, Yoshua Bengio",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2402.01207",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2409.18512",
+      "title": "Title: Expressive Prompting: Improving Emotion Intensity and Speaker Consistency in Zero-Shot TTS",
+      "authors": "Haoyu Wang, Chunyu Qiang, Tianrui Wang, Cheng Gong, Yu Jiang, Yuheng Lu, Chen Zhang, Longbiao Wang, Jianwu Dang",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2409.18512",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2410.13891",
+      "title": "Title: S$^4$ST: A Strong, Self-transferable, faSt, and Simple Scale Transformation for Transferable Targeted Attack",
+      "authors": "Yongxiang Liu, Bowen Peng, Li Liu, Xiang Li",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2410.13891",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2505.17938",
+      "title": "Title: LMask: Learn to Solve Constrained Routing Problems with Lazy Masking",
+      "authors": "Tianyou Li, Haijun Zou, Jiayuan Wu, Zaiwen Wen",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2505.17938",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2505.20139",
+      "title": "Title: StructEval: Benchmarking LLMs&#39; Capabilities to Generate Structural Outputs",
+      "authors": "Jialin Yang, Dongfu Jiang, Lipeng He, Sherman Siu, Yuxuan Zhang, Disen Liao, Zhuofeng Li, Huaye Zeng, Yiming Jia, Haozhe Wang, Benjamin Schneider, Chi Ruan, Wentao Ma, Zhiheng Lyu, Yifei Wang, Yi Lu, Quy Duc Do, Ziyan Jiang, Ping Nie, Wenhu Chen",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2505.20139",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2506.16255",
+      "title": "Title: Category-based Galaxy Image Generation via Diffusion Models",
+      "authors": "Xingzhong Fan, Hongming Tang, Yue Zeng, M.B.N.Kouwenhoven, Guangquan Zeng",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2506.16255",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2509.09192",
+      "title": "Title: ReDef: Do Code Language Models Truly Understand Code Changes for Just-in-Time Software Defect Prediction?",
+      "authors": "Doha Nam, Taehyoun Kim, Duksan Ryu, Jongmoon Baik",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2509.09192",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2509.10078",
+      "title": "Title: Human Psychometric Questionnaires Mischaracterize LLM Psychology: Evidence from Generation Behavior",
+      "authors": "Woojung Song, Dongmin Choi, Yoonah Park, Jongwook Han, Yohan Jo",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2509.10078",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2509.17608",
+      "title": "Title: AutiHero: Engaging Parents in Creating Personalized, Multi-path Social Narratives for Autistic Children",
+      "authors": "Jungeun Lee, Kyungah Lee, Inseok Hwang, SoHyun Park, Young-Ho Kim",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2509.17608",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2509.22367",
+      "title": "Title: What Is The Political Content in LLMs&#39; Pre- and Post-Training Data?",
+      "authors": "Tanise Ceron, Dmitry Nikolaev, Dominik Stammbach, Debora Nozza",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2509.22367",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2509.25438",
+      "title": "Title: Beyond Noisy-TVs: Noise-Robust Exploration Via Learning Progress Monitoring",
+      "authors": "Zhibo Hou, Zhiyu An, Wan Du",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2509.25438",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2510.00361",
+      "title": "Title: Attribution Gradients: Incrementally Unfolding Citations for Critical Examination of Attributed AI Answers",
+      "authors": "Hita Kambhamettu, Alyssa Hwang, Philippe Laban, Andrew Head",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.00361",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2510.05497",
+      "title": "Title: Patterns behind Chaos: Forecasting Data Movement for Efficient Large-Scale MoE LLM Inference",
+      "authors": "Zhongkai Yu, Yue Guan, Zihao Yu, Chenyang Zhou, Zhengding Hu, Shuyi Pei, Yangwook Kang, Yufei Ding, Po-An Tsai",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.05497",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2510.06649",
+      "title": "Title: Local Reinforcement Learning with Action-Conditioned Root Mean Squared Q-Functions",
+      "authors": "Frank Wu, Mengye Ren",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.06649",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2510.10415",
+      "title": "Title: CQA-Eval: Designing Reliable Evaluations of Multi-paragraph Clinical QA under Resource Constraints",
+      "authors": "Federica Bologna, Tiffany Pan, Matthew Wilkens, Yue Guo, Lucy Lu Wang",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.10415",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2510.10510",
+      "title": "Title: f-INE: A Hypothesis Testing Framework for Estimating Influence under Training Randomness",
+      "authors": "Subhodip Panda, Dhruv Tarsadiya, Shashwat Sourav, Prathosh A.P, Sai Praneeth Karimireddy",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.10510",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2510.19127",
+      "title": "Title: Steering Autoregressive Music Generation with Recursive Feature Machines",
+      "authors": "Daniel Zhao, Daniel Beaglehole, Taylor Berg-Kirkpatrick, Julian McAuley, Zachary Novack",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.19127",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2510.20847",
+      "title": "Title: Integrated representational signatures strengthen specificity in brains and models",
+      "authors": "Jialin Wu, Shreya Saha, Yiqing Bo, Meenakshi Khosla",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2510.20847",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2511.06731",
+      "title": "Title: Recovering Sub-threshold S-wave Arrivals in Deep Learning Phase Pickers via Shape-Aware Loss",
+      "authors": "Chun-Ming Huang, Li-Heng Chang, I-Hsin Chang, An-Sheng Lee, Hao Kuo-Chen",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2511.06731",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2512.13907",
+      "title": "Title: Assessing High-Risk AI Systems under the EU AI Act: From Legal Requirements to Technical Verification",
+      "authors": "Alessio Buscemi, Tom Deckenbrunnen, Fahria Kabir, Kateryna Mishchenko, Nishat Mowla",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2512.13907",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2601.08845",
+      "title": "Title: No Universal Hyperbola: A Formal Disproof of the Epistemic Trade-Off Between Certainty and Scope in Symbolic and Generative AI",
+      "authors": "Generoso Immediato",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2601.08845",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2601.13508",
+      "title": "Title: Autonomous Computational Catalysis Research via Agentic Systems",
+      "authors": "Honghao Chen, Jiangjie Qiu, Yi Shen Tew, Xiaonan Wang",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2601.13508",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2601.21064",
+      "title": "Title: Textual Equilibrium Propagation for Deep Compound AI Systems",
+      "authors": "Minghui Chen, Wenlong Deng, James Zou, Han Yu, Xiaoxiao Li",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2601.21064",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2602.09987",
+      "title": "Title: Infusion: Shaping Model Behavior by Editing Training Data via Influence Functions",
+      "authors": "J Rosser, Robert Kirk, Edward Grefenstette, Jakob Foerster, Laura Ruis",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2602.09987",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2602.10419",
+      "title": "Title: Equivariant Evidential Deep Learning for Interatomic Potentials",
+      "authors": "Zhongyao Wang, Taoyong Cui, Jiawen Zou, Shufei Zhang, Bo Yan, Wanli Ouyang, Weimin Tan, Mao Su",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2602.10419",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2602.16746",
+      "title": "Title: Low-Dimensional and Transversely Curved Optimization Dynamics in Grokking",
+      "authors": "Yongzhong Xu",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2602.16746",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2602.16967",
+      "title": "Title: Early-Warning Signals of Grokking via Loss-Landscape Geometry",
+      "authors": "Yongzhong Xu",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2602.16967",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2602.18523",
+      "title": "Title: The Geometry of Multi-Task Grokking: Transverse Instability, Superposition, and Weight Decay Phase Structure",
+      "authors": "Yongzhong Xu",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2602.18523",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2602.22911",
+      "title": "Title: CeRA: Overcoming the Linear Ceiling of Low-Rank Adaptation via Capacity Expansion",
+      "authors": "Hung-Hsuan Chen",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2602.22911",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2603.01589",
+      "title": "Title: SafeSci: Safety Evaluation of Large Language Models in Science Domains and Beyond",
+      "authors": "Xiangyang Zhu, Yuan Tian, Qi Jia, Kaiwei Zhang, Zicheng Zhang, Chunyi Li, Kaiyuan Ji, Dongrui Liu, Zijian Chen, Lu Sun, Renrui Zhang, Yan Teng, Jing Shao, Wei Sun, Xia Hu, Yu Qiao, Guangtao Zhai",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2603.01589",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2603.03312",
+      "title": "Title: Escaping the BLEU Trap: A Signal-Grounded Framework with Decoupled Semantic Guidance for EEG-to-Text Decoding",
+      "authors": "Yuchen Wang, Haonan Wang, Yu Guo, Honglong Yang, Xiaomeng Li",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2603.03312",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2603.05917",
+      "title": "Title: Stock Market Prediction Using Node Transformer Architecture Integrated with BERT Sentiment Analysis",
+      "authors": "Mohammad Al Ridhawi, Mahtab Haj Ali, Hussein Al Osman",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2603.05917",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2603.16663",
+      "title": "Title: When Openclaw Agents Learn from Each Other: Insights from Emergent AI Agent Communities for Human-AI Partnership in Education",
+      "authors": "Eason Chen, Ce Guan, A Elshafiey, Zhonghao Zhao, Joshua Zekeri, Afeez Edeifo Shaibu, Emmanuel Osadebe Prince, Cyuan-Jhen Wu",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2603.16663",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2603.17677",
+      "title": "Title: Adaptive Guidance for Retrieval-Augmented Masked Diffusion Models",
+      "authors": "Jaemin Kim, Jong Chul Ye",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2603.17677",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2603.18109",
+      "title": "Title: Discovery of Bimodal Drift Rate Structure in FRB 20240114A: Evidence for Dual Emission Regions",
+      "authors": "Santosh Arron",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2603.18109",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2603.20266",
+      "title": "Title: JointFM-0.1: A Foundation Model for Multi-Target Joint Distributional Prediction",
+      "authors": "Stefan Hackmann",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2603.20266",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2603.21991",
+      "title": "Title: $λ$-GELU: Learning Gating Hardness for Controlled ReLU-ization in Deep Networks",
+      "authors": "Cristian Pérez-Corral, Alberto Fernández-Hernández, Jose I. Mestre, Manuel F. Dolz, Enrique S. Quintana-Ortí",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2603.21991",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2603.25764",
+      "title": "Title: Consistency Amplifies: How Behavioral Variance Shapes Agent Accuracy",
+      "authors": "Aman Mehta",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2603.25764",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2603.28013",
+      "title": "Title: Kill-Chain Canaries: Stage-Level Tracking of Prompt Injection Across Attack Surfaces and Model Safety Tiers",
+      "authors": "Haochuan Kevin Wang",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2603.28013",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2603.28204",
+      "title": "Title: ERPO: Token-Level Entropy-Regulated Policy Optimization for Large Reasoning Models",
+      "authors": "Song Yu, Li Li, Wenwen Zhao, Zhisheng Yang",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2603.28204",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2603.28964",
+      "title": "Title: The Spectral Edge Thesis: A Mathematical Framework for Intra-Signal Phase Transitions in Neural Network Training",
+      "authors": "Yongzhong Xu",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2603.28964",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2603.29093",
+      "title": "Title: APEX-EM: Non-Parametric Online Learning for Autonomous Agents via Structured Procedural-Episodic Experience Replay",
+      "authors": "Pratyay Banerjee, Masud Moshtaghi, Ankit Chadha",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2603.29093",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 4
+    },
+    {
+      "arxiv_id": "2604.00073",
+      "title": "Title: Terminal Agents Suffice for Enterprise Automation",
+      "authors": "Patrice Bechard, Orlando Marquez Ayala, Emily Chen, Jordan Skelton, Sagar Davasam, Srinivas Sunkara, Vikas Yadav, Sai Rajeswar",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.00073",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    },
+    {
+      "arxiv_id": "2604.01021",
+      "title": "Title: Transfer learning for nonparametric Bayesian networks",
+      "authors": "Rafael Sojo, Pedro Larrañaga, Concha Bielza",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.01021",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 0
+    },
+    {
+      "arxiv_id": "2604.01527",
+      "title": "Title: ProdCodeBench: A Production-Derived Benchmark for Evaluating AI Coding Agents",
+      "authors": "Smriti Jha, Matteo Paltenghi, Chandra Maddila, Vijayaraghavan Murali, Shubham Ugare, Satish Chandra",
+      "category": "cs.AI",
+      "arxiv_url": "https://arxiv.org/abs/2604.01527",
+      "published": "2026-04-07",
+      "source": "cs.AI",
+      "score": 2
+    }
+  ]
+}

@@ -21,6 +21,30 @@
 8. ✅ 本质思考（3个子问题）
 ```
 
+### 🚨 Mermaid强制要求（不遵守则文档无效）
+
+**必须使用 ```mermaid 代码块绘制以下图表，禁止用纯文本替代：**
+
+1. **知识演进图** → 必须用 `mermaid graph LR` 或 `mermaid graph TD`，节点包含日期和关键论文
+2. **知识缺口分析** → 必须用 `mermaid pie`，显示已解决/部分理解/未涉及的占比
+3. **10层架构思维导图** → 必须用 `mermaid mindmap`，展示完整10层架构
+4. **核心见解演进图** → 必须用 `mermaid graph LR`，展示见解间的演进关系
+
+**❌ 禁止用以下方式替代mermaid：**
+- 纯文本箭头（`A → B → C`）
+- markdown表格模拟图表
+- 文字描述说"见上方图表"但没有实际mermaid代码
+
+**✅ 正确示例：**
+````markdown
+```mermaid
+graph LR
+    A[04-07: EgoSim] --> B[04-08: Veo-Act]
+    B --> C[04-09: Cybo-Waiter]
+    C --> D[04-10: Splatblox]
+```
+````
+
 ## 执行步骤
 
 ### 1. 阅读昨天的思考文档
@@ -139,7 +163,14 @@ done
 ```markdown
 ## 🗺️ 知识演进图
 
-[Mermaid graph LR]
+⚠️ 必须使用 mermaid 代码块！禁止用纯文本箭头！
+
+```mermaid
+graph LR
+    A["MM-DD: 论文1关键词"] --> B["MM-DD: 论文2关键词"]
+    B --> C["MM-DD: 论文3关键词"]
+    ...
+```
 ```
 
 #### 3.6 技术栈演进对比
@@ -159,7 +190,17 @@ done
 
 ### 10层架构思维导图
 
-[Mermaid mindmap]
+⚠️ 必须使用 mermaid mindmap 代码块！
+
+```mermaid
+mindmap
+  root((Spatial AGI))
+    第1层 感知
+      ...
+    第2层 表示
+      ...
+    （必须包含全部10层）
+```
 
 ### 🎯 主线技术路径
 
@@ -195,7 +236,14 @@ done
 ```markdown
 ## 📊 知识缺口分析
 
-[Mermaid pie图]
+⚠️ 必须使用 mermaid pie 代码块！
+
+```mermaid
+pie title 知识缺口分布
+    "已解决" : XX
+    "部分理解" : XX
+    "未涉及" : XX
+```
 
 **已解决（XX%）**:
 - ✅ [列表]

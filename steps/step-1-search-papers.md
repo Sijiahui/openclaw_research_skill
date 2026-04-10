@@ -79,8 +79,95 @@ python3 search_arxiv.py "all:embodied+all:AI" 20
 
 ## 执行状态
 
-**Status**: ✅ Completed (2026-04-01 Run)
-**Completed At**: 2026-04-01T07:02:00+08:00
+**Status**: ✅ Completed (2026-04-07 Run)
+
+### 执行记录 (2026-04-07)
+
+1. **arXiv API 限流**: API返回0篇，降级为web_fetch抓取arXiv list页面
+2. **成功获取数据**: 4个类别共419篇新论文，关键词筛选后158篇高相关
+3. **输出文件**: `data/papers_2026-04-07.json` (180KB)
+
+### 搜索类别 (2026-04-07)
+
+| 类别 | 新论文数 | 说明 |
+|------|---------|------|
+| cs.CV | 180 | 计算机视觉 |
+| cs.RO | 53 | 机器人学 |
+| cs.GR | 4 | 计算机图形学 |
+| cs.AI | 248 | 人工智能 |
+
+### Top 15 优先论文 (2026-04-07)
+
+1. **TrackerSplat** (score=8, cs.CV) - 点跟踪加速动态3D高斯重建
+2. **Delaunay Canopy** (score=6, cs.CV) - 机载LiDAR点云Delaunay图建筑线框重建
+3. **GP-4DGS** (score=6, cs.CV) - 变分高斯过程概率4D高斯泼溅
+4. **Rendering Multi-Human and Multi-Object with 3DGS** (score=6, cs.CV) - 多人多物体3DGS渲染
+5. **SparseSplat** (score=6, cs.CV) - 像素不对齐前馈3DGS
+6. **MedGS** (score=6, cs.CV) - 多模态3D医学影像高斯泼溅
+7. **SING3R-SLAM** (score=6, cs.CV) - 子图室内单目高斯SLAM
+8. **DePT3R** (score=6, cs.CV) - 联合密集点跟踪与动态场景3D重建
+9. **Uncertainty-Aware 4DGS** (score=6, cs.CV) - 不确定性感知4DGS遮挡人体渲染
+10. **LiDAR Off-Road Nav Stack** (score=6, cs.RO) - 开源LiDAR+单目越野自主导航
+11. **Streaming 3D Gaussians** (score=6, cs.GR) - 实时渲染场景流式3D高斯
+12. **PlayGen-MoG** (score=4, cs.CV) - 混合高斯轨迹预测多智能体
+13. **Contrastive Language-Colored Pointmap** (score=4, cs.CV) - 统一3D场景理解对比预训练
+14. **Rascene** (score=4, cs.CV) - mmWave通信信号高保真3D场景成像
+15. **Cross-Vehicle 3D Geometric** (score=4, cs.CV) - 自监督环绕深度估计跨车辆3D一致性
+
+### 趋势观察 (2026-04-07)
+
+1. **3DGS持续爆发**: TrackerSplat(动态)、GP-4DGS(概率4D)、SparseSplat(前馈)、MedGS(医学)、SING3R-SLAM、Streaming
+2. **动态场景重建**: TrackerSplat(点跟踪+动态3DGS)、DePT3R(跟踪+重建联合)、Uncertainty-Aware 4DGS
+3. **Embodied Navigation**: LiDAR越野导航、ExploreVLA(端到端驾驶)、NavCrafter(单图3D场景探索)
+4. **多智能体**: PlayGen-MoG轨迹预测
+
+---
+
+**Status**: ✅ Completed (2026-04-02 Run)
+**Completed At**: 2026-04-02T07:05:00+08:00
+
+### 执行记录 (2026-04-02)
+
+1. **arXiv API 限流**: API返回"Rate exceeded"，web_search无Brave API key
+2. **降级方案**: 直接抓取arXiv list页面(cs.CV/cs.RO/cs.GR/cs.AI)的HTML，用正则解析标题/作者/摘要
+3. **成功获取数据**: 4个类别共219篇新论文(2026-04-01发布)，关键词筛选后42篇高相关
+4. **输出文件**: `data/papers_2026-04-02.json` (63,052 bytes)
+
+### 搜索类别 (2026-04-02)
+
+| 类别 | 新论文数 | 说明 |
+|------|---------|------|
+| cs.CV | 116 | 计算机视觉 |
+| cs.RO | 35 | 机器人学 |
+| cs.GR | ~30 | 计算机图形学 |
+| cs.AI | ~38 | 人工智能 |
+
+### Top 15 优先论文 (2026-04-02)
+
+1. **OccSim** (score=10) - 多公里范围占用世界模型仿真
+2. **SceneTeract** (score=10) - VLM在3D场景中的功能可供性智能体
+3. **Stepper** (score=9) - 多视图全景逐步沉浸式场景生成
+4. **UltraG-Ray** (score=9) - 基于物理的高斯光线投射新视角合成
+5. **AutoWorld** (score=8, cs.RO) - 自监督世界模型多智能体交通仿真
+6. **PRISM** (score=7) - Embodied VLM零售视频多视角数据集
+7. **MotionScale** (score=7) - 可扩展4D高斯动态场景外观/几何/运动重建
+8. **AA-Splat** (score=7) - 抗锯齿前馈高斯泼溅
+9. **CReF** (score=7, cs.RO) - 跨模态循环融合深度条件人形运动
+10. **LightHarmony3D** (score=6) - 3DGS物体插入光照阴影协调
+11. **SparseDriveV2** (score=3) - 端到端自动驾驶评分
+12. **LatentPilot** (score=3) - 场景感知VLN潜在视觉推理
+13. **DIAL** (score=5, cs.RO) - 解耦意图与动作的潜在世界模型VLA
+14. **Gleanmer** (score=4, cs.RO) - 6mW实时3D高斯占用映射SoC
+15. **Extend3D** (score=4) - 城镇尺度3D生成
+
+### 趋势观察 (2026-04-02)
+
+1. **世界模型实际应用**: OccSim(AV仿真)、AutoWorld(交通)、DIAL(VLA)将世界模型从论文推向系统
+2. **3DGS继续演进**: AA-Splat(抗锯齿)、MotionScale(4D动态)、Gleanmer(硬件SoC)、LightHarmony3D(光照)
+3. **VLM+3D场景理解**: SceneTeract(VLM可供性)、SeGPruner(3D QA)、PRISM(Embodied VLM)
+4. **端到端自动驾驶**: SparseDriveV2、AutoWorld规模化
+
+---
 
 ### 执行记录 (2026-04-01)
 

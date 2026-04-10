@@ -21,7 +21,7 @@ WARNINGS=0
 echo "📋 检查1: 文档存在性"
 if [ ! -f "$THINKING_FILE" ]; then
     echo "   ❌ 错误：思考文档未生成"
-    ((ERRORS++))
+    ((ERRORS++)) || true
 else
     echo "   ✅ 文档存在"
 fi
@@ -34,7 +34,7 @@ if [ $LINES -lt 800 ]; then
     echo "   ❌ 错误：文档行数不足（$LINES < 800）"
     echo "   📊 当前: $LINES 行"
     echo "   🎯 要求: ≥ 800 行"
-    ((ERRORS++))
+    ((ERRORS++)) || true
 else
     echo "   ✅ 行数达标: $LINES 行"
 fi
@@ -47,13 +47,13 @@ if grep -q "## 🔗 与昨日思考的联系" "$THINKING_FILE"; then
     SECTION_LINES=$(sed -n '/## 🔗 与昨日思考的联系/,/^## /p' "$THINKING_FILE" | wc -l)
     if [ $SECTION_LINES -lt 10 ]; then
         echo "   ⚠️  警告：'与昨日思考的联系'内容过少（$SECTION_LINES 行）"
-        ((WARNINGS++))
+        ((WARNINGS++)) || true
     else
         echo "   ✅ 包含'与昨日思考的联系'（$SECTION_LINES 行）"
     fi
 else
     echo "   ❌ 错误：缺少'与昨日思考的联系'章节"
-    ((ERRORS++))
+    ((ERRORS++)) || true
 fi
 echo ""
 
@@ -64,7 +64,7 @@ if grep -q "graph LR" "$THINKING_FILE"; then
     echo "   ✅ 包含演进图（$GRAPH_COUNT 个）"
 else
     echo "   ❌ 错误：缺少知识演进图（Mermaid graph LR）"
-    ((ERRORS++))
+    ((ERRORS++)) || true
 fi
 echo ""
 
@@ -75,13 +75,13 @@ if grep -q "技术栈演进对比" "$THINKING_FILE"; then
     TABLE_LINES=$(sed -n '/技术栈演进对比/,/^$/p' "$THINKING_FILE" | grep "|" | wc -l)
     if [ $TABLE_LINES -lt 5 ]; then
         echo "   ⚠️  警告：技术栈对比表内容过少（$TABLE_LINES 行）"
-        ((WARNINGS++))
+        ((WARNINGS++)) || true
     else
         echo "   ✅ 包含技术栈对比表（$TABLE_LINES 行）"
     fi
 else
     echo "   ❌ 错误：缺少技术栈演进对比表"
-    ((ERRORS++))
+    ((ERRORS++)) || true
 fi
 echo ""
 
@@ -92,11 +92,11 @@ if grep -q "知识缺口分析" "$THINKING_FILE"; then
         echo "   ✅ 包含知识缺口分析（pie图）"
     else
         echo "   ⚠️  警告：缺少知识缺口pie图"
-        ((WARNINGS++))
+        ((WARNINGS++)) || true
     fi
 else
     echo "   ❌ 错误：缺少知识缺口分析"
-    ((ERRORS++))
+    ((ERRORS++)) || true
 fi
 echo ""
 
@@ -108,17 +108,17 @@ if grep -q "10层架构思维导图" "$THINKING_FILE"; then
         LEVEL_COUNT=$(grep -E "Level [0-9]:" "$THINKING_FILE" | wc -l)
         if [ $LEVEL_COUNT -lt 10 ]; then
             echo "   ⚠️  警告：架构层次不足（$LEVEL_COUNT < 10）"
-            ((WARNINGS++))
+            ((WARNINGS++)) || true
         else
             echo "   ✅ 包含10层架构思维导图（$LEVEL_COUNT 层）"
         fi
     else
         echo "   ❌ 错误：缺少mindmap代码"
-        ((ERRORS++))
+        ((ERRORS++)) || true
     fi
 else
     echo "   ❌ 错误：缺少10层架构思维导图"
-    ((ERRORS++))
+    ((ERRORS++)) || true
 fi
 echo ""
 
@@ -129,13 +129,13 @@ if grep -q "主线技术路径" "$THINKING_FILE"; then
     STAGE_COUNT=$(grep -c "阶段[0-9]:" "$THINKING_FILE")
     if [ $STAGE_COUNT -lt 4 ]; then
         echo "   ⚠️  警告：技术路径阶段不足（$STAGE_COUNT < 4）"
-        ((WARNINGS++))
+        ((WARNINGS++)) || true
     else
         echo "   ✅ 包含主线技术路径（$STAGE_COUNT 个阶段）"
     fi
 else
     echo "   ❌ 错误：缺少主线技术路径"
-    ((ERRORS++))
+    ((ERRORS++)) || true
 fi
 echo ""
 
@@ -146,13 +146,13 @@ if grep -q "待探索议题" "$THINKING_FILE"; then
     TOPIC_COUNT=$(grep -c "#### " "$THINKING_FILE" | head -1)
     if [ $TOPIC_COUNT -lt 9 ]; then
         echo "   ⚠️  警告：待探索议题数量不足（$TOPIC_COUNT < 9）"
-        ((WARNINGS++))
+        ((WARNINGS++)) || true
     else
         echo "   ✅ 包含待探索议题"
     fi
 else
     echo "   ❌ 错误：缺少待探索议题"
-    ((ERRORS++))
+    ((ERRORS++)) || true
 fi
 echo ""
 
@@ -166,11 +166,11 @@ if grep -q "💡 本质思考" "$THINKING_FILE"; then
         echo "   ✅ 包含完整的本质思考（3个子问题）"
     else
         echo "   ⚠️  警告：本质思考不完整"
-        ((WARNINGS++))
+        ((WARNINGS++)) || true
     fi
 else
     echo "   ❌ 错误：缺少本质思考"
-    ((ERRORS++))
+    ((ERRORS++)) || true
 fi
 echo ""
 
@@ -183,7 +183,7 @@ if [ $MERMAID_COUNT -lt 3 ]; then
     echo "      - 核心见解演进图（graph LR）"
     echo "      - 知识缺口分析（pie）"
     echo "      - 10层架构思维导图（mindmap）"
-    ((ERRORS++))
+    ((ERRORS++)) || true
 else
     echo "   ✅ Mermaid图表达标: $MERMAID_COUNT 个"
 fi

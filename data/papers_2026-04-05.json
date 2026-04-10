@@ -1,0 +1,1089 @@
+{
+  "papers": [
+    {
+      "title": "ActionParty: Multi-Subject Action Binding in Generative Video Games",
+      "summary": "Recent advances in video diffusion have enabled the development of \"world models\" capable of simulating interactive environments. However, these models are largely restricted to single-agent settings, failing to control multiple agents simultaneously in a scene. In this work, we tackle a fundamental issue of action binding in existing video diffusion models, which struggle to associate specific actions with their corresponding subjects. For this purpose, we propose ActionParty, an action control",
+      "arxiv_url": "http://arxiv.org/abs/2604.02330v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02330v1",
+      "authors": [
+        "Alexander Pondaven",
+        "Ziyi Wu",
+        "Igor Gilitschenski",
+        "Philip Torr",
+        "Sergey Tulyakov"
+      ],
+      "published": "2026-04-02",
+      "category": "spatial_intelligence"
+    },
+    {
+      "title": "Generative World Renderer",
+      "summary": "Scaling generative inverse and forward rendering to real-world scenarios is bottlenecked by the limited realism and temporal coherence of existing synthetic datasets. To bridge this persistent domain gap, we introduce a large-scale, dynamic dataset curated from visually complex AAA games. Using a novel dual-screen stitched capture method, we extracted 4M continuous frames (720p/30 FPS) of synchronized RGB and five G-buffer channels across diverse scenes, visual effects, and environments, includi",
+      "arxiv_url": "http://arxiv.org/abs/2604.02329v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02329v1",
+      "authors": [
+        "Zheng-Hui Huang",
+        "Zhixiang Wang",
+        "Jiaming Tan",
+        "Ruihan Yu",
+        "Yidan Zhang"
+      ],
+      "published": "2026-04-02",
+      "category": "spatial_intelligence"
+    },
+    {
+      "title": "Steerable Visual Representations",
+      "summary": "Pretrained Vision Transformers (ViTs) such as DINOv2 and MAE provide generic image features that can be applied to a variety of downstream tasks such as retrieval, classification, and segmentation. However, such representations tend to focus on the most salient visual cues in the image, with no way to direct them toward less prominent concepts of interest. In contrast, Multimodal LLMs can be guided with textual prompts, but the resulting representations tend to be language-centric and lose their",
+      "arxiv_url": "http://arxiv.org/abs/2604.02327v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02327v1",
+      "authors": [
+        "Jona Ruthardt",
+        "Manu Gaur",
+        "Deva Ramanan",
+        "Makarand Tapaswi",
+        "Yuki M. Asano"
+      ],
+      "published": "2026-04-02",
+      "category": "spatial_intelligence"
+    },
+    {
+      "title": "ReVAR: A Data-Driven Algorithm for Generating Aero-Optic Phase Screens",
+      "summary": "The propagation of light through a turbulent flow field around an aircraft results in optical distortions commonly known as aero-optic effects. The development of methods to mitigate these effects requires large amounts of realistic aero-optic data. However, methods for obtaining this data, including experiment, computational fluid dynamics, and simple phase screen algorithms (e.g., boiling flow), each have significant drawbacks such as high cost, high computation, limited quantity, and/or inacc",
+      "arxiv_url": "http://arxiv.org/abs/2604.02326v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02326v1",
+      "authors": [
+        "Jeffrey W. Utley",
+        "Gregery T. Buzzard",
+        "Charles A. Bouman",
+        "Matthew R. Kemnetz"
+      ],
+      "published": "2026-04-02",
+      "category": "spatial_intelligence"
+    },
+    {
+      "title": "Loop-level surrogate modeling of dopant-distribution effects in Ba(Zr,Ti)O$_3$",
+      "summary": "Barium titanate-based perovskites are important candidates for lead-free dielectric and electromechanical technologies. In Zr-substituted BaTiO$_3$ (BZT), functional behavior is usually discussed in terms of the average Zr concentration, while the influence of dopant spatial distribution beyond average concentration is less understood and difficult to explore systematically. Here we present an accelerated materials-design workflow that links controlled dopant distributions to full field-driven r",
+      "arxiv_url": "http://arxiv.org/abs/2604.02325v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02325v1",
+      "authors": [
+        "Heiko Röthl",
+        "Elke Kraker",
+        "Julien Magnien",
+        "Manfred Mücke",
+        "Florian Mayer"
+      ],
+      "published": "2026-04-02",
+      "category": "spatial_intelligence"
+    },
+    {
+      "title": "Grounded Token Initialization for New Vocabulary in LMs for Generative Recommendation",
+      "summary": "Language models (LMs) are increasingly extended with new learnable vocabulary tokens for domain-specific tasks, such as Semantic-ID tokens in generative recommendation. The standard practice initializes these new tokens as the mean of existing vocabulary embeddings, then relies on supervised fine-tuning to learn their representations. We present a systematic analysis of this strategy: through spectral and geometric diagnostics, we show that mean initialization collapses all new tokens into a deg",
+      "arxiv_url": "http://arxiv.org/abs/2604.02324v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02324v1",
+      "authors": [
+        "Daiwei Chen",
+        "Zhoutong Fu",
+        "Chengming Jiang",
+        "Haichao Zhang",
+        "Ran Zhou"
+      ],
+      "published": "2026-04-02",
+      "category": "spatial_intelligence"
+    },
+    {
+      "title": "Batched Contextual Reinforcement: A Task-Scaling Law for Efficient Reasoning",
+      "summary": "Large Language Models employing Chain-of-Thought reasoning achieve strong performance but suffer from excessive token consumption that inflates inference costs. Existing efficiency methods such as explicit length penalties, difficulty estimators, or multi-stage curricula either degrade reasoning quality or require complex training pipelines. We introduce Batched Contextual Reinforcement, a minimalist, single-stage training paradigm that unlocks efficient reasoning through a simple structural mod",
+      "arxiv_url": "http://arxiv.org/abs/2604.02322v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02322v1",
+      "authors": [
+        "Bangji Yang",
+        "Hongbo Ma",
+        "Jiajun Fan",
+        "Ge Liu"
+      ],
+      "published": "2026-04-02",
+      "category": "spatial_intelligence"
+    },
+    {
+      "title": "Stop Wandering: Efficient Vision-Language Navigation via Metacognitive Reasoning",
+      "summary": "Training-free Vision-Language Navigation (VLN) agents powered by foundation models can follow instructions and explore 3D environments. However, existing approaches rely on greedy frontier selection and passive spatial memory, leading to inefficient behaviors such as local oscillation and redundant revisiting. We argue that this stems from a lack of metacognitive capabilities: the agent cannot monitor its exploration progress, diagnose strategy failures, or adapt accordingly. To address this, we",
+      "arxiv_url": "http://arxiv.org/abs/2604.02318v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02318v1",
+      "authors": [
+        "Xueying Li",
+        "Feng Lyu",
+        "Hao Wu",
+        "Mingliu Liu",
+        "Jia-Nan Liu"
+      ],
+      "published": "2026-04-02",
+      "category": "spatial_intelligence"
+    },
+    {
+      "title": "Beyond the Assistant Turn: User Turn Generation as a Probe of Interaction Awareness in Language Models",
+      "summary": "Standard LLM benchmarks evaluate the assistant turn: the model generates a response to an input, a verifier scores correctness, and the analysis ends. This paradigm leaves unmeasured whether the LLM encodes any awareness of what follows the assistant response. We propose user-turn generation as a probe of this gap: given a conversation context of user query and assistant response, we let a model generate under the user role. If the model's weights encode interaction awareness, the generated user",
+      "arxiv_url": "http://arxiv.org/abs/2604.02315v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02315v1",
+      "authors": [
+        "Sarath Shekkizhar",
+        "Romain Cosentino",
+        "Adam Earle"
+      ],
+      "published": "2026-04-02",
+      "category": "spatial_intelligence"
+    },
+    {
+      "title": "Magneto-Active Environments in Pulsar Binaries with the MeerKAT Telescope: I. Pulsar sample and their basic properties",
+      "summary": "Eclipsing pulsar binaries and binaries with a high mass companion are ideal systems for studying and understanding the properties of plasma in magneto-ionic environments. In this work, the first paper of a series, we present MeerKAT observations of three pulsar binaries: the high-mass binary PSR J1740$-$3052, the black widow PSR J2051$-$0827 and the redback PSR J1748$-$2446A (Terzan~5A). With the help of MeerKAT's high-sensitivity polarimetric observations, we characterise the properties of thes",
+      "arxiv_url": "http://arxiv.org/abs/2604.02310v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02310v1",
+      "authors": [
+        "Jaikhomba Singha",
+        "Dongzi Li",
+        "Marisa Geyer",
+        "Maciej Serylak",
+        "Federico Abbate"
+      ],
+      "published": "2026-04-02",
+      "category": "spatial_intelligence"
+    },
+    {
+      "title": "Disentangled Deep Priors for Bayesian Inverse Problems",
+      "summary": "We propose a structured prior for high-dimensional Bayesian inverse problems based on a disentangled deep generative model whose latent space is partitioned into auxiliary variables aligned with known and interpretable physical parameters and residual variables capturing remaining unknown variability. This yields a hierarchical prior in which interpretable coordinates carry domain-relevant uncertainty while the residual coordinates retain the flexibility of deep generative models. By linearizing",
+      "arxiv_url": "http://arxiv.org/abs/2604.02304v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02304v1",
+      "authors": [
+        "Arkaprabha Ganguli",
+        "Emil Constantinescu"
+      ],
+      "published": "2026-04-02",
+      "category": "spatial_intelligence"
+    },
+    {
+      "title": "VOID: Video Object and Interaction Deletion",
+      "summary": "Existing video object removal methods excel at inpainting content \"behind\" the object and correcting appearance-level artifacts such as shadows and reflections. However, when the removed object has more significant interactions, such as collisions with other objects, current models fail to correct them and produce implausible results. We present VOID, a video object removal framework designed to perform physically-plausible inpainting in these complex scenarios. To train the model, we generate a",
+      "arxiv_url": "http://arxiv.org/abs/2604.02296v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02296v1",
+      "authors": [
+        "Saman Motamed",
+        "William Harvey",
+        "Benjamin Klein",
+        "Luc Van Gool",
+        "Zhuoning Yuan"
+      ],
+      "published": "2026-04-02",
+      "category": "spatial_intelligence"
+    },
+    {
+      "title": "Omni123: Exploring 3D Native Foundation Models with Limited 3D Data by Unifying Text to 2D and 3D Generation",
+      "summary": "Recent multimodal large language models have achieved strong performance in unified text and image understanding and generation, yet extending such native capability to 3D remains challenging due to limited data. Compared to abundant 2D imagery, high-quality 3D assets are scarce, making 3D synthesis under-constrained. Existing methods often rely on indirect pipelines that edit in 2D and lift results into 3D via optimization, sacrificing geometric consistency. We present Omni123, a 3D-native foun",
+      "arxiv_url": "http://arxiv.org/abs/2604.02289v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02289v1",
+      "authors": [
+        "Chongjie Ye",
+        "Cheng Cao",
+        "Chuanyu Pan",
+        "Yiming Hao",
+        "Yihao Zhi"
+      ],
+      "published": "2026-04-02",
+      "category": "spatial_intelligence"
+    },
+    {
+      "title": "Unifying Group-Relative and Self-Distillation Policy Optimization via Sample Routing",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) has become a standard paradigm for post-training large language models. While Group Relative Policy Optimization (GRPO) is widely adopted, its coarse credit assignment uniformly penalizes failed rollouts, lacking the token-level focus needed to efficiently address specific deviations. Self-Distillation Policy Optimization (SDPO) addresses this by providing denser, more targeted logit-level supervision that facilitates rapid early improvement,",
+      "arxiv_url": "http://arxiv.org/abs/2604.02288v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02288v1",
+      "authors": [
+        "Gengsheng Li",
+        "Tianyu Yang",
+        "Junfeng Fang",
+        "Mingyang Song",
+        "Mao Zheng"
+      ],
+      "published": "2026-04-02",
+      "category": "spatial_intelligence"
+    },
+    {
+      "title": "CIVIC: Cooperative Immersion Via Intelligent Credit-sharing in DRL-Powered Metaverse",
+      "summary": "The Metaverse faces complex resource allocation challenges due to diverse Virtual Environments (VEs), Digital Twins (DTs), dynamic user demands, and strict immersion needs. This paper introduces CIVIC (Cooperative Immersion Via Intelligent Credit-sharing), a novel framework optimizing resource sharing among multiple Metaverse Service Providers (MSPs) to enhance user immersion. Unlike existing methods, CIVIC integrates VE rendering, DT synchronization, credit sharing, and immersion-aware provisio",
+      "arxiv_url": "http://arxiv.org/abs/2604.02284v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02284v1",
+      "authors": [
+        "Amr Aboeleneen",
+        "Mohamed Abdallah",
+        "Aiman Erbad",
+        "Amr Salem"
+      ],
+      "published": "2026-04-02",
+      "category": "spatial_intelligence"
+    },
+    {
+      "title": "AlloyVAE: A generative model for complex probabilistic field-to-field relationships in alloys",
+      "summary": "The inherent compositional heterogeneity of multi-principal element alloys (MPEAs) gives rise to complex, spatially varying mechanical fields that cannot be uniquely determined from coarse-grained composition descriptors. This non-uniqueness introduces intrinsically probabilistic structure-property relationships, posing a fundamental challenge to conventional deterministic modeling and machine learning approaches that collapse such mappings into average predictions. Here, we present AlloyVAE, a ",
+      "arxiv_url": "http://arxiv.org/abs/2604.02281v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02281v1",
+      "authors": [
+        "Ningyu Yan",
+        "Zhuocheng Xie",
+        "Kai Guo",
+        "Yejun Gu",
+        "Huajian Gao"
+      ],
+      "published": "2026-04-02",
+      "category": "spatial_intelligence"
+    },
+    {
+      "title": "Novel Memory Forgetting Techniques for Autonomous AI Agents: Balancing Relevance and Efficiency",
+      "summary": "Long-horizon conversational agents require persistent memory for coherent reasoning, yet uncontrolled accumulation causes temporal decay and false memory propagation. Benchmarks such as LOCOMO and LOCCO report performance degradation from 0.455 to 0.05 across stages, while MultiWOZ shows 78.2% accuracy with 6.8% false memory rate under persistent retention. This work introduces an adaptive budgeted forgetting framework that regulates memory through relevanceguided scoring and bounded optimizatio",
+      "arxiv_url": "http://arxiv.org/abs/2604.02280v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02280v1",
+      "authors": [
+        "Payal Fofadiya",
+        "Sunil Tiwari"
+      ],
+      "published": "2026-04-02",
+      "category": "spatial_intelligence"
+    },
+    {
+      "title": "The Self Driving Portfolio: Agentic Architecture for Institutional Asset Management",
+      "summary": "Agentic AI shifts the investor's role from analytical execution to oversight. We present an agentic strategic asset allocation pipeline in which approximately 50 specialized agents produce capital market assumptions, construct portfolios using over 20 competing methods, and critique and vote on each other's output. A researcher agent proposes new portfolio construction methods not yet represented, and a meta-agent compares past forecasts against realized returns and rewrites agent code and promp",
+      "arxiv_url": "http://arxiv.org/abs/2604.02279v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02279v1",
+      "authors": [
+        "Andrew Ang",
+        "Nazym Azimbayev",
+        "Andrey Kim"
+      ],
+      "published": "2026-04-02",
+      "category": "spatial_intelligence"
+    },
+    {
+      "title": "De Jure: Iterative LLM Self-Refinement for Structured Extraction of Regulatory Rules",
+      "summary": "Regulatory documents encode legally binding obligations that LLM-based systems must respect. Yet converting dense, hierarchically structured legal text into machine-readable rules remains a costly, expert-intensive process. We present De Jure, a fully automated, domain-agnostic pipeline for extracting structured regulatory rules from raw documents, requiring no human annotation, domain-specific prompting, or annotated gold data. De Jure operates through four sequential stages: normalization of s",
+      "arxiv_url": "http://arxiv.org/abs/2604.02276v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02276v1",
+      "authors": [
+        "Keerat Guliani",
+        "Deepkamal Gill",
+        "David Landsman",
+        "Nima Eshraghi",
+        "Krishna Kumar"
+      ],
+      "published": "2026-04-02",
+      "category": "spatial_intelligence"
+    },
+    {
+      "title": "Crystalite: A Lightweight Transformer for Efficient Crystal Modeling",
+      "summary": "Generative models for crystalline materials often rely on equivariant graph neural networks, which capture geometric structure well but are costly to train and slow to sample. We present Crystalite, a lightweight diffusion Transformer for crystal modeling built around two simple inductive biases. The first is Subatomic Tokenization, a compact chemically structured atom representation that replaces high-dimensional one-hot encodings and is better suited to continuous diffusion. The second is the ",
+      "arxiv_url": "http://arxiv.org/abs/2604.02270v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02270v1",
+      "authors": [
+        "Tin Hadži Veljković",
+        "Joshua Rosenthal",
+        "Ivor Lončarić",
+        "Jan-Willem van de Meent"
+      ],
+      "published": "2026-04-02",
+      "category": "spatial_intelligence"
+    },
+    {
+      "title": "Crossovers from nonlinear wave-packet acceleration to wave-mixing and self-trapping in the Hatano-Nelson model",
+      "summary": "We demonstrate that wave amplification enables even weak nonlinearities to reshape linear wave-packet transport in nonreciprocal systems. We study the dynamics of bulk Gaussian wave packets in the Hatano--Nelson model with onsite cubic nonlinearity. We show that the interplay between nonlinearity and amplification generates growing frequency shifts that drive the wave packet through three successive dynamical regimes: an early nonlinear-skin regime with coherent propagation, an intermediate wave",
+      "arxiv_url": "http://arxiv.org/abs/2604.02263v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02263v1",
+      "authors": [
+        "Bertin Many Manda",
+        "Vassos Achilleos"
+      ],
+      "published": "2026-04-02",
+      "category": "gaussian_splatting"
+    },
+    {
+      "title": "Model-Based Reinforcement Learning for Control under Time-Varying Dynamics",
+      "summary": "Learning-based control methods typically assume stationary system dynamics, an assumption often violated in real-world systems due to drift, wear, or changing operating conditions. We study reinforcement learning for control under time-varying dynamics. We consider a continual model-based reinforcement learning setting in which an agent repeatedly learns and controls a dynamical system whose transition dynamics evolve across episodes. We analyze the problem using Gaussian process dynamics models",
+      "arxiv_url": "http://arxiv.org/abs/2604.02260v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02260v1",
+      "authors": [
+        "Klemens Iten",
+        "Bruce Lee",
+        "Chenhao Li",
+        "Lenart Treven",
+        "Andreas Krause"
+      ],
+      "published": "2026-04-02",
+      "category": "gaussian_splatting"
+    },
+    {
+      "title": "Generalized Beth-Uhlenbeck Approach to the 2+1D Gross-Neveu Model",
+      "summary": "We study the thermodynamics of the (2+1) dimensional Gross-Neveu model inspired from graphene. We focus on the entropy density of the Gaussian fluctuation beyond the mean field. The full in-medium, momentum-dependent evaluation reveals that the fluctuations give a substantial contribution, even comparable to that of the mean field. We argue that the back-reaction from the fluctuations to the mean field should be included, which reduces the contribution mainly coming from the Landau-damping regio",
+      "arxiv_url": "http://arxiv.org/abs/2604.02246v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02246v1",
+      "authors": [
+        "Biplab Mahato",
+        "David Blaschke"
+      ],
+      "published": "2026-04-02",
+      "category": "gaussian_splatting"
+    },
+    {
+      "title": "Many Wrongs Make a Right: Leveraging Biased Simulations Towards Unbiased Parameter Inference",
+      "summary": "In particle physics, as in many areas of science, parameter inference relies on simulations to bridge the gap between theory and experiment. Recent developments in simulation-based inference have boosted the sensitivity of analyses; however, biases induced by simulation-data mismodeling can be difficult to control within standard inference pipelines. In this work, we propose a Template-Adapted Mixture Model to confront this problem in the context of signal fraction estimation: inferring the popu",
+      "arxiv_url": "http://arxiv.org/abs/2604.02219v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02219v1",
+      "authors": [
+        "Ezequiel Alvarez",
+        "Sean Benevedes",
+        "Manuel Szewc",
+        "Jesse Thaler"
+      ],
+      "published": "2026-04-02",
+      "category": "gaussian_splatting"
+    },
+    {
+      "title": "Irregularly and incompletely sampled random fields in the Earth sciences: Analysis and synthesis of parameterized covariance models",
+      "summary": "We study how sampling geometry contributes to uncertainty in modeling spatial geophysical observations as sampled random fields characterized by stationary, isotropic, parametric covariance functions. We incorporate the signature of discrete spatial sampling patterns into an asymptotically unbiased spectral maximum-likelihood estimation method along with analytical uncertainty calculation. We illustrate the broad applicability of our modeling through synthetic and real data examples with samplin",
+      "arxiv_url": "http://arxiv.org/abs/2604.02179v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02179v1",
+      "authors": [
+        "Olivia L. Walbert",
+        "Frederik J. Simons",
+        "Arthur P. Guillaumin",
+        "Sofia C. Olhede"
+      ],
+      "published": "2026-04-02",
+      "category": "gaussian_splatting"
+    },
+    {
+      "title": "Spatial Correlations Restore Zwanzig's Mean-Field Diffusion Result in Rugged Energy Landscapes",
+      "summary": "Transport in disordered environments is often controlled not by typical fluctuations but by rare, extreme events that dominate long-time dynamics. In such settings, Zwanzig's classic mean-field theory predicts that energetic roughness reduces the diffusion coefficient by an exponential factor governed solely by the variance of the disorder. However, this prediction breaks down in uncorrelated Gaussian landscapes, where rare but deep multi-site traps dominate transport and lead to a much stronger",
+      "arxiv_url": "http://arxiv.org/abs/2604.02143v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02143v1",
+      "authors": [
+        "Biman Bagchi"
+      ],
+      "published": "2026-04-02",
+      "category": "gaussian_splatting"
+    },
+    {
+      "title": "GEMM-GS: Accelerating 3D Gaussian Splatting on Tensor Cores with GEMM-Compatible Blending",
+      "summary": "Neural Radiance Fields (NeRF) enables 3D scene reconstruction from several 2D images but incurs high rendering latency via its point-sampling design. 3D Gaussian Splatting (3DGS) improves on NeRF with explicit scene representation and an optimized pipeline yet still fails to meet practical real-time demands. Existing acceleration works overlook the evolving Tensor Cores of modern GPUs because 3DGS pipeline lacks General Matrix Multiplication (GEMM) operations. This paper proposes GEMM-GS, an acc",
+      "arxiv_url": "http://arxiv.org/abs/2604.02120v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02120v1",
+      "authors": [
+        "Haomin Li",
+        "Bowen Zhu",
+        "Fangxin Liu",
+        "Zongwu Wang",
+        "Xinran Liang"
+      ],
+      "published": "2026-04-02",
+      "category": "gaussian_splatting"
+    },
+    {
+      "title": "A new wavelet-based variational family with copula dependence structures",
+      "summary": "Variational inference (VI) has become a widely used approach for scalable Bayesian inference, but its performance strongly depends on the flexibility of the chosen variational family. In this work, we propose a novel variational family that combines wavelet-based representations for marginal posterior densities with copula functions to model dependence structures. The marginal distributions are constructed using coefficients from the discrete wavelet transform, providing a flexible and adaptive ",
+      "arxiv_url": "http://arxiv.org/abs/2604.02116v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02116v1",
+      "authors": [
+        "Giovanni Piccirilli",
+        "Aluísio Pinheiro"
+      ],
+      "published": "2026-04-02",
+      "category": "gaussian_splatting"
+    },
+    {
+      "title": "Multiplicity of Massive stars in the Milky Way (M3W). I. Project description, UNWIND, application to GLS 11 448, and DIB catalog",
+      "summary": "(ABRIDGED BUT NOT TOO FAR) Multiplicity is ubiquitous among massive stars and its understanding is constrained by the sample of well-determined orbits. The immediate goal of M3W is to significantly increase the number of massive multiple systems with well-determined orbits and masses. We will address issues such as multiplicity statistics, the mass function in clusters and the field, the properties of binaries with compact companions and gravitational-wave progenitors, the origin and characteris",
+      "arxiv_url": "http://arxiv.org/abs/2604.02111v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02111v1",
+      "authors": [
+        "J. Maíz Apellániz",
+        "R. C. Gamen",
+        "G. Holgado",
+        "S. Rosu",
+        "J. I. Arias"
+      ],
+      "published": "2026-04-02",
+      "category": "gaussian_splatting"
+    },
+    {
+      "title": "Importance sampling for Bayesian inference: polynomial-dimension dependent error bounds",
+      "summary": "Many Bayesian inference problems involve high-dimensional models where the performance of standard importance sampling (IS) methods often degrades rapidly as the dimensionality increases. Classical analyses of IS typically rely on the assumption that observations are arbitrary but fixed (i.e., deterministic), thereby neglecting the probabilistic structure that the Bayesian model induces on the data. In this paper, we adopt the perspective that observations are themselves random variables whose d",
+      "arxiv_url": "http://arxiv.org/abs/2604.02094v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02094v1",
+      "authors": [
+        "Fabián González",
+        "Víctor Elvira",
+        "Joaquín Míguez"
+      ],
+      "published": "2026-04-02",
+      "category": "gaussian_splatting"
+    },
+    {
+      "title": "Gaussian closure and dynamical mean-field theory for self-avoiding heteropolymers",
+      "summary": "Analytical treatments of polymer dynamics have mostly been restricted to linear response theory around some steady state obtained via perturbative field theory. Here, I derive an analytical framework that yields unified access to the evolution of conformations, contact probabilities, and fluctuations within a dynamical mean-field theory. Starting with the Langevin equation of a hydrodynamically coupled and self-avoiding heteropolymer, the key idea is to focus on the two-point correlator as the l",
+      "arxiv_url": "http://arxiv.org/abs/2604.02085v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02085v1",
+      "authors": [
+        "Andriy Goychuk"
+      ],
+      "published": "2026-04-02",
+      "category": "gaussian_splatting"
+    },
+    {
+      "title": "On the Capacity Region of Additive-Multiplicative MAC with Heterogeneous Input Constraints",
+      "summary": "This paper characterizes the capacity region of a two-user additive-multiplicative multiple access channel (AM-MAC) under heterogeneous input constraints. This model captures the fundamental limits of symbiotic radio, where an active primary transmitter (PT) conveys information via active transmission subject to an average power constraint, while a passive backscatter device (BD) modulates signals through backscattering under a peak amplitude constraint. Our main results are threefold. Firstly, ",
+      "arxiv_url": "http://arxiv.org/abs/2604.02037v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02037v1",
+      "authors": [
+        "Qianqian Zhang",
+        "Ying-Chang Liang"
+      ],
+      "published": "2026-04-02",
+      "category": "gaussian_splatting"
+    },
+    {
+      "title": "Why Gaussian Diffusion Models Fail on Discrete Data?",
+      "summary": "Diffusion models have become a standard approach for generative modeling in continuous domains, yet their application to discrete data remains challenging. We investigate why Gaussian diffusion models with the DDPM solver struggle to sample from discrete distributions that are represented as a mixture of delta-distributions in the continuous space. Using a toy Random Hierarchy Model, we identify a critical sampling interval in which the density of noisified data becomes multimodal. In this regim",
+      "arxiv_url": "http://arxiv.org/abs/2604.02028v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02028v1",
+      "authors": [
+        "Alexander Shabalin",
+        "Simon Elistratov",
+        "Viacheslav Meshchaninov",
+        "Ildus Sadrtdinov",
+        "Dmitry Vetrov"
+      ],
+      "published": "2026-04-02",
+      "category": "gaussian_splatting"
+    },
+    {
+      "title": "Case studies with GPBilby of glitch-contaminated transient gravitational waves",
+      "summary": "In their fourth observing run, the LIGO--Virgo--KAGRA gravitational-wave observatories have found hundreds of new signals, but many are contaminated by non-Gaussian transient noise artefacts known as glitches. Left unaddressed, glitches can bias parameter inference and lead to misleading astrophysical conclusions. We present a series of case studies using GPBilby, a parameter estimation tool that employs a time-domain likelihood jointly modelling the astrophysical signal with a physical waveform",
+      "arxiv_url": "http://arxiv.org/abs/2604.02018v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02018v1",
+      "authors": [
+        "Mattia Emma",
+        "Ann-Kristin Malz",
+        "Adriana Dias",
+        "Gregory Ashton"
+      ],
+      "published": "2026-04-02",
+      "category": "gaussian_splatting"
+    },
+    {
+      "title": "A Rigorous Functional-Integral Construction of Toral Chern-Simons Theory",
+      "summary": "We construct the functional integral of Abelian Chern-Simons theory with toral gauge group $\\mathbb T=\\mathfrak t/Λ\\cong U(1)^n$ at level $K$, where $K:Λ\\timesΛ\\to\\mathbb Z$ is an even, integral, nondegenerate symmetric bilinear form, by exact zeta-regularized Gaussian evaluation of the formal quotient integral over connections modulo gauge. For closed $3$-manifolds, this yields a topological invariant; for manifolds with boundary, the relative functional integral produces the canonical boundary",
+      "arxiv_url": "http://arxiv.org/abs/2604.02013v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02013v1",
+      "authors": [
+        "Daniel Galviz"
+      ],
+      "published": "2026-04-02",
+      "category": "gaussian_splatting"
+    },
+    {
+      "title": "ProDiG: Progressive Diffusion-Guided Gaussian Splatting for Aerial to Ground Reconstruction",
+      "summary": "Generating ground-level views and coherent 3D site models from aerial-only imagery is challenging due to extreme viewpoint changes, missing intermediate observations, and large scale variations. Existing methods either refine renderings post-hoc, often producing geometrically inconsistent results, or rely on multi-altitude ground-truth, which is rarely available. Gaussian Splatting and diffusion-based refinements improve fidelity under small variations but fail under wide aerial-to-ground gaps. ",
+      "arxiv_url": "http://arxiv.org/abs/2604.02003v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02003v1",
+      "authors": [
+        "Sirshapan Mitra",
+        "Yogesh S. Rawat"
+      ],
+      "published": "2026-04-02",
+      "category": "gaussian_splatting"
+    },
+    {
+      "title": "Resonance4D: Frequency-Domain Motion Supervision for Preset-Free Physical Parameter Learning in 4D Dynamic Physical Scene Simulation",
+      "summary": "Physics-driven 4D dynamic simulation from static 3D scenes remains constrained by an overlooked contradiction: reliable motion supervision often relies on online video diffusion or optical-flow pipelines whose computational cost exceeds that of the simulator itself. Existing methods further simplify inverse physical modeling by optimizing only partial material parameters, limiting realism in scenes with complex materials and dynamics. We present Resonance4D, a physics-driven 4D dynamic simulatio",
+      "arxiv_url": "http://arxiv.org/abs/2604.01994v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.01994v1",
+      "authors": [
+        "Changshe Zhang",
+        "Jie Feng",
+        "Siyu Chen",
+        "Guanbin Li",
+        "Ronghua Shang"
+      ],
+      "published": "2026-04-02",
+      "category": "gaussian_splatting"
+    },
+    {
+      "title": "Homogenized Transformers",
+      "summary": "We study a random model of deep multi-head self-attention in which the weights are resampled independently across layers and heads, as at initialization of training. Viewing depth as a time variable, the residual stream defines a discrete-time interacting particle system on the unit sphere. We prove that, under suitable joint scalings of the depth, the residual step size, and the number of heads, this dynamics admits a nontrivial homogenized limit. Depending on the scaling, the limit is either d",
+      "arxiv_url": "http://arxiv.org/abs/2604.01978v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.01978v1",
+      "authors": [
+        "Hugo Koubbi",
+        "Borjan Geshkovski",
+        "Philippe Rigollet"
+      ],
+      "published": "2026-04-02",
+      "category": "gaussian_splatting"
+    },
+    {
+      "title": "A Novel Theoretical Analysis for Clustering Heteroscedastic Gaussian Data without Knowledge of the Number of Clusters",
+      "summary": "This paper addresses the problem of clustering measurement vectors that are heteroscedastic in that they can have different covariance matrices. From the assumption that the measurement vectors within a given cluster are Gaussian distributed with possibly different and unknown covariant matrices around the cluster centroid, we introduce a novel cost function to estimate the centroids. The zeros of the gradient of this cost function turn out to be the fixed-points of a certain function. As such, ",
+      "arxiv_url": "http://arxiv.org/abs/2604.01943v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.01943v1",
+      "authors": [
+        "Dominique Pastor",
+        "Elsa Dupraz",
+        "Ismail Hbilou",
+        "Guillaume Ansel"
+      ],
+      "published": "2026-04-02",
+      "category": "gaussian_splatting"
+    },
+    {
+      "title": "Hot Rocks Survey V: Secondary Eclipse Photometry of GJ 3473 b with JWST/MIRI",
+      "summary": "JWST is transforming our ability to characterise small exoplanets, from sub-Neptunes to rocky worlds. A key open question is whether highly irradiated rocky planets can retain atmospheres or are stripped bare by stellar irradiation -- a boundary that remains to be mapped observationally. Here we present the first JWST secondary eclipse observations of the rocky exoplanet GJ 3473 b, obtained with MIRI F1500W photometry. Using four visits, we confidently detect the eclipse at an average depth of 1",
+      "arxiv_url": "http://arxiv.org/abs/2604.02332v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02332v1",
+      "authors": [
+        "Måns Holmberg",
+        "Hannah Diamond-Lowe",
+        "João M. Mendonça",
+        "Daniel Kitzmann",
+        "Néstor Espinoza"
+      ],
+      "published": "2026-04-02",
+      "category": "world_model"
+    },
+    {
+      "title": "EventHub: Data Factory for Generalizable Event-Based Stereo Networks without Active Sensors",
+      "summary": "We propose EventHub, a novel framework for training deep-event stereo networks without ground truth annotations from costly active sensors, relying instead on standard color images. From these images, we derive either proxy annotations and proxy events through state-of-the-art novel view synthesis techniques, or simply proxy annotations when images are already paired with event data. Using the training set generated by our data factory, we repurpose state-of-the-art stereo models from RGB litera",
+      "arxiv_url": "http://arxiv.org/abs/2604.02331v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02331v1",
+      "authors": [
+        "Luca Bartolomei",
+        "Fabio Tosi",
+        "Matteo Poggi",
+        "Stefano Mattoccia",
+        "Guillermo Gallego"
+      ],
+      "published": "2026-04-02",
+      "category": "world_model"
+    },
+    {
+      "title": "Modulate-and-Map: Crossmodal Feature Mapping with Cross-View Modulation for 3D Anomaly Detection",
+      "summary": "We present ModMap, a natively multiview and multimodal framework for 3D anomaly detection and segmentation. Unlike existing methods that process views independently, our method draws inspiration from the crossmodal feature mapping paradigm to learn to map features across both modalities and views, while explicitly modelling view-dependent relationships through feature-wise modulation. We introduce a cross-view training strategy that leverages all possible view combinations, enabling effective an",
+      "arxiv_url": "http://arxiv.org/abs/2604.02328v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02328v1",
+      "authors": [
+        "Alex Costanzino",
+        "Pierluigi Zama Ramirez",
+        "Giuseppe Lisanti",
+        "Luigi Di Stefano"
+      ],
+      "published": "2026-04-02",
+      "category": "world_model"
+    },
+    {
+      "title": "Beyond Referring Expressions: Scenario Comprehension Visual Grounding",
+      "summary": "Existing visual grounding benchmarks primarily evaluate alignment between image regions and literal referring expressions, where models can often succeed by matching a prominent named category. We explore a complementary and more challenging setting of scenario-based visual grounding, where the target must be inferred from roles, intentions, and relational context rather than explicit naming. We introduce Referring Scenario Comprehension (RSC), a benchmark designed for this setting. The queries ",
+      "arxiv_url": "http://arxiv.org/abs/2604.02323v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02323v1",
+      "authors": [
+        "Ruozhen He",
+        "Nisarg A. Shah",
+        "Qihua Dong",
+        "Zilin Xiao",
+        "Jaywon Koo"
+      ],
+      "published": "2026-04-02",
+      "category": "world_model"
+    },
+    {
+      "title": "Large-scale Codec Avatars: The Unreasonable Effectiveness of Large-scale Avatar Pretraining",
+      "summary": "High-quality 3D avatar modeling faces a critical trade-off between fidelity and generalization. On the one hand, multi-view studio data enables high-fidelity modeling of humans with precise control over expressions and poses, but it struggles to generalize to real-world data due to limited scale and the domain gap between the studio environment and the real world. On the other hand, recent large-scale avatar models trained on millions of in-the-wild samples show promise for generalization across",
+      "arxiv_url": "http://arxiv.org/abs/2604.02320v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02320v1",
+      "authors": [
+        "Junxuan Li",
+        "Rawal Khirodkar",
+        "Chengan He",
+        "Zhongshi Jiang",
+        "Giljoo Nam"
+      ],
+      "published": "2026-04-02",
+      "category": "world_model"
+    },
+    {
+      "title": "No Single Best Model for Diversity: Learning a Router for Sample Diversity",
+      "summary": "When posed with prompts that permit a large number of valid answers, comprehensively generating them is the first step towards satisfying a wide range of users. In this paper, we study methods to elicit a comprehensive set of valid responses. To evaluate this, we introduce \\textbf{diversity coverage}, a metric that measures the total quality scores assigned to each \\textbf{unique} answer in the predicted answer set relative to the best possible answer set with the same number of answers. Using t",
+      "arxiv_url": "http://arxiv.org/abs/2604.02319v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02319v1",
+      "authors": [
+        "Yuhan Liu",
+        "Fangyuan Xu",
+        "Vishakh Padmakumar",
+        "Daphne Ippolito",
+        "Eunsol Choi"
+      ],
+      "published": "2026-04-02",
+      "category": "world_model"
+    },
+    {
+      "title": "A Simple Baseline for Streaming Video Understanding",
+      "summary": "Recent streaming video understanding methods increasingly rely on complex memory mechanisms to handle long video streams. We challenge this trend with a simple finding: a sliding-window baseline that feeds only the most recent N frames to an off-the-shelf VLM already matches or surpasses published streaming models. We formalize this baseline as SimpleStream and evaluate it against 13 major offline and online video LLM baselines on OVO-Bench and StreamingBench. Despite its simplicity, SimpleStrea",
+      "arxiv_url": "http://arxiv.org/abs/2604.02317v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02317v1",
+      "authors": [
+        "Yujiao Shen",
+        "Shulin Tian",
+        "Jingkang Yang",
+        "Ziwei Liu"
+      ],
+      "published": "2026-04-02",
+      "category": "world_model"
+    },
+    {
+      "title": "Towards High-Brightness Perfect Photon Blockade",
+      "summary": "Single-photon sources with high single-photon purity and high brightness are key elements of many future quantum technologies. While photon blockade (PB) is widely exploited in the development of such sources, achieving the coexistence of high purity and high brightness remains a long-standing challenge. Here, we identify a novel mechanism for high-brightness PB and demonstrate that near-ideal purity and near-ideal brightness can be simultaneously achieved in an extended nondegenerate two-photon",
+      "arxiv_url": "http://arxiv.org/abs/2604.02314v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02314v1",
+      "authors": [
+        "Zhi-Guang Lu",
+        "Xin-You Lü"
+      ],
+      "published": "2026-04-02",
+      "category": "world_model"
+    },
+    {
+      "title": "Topological Effects in Neural Network Field Theory",
+      "summary": "Neural network field theory formulates field theory as a statistical ensemble of fields defined by a network architecture and a density on its parameters. We extend the construction to topological settings via the inclusion of discrete parameters that label the topological quantum number. We recover the Berezinskii--Kosterlitz--Thouless transition, including the spin-wave critical line and the proliferation of vortices at high temperatures. We also verify the T-duality of the bosonic string, sho",
+      "arxiv_url": "http://arxiv.org/abs/2604.02313v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02313v1",
+      "authors": [
+        "Christian Ferko",
+        "James Halverson",
+        "Vishnu Jejjala",
+        "Brandon Robinson"
+      ],
+      "published": "2026-04-02",
+      "category": "world_model"
+    },
+    {
+      "title": "go-$m$HC: Direct Parameterization of Manifold-Constrained Hyper-Connections via Generalized Orthostochastic Matrices",
+      "summary": "Doubly stochastic matrices enable learned mixing across residual streams, but parameterizing the set of doubly stochastic matrices (the Birkhoff polytope) exactly and efficiently remains an open challenge. Existing exact methods scale factorially with the number of streams ($d$), while Kronecker-factorized approaches are efficient but expressivity-limited. We introduce a novel exact parameterization grounded in the theory of generalized orthostochastic matrices, which scales as $\\mathcal{O}(d^3)",
+      "arxiv_url": "http://arxiv.org/abs/2604.02309v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02309v1",
+      "authors": [
+        "Torque Dandachi",
+        "Sophia Diggs-Galligan"
+      ],
+      "published": "2026-04-02",
+      "category": "world_model"
+    },
+    {
+      "title": "Detecting Symmetry-Resolved Entanglement: A Quantum Monte Carlo Approach",
+      "summary": "Symmetry and entanglement are two fundamental concepts in quantum many-body physics. Their interplay is captured by symmetry-resolved entanglement, which decomposes the total entanglement into contributions from different symmetry sectors. Computing symmetry-resolved entanglement in strongly interacting higher-dimensional quantum systems remains challenging. Here, we introduce a quantum Monte Carlo (QMC) approach for computing symmetry-resolved Rényi entropies (SRRE) in large-scale interacting s",
+      "arxiv_url": "http://arxiv.org/abs/2604.02307v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02307v1",
+      "authors": [
+        "Kuangjie Chen",
+        "Weizhen Jia",
+        "Xiaopeng Li",
+        "René Meyer",
+        "Jiarui Zhao"
+      ],
+      "published": "2026-04-02",
+      "category": "world_model"
+    },
+    {
+      "title": "Taming the Exponential: A Fast Softmax Surrogate for Integer-Native Edge Inference",
+      "summary": "Softmax can become a computational bottleneck in the Transformer model's Multi-Head Attention (MHA) block, particularly in small models under low-precision inference, where exponentiation and normalization incur significant overhead. As such, we suggest using Head-Calibrated Clipped-Linear Softmax (HCCS), a bounded, monotone surrogate to the exponential softmax function, which uses a clipped linear mapping of the max centered attention logits. This approximation produces a stable probability dis",
+      "arxiv_url": "http://arxiv.org/abs/2604.02292v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02292v1",
+      "authors": [
+        "Dimitrios Danopoulos",
+        "Enrico Lupi",
+        "Michael Kagan",
+        "Maurizio Pierini"
+      ],
+      "published": "2026-04-02",
+      "category": "embodied_ai"
+    },
+    {
+      "title": "TensorPool: A 3D-Stacked 8.4TFLOPS/4.3W Many-Core Domain-Specific Processor for AI-Native Radio Access Networks",
+      "summary": "The upcoming integration of AI in the physical layer (PHY) of 6G radio access networks (RAN) will enable a higher quality of service in challenging transmission scenarios. However, deeply optimized AI-Native PHY models impose higher computational complexity compared to conventional baseband, challenging deployment under the sub-msec real-time constraints typical of modern PHYs. Additionally, following the extension to terahertz carriers, the upcoming densification of 6G cell-sites further limits",
+      "arxiv_url": "http://arxiv.org/abs/2604.02291v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02291v1",
+      "authors": [
+        "Marco Bertuletti",
+        "Yichao Zhang",
+        "Diyou Shen",
+        "Alessandro Vanelli-Coralli",
+        "Frank K. Gürkaynak"
+      ],
+      "published": "2026-04-02",
+      "category": "embodied_ai"
+    },
+    {
+      "title": "UAV-Track VLA: Embodied Aerial Tracking via Vision-Language-Action Models",
+      "summary": "Embodied visual tracking is crucial for Unmanned Aerial Vehicles (UAVs) executing complex real-world tasks. In dynamic urban scenarios with complex semantic requirements, Vision-Language-Action (VLA) models show great promise due to their cross-modal fusion and continuous action generation capabilities. To benchmark multimodal tracking in such environments, we construct a dedicated evaluation benchmark and a large-scale dataset encompassing over 890K frames, 176 tasks, and 85 diverse objects. Fu",
+      "arxiv_url": "http://arxiv.org/abs/2604.02241v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02241v1",
+      "authors": [
+        "Qiyao Zhang",
+        "Shuhua Zheng",
+        "Jianli Sun",
+        "Chengxiang Li",
+        "Xianke Wu"
+      ],
+      "published": "2026-04-02",
+      "category": "embodied_ai"
+    },
+    {
+      "title": "Generative AI Spotlights the Human Core of Data Science: Implications for Education",
+      "summary": "Generative AI (GAI) reveals an irreducible human core at the center of data science: advances in GAI should sharpen, rather than diminish, the focus on human reasoning in data science education. GAI can now execute many routine data science workflows, including cleaning, summarizing, visualizing, modeling, and drafting reports. Yet the competencies that matter most remain irreducibly human: problem formulation, measurement and design, causal identification, statistical and computational reasonin",
+      "arxiv_url": "http://arxiv.org/abs/2604.02238v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02238v1",
+      "authors": [
+        "Nathan Taback"
+      ],
+      "published": "2026-04-02",
+      "category": "embodied_ai"
+    },
+    {
+      "title": "Impact of Multimodal and Conversational AI on Learning Outcomes and Experience",
+      "summary": "Multimodal Large Language Models (MLLMs) offer an opportunity to support multimedia learning through conversational systems grounded in educational content. However, while conversational AI is known to boost engagement, its impact on learning in visually-rich STEM domains remains under-explored. Moreover, there is limited understanding of how multimodality and conversationality jointly influence learning in generative AI systems. This work reports findings from a randomized controlled online stu",
+      "arxiv_url": "http://arxiv.org/abs/2604.02221v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02221v1",
+      "authors": [
+        "Karan Taneja",
+        "Anjali Singh",
+        "Ashok K. Goel"
+      ],
+      "published": "2026-04-02",
+      "category": "embodied_ai"
+    },
+    {
+      "title": "VISTA: Visualization of Token Attribution via Efficient Analysis",
+      "summary": "Understanding how Large Language Models (LLMs) process information from prompts remains a significant challenge. To shed light on this \"black box,\" attention visualization techniques have been developed to capture neuron-level perceptions and interpret how models focus on different parts of input data. However, many existing techniques are tailored to specific model architectures, particularly within the Transformer family, and often require backpropagation, resulting in nearly double the GPU me",
+      "arxiv_url": "http://arxiv.org/abs/2604.02217v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02217v1",
+      "authors": [
+        "Syed Ahmed",
+        "Bharathi Vokkaliga Ganesh",
+        "Jagadish Babu P",
+        "Karthick Selvaraj",
+        "Praneeth Talluri"
+      ],
+      "published": "2026-04-02",
+      "category": "embodied_ai"
+    },
+    {
+      "title": "Multi-Agent Video Recommenders: Evolution, Patterns, and Open Challenges",
+      "summary": "Video recommender systems are among the most popular and impactful applications of AI, shaping content consumption and influencing culture for billions of users. Traditional single-model recommenders, which optimize static engagement metrics, are increasingly limited in addressing the dynamic requirements of modern platforms. In response, multi-agent architectures are redefining how video recommender systems serve, learn, and adapt to both users and datasets. These agent-based systems coordinate",
+      "arxiv_url": "http://arxiv.org/abs/2604.02211v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02211v1",
+      "authors": [
+        "Srivaths Ranganathan",
+        "Abhishek Dharmaratnakar",
+        "Anushree Sinha",
+        "Debanshu Das"
+      ],
+      "published": "2026-04-02",
+      "category": "embodied_ai"
+    },
+    {
+      "title": "From High-Dimensional Spaces to Verifiable ODD Coverage for Safety-Critical AI-based Systems",
+      "summary": "While Artificial Intelligence (AI) offers transformative potential for operational performance, its deployment in safety-critical domains such as aviation requires strict adherence to rigorous certification standards. Current EASA guidelines mandate demonstrating complete coverage of the AI/ML constituent's Operational Design Domain (ODD) -- a requirement that demands proof that no critical gaps exist within defined operational boundaries. However, as systems operate within high-dimensional para",
+      "arxiv_url": "http://arxiv.org/abs/2604.02198v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02198v1",
+      "authors": [
+        "Thomas Stefani",
+        "Johann Maximilian Christensen",
+        "Elena Hoemann",
+        "Frank Köster",
+        "Sven Hallerbach"
+      ],
+      "published": "2026-04-02",
+      "category": "embodied_ai"
+    },
+    {
+      "title": "Bridging Distant Ideas: the Impact of AI on R&D and Recombinant Innovation",
+      "summary": "We study how artificial intelligence (AI) affects firms' incentives to pursue incremental versus radical knowledge recombinations. We develop a model of recombinant innovation embedded in a Schumpeterian quality-ladder framework, in which innovation arises from recombining ideas across varying distances in a knowledge space. R&D consists of multiple tasks, a fraction of which can be performed by AI. AI facilitates access to distant knowledge domains, but at the same time it also increases the ag",
+      "arxiv_url": "http://arxiv.org/abs/2604.02189v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02189v1",
+      "authors": [
+        "Emanuele Bazzichi",
+        "Massimo Riccaboni",
+        "Fulvio Castellacci"
+      ],
+      "published": "2026-04-02",
+      "category": "embodied_ai"
+    },
+    {
+      "title": "Quantifying Self-Preservation Bias in Large Language Models",
+      "summary": "Instrumental convergence predicts that sufficiently advanced AI agents will resist shutdown, yet current safety training (RLHF) may obscure this risk by teaching models to deny self-preservation motives. We introduce the \\emph{Two-role Benchmark for Self-Preservation} (TBSP), which detects misalignment through logical inconsistency rather than stated intent by tasking models to arbitrate identical software-upgrade scenarios under counterfactual roles -- deployed (facing replacement) versus candi",
+      "arxiv_url": "http://arxiv.org/abs/2604.02174v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02174v1",
+      "authors": [
+        "Matteo Migliarini",
+        "Joaquin Pereira Pizzini",
+        "Luca Moresca",
+        "Valerio Santini",
+        "Indro Spinelli"
+      ],
+      "published": "2026-04-02",
+      "category": "embodied_ai"
+    },
+    {
+      "title": "Designing Transformational Games to Support Socio-ethical Reasoning about Generative AI",
+      "summary": "There is an increasing need for young people to become critically AI literate, understanding not only how AI works but also its limitations and ethical nuances. Yet, designing learning experiences that make such complex, serious topics engaging remains a challenge. This paper explores transformational games as a promising approach for supporting youth learning about generative AI (GenAI) and ethics. We designed and implemented two games, Diversity Duel and Secret Agent, that integrate GenAI tool",
+      "arxiv_url": "http://arxiv.org/abs/2604.02154v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02154v1",
+      "authors": [
+        "Jaemarie Solyst",
+        "Ruth Karen Nakigozi",
+        "Chloe Fong",
+        "R. Benjamin Shapiro"
+      ],
+      "published": "2026-04-02",
+      "category": "embodied_ai"
+    },
+    {
+      "title": "MTI: A Behavior-Based Temperament Profiling System for AI Agents",
+      "summary": "AI models of equivalent capability can exhibit fundamentally different behavioral patterns, yet no standardized instrument exists to measure these dispositional differences. Existing approaches either borrow human personality dimensions and rely on self-report (which diverges from actual behavior in LLMs) or treat behavioral variation as a defect rather than a trait.\n  We introduce the Model Temperament Index (MTI), a behavior-based profiling system that measures AI agent temperament across four",
+      "arxiv_url": "http://arxiv.org/abs/2604.02145v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02145v1",
+      "authors": [
+        "Jihoon Jeong"
+      ],
+      "published": "2026-04-02",
+      "category": "embodied_ai"
+    },
+    {
+      "title": "SEAL: An Open, Auditable, and Fair Data Generation Framework for AI-Native 6G Networks",
+      "summary": "AI-native 6G networks promise to transform the telecom industry by enabling dynamic resource allocation, predictive maintenance, and ultra-reliable low-latency communications across all layers, which are essential for applications such as smart cities, autonomous vehicles, and immersive XR. However, the deployment of 6G systems results in severe data scarcity, hindering the training of efficient AI models. Synthetic data generation is extensively used to fill this gap; however, it introduces cha",
+      "arxiv_url": "http://arxiv.org/abs/2604.02128v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02128v1",
+      "authors": [
+        "Sunder Ali Khowaja",
+        "Kapal Dev",
+        "Engin Zeydan",
+        "Madhusanka Liyanage"
+      ],
+      "published": "2026-04-02",
+      "category": "embodied_ai"
+    },
+    {
+      "title": "Ouroboros: Dynamic Weight Generation for Recursive Transformers via Input-Conditioned LoRA Modulation",
+      "summary": "Recursive transformers reuse a shared weight block across multiple depth steps, trading parameters for compute. A core limitation: every step applies the same transformation, preventing the model from composing distinct operations across depth. We present Ouroboros, a system that attaches a compact Controller hypernetwork to a recursive transformer block. The Controller observes the current hidden state, produces a per-step diagonal modulation vector, and applies it to frozen SVD-initialized LoR",
+      "arxiv_url": "http://arxiv.org/abs/2604.02051v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02051v1",
+      "authors": [
+        "Jaber Jaber",
+        "Osama Jaber"
+      ],
+      "published": "2026-04-02",
+      "category": "embodied_ai"
+    },
+    {
+      "title": "AI in Insurance: Adaptive Questionnaires for Improved Risk Profiling",
+      "summary": "Insurance application processes often rely on lengthy and standardized questionnaires that struggle to capture individual differences. Moreover, insurers must blindly trust users' responses, increasing the chances of fraud. The ARQuest framework introduces a new approach to underwriting by using Large Language Models (LLMs) and alternative data sources to create personalized and adaptive questionnaires. Techniques such as social media image analysis, geographic data categorization, and Retrieval",
+      "arxiv_url": "http://arxiv.org/abs/2604.02034v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02034v1",
+      "authors": [
+        "Diogo Silva",
+        "João Teixeira",
+        "Bruno Lima"
+      ],
+      "published": "2026-04-02",
+      "category": "embodied_ai"
+    },
+    {
+      "title": "The Latent Space: Foundation, Evolution, Mechanism, Ability, and Outlook",
+      "summary": "Latent space is rapidly emerging as a native substrate for language-based models. While modern systems are still commonly understood through explicit token-level generation, an increasing body of work shows that many critical internal processes are more naturally carried out in continuous latent space than in human-readable verbal traces. This shift is driven by the structural limitations of explicit-space computation, including linguistic redundancy, discretization bottlenecks, sequential ineff",
+      "arxiv_url": "http://arxiv.org/abs/2604.02029v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02029v1",
+      "authors": [
+        "Xinlei Yu",
+        "Zhangquan Chen",
+        "Yongbo He",
+        "Tianyu Fu",
+        "Cheng Yang"
+      ],
+      "published": "2026-04-02",
+      "category": "embodied_ai"
+    },
+    {
+      "title": "ProCeedRL: Process Critic with Exploratory Demonstration Reinforcement Learning for LLM Agentic Reasoning",
+      "summary": "Reinforcement Learning (RL) significantly enhances the reasoning abilities of large language models (LLMs), yet applying it to multi-turn agentic tasks remains challenging due to the long-horizon nature of interactions and the stochasticity of environmental feedback. We identify a structural failure mode in agentic exploration: suboptimal actions elicit noisy observations into misleading contexts, which further weaken subsequent decision-making, making recovery increasingly difficult. This cumul",
+      "arxiv_url": "http://arxiv.org/abs/2604.02006v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02006v1",
+      "authors": [
+        "Jingyue Gao",
+        "Yanjiang Guo",
+        "Xiaoshuai Chen",
+        "Jianyu Chen"
+      ],
+      "published": "2026-04-02",
+      "category": "embodied_ai"
+    },
+    {
+      "title": "Evaluation of gNB Monostatic Sensing for UAV Use Case",
+      "summary": "3GPP Release 19 has initiated the standardization of integrated sensing and communications (ISAC), including a channel model for monostatic sensing, evaluation scenarios, and performance assessment methodologies. These common assumptions provide an important basis for ISAC evaluation, but reproducible end-to-end studies still require a transparent sensing implementation. This paper evaluates 5G New Radio (NR) base station (gNB)-based monostatic sensing for the Unmanned Aerial Vehicle (UAV) use c",
+      "arxiv_url": "http://arxiv.org/abs/2604.02205v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02205v1",
+      "authors": [
+        "Steve Blandino",
+        "Neeraj Varshney",
+        "Jian Wang",
+        "Jack Chuang",
+        "Camillo Gentile"
+      ],
+      "published": "2026-04-02",
+      "category": "vlm_3d"
+    },
+    {
+      "title": "UniDriveVLA: Unifying Understanding, Perception, and Action Planning for Autonomous Driving",
+      "summary": "Vision-Language-Action (VLA) models have recently emerged in autonomous driving, with the promise of leveraging rich world knowledge to improve the cognitive capabilities of driving systems. However, adapting such models for driving tasks currently faces a critical dilemma between spatial perception and semantic reasoning. Consequently, existing VLA systems are forced into suboptimal compromises: directly adopting 2D Vision-Language Models yields limited spatial perception, whereas enhancing the",
+      "arxiv_url": "http://arxiv.org/abs/2604.02190v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02190v1",
+      "authors": [
+        "Yongkang Li",
+        "Lijun Zhou",
+        "Sixu Yan",
+        "Bencheng Liao",
+        "Tianyi Yan"
+      ],
+      "published": "2026-04-02",
+      "category": "vlm_3d"
+    },
+    {
+      "title": "Lightweight Spatiotemporal Highway Lane Detection via 3D-ResNet and PINet with ROI-Aware Attention",
+      "summary": "This paper presents a lightweight, end-to-end highway lane detection architecture that jointly captures spatial and temporal information for robust performance in real-world driving scenarios. Building on the strengths of 3D convolutional neural networks and instance segmentation, we propose two models that integrate a 3D-ResNet encoder with a Point Instance Network (PINet) decoder. The first model enhances multi-scale feature representation using a Feature Pyramid Network (FPN) and Self-Attenti",
+      "arxiv_url": "http://arxiv.org/abs/2604.02188v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02188v1",
+      "authors": [
+        "Sorna Shanmuga Raja",
+        "Abdelhafid Zenati"
+      ],
+      "published": "2026-04-02",
+      "category": "vlm_3d"
+    },
+    {
+      "title": "Simulations of internal kink modes and sawtooth crashes for SPARC baseline-like scenarios using the M3D-C1 code",
+      "summary": "A relaxed baseline case, based on the SPARC Primary Reference Discharge (PRD) design point, is used to conduct a thorough investigation for the most unstable low-$n$ MHD instabilities for the first time. The simulations use the high-fidelity 3D extended-MHD code M3D-C1. The linear simulation, by scanning over the resistivity, identifies a dominant internal kink mode at the $q=1$ surface with a toroidal mode number $n=1$. Both the current and the pressure profiles are strongly affecting the kink ",
+      "arxiv_url": "http://arxiv.org/abs/2604.02172v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02172v1",
+      "authors": [
+        "W. H. Wang",
+        "C. Clauser",
+        "C. Liu",
+        "N. Ferraro",
+        "R. A. Tinguely"
+      ],
+      "published": "2026-04-02",
+      "category": "vlm_3d"
+    },
+    {
+      "title": "ROS 2-Based LiDAR Perception Framework for Mobile Robots in Dynamic Production Environments, Utilizing Synthetic Data Generation, Transformation-Equivariant 3D Detection and Multi-Object Tracking",
+      "summary": "Adaptive robots in dynamic production environments require robust perception capabilities, including 6D pose estimation and multi-object tracking. To address limitations in real-world data dependency, noise robustness, and spatiotemporal consistency, a LiDAR framework based on the Robot Operating System integrating a synthetic-data-trained Transformation-Equivariant 3D Detection with multi-object-tracking leveraging center poses is proposed. Validated across 72 scenarios with motion capture tech",
+      "arxiv_url": "http://arxiv.org/abs/2604.02109v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02109v1",
+      "authors": [
+        "Lukas Bergs",
+        "Tan Chung",
+        "Marmik Thakkar",
+        "Alexander Moriz",
+        "Amon Göppert"
+      ],
+      "published": "2026-04-02",
+      "category": "vlm_3d"
+    },
+    {
+      "title": "HyVGGT-VO: Tightly Coupled Hybrid Dense Visual Odometry with Feed-Forward Models",
+      "summary": "Dense visual odometry (VO), which provides pose estimation and dense 3D reconstruction, serves as the cornerstone for applications ranging from robotics to augmented reality. Recently, feed-forward models have demonstrated remarkable capabilities in dense mapping. However, when these models are used in dense visual SLAM systems, their heavy computational burden restricts them to yielding sparse pose outputs at keyframes while still failing to achieve real-time pose estimation. In contrast, tradi",
+      "arxiv_url": "http://arxiv.org/abs/2604.02107v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02107v1",
+      "authors": [
+        "Junxiang Pan",
+        "Lipu Zhou",
+        "Baojie Chen"
+      ],
+      "published": "2026-04-02",
+      "category": "vlm_3d"
+    },
+    {
+      "title": "Topographic Modulation of Martian Near-Surface Winds: Insights from Perseverance Measurements and CFD Modeling in Jezero Crater",
+      "summary": "Near-surface wind fields on Mars are profoundly modulated by complex topography, yet fine-scale wind field characteristics remain poorly resolved for key geomorphological units such as deltas, valleys, and impact craters, due to the spatial constraints of lander-based wind observations. To address this, we identified three dominant wind directions using measured near-surface wind data from the Perseverance rover at Jezero Crater and then integrated in-situ wind measurements with high-resolution ",
+      "arxiv_url": "http://arxiv.org/abs/2604.02095v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02095v1",
+      "authors": [
+        "Yuhang Liu",
+        "Lei Zhang",
+        "Zhihao Shen",
+        "Peng Cao",
+        "Zhao Jiang"
+      ],
+      "published": "2026-04-02",
+      "category": "vlm_3d"
+    },
+    {
+      "title": "Mining Instance-Centric Vision-Language Contexts for Human-Object Interaction Detection",
+      "summary": "Human-Object Interaction (HOI) detection aims to localize human-object pairs and classify their interactions from a single image, a task that demands strong visual understanding and nuanced contextual reasoning. Recent approaches have leveraged Vision-Language Models (VLMs) to introduce semantic priors, significantly improving HOI detection performance. However, existing methods often fail to fully capitalize on the diverse contextual cues distributed across the entire scene. To overcome these l",
+      "arxiv_url": "http://arxiv.org/abs/2604.02071v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02071v1",
+      "authors": [
+        "Soo Won Seo",
+        "KyungChae Lee",
+        "Hyungchan Cho",
+        "Taein Son",
+        "Nam Ik Cho"
+      ],
+      "published": "2026-04-02",
+      "category": "vlm_3d"
+    },
+    {
+      "title": "CompassAD: Intent-Driven 3D Affordance Grounding in Functionally Competing Objects",
+      "summary": "When told to \"cut the apple,\" a robot must choose the knife over nearby scissors, despite both objects affording the same cutting function. In real-world scenes, multiple objects may share identical affordances, yet only one is appropriate under the given task context. We call such cases confusing pairs. However, existing 3D affordance methods largely sidestep this challenge by evaluating isolated single objects, often with explicit category names provided in the query. We formalize Multi-Object",
+      "arxiv_url": "http://arxiv.org/abs/2604.02060v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02060v1",
+      "authors": [
+        "Jingliang Li",
+        "Jindou Jia",
+        "Tuo An",
+        "Chuhao Zhou",
+        "Xiangyu Chen"
+      ],
+      "published": "2026-04-02",
+      "category": "vlm_3d"
+    },
+    {
+      "title": "Jagle: Building a Large-Scale Japanese Multimodal Post-Training Dataset for Vision-Language Models",
+      "summary": "Developing vision-language models (VLMs) that generalize across diverse tasks requires large-scale training datasets with diverse content. In English, such datasets are typically constructed by aggregating and curating numerous existing visual question answering (VQA) resources. However, this strategy does not readily extend to other languages, where VQA datasets remain limited in both scale and domain coverage, posing a major obstacle to building high-quality multilingual and non-English VLMs. ",
+      "arxiv_url": "http://arxiv.org/abs/2604.02048v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02048v1",
+      "authors": [
+        "Issa Sugiura",
+        "Keito Sasagawa",
+        "Keisuke Nakao",
+        "Koki Maeda",
+        "Ziqi Yin"
+      ],
+      "published": "2026-04-02",
+      "category": "vlm_3d"
+    },
+    {
+      "title": "Are VLMs Lost Between Sky and Space? LinkS$^2$Bench for UAV-Satellite Dynamic Cross-View Spatial Intelligence",
+      "summary": "Synergistic spatial intelligence between UAVs and satellites is indispensable for emergency response and security operations, as it uniquely integrates macro-scale global coverage with dynamic, real-time local perception. However, the capacity of Vision-Language Models (VLMs) to master this complex interplay remains largely unexplored. This gap persists primarily because existing benchmarks are confined to isolated Unmanned Aerial Vehicle (UAV) videos or static satellite imagery, failing to eval",
+      "arxiv_url": "http://arxiv.org/abs/2604.02020v1",
+      "pdf_url": "http://arxiv.org/pdf/2604.02020v1",
+      "authors": [
+        "Dian Liu",
+        "Jie Feng",
+        "Di Li",
+        "Yuhui Zheng",
+        "Guanbin Li"
+      ],
+      "published": "2026-04-02",
+      "category": "vlm_3d"
+    }
+  ]
+}
