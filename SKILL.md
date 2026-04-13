@@ -203,22 +203,31 @@ sessions_spawn \
   --runtime subagent \
   --task "阅读 ~/.openclaw/workspace/skills/spatial-agi-research/steps/step-2-filter-papers.md 并执行"
 
-# Step 3: 精读论文（5个Subagent串行）
-for i in 1 2 3 4 5; do
-  sessions_spawn \
-    --runtime subagent \
-    --task "阅读 ~/.openclaw/workspace/skills/spatial-agi-research/steps/step-3-analyze-paper.md 并精读论文$i"
-done
+# ⚠️ Step 2完成后，主Session必须提取论文列表
+# 用exec工具执行: ls /home/cwh/coding/spatial_agi/papers/$(date +%Y-%m-%d)*
+# 记录5篇论文的文件名和标题，用于Step 3和Step 5
+
+# Step 3: 精读论文（5个Subagent串行，传入论文信息）
+# 对每篇论文，将文件名和标题传入task
+sessions_spawn --runtime subagent --task "阅读 step-3-analyze-paper.md 并执行。精读论文1: [文件名] - [标题]"
+# 等完成后启动论文2...以此类推
 
 # Step 4: 更新列表（启动Subagent）
 sessions_spawn \
   --runtime subagent \
   --task "阅读 ~/.openclaw/workspace/skills/spatial-agi-research/steps/step-4-update-paper-list.md 并执行"
 
-# Step 5: 生成思考（启动Subagent）
+# Step 5: 生成思考（⚠️ 必须传入5篇论文信息，防幻觉）
 sessions_spawn \
   --runtime subagent \
-  --task "阅读 ~/.openclaw/workspace/skills/spatial-agi-research/steps/step-5-generate-thinking.md 并执行"
+  --task "阅读 ~/.openclaw/workspace/skills/spatial-agi-research/steps/step-5-generate-thinking.md 并执行。今天是YYYY-MM-DD。
+  ⚠️ 今天的5篇论文（必须基于这些论文生成思考，禁止编造其他论文）：
+  1. papers/YYYY-MM-DD_01_[文件名].md - [标题]
+  2. papers/YYYY-MM-DD_02_[文件名].md - [标题]
+  3. papers/YYYY-MM-DD_03_[文件名].md - [标题]
+  4. papers/YYYY-MM-DD_04_[文件名].md - [标题]
+  5. papers/YYYY-MM-DD_05_[文件名].md - [标题]
+  必须先用read工具读取这5篇论文的完整内容，然后再生成思考文档。"
 
 # Step 6: 验证质量（启动Subagent）
 sessions_spawn \

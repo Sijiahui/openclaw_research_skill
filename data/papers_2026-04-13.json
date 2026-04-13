@@ -1,0 +1,1392 @@
+{
+  "date": "2026-04-13",
+  "total": 154,
+  "papers": [
+    {
+      "arxiv_id": "2604.07986",
+      "title": "DP-DeGauss: Dynamic Probabilistic Gaussian Decomposition for Egocentric 4D Scene Reconstruction",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 8,
+      "url": "https://arxiv.org/abs/2604.07986",
+      "pdf_url": "https://arxiv.org/pdf/2604.07986"
+    },
+    {
+      "arxiv_id": "2512.06774",
+      "title": "RDSplat: Robust Watermarking for 3D Gaussian Splatting Against 2D and 3D Diffusion Editing",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 8,
+      "url": "https://arxiv.org/abs/2512.06774",
+      "pdf_url": "https://arxiv.org/pdf/2512.06774"
+    },
+    {
+      "arxiv_id": "2604.07928",
+      "title": "Generative 3D Gaussian Splatting for Arbitrary-ResolutionAtmospheric Downscaling and Forecasting",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 6,
+      "url": "https://arxiv.org/abs/2604.07928",
+      "pdf_url": "https://arxiv.org/pdf/2604.07928"
+    },
+    {
+      "arxiv_id": "2604.08370",
+      "title": "SurfelSplat: Learning Efficient and Generalizable Gaussian Surfel Representations for Sparse-View Surface Reconstruction",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 6,
+      "url": "https://arxiv.org/abs/2604.08370",
+      "pdf_url": "https://arxiv.org/pdf/2604.08370"
+    },
+    {
+      "arxiv_id": "2604.07957",
+      "title": "WorldMAP: Bootstrapping Vision-Language Navigation Trajectory Prediction with Generative World Models",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 6,
+      "url": "https://arxiv.org/abs/2604.07957",
+      "pdf_url": "https://arxiv.org/pdf/2604.07957"
+    },
+    {
+      "arxiv_id": "2506.17212",
+      "title": "Part$^{2}$GS: Part-aware Modeling of Articulated Objects using 3D Gaussian Splatting",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 6,
+      "url": "https://arxiv.org/abs/2506.17212",
+      "pdf_url": "https://arxiv.org/pdf/2506.17212"
+    },
+    {
+      "arxiv_id": "2604.07053",
+      "title": "AnchorSplat: Feed-Forward 3D Gaussian Splatting with 3D Geometric Priors",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 6,
+      "url": "https://arxiv.org/abs/2604.07053",
+      "pdf_url": "https://arxiv.org/pdf/2604.07053"
+    },
+    {
+      "arxiv_id": "2604.07273",
+      "title": "GenLCA: 3D Diffusion for Full-Body Avatars from In-the-Wild Videos",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 6,
+      "url": "https://arxiv.org/abs/2604.07273",
+      "pdf_url": "https://arxiv.org/pdf/2604.07273"
+    },
+    {
+      "arxiv_id": "2503.09640",
+      "title": "Physically Plausible Human-Object Rendering from Sparse Views via 3D Gaussian Splatting",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 6,
+      "url": "https://arxiv.org/abs/2503.09640",
+      "pdf_url": "https://arxiv.org/pdf/2503.09640"
+    },
+    {
+      "arxiv_id": "2508.04929",
+      "title": "CryoSplat: Gaussian Splatting for Cryo-EM Homogeneous Reconstruction",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 6,
+      "url": "https://arxiv.org/abs/2508.04929",
+      "pdf_url": "https://arxiv.org/pdf/2508.04929"
+    },
+    {
+      "arxiv_id": "2604.07705",
+      "title": "Vision-Language Navigation for Aerial Robots: Towards the Era of Large Language Models",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 6,
+      "url": "https://arxiv.org/abs/2604.07705",
+      "pdf_url": "https://arxiv.org/pdf/2604.07705"
+    },
+    {
+      "arxiv_id": "2507.13662",
+      "title": "Iteratively Learning Muscle Memory for Legged Robots to Master Adaptive and High Precision Locomotion",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 6,
+      "url": "https://arxiv.org/abs/2507.13662",
+      "pdf_url": "https://arxiv.org/pdf/2507.13662"
+    },
+    {
+      "arxiv_id": "2604.07973",
+      "title": "How Far Are Large Multimodal Models from Human-Level Spatial Action? A Benchmark for Goal-Oriented Embodied Navigation in Urban Airspace",
+      "abstract": "",
+      "category": "cs.AI",
+      "score": 6,
+      "url": "https://arxiv.org/abs/2604.07973",
+      "pdf_url": "https://arxiv.org/pdf/2604.07973"
+    },
+    {
+      "arxiv_id": "2604.07664",
+      "title": "Monocular Depth Estimation From the Perspective of Feature Restoration: A Diffusion Enhanced Depth Restoration Approach",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2604.07664",
+      "pdf_url": "https://arxiv.org/pdf/2604.07664"
+    },
+    {
+      "arxiv_id": "2604.07728",
+      "title": "GEAR: GEometry-motion Alternating Refinement for Articulated Object Modeling with Gaussian Splatting",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2604.07728",
+      "pdf_url": "https://arxiv.org/pdf/2604.07728"
+    },
+    {
+      "arxiv_id": "2604.07890",
+      "title": "Sampling-Aware 3D Spatial Analysis in Multiplexed Imaging",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2604.07890",
+      "pdf_url": "https://arxiv.org/pdf/2604.07890"
+    },
+    {
+      "arxiv_id": "2604.07923",
+      "title": "Stitch4D: Sparse Multi-Location 4D Urban Reconstruction via Spatio-Temporal Interpolation",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2604.07923",
+      "pdf_url": "https://arxiv.org/pdf/2604.07923"
+    },
+    {
+      "arxiv_id": "2604.07991",
+      "title": "MotionScape: A Large-Scale Real-World Highly Dynamic UAV Video Dataset for World Models",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2604.07991",
+      "pdf_url": "https://arxiv.org/pdf/2604.07991"
+    },
+    {
+      "arxiv_id": "2604.08121",
+      "title": "Uni-ViGU: Towards Unified Video Generation and Understanding via A Diffusion-Based Video Generator",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2604.08121",
+      "pdf_url": "https://arxiv.org/pdf/2604.08121"
+    },
+    {
+      "arxiv_id": "2604.08282",
+      "title": "Revisiting Radar Perception With Spectral Point Clouds",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2604.08282",
+      "pdf_url": "https://arxiv.org/pdf/2604.08282"
+    },
+    {
+      "arxiv_id": "2604.08301",
+      "title": "GroundingAnomaly: Spatially-Grounded Diffusion for Few-Shot Anomaly Synthesis",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2604.08301",
+      "pdf_url": "https://arxiv.org/pdf/2604.08301"
+    },
+    {
+      "arxiv_id": "2604.08337",
+      "title": "InstAP: Instance-Aware Vision-Language Pre-Train for Spatial-Temporal Understanding",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2604.08337",
+      "pdf_url": "https://arxiv.org/pdf/2604.08337"
+    },
+    {
+      "arxiv_id": "2604.08410",
+      "title": "BLaDA: Bridging Language to Functional Dexterous Actions within 3DGS Fields",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2604.08410",
+      "pdf_url": "https://arxiv.org/pdf/2604.08410"
+    },
+    {
+      "arxiv_id": "2604.08475",
+      "title": "LAMP: Lift Image-Editing as General 3D Priors for Open-world Manipulation",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2604.08475",
+      "pdf_url": "https://arxiv.org/pdf/2604.08475"
+    },
+    {
+      "arxiv_id": "2604.08503",
+      "title": "Phantom: Physics-Infused Video Generation via Joint Modeling of Visual and Latent Physical Dynamics",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2604.08503",
+      "pdf_url": "https://arxiv.org/pdf/2604.08503"
+    },
+    {
+      "arxiv_id": "2604.08542",
+      "title": "Scal3R: Scalable Test-Time Training for Large-Scale 3D Reconstruction",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2604.08542",
+      "pdf_url": "https://arxiv.org/pdf/2604.08542"
+    },
+    {
+      "arxiv_id": "2604.08544",
+      "title": "SIM1: Physics-Aligned Simulator as Zero-Shot Data Scaler in Deformable Worlds",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2604.08544",
+      "pdf_url": "https://arxiv.org/pdf/2604.08544"
+    },
+    {
+      "arxiv_id": "2411.07799",
+      "title": "Horticultural Temporal Fruit Monitoring via 3D Instance Segmentation and Re-Identification using Colored Point Clouds",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2411.07799",
+      "pdf_url": "https://arxiv.org/pdf/2411.07799"
+    },
+    {
+      "arxiv_id": "2510.20549",
+      "title": "Deep Learning-Powered Visual SLAM Aimed at Assisting Visually Impaired Navigation",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2510.20549",
+      "pdf_url": "https://arxiv.org/pdf/2510.20549"
+    },
+    {
+      "arxiv_id": "2510.26241",
+      "title": "Which Way Does Time Flow? A Psychophysics-Grounded Evaluation for Vision-Language Models",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2510.26241",
+      "pdf_url": "https://arxiv.org/pdf/2510.26241"
+    },
+    {
+      "arxiv_id": "2512.23365",
+      "title": "SpatialMosaic: A Multiview VLM Dataset for Partial Visibility",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2512.23365",
+      "pdf_url": "https://arxiv.org/pdf/2512.23365"
+    },
+    {
+      "arxiv_id": "2603.04385",
+      "title": "ZipMap: Linear-Time Stateful 3D Reconstruction via Test-Time Training",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2603.04385",
+      "pdf_url": "https://arxiv.org/pdf/2603.04385"
+    },
+    {
+      "arxiv_id": "2603.16570",
+      "title": "Face2Scene: Using Facial Degradation as an Oracle for Diffusion-Based Scene Restoration",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2603.16570",
+      "pdf_url": "https://arxiv.org/pdf/2603.16570"
+    },
+    {
+      "arxiv_id": "2602.20231",
+      "title": "UniLACT: Depth-Aware RGB Latent Action Learning for Vision-Language-Action Models",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2602.20231",
+      "pdf_url": "https://arxiv.org/pdf/2602.20231"
+    },
+    {
+      "arxiv_id": "2604.07993",
+      "title": "HEX: Humanoid-Aligned Experts for Cross-Embodiment Whole-Body Manipulation",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2604.07993",
+      "pdf_url": "https://arxiv.org/pdf/2604.07993"
+    },
+    {
+      "arxiv_id": "2604.08292",
+      "title": "EMMa: End-Effector Stability-Oriented Mobile Manipulation for Tracked Rescue Robots",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2604.08292",
+      "pdf_url": "https://arxiv.org/pdf/2604.08292"
+    },
+    {
+      "arxiv_id": "2604.07392",
+      "title": "Event-Centric World Modeling with Memory-Augmented Retrieval for Embodied Decision-Making",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2604.07392",
+      "pdf_url": "https://arxiv.org/pdf/2604.07392"
+    },
+    {
+      "arxiv_id": "2512.09928",
+      "title": "HiF-VLA: Hindsight, Insight and Foresight through Motion Representation for Vision-Language-Action Models",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2512.09928",
+      "pdf_url": "https://arxiv.org/pdf/2512.09928"
+    },
+    {
+      "arxiv_id": "2507.12156",
+      "title": "SmokeSVD: Smoke Reconstruction from A Single View via Progressive Novel View Synthesis and Refinement with Diffusion Models",
+      "abstract": "",
+      "category": "cs.GR",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2507.12156",
+      "pdf_url": "https://arxiv.org/pdf/2507.12156"
+    },
+    {
+      "arxiv_id": "2604.08232",
+      "title": "HiRO-Nav: Hybrid ReasOning Enables Efficient Embodied Navigation",
+      "abstract": "",
+      "category": "cs.AI",
+      "score": 4,
+      "url": "https://arxiv.org/abs/2604.08232",
+      "pdf_url": "https://arxiv.org/pdf/2604.08232"
+    },
+    {
+      "arxiv_id": "2604.07430",
+      "title": "HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07430",
+      "pdf_url": "https://arxiv.org/pdf/2604.07430"
+    },
+    {
+      "arxiv_id": "2604.07522",
+      "title": "Training-free Spatially Grounded Geometric Shape Encoding (Technical Report)",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07522",
+      "pdf_url": "https://arxiv.org/pdf/2604.07522"
+    },
+    {
+      "arxiv_id": "2604.07665",
+      "title": "Adaptive Depth-converted-Scale Convolution for Self-supervised Monocular Depth Estimation",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07665",
+      "pdf_url": "https://arxiv.org/pdf/2604.07665"
+    },
+    {
+      "arxiv_id": "2604.07795",
+      "title": "Image-Guided Geometric Stylization of 3D Meshes",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07795",
+      "pdf_url": "https://arxiv.org/pdf/2604.07795"
+    },
+    {
+      "arxiv_id": "2604.07802",
+      "title": "Latent Anomaly Knowledge Excavation: Unveiling Sparse Sensitive Neurons in Vision-Language Models",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07802",
+      "pdf_url": "https://arxiv.org/pdf/2604.07802"
+    },
+    {
+      "arxiv_id": "2604.07879",
+      "title": "FlowGuard: Towards Lightweight In-Generation Safety Detection for Diffusion Models via Linear Latent Decoding",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07879",
+      "pdf_url": "https://arxiv.org/pdf/2604.07879"
+    },
+    {
+      "arxiv_id": "2604.07912",
+      "title": "ParkSense: Where Should a Delivery Driver Park? Leveraging Idle AV Compute and Vision-Language Models",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07912",
+      "pdf_url": "https://arxiv.org/pdf/2604.07912"
+    },
+    {
+      "arxiv_id": "2604.07914",
+      "title": "Mitigating Entangled Steering in Large Vision-Language Models for Hallucination Reduction",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07914",
+      "pdf_url": "https://arxiv.org/pdf/2604.07914"
+    },
+    {
+      "arxiv_id": "2604.07958",
+      "title": "ImVideoEdit: Image-learning Video Editing via 2D Spatial Difference Attention Blocks",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07958",
+      "pdf_url": "https://arxiv.org/pdf/2604.07958"
+    },
+    {
+      "arxiv_id": "2604.07965",
+      "title": "DSCA: Dynamic Subspace Concept Alignment for Lifelong VLM Editing",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07965",
+      "pdf_url": "https://arxiv.org/pdf/2604.07965"
+    },
+    {
+      "arxiv_id": "2604.07966",
+      "title": "Lighting-grounded Video Generation with Renderer-based Agent Reasoning",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07966",
+      "pdf_url": "https://arxiv.org/pdf/2604.07966"
+    },
+    {
+      "arxiv_id": "2604.07980",
+      "title": "Object-Centric Stereo Ranging for Autonomous Driving: From Dense Disparity to Census-Based Template Matching",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07980",
+      "pdf_url": "https://arxiv.org/pdf/2604.07980"
+    },
+    {
+      "arxiv_id": "2604.07990",
+      "title": "SceneScribe-1M: A Large-Scale Video Dataset with Comprehensive Geometric and Semantic Annotations",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07990",
+      "pdf_url": "https://arxiv.org/pdf/2604.07990"
+    },
+    {
+      "arxiv_id": "2604.07997",
+      "title": "Few-Shot Incremental 3D Object Detection in Dynamic Indoor Environments",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07997",
+      "pdf_url": "https://arxiv.org/pdf/2604.07997"
+    },
+    {
+      "arxiv_id": "2604.08008",
+      "title": "SearchAD: Large-Scale Rare Image Retrieval Dataset for Autonomous Driving",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08008",
+      "pdf_url": "https://arxiv.org/pdf/2604.08008"
+    },
+    {
+      "arxiv_id": "2604.08042",
+      "title": "3DrawAgent: Teaching LLM to Draw in 3D with Early Contrastive Experience",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08042",
+      "pdf_url": "https://arxiv.org/pdf/2604.08042"
+    },
+    {
+      "arxiv_id": "2604.08048",
+      "title": "Guiding a Diffusion Model by Swapping Its Tokens",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08048",
+      "pdf_url": "https://arxiv.org/pdf/2604.08048"
+    },
+    {
+      "arxiv_id": "2604.08063",
+      "title": "EEG2Vision: A Multimodal EEG-Based Framework for 2D Visual Reconstruction in Cognitive Neuroscience",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08063",
+      "pdf_url": "https://arxiv.org/pdf/2604.08063"
+    },
+    {
+      "arxiv_id": "2604.08068",
+      "title": "Brain3D: EEG-to-3D Decoding of Visual Representations via Multimodal Reasoning",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08068",
+      "pdf_url": "https://arxiv.org/pdf/2604.08068"
+    },
+    {
+      "arxiv_id": "2604.08074",
+      "title": "DinoRADE: Full Spectral Radar-Camera Fusion with Vision Foundation Model Features for Multi-class Object Detection in Adverse Weather",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08074",
+      "pdf_url": "https://arxiv.org/pdf/2604.08074"
+    },
+    {
+      "arxiv_id": "2604.08084",
+      "title": "DiffVC: A Non-autoregressive Framework Based on Diffusion Model for Video Captioning",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08084",
+      "pdf_url": "https://arxiv.org/pdf/2604.08084"
+    },
+    {
+      "arxiv_id": "2604.08120",
+      "title": "Small Vision-Language Models are Smart Compressors for Long Video Understanding",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08120",
+      "pdf_url": "https://arxiv.org/pdf/2604.08120"
+    },
+    {
+      "arxiv_id": "2604.08167",
+      "title": "T-Gated Adapter: A Lightweight Temporal Adapter for Vision-Language Medical Segmentation",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08167",
+      "pdf_url": "https://arxiv.org/pdf/2604.08167"
+    },
+    {
+      "arxiv_id": "2604.08212",
+      "title": "Vision-Language Foundation Models for Comprehensive Automated Pavement Condition Assessment",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08212",
+      "pdf_url": "https://arxiv.org/pdf/2604.08212"
+    },
+    {
+      "arxiv_id": "2604.08313",
+      "title": "Weakly-Supervised Lung Nodule Segmentation via Training-Free Guidance of 3D Rectified Flow",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08313",
+      "pdf_url": "https://arxiv.org/pdf/2604.08313"
+    },
+    {
+      "arxiv_id": "2604.08340",
+      "title": "PokeGym: A Visually-Driven Long-Horizon Benchmark for Vision-Language Models",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08340",
+      "pdf_url": "https://arxiv.org/pdf/2604.08340"
+    },
+    {
+      "arxiv_id": "2604.08435",
+      "title": "HST-HGN: Heterogeneous Spatial-Temporal Hypergraph Networks with Bidirectional State Space Models for Global Fatigue Assessment",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08435",
+      "pdf_url": "https://arxiv.org/pdf/2604.08435"
+    },
+    {
+      "arxiv_id": "2604.08456",
+      "title": "Entropy-Gradient Grounding: Training-Free Evidence Retrieval in Vision-Language Models",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08456",
+      "pdf_url": "https://arxiv.org/pdf/2604.08456"
+    },
+    {
+      "arxiv_id": "2604.08457",
+      "title": "CrashSight: A Phase-Aware, Infrastructure-Centric Video Benchmark for Traffic Crash Scene Understanding and Reasoning",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08457",
+      "pdf_url": "https://arxiv.org/pdf/2604.08457"
+    },
+    {
+      "arxiv_id": "2604.08476",
+      "title": "Faithful GRPO: Improving Visual Spatial Reasoning in Multimodal Language Models via Constrained Policy Optimization",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08476",
+      "pdf_url": "https://arxiv.org/pdf/2604.08476"
+    },
+    {
+      "arxiv_id": "2604.08494",
+      "title": "What They Saw, Not Just Where They Looked: Semantic Scanpath Similarity via VLMs and NLP metric",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08494",
+      "pdf_url": "https://arxiv.org/pdf/2604.08494"
+    },
+    {
+      "arxiv_id": "2604.08509",
+      "title": "Visually-grounded Humanoid Agents",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08509",
+      "pdf_url": "https://arxiv.org/pdf/2604.08509"
+    },
+    {
+      "arxiv_id": "2604.08532",
+      "title": "Self-Improving 4D Perception via Self-Distillation",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08532",
+      "pdf_url": "https://arxiv.org/pdf/2604.08532"
+    },
+    {
+      "arxiv_id": "2604.08540",
+      "title": "AVGen-Bench: A Task-Driven Benchmark for Multi-Granular Evaluation of Text-to-Audio-Video Generation",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08540",
+      "pdf_url": "https://arxiv.org/pdf/2604.08540"
+    },
+    {
+      "arxiv_id": "2604.08543",
+      "title": "E-3DPSM: A State Machine for Event-Based Egocentric 3D Human Pose Estimation",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08543",
+      "pdf_url": "https://arxiv.org/pdf/2604.08543"
+    },
+    {
+      "arxiv_id": "2604.08546",
+      "title": "When Numbers Speak: Aligning Textual Numerals and Visual Instances in Text-to-Video Diffusion Models",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08546",
+      "pdf_url": "https://arxiv.org/pdf/2604.08546"
+    },
+    {
+      "arxiv_id": "2604.08547",
+      "title": "GaussiAnimate: Reconstruct and Rig Animatable Categories with Level of Dynamics",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08547",
+      "pdf_url": "https://arxiv.org/pdf/2604.08547"
+    },
+    {
+      "arxiv_id": "2604.07395",
+      "title": "A Physical Agentic Loop for Language-Guided Grasping with Execution-State Monitoring",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07395",
+      "pdf_url": "https://arxiv.org/pdf/2604.07395"
+    },
+    {
+      "arxiv_id": "2604.07607",
+      "title": "EgoVerse: An Egocentric Human Dataset for Robot Learning from Around the World",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07607",
+      "pdf_url": "https://arxiv.org/pdf/2604.07607"
+    },
+    {
+      "arxiv_id": "2604.07774",
+      "title": "RoboAgent: Chaining Basic Capabilities for Embodied Task Planning",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07774",
+      "pdf_url": "https://arxiv.org/pdf/2604.07774"
+    },
+    {
+      "arxiv_id": "2604.08037",
+      "title": "PrivFedTalk: Privacy-Aware Federated Diffusion with Identity-Stable Adapters for Personalized Talking-Head Generation",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08037",
+      "pdf_url": "https://arxiv.org/pdf/2604.08037"
+    },
+    {
+      "arxiv_id": "2604.08305",
+      "title": "HistDiT: A Structure-Aware Latent Conditional Diffusion Model for High-Fidelity Virtual Staining in Histopathology",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08305",
+      "pdf_url": "https://arxiv.org/pdf/2604.08305"
+    },
+    {
+      "arxiv_id": "2604.08366",
+      "title": "Scaling-Aware Data Selection for End-to-End Autonomous Driving Systems",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08366",
+      "pdf_url": "https://arxiv.org/pdf/2604.08366"
+    },
+    {
+      "arxiv_id": "2402.12797",
+      "title": "A Geometric Algorithm for Blood Vessel Reconstruction from Skeletal Representation",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2402.12797",
+      "pdf_url": "https://arxiv.org/pdf/2402.12797"
+    },
+    {
+      "arxiv_id": "2412.08637",
+      "title": "DMin: Scalable Training Data Influence Estimation for Diffusion Models",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2412.08637",
+      "pdf_url": "https://arxiv.org/pdf/2412.08637"
+    },
+    {
+      "arxiv_id": "2412.10437",
+      "title": "SVGFusion: A VAE-Diffusion Transformer for Vector Graphic Generation",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2412.10437",
+      "pdf_url": "https://arxiv.org/pdf/2412.10437"
+    },
+    {
+      "arxiv_id": "2412.20718",
+      "title": "MM-MoralBench: A MultiModal Moral Evaluation Benchmark for Large Vision-Language Models",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2412.20718",
+      "pdf_url": "https://arxiv.org/pdf/2412.20718"
+    },
+    {
+      "arxiv_id": "2503.10183",
+      "title": "Through the Magnifying Glass: Adaptive Perception Magnification for Hallucination-Free VLM Decoding",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2503.10183",
+      "pdf_url": "https://arxiv.org/pdf/2503.10183"
+    },
+    {
+      "arxiv_id": "2504.13015",
+      "title": "Hierarchical Feature Learning for Medical Point Clouds via State Space Model",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2504.13015",
+      "pdf_url": "https://arxiv.org/pdf/2504.13015"
+    },
+    {
+      "arxiv_id": "2505.17732",
+      "title": "RQR3D: Reparametrizing the regression targets for BEV-based 3D object detection",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2505.17732",
+      "pdf_url": "https://arxiv.org/pdf/2505.17732"
+    },
+    {
+      "arxiv_id": "2509.23310",
+      "title": "Balanced Diffusion-Guided Fusion for Multimodal Remote Sensing Classification",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2509.23310",
+      "pdf_url": "https://arxiv.org/pdf/2509.23310"
+    },
+    {
+      "arxiv_id": "2510.04628",
+      "title": "A Spatial-Spectral-Frequency Interactive Network for Multimodal Remote Sensing Classification",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2510.04628",
+      "pdf_url": "https://arxiv.org/pdf/2510.04628"
+    },
+    {
+      "arxiv_id": "2510.21366",
+      "title": "BADiff: Bandwidth Adaptive Diffusion Model",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2510.21366",
+      "pdf_url": "https://arxiv.org/pdf/2510.21366"
+    },
+    {
+      "arxiv_id": "2511.09170",
+      "title": "HOTFLoc++: End-to-End Hierarchical LiDAR Place Recognition, Re-Ranking, and 6-DoF Metric Localisation in Forests",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2511.09170",
+      "pdf_url": "https://arxiv.org/pdf/2511.09170"
+    },
+    {
+      "arxiv_id": "2511.11435",
+      "title": "The Persistence of Cultural Memory: Investigating Multimodal Iconicity in Diffusion Models",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2511.11435",
+      "pdf_url": "https://arxiv.org/pdf/2511.11435"
+    },
+    {
+      "arxiv_id": "2511.18787",
+      "title": "Understanding Task Transfer in Vision-Language Models",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2511.18787",
+      "pdf_url": "https://arxiv.org/pdf/2511.18787"
+    },
+    {
+      "arxiv_id": "2512.03532",
+      "title": "OpenTrack3D: Towards Accurate and Generalizable Open-Vocabulary 3D Instance Segmentation",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2512.03532",
+      "pdf_url": "https://arxiv.org/pdf/2512.03532"
+    },
+    {
+      "arxiv_id": "2512.17445",
+      "title": "LangDriveCTRL: Natural Language Controllable Driving Scene Editing with Multi-modal Agents",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2512.17445",
+      "pdf_url": "https://arxiv.org/pdf/2512.17445"
+    },
+    {
+      "arxiv_id": "2601.04068",
+      "title": "Mind the Generative Details: Direct Localized Detail Preference Optimization for Video Diffusion Models",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2601.04068",
+      "pdf_url": "https://arxiv.org/pdf/2601.04068"
+    },
+    {
+      "arxiv_id": "2602.13669",
+      "title": "EchoTorrent: Towards Swift, Sustained, and Streaming Multi-Modal Video Generation",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2602.13669",
+      "pdf_url": "https://arxiv.org/pdf/2602.13669"
+    },
+    {
+      "arxiv_id": "2603.11633",
+      "title": "MV-SAM3D: Adaptive Multi-View Fusion for Layout-Aware 3D Generation",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2603.11633",
+      "pdf_url": "https://arxiv.org/pdf/2603.11633"
+    },
+    {
+      "arxiv_id": "2604.03134",
+      "title": "SD-FSMIS: Adapting Stable Diffusion for Few-Shot Medical Image Segmentation",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.03134",
+      "pdf_url": "https://arxiv.org/pdf/2604.03134"
+    },
+    {
+      "arxiv_id": "2604.07230",
+      "title": "PhyEdit: Towards Real-World Object Manipulation via Physically-Grounded Image Editing",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07230",
+      "pdf_url": "https://arxiv.org/pdf/2604.07230"
+    },
+    {
+      "arxiv_id": "2504.13378",
+      "title": "SMPL-GPTexture: Dual-View 3D Human Texture Estimation using Text-to-Image Generation Models",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2504.13378",
+      "pdf_url": "https://arxiv.org/pdf/2504.13378"
+    },
+    {
+      "arxiv_id": "2509.01878",
+      "title": "AI-Driven Marine Robotics: Emerging Trends in Underwater Perception and Ecosystem Monitoring",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2509.01878",
+      "pdf_url": "https://arxiv.org/pdf/2509.01878"
+    },
+    {
+      "arxiv_id": "2512.18662",
+      "title": "Pseudo-Expert Regularized Offline RL for End-to-End Autonomous Driving in Photorealistic Closed-Loop Environments",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2512.18662",
+      "pdf_url": "https://arxiv.org/pdf/2512.18662"
+    },
+    {
+      "arxiv_id": "2604.05351",
+      "title": "AnyImageNav: Any-View Geometry for Precise Last-Meter Image-Goal Navigation",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.05351",
+      "pdf_url": "https://arxiv.org/pdf/2604.05351"
+    },
+    {
+      "arxiv_id": "2604.06036",
+      "title": "CodecSight: Leveraging Video Codec Signals for Efficient Streaming VLM Inference",
+      "abstract": "",
+      "category": "cs.CV",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.06036",
+      "pdf_url": "https://arxiv.org/pdf/2604.06036"
+    },
+    {
+      "arxiv_id": "2604.07378",
+      "title": "Evaluation as Evolution: Transforming Adversarial Diffusion into Closed-Loop Curricula for Autonomous Vehicles",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07378",
+      "pdf_url": "https://arxiv.org/pdf/2604.07378"
+    },
+    {
+      "arxiv_id": "2604.07423",
+      "title": "OpenPRC: A Unified Open-Source Framework for Physics-to-Task Evaluation in Physical Reservoir Computing",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07423",
+      "pdf_url": "https://arxiv.org/pdf/2604.07423"
+    },
+    {
+      "arxiv_id": "2604.07457",
+      "title": "CMP: Robust Whole-Body Tracking for Loco-Manipulation via Competence Manifold Projection",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07457",
+      "pdf_url": "https://arxiv.org/pdf/2604.07457"
+    },
+    {
+      "arxiv_id": "2604.07517",
+      "title": "Grasp as You Dream: Imitating Functional Grasping from Generated Human Demonstrations",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07517",
+      "pdf_url": "https://arxiv.org/pdf/2604.07517"
+    },
+    {
+      "arxiv_id": "2604.07677",
+      "title": "Bird-Inspired Spatial Flapping Wing Mechanism via Coupled Linkages with Single Actuator",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07677",
+      "pdf_url": "https://arxiv.org/pdf/2604.07677"
+    },
+    {
+      "arxiv_id": "2604.07799",
+      "title": "Learning Without Losing Identity: Capability Evolution for Embodied Agents",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07799",
+      "pdf_url": "https://arxiv.org/pdf/2604.07799"
+    },
+    {
+      "arxiv_id": "2604.07833",
+      "title": "Harnessing Embodied Agents: Runtime Governance for Policy-Constrained Execution",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07833",
+      "pdf_url": "https://arxiv.org/pdf/2604.07833"
+    },
+    {
+      "arxiv_id": "2604.07921",
+      "title": "The Sustainability Gap in Robotics: A Large-Scale Survey of Sustainability Awareness in 50,000 Research Articles",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07921",
+      "pdf_url": "https://arxiv.org/pdf/2604.07921"
+    },
+    {
+      "arxiv_id": "2604.07939",
+      "title": "RAGE-XY: RADAR-Aided Longitudinal and Lateral Forces Estimation For Autonomous Race Cars",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07939",
+      "pdf_url": "https://arxiv.org/pdf/2604.07939"
+    },
+    {
+      "arxiv_id": "2604.07945",
+      "title": "Incremental Residual Reinforcement Learning Toward Real-World Learning for Social Navigation",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07945",
+      "pdf_url": "https://arxiv.org/pdf/2604.07945"
+    },
+    {
+      "arxiv_id": "2604.08009",
+      "title": "AgiPIX: Bridging Simulation and Reality in Indoor Aerial Inspection",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08009",
+      "pdf_url": "https://arxiv.org/pdf/2604.08009"
+    },
+    {
+      "arxiv_id": "2604.08059",
+      "title": "Governed Capability Evolution for Embodied Agents: Safe Upgrade, Compatibility Checking, and Runtime Rollback for Embodied Capability Modules",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08059",
+      "pdf_url": "https://arxiv.org/pdf/2604.08059"
+    },
+    {
+      "arxiv_id": "2604.08153",
+      "title": "Semantic-Aware UAV Command and Control for Efficient IoT Data Collection",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08153",
+      "pdf_url": "https://arxiv.org/pdf/2604.08153"
+    },
+    {
+      "arxiv_id": "2604.08168",
+      "title": "ViVa: A Video-Generative Value Model for Robot Reinforcement Learning",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08168",
+      "pdf_url": "https://arxiv.org/pdf/2604.08168"
+    },
+    {
+      "arxiv_id": "2604.08185",
+      "title": "State and Trajectory Estimation of Tensegrity Robots via Factor Graphs and Chebyshev Polynomials",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08185",
+      "pdf_url": "https://arxiv.org/pdf/2604.08185"
+    },
+    {
+      "arxiv_id": "2604.08258",
+      "title": "EvoGymCM: Harnessing Continuous Material Stiffness for Soft Robot Co-Design",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08258",
+      "pdf_url": "https://arxiv.org/pdf/2604.08258"
+    },
+    {
+      "arxiv_id": "2604.08443",
+      "title": "A Soft Robotic Interface for Chick-Robot Affective Interactions",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08443",
+      "pdf_url": "https://arxiv.org/pdf/2604.08443"
+    },
+    {
+      "arxiv_id": "2604.08508",
+      "title": "Sumo: Dynamic and Generalizable Whole-Body Loco-Manipulation",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08508",
+      "pdf_url": "https://arxiv.org/pdf/2604.08508"
+    },
+    {
+      "arxiv_id": "2604.08534",
+      "title": "ActiveGlasses: Learning Manipulation with Active Vision from Ego-centric Human Demonstration",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08534",
+      "pdf_url": "https://arxiv.org/pdf/2604.08534"
+    },
+    {
+      "arxiv_id": "2604.08032",
+      "title": "&#34;Why This Avoidance Maneuver?&#34; Contrastive Explanations in Human-Supervised Maritime Autonomous Navigation",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08032",
+      "pdf_url": "https://arxiv.org/pdf/2604.08032"
+    },
+    {
+      "arxiv_id": "2406.13086",
+      "title": "NaviSplit: Dynamic Multi-Branch Split DNNs for Efficient Distributed Autonomous Navigation",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2406.13086",
+      "pdf_url": "https://arxiv.org/pdf/2406.13086"
+    },
+    {
+      "arxiv_id": "2407.01563",
+      "title": "NaviSlim: Adaptive Context-Aware Navigation and Sensing via Dynamic Slimmable Networks",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2407.01563",
+      "pdf_url": "https://arxiv.org/pdf/2407.01563"
+    },
+    {
+      "arxiv_id": "2505.17209",
+      "title": "LiloDriver: A Lifelong Learning Framework for Closed-loop Motion Planning in Long-tail Autonomous Driving Scenarios",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2505.17209",
+      "pdf_url": "https://arxiv.org/pdf/2505.17209"
+    },
+    {
+      "arxiv_id": "2509.18455",
+      "title": "Learning Geometry-Aware Nonprehensile Pushing and Pulling with Dexterous Hands",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2509.18455",
+      "pdf_url": "https://arxiv.org/pdf/2509.18455"
+    },
+    {
+      "arxiv_id": "2510.12710",
+      "title": "Reflection-Based Task Adaptation for Self-Improving VLA",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2510.12710",
+      "pdf_url": "https://arxiv.org/pdf/2510.12710"
+    },
+    {
+      "arxiv_id": "2604.03540",
+      "title": "Drift-Based Policy Optimization: Native One-Step Policy Learning for Online Robot Control",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.03540",
+      "pdf_url": "https://arxiv.org/pdf/2604.03540"
+    },
+    {
+      "arxiv_id": "2506.04500",
+      "title": "&#34;Don&#39;t Do That!&#34;: Guiding Embodied Systems through Large Language Model-based Constraint Generation",
+      "abstract": "",
+      "category": "cs.RO",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2506.04500",
+      "pdf_url": "https://arxiv.org/pdf/2506.04500"
+    },
+    {
+      "arxiv_id": "2604.07984",
+      "title": "Physics-Based Motion Tracking of Contact-Rich Interacting Characters",
+      "abstract": "",
+      "category": "cs.GR",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07984",
+      "pdf_url": "https://arxiv.org/pdf/2604.07984"
+    },
+    {
+      "arxiv_id": "2604.08033",
+      "title": "IoT-Brain: Grounding LLMs for Semantic-Spatial Sensor Scheduling",
+      "abstract": "",
+      "category": "cs.AI",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08033",
+      "pdf_url": "https://arxiv.org/pdf/2604.08033"
+    },
+    {
+      "arxiv_id": "2604.08226",
+      "title": "Grounding Clinical AI Competency in Human Cognition Through the Clinical World Model and Skill-Mix Framework",
+      "abstract": "",
+      "category": "cs.AI",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08226",
+      "pdf_url": "https://arxiv.org/pdf/2604.08226"
+    },
+    {
+      "arxiv_id": "2604.08245",
+      "title": "From Phenomenological Fitting to Endogenous Deduction: A Paradigm Leap via Meta-Principle Physics Architecture",
+      "abstract": "",
+      "category": "cs.AI",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08245",
+      "pdf_url": "https://arxiv.org/pdf/2604.08245"
+    },
+    {
+      "arxiv_id": "2604.07393",
+      "title": "DSPR: Dual-Stream Physics-Residual Networks for Trustworthy Industrial Time Series Forecasting",
+      "abstract": "",
+      "category": "cs.AI",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07393",
+      "pdf_url": "https://arxiv.org/pdf/2604.07393"
+    },
+    {
+      "arxiv_id": "2604.07397",
+      "title": "Data Warmup: Complexity-Aware Curricula for Efficient Diffusion Training",
+      "abstract": "",
+      "category": "cs.AI",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07397",
+      "pdf_url": "https://arxiv.org/pdf/2604.07397"
+    },
+    {
+      "arxiv_id": "2604.07490",
+      "title": "Enabling Intrinsic Reasoning over Dense Geospatial Embeddings with DFR-Gemma",
+      "abstract": "",
+      "category": "cs.AI",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07490",
+      "pdf_url": "https://arxiv.org/pdf/2604.07490"
+    },
+    {
+      "arxiv_id": "2604.07513",
+      "title": "SYN-DIGITS: A Synthetic Control Framework for Calibrated Digital Twin Simulation",
+      "abstract": "",
+      "category": "cs.AI",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07513",
+      "pdf_url": "https://arxiv.org/pdf/2604.07513"
+    },
+    {
+      "arxiv_id": "2604.07612",
+      "title": "Towards Real-Time Human-AI Musical Co-Performance: Accompaniment Generation with Latent Diffusion Models and MAX/MSP",
+      "abstract": "",
+      "category": "cs.AI",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07612",
+      "pdf_url": "https://arxiv.org/pdf/2604.07612"
+    },
+    {
+      "arxiv_id": "2604.07687",
+      "title": "Joint Task Offloading, Inference Optimization and UAV Trajectory Planning for Generative AI Empowered Intelligent Transportation Digital Twin",
+      "abstract": "",
+      "category": "cs.AI",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07687",
+      "pdf_url": "https://arxiv.org/pdf/2604.07687"
+    },
+    {
+      "arxiv_id": "2604.07781",
+      "title": "Toward Generalizable Graph Learning for 3D Engineering AI: Explainable Workflows for CAE Mode Shape Classification and CFD Field Prediction",
+      "abstract": "",
+      "category": "cs.AI",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07781",
+      "pdf_url": "https://arxiv.org/pdf/2604.07781"
+    },
+    {
+      "arxiv_id": "2604.07822",
+      "title": "Loop, Think, &amp; Generalize: Implicit Reasoning in Recurrent-Depth Transformers",
+      "abstract": "",
+      "category": "cs.AI",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.07822",
+      "pdf_url": "https://arxiv.org/pdf/2604.07822"
+    },
+    {
+      "arxiv_id": "2604.08123",
+      "title": "LegoDiffusion: Micro-Serving Text-to-Image Diffusion Workflows",
+      "abstract": "",
+      "category": "cs.AI",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08123",
+      "pdf_url": "https://arxiv.org/pdf/2604.08123"
+    },
+    {
+      "arxiv_id": "2604.08384",
+      "title": "TASU2: Controllable CTC Simulation for Alignment and Low-Resource Adaptation of Speech LLMs",
+      "abstract": "",
+      "category": "cs.AI",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.08384",
+      "pdf_url": "https://arxiv.org/pdf/2604.08384"
+    },
+    {
+      "arxiv_id": "2604.05489",
+      "title": "SCMAPR: Self-Correcting Multi-Agent Prompt Refinement for Complex-Scenario Text-to-Video Generation",
+      "abstract": "",
+      "category": "cs.AI",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2604.05489",
+      "pdf_url": "https://arxiv.org/pdf/2604.05489"
+    },
+    {
+      "arxiv_id": "2508.19982",
+      "title": "Diffusion Language Models Know the Answer Before Decoding",
+      "abstract": "",
+      "category": "cs.AI",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2508.19982",
+      "pdf_url": "https://arxiv.org/pdf/2508.19982"
+    },
+    {
+      "arxiv_id": "2510.07809",
+      "title": "Invisible to Humans, Triggered by Agents: Stealthy Jailbreak Attacks on Mobile Vision-Language Agents",
+      "abstract": "",
+      "category": "cs.AI",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2510.07809",
+      "pdf_url": "https://arxiv.org/pdf/2510.07809"
+    },
+    {
+      "arxiv_id": "2511.08637",
+      "title": "How Do Data Owners Say No? A Case Study of Data Consent Mechanisms in Web-Scraped Vision-Language AI Training Datasets",
+      "abstract": "",
+      "category": "cs.AI",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2511.08637",
+      "pdf_url": "https://arxiv.org/pdf/2511.08637"
+    },
+    {
+      "arxiv_id": "2603.14997",
+      "title": "OrgForge: A Multi-Agent Simulation Framework for Verifiable Synthetic Corporate Corpora",
+      "abstract": "",
+      "category": "cs.AI",
+      "score": 2,
+      "url": "https://arxiv.org/abs/2603.14997",
+      "pdf_url": "https://arxiv.org/pdf/2603.14997"
+    }
+  ]
+}

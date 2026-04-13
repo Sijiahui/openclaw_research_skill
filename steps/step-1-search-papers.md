@@ -262,6 +262,41 @@ python3 search_arxiv.py "all:embodied+all:AI" 20
 - 获取120篇论文
 - 关键发现: Kinema4D, Holi-Spatial, ST-VLA
 
-### 下一步
+#### 执行记录 (2026-04-12)
+
+1. **arXiv API 限流**: API首次查询返回0篇（限流），增加3秒间隔后成功
+2. **降级方案**: 10个关键词查询，每查询30篇
+3. **成功获取数据**: 166篇唯一论文，关键词筛选后55篇高相关（score>=2）
+4. **输出文件**: `data/papers_2026-04-12.json` (52,528 bytes)
+
+### Top 15 优先论文 (2026-04-12)
+
+1. **DP-DeGauss** (score=13) - 自中心4D场景重建动态概率高斯分解
+2. **Orion-Lite** (score=13) - LLM推理蒸馏到高效纯视觉驾驶模型
+3. **ViVa** (score=13) - 视频生成价值模型用于机器人强化学习
+4. **LAMP** (score=12) - 图像编辑作为通用3D先验用于开放世界操作
+5. **CrashSight** (score=12) - 交通碰撞场景理解推理视频基准
+6. **SurfelSplat** (score=10) - 稀疏视角表面重建高斯Surfel
+7. **PokeGym** (score=10) - VLM视觉驱动长期基准
+8. **HEX** (score=10) - 跨具身全身操作人形对齐专家
+9. **Phantasia** (score=9) - VLM上下文自适应后门攻击
+10. **BLaDA** (score=7) - 语言到3DGS场功能灵巧操作桥接
+11. **Generative 3DGS** (score=6) - 大气降尺度预测生成式3DGS
+12. **ReconPhys** (score=6) - 单视频重建外观和物理属性
+13. **Faithful GRPO** (score=6) - 多模态语言模型视觉空间推理约束策略优化
+14. **SIM1** (score=4) - 物理对齐模拟器零样本数据缩放
+15. **4D Digital Cityscapes** (score=4) - 微观交通仿真与4D数字城景桥接
+
+### 趋势观察 (2026-04-12)
+
+1. **动态3DGS**: DP-DeGauss(自中心4D)、SurfelSplat(表面重建)、Generative 3DGS(气象)
+2. **Embodied+3DGS**: BLaDA(3DGS场灵巧操作)、LAMP(3D先验操作)、SIM1(可变形世界)
+3. **VLM空间推理**: Faithful GRPO(空间推理优化)、PokeGym(VLM基准)
+4. **世界模型+视频**: ViVa(视频价值模型机器人RL)、CrashSight(场景理解)
+5. **端到端驾驶**: Orion-Lite(LLM蒸馏到视觉驾驶)
+
+---
+
+## 下一步
 
 继续执行 `step-2-filter-papers.md` 进行论文筛选和深度分析。
