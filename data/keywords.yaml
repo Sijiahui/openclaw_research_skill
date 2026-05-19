@@ -1,0 +1,87 @@
+core_keywords:
+  - manufacturing digital gene
+  - digital twin manufacturing
+  - embodied intelligence
+  - embodied AI
+  - vision language action
+  - VLA
+  - robot manipulation
+  - world model robotics
+  - world action model
+  - human robot collaboration
+  - human robot interaction
+  - task planning robot
+  - affordance learning
+  - 3D scene understanding
+  - object-centric representation
+  - robot foundation model
+
+digital_gene_keywords:
+  - geometric primitive
+  - object affordance
+  - process constraint
+  - assembly relation
+  - manufacturing knowledge graph
+  - semantic constraint
+  - task ontology
+  - dynamic topology
+  - part representation
+  - CAD to robot learning
+  - STEP representation
+  - tool object compatibility
+  - manufacturing process knowledge
+  - digital twin body
+  - multimodal manufacturing representation
+
+vla_keywords:
+  - vision-language-action model
+  - robot policy
+  - action expert
+  - manipulation policy
+  - visuomotor policy
+  - generalist robot policy
+  - language-conditioned manipulation
+  - robotic foundation model
+  - open vocabulary manipulation
+  - long horizon manipulation
+  - affordance VLA
+  - hierarchical VLA
+
+wam_keywords:
+  - world model
+  - action model
+  - world action model
+  - video prediction
+  - dynamics model
+  - future frame prediction
+  - state transition model
+  - robot imagination
+  - action conditioned video generation
+  - third person robot learning
+  - egocentric keyframe alignment
+  - cross view robot learning
+
+hrc_keywords:
+  - human robot collaboration
+  - shared autonomy
+  - human intention prediction
+  - proactive collaboration
+  - collaborative assembly
+  - task allocation
+  - adaptive robot behavior
+  - human intervention
+  - human robot task planning
+  - human robot task replanning
+  - situational awareness
+  - collaborative disassembly
+
+industrial_tasks:
+  - battery disassembly
+  - robotic disassembly
+  - robotic assembly
+  - bolt removal
+  - tool selection
+  - collaborative inspection
+  - industrial manipulation
+  - manufacturing task planning
+  - digital twin guided robot
