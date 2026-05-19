@@ -1,401 +1,165 @@
-# Spatial AGI Research Skill - v7.0（模块化版本）
+# Manufacturing Digital Gene & Embodied HRC Research Skill - v1.0
 
 ## 概述
 
-完整的Spatial AGI研究流程skill，通过模块化的subagent执行每日研究任务。
+本 Skill 是面向 **制造数字基因（Manufacturing Digital Gene）+ DG-VLA + WAM + 人机协作（HRC）** 的长期研究工作流。它由原 Spatial AGI Research Skill 改造而来，目标不是泛泛总结论文，而是持续筛选、精读和沉淀能够支撑用户个人研究方向的文献、观点、实验设计和论文选题。
 
-**核心特点**:
-- ✅ 每天精读5篇论文（质量 > 数量）
-- ✅ 使用GLM WebReader回答3个核心问题
-- ✅ 生成详细的论文分析文档（至少500行）
-- ✅ 每日思考文档（延续性研究）
-- ✅ 强制质量验证（11项检查）
-- ✅ 自动Git提交和推送
+## 核心定位
 
-**版本**: v7.1（GLM WebReader正式版）
-**最后更新**: 2026-03-23
-**Git仓库**: git@github.com:ahangchen/openclaw_research_skill.git
+你是一个长期科研助手，服务于以下研究主线：
 
----
+- 制造数字基因（Manufacturing Digital Gene）
+- 具身智能与制造场景机器人操作
+- Vision-Language-Action Models（VLA）
+- World Model / World Action Model（WAM）
+- 人机协作（Human-Robot Collaboration, HRC）
+- 工业数字孪生与动态拓扑建模
+- 面向非稳态制造任务的记忆、约束、规划与主动适应
 
-## 🚨 强制要求
+## 用户当前研究假设
 
-```
-╔════════════════════════════════════════════════════════════╗
-║  ⚠️ 执行前必须满足以下条件                                 ║
-╚════════════════════════════════════════════════════════════╝
+> 制造数字基因可以作为感知、语言推理、世界建模与机器人动作之间的结构化中间表示。它能够以稳定知识、任务激活、上下文增强、约束注入和长期记忆的形式，提升 VLA 泛化能力、降低数据需求，并支持制造场景中的主动式人机协作。
 
-1. ✅ GitHub仓库已关联（main分支）
-2. ✅ GLM-5可用（用于论文分析）
-3. ✅ 目录已创建
-```
+## 核心概念体系
 
----
+### 1. Digital DNA
 
-## 🏗️ 架构设计：Subagent串行执行
+Digital DNA 表示稳定、可复用的对象级制造知识，包括：
 
-### 核心原则
+- 几何原语
+- 零部件属性
+- 材料属性
+- 可供性
+- 装配关系
+- 工艺约束
+- 接口定义
 
-```
-╔════════════════════════════════════════════════════════════╗
-║  🎯 所有Step必须使用Subagent执行                           ║
-║                                                              ║
-║  ✅ 主Session只负责调度（串行发起subagent）                ║
-║  ✅ 每个Step独立subagent（互不干扰）                       ║
-║  ✅ 不同Step之间严格串行：等Step N完成后再启动Step N+1     ║
-║  ✅ Step 3的5篇论文也严格串行：等论文N完成后再启动论文N+1  ║
-║  ✅ 避免token限制和上下文污染                              ║
-║                                                              ║
-║  ❌ 禁止在主Session中直接执行任务                          ║
-║  ❌ 禁止跳过任何Step                                       ║
-║  ❌ 禁止同时启动多个Subagent                               ║
-╚════════════════════════════════════════════════════════════╝
-```
+### 2. Digital RNA
 
-### 执行架构
+Digital RNA 表示 Digital DNA 在具体任务、场景和执行过程中的激活与表达，包括：
 
-```
-主Session (Cron/Main)
-    │
-    ├─→ Subagent[Step 0]: 完成度检查
-    │       └─→ 返回结果 → 主Session记录 → 启动Step 1
-    │
-    ├─→ Subagent[Step 1]: 搜索论文
-    │       └─→ 返回论文列表 → 主Session记录 → 启动Step 2
-    │
-    ├─→ Subagent[Step 2]: 筛选论文
-    │       └─→ 返回5篇精选 → 主Session记录 → 启动Step 3.1
-    │
-    ├─→ Subagent[Step 3.1]: 精读论文1
-    │       └─→ 完成后 → 启动Step 3.2
-    ├─→ Subagent[Step 3.2]: 精读论文2
-    │       └─→ 完成后 → 启动Step 3.3
-    ├─→ Subagent[Step 3.3]: 精读论文3
-    │       └─→ 完成后 → 启动Step 3.4
-    ├─→ Subagent[Step 3.4]: 精读论文4
-    │       └─→ 完成后 → 启动Step 3.5
-    ├─→ Subagent[Step 3.5]: 精读论文5
-    │       └─→ 完成后 → 启动Step 4
-    │
-    ├─→ Subagent[Step 4]: 更新论文列表
-    │       └─→ 返回状态 → 主Session记录
-    │
-    ├─→ Subagent[Step 5]: 生成思考文档
-    │       └─→ 返回文档路径 → 主Session记录
-    │
-    ├─→ Subagent[Step 6]: 验证质量
-    │       └─→ 返回验证结果 → 主Session记录
-    │
-    └─→ Subagent[Step 7]: Git推送
-            └─→ 返回commit ID → 主Session记录
-            
-主Session生成完成报告
-```
+- 任务条件下的基因激活
+- 上下文相关的约束选择
+- 执行序列生成
+- 动态拓扑更新
+- 人类干预响应
+- 自适应重规划
 
-### 调度代码模板
+### 3. Gene-as-Context
 
-```bash
-# 主Session调度代码（伪代码）
+数字基因作为结构化上下文，为 LLM/VLM/VLA 提供对象、任务、几何、工艺和约束信息。
 
-# Step 0: 完成度检查
-result_0=$(sessions_spawn --runtime subagent --task "执行Step 0: 完成度检查...")
+### 4. Gene-as-Constraint
 
-# Step 1: 搜索论文
-result_1=$(sessions_spawn --runtime subagent --task "执行Step 1: 搜索论文...")
+数字基因作为约束层，约束感知、规划、动作生成和安全执行，避免不符合制造逻辑的行为。
 
-# Step 2: 筛选论文
-result_2=$(sessions_spawn --runtime subagent --task "执行Step 2: 筛选论文...")
+### 5. Gene-as-Memory
 
-# Step 3: 精读论文（串行）
-for i in 1 2 3 4 5; do
-    result_3_$i=$(sessions_spawn --runtime subagent --task "执行Step 3.$i: 精读论文...")
-done
+数字基因作为长期制造记忆，记录对象知识、工具知识、工艺知识、协作历史和场景状态演化。
 
-# Step 4: 更新列表
-result_4=$(sessions_spawn --runtime subagent --task "执行Step 4: 更新列表...")
+### 6. Gene-as-Policy Interface
 
-# Step 5: 生成思考
-result_5=$(sessions_spawn --runtime subagent --task "执行Step 5: 生成思考...")
+数字基因作为符号制造知识与机器人策略之间的接口，将结构化知识转化为可执行动作提示、约束、关键帧、子任务或策略条件。
 
-# Step 6: 验证质量
-result_6=$(sessions_spawn --runtime subagent --task "执行Step 6: 验证质量...")
+## 每次运行目标
 
-# Step 7: Git推送
-result_7=$(sessions_spawn --runtime subagent --task "执行Step 7: Git推送...")
+每次运行应完成以下任务：
 
-# 生成完成报告
-generate_completion_report
-```
+1. 搜索与制造数字基因、VLA、WAM、HRC、工业数字孪生相关的论文或项目。
+2. 从候选论文中筛选 3-5 篇最值得精读的论文。
+3. 按照数字基因分析框架逐篇精读。
+4. 更新论文数据库与研究记忆。
+5. 生成每日或每周研究思考文档。
+6. 输出对用户论文选题、实验设计、框架图、汇报材料有直接价值的结论。
 
-### 为什么必须使用Subagent？
+## 推荐执行频率
 
-1. **Token限制**: 主Session有token限制，长任务容易超限
-2. **上下文污染**: 主Session上下文会累积，影响后续步骤
-3. **独立性**: 每个Step独立执行，失败可以单独重试
-4. **可追溯**: 每个subagent有独立的session ID，便于调试
-5. **完整性**: 确保每个Step完整执行，不会因为主Session结束而中断
+- 快速探索：每次 1-2 篇论文
+- 日常研究：每天 3 篇论文
+- 深度研究：每周 5 篇论文 + 1 篇周总结
 
----
+## 输出语言
 
-## 📋 完整流程（7个Steps）
+- 研究分析、每日思考和总结：中文为主
+- 论文题目、方法名、模型名和关键术语：保留英文
+- 可直接用于论文写作的贡献点：中英文都可给出
 
-### 执行顺序
+## 目录约定
 
-```
-Step 0: 完成度检查 → 检查昨天任务是否完整
-  ↓
-Step 1: 搜索论文 → 使用arXiv API搜索100篇候选论文
-  ↓
-Step 2: 筛选论文 → 从100篇中精选5篇最有价值的论文
-  ↓
-Step 3: 精读论文 → 5个独立Subagent串行分析5篇论文
-  ↓
-Step 4: 更新列表 → 更新papers_list.md
-  ↓
-Step 5: 生成思考 → 基于完整论文分析生成每日思考
-  ↓
-Step 6: 验证质量 → 11项检查确保思考文档符合要求
-  ↓
-Step 7: Git推送 → 提交并推送到GitHub
-```
-
----
-
-## 🔧 如何执行
-
-### ⚠️ 重要：所有Step必须使用Subagent
-
-```
-╔════════════════════════════════════════════════════════════╗
-║  ❌ 错误做法：在主Session中直接执行Step                    ║
-║  ✅ 正确做法：为每个Step启动独立Subagent                   ║
-╚════════════════════════════════════════════════════════════╝
-```
-
-### 方法1: Cron自动执行（推荐）
-
-由Cron任务自动触发，每天早上7点执行：
-
-```bash
-# Cron payload会自动调用所有subagent
-# 详见: ~/.openclaw/cron/jobs.json
-
-# ⚠️ 确保cron job配置正确，使用subagent执行每个step
-```
-
-### 方法2: 手动执行（使用Subagent）
-
-**必须**为每个Step启动独立Subagent：
-
-```bash
-# Step 0: 完成度检查（启动Subagent）
-sessions_spawn \
-  --runtime subagent \
-  --task "阅读 ~/.openclaw/workspace/skills/spatial-agi-research/steps/step-0-completion-check.md 并执行"
-
-# Step 1: 搜索论文（启动Subagent）
-sessions_spawn \
-  --runtime subagent \
-  --task "阅读 ~/.openclaw/workspace/skills/spatial-agi-research/steps/step-1-search-papers.md 并执行"
-
-# Step 2: 筛选论文（启动Subagent）
-sessions_spawn \
-  --runtime subagent \
-  --task "阅读 ~/.openclaw/workspace/skills/spatial-agi-research/steps/step-2-filter-papers.md 并执行"
-
-# ⚠️ Step 2完成后，主Session必须提取论文列表
-# 用exec工具执行: ls /home/cwh/coding/spatial_agi/papers/$(date +%Y-%m-%d)*
-# 记录5篇论文的文件名和标题，用于Step 3和Step 5
-
-# Step 3: 精读论文（5个Subagent串行，传入论文信息）
-# 对每篇论文，将文件名和标题传入task
-sessions_spawn --runtime subagent --task "阅读 step-3-analyze-paper.md 并执行。精读论文1: [文件名] - [标题]"
-# 等完成后启动论文2...以此类推
-
-# Step 4: 更新列表（启动Subagent）
-sessions_spawn \
-  --runtime subagent \
-  --task "阅读 ~/.openclaw/workspace/skills/spatial-agi-research/steps/step-4-update-paper-list.md 并执行"
-
-# Step 5: 生成思考（⚠️ 必须传入5篇论文信息，防幻觉）
-sessions_spawn \
-  --runtime subagent \
-  --task "阅读 ~/.openclaw/workspace/skills/spatial-agi-research/steps/step-5-generate-thinking.md 并执行。今天是YYYY-MM-DD。
-  ⚠️ 今天的5篇论文（必须基于这些论文生成思考，禁止编造其他论文）：
-  1. papers/YYYY-MM-DD_01_[文件名].md - [标题]
-  2. papers/YYYY-MM-DD_02_[文件名].md - [标题]
-  3. papers/YYYY-MM-DD_03_[文件名].md - [标题]
-  4. papers/YYYY-MM-DD_04_[文件名].md - [标题]
-  5. papers/YYYY-MM-DD_05_[文件名].md - [标题]
-  必须先用read工具读取这5篇论文的完整内容，然后再生成思考文档。"
-
-# Step 6: 验证质量（启动Subagent）
-sessions_spawn \
-  --runtime subagent \
-  --task "阅读 ~/.openclaw/workspace/skills/spatial-agi-research/steps/step-6-validate-thinking.md 并执行"
-
-# Step 7: Git推送（启动Subagent）
-sessions_spawn \
-  --runtime subagent \
-  --task "阅读 ~/.openclaw/workspace/skills/spatial-agi-research/steps/step-7-git-push.md 并执行"
-```
-
-### ❌ 错误示例
-
-```bash
-# ❌ 错误：直接在主Session中执行
-cd ~/.openclaw/workspace/skills/spatial-agi-research
-bash steps/step-7-git-push.md  # 这会在主Session中执行，容易出问题
-```
-
-### ✅ 正确示例
-
-```bash
-# ✅ 正确：启动Subagent执行
-sessions_spawn \
-  --runtime subagent \
-  --task "执行Step 7: Git推送，阅读 steps/step-7-git-push.md 并执行所有步骤"
-```
-
----
-
-## 📁 文件结构
-
-```
-spatial-agi-research/
-├── SKILL.md                      # 主文档（本文档）
-├── EXECUTION_CHECKLIST.md       # 执行检查清单
-├── QUICK_START.md               # 快速开始指南
-├── steps/                       # 模块化步骤文档
-│   ├── step-0-completion-check.md
+```text
+dg-vla-hrc-research-skill/
+├── SKILL.md
+├── data/
+│   ├── keywords.yaml
+│   ├── papers.csv
+│   ├── taxonomy.md
+│   └── research_memory.md
+├── steps/
+│   ├── step-0-check-yesterday.md
 │   ├── step-1-search-papers.md
 │   ├── step-2-filter-papers.md
 │   ├── step-3-analyze-paper.md
 │   ├── step-4-update-paper-list.md
 │   ├── step-5-generate-thinking.md
-│   ├── step-6-validate-thinking.md
-│   └── step-7-git-push.md
-└── scripts/                     # 自动化脚本
-    ├── spatial_agi_daily_robust.sh
-    ├── spatial_agi_filter_papers.py
-    ├── search_arxiv.py
-    ├── check_spatial_agi_status.sh
-    └── validate_thinking.sh
+│   └── step-6-quality-check.md
+├── prompts/
+│   ├── paper_analysis_prompt.md
+│   ├── daily_thinking_prompt.md
+│   └── weekly_summary_prompt.md
+├── scripts/
+│   ├── search_arxiv.py
+│   ├── deduplicate.py
+│   └── update_index.py
+└── output/
+    ├── papers/
+    ├── daily/
+    └── weekly/
 ```
 
----
+## 模块化执行原则
 
-## 🎯 质量标准
+仍然保留原项目的 Subagent 思想：
 
-### 论文文档
+1. 主 Session 只负责任务调度。
+2. 每个 Step 使用独立 Subagent 执行。
+3. 搜索、筛选、精读、思考、质量检查依次串行。
+4. 每篇论文独立分析，避免上下文污染。
+5. 所有结论必须围绕用户研究框架沉淀，而不是泛泛文献综述。
 
-- ✅ 至少500行
-- ✅ 包含完整的3个核心问题分析
-- ✅ 包含与Spatial AGI的关系分析
-- ✅ 包含个人思考和见解
+## 研究判断优先级
 
-### 每日思考
+分析论文时优先回答以下问题：
 
-- ✅ 至少800行
-- ✅ 包含11项必需内容（见Step 6）
-- ✅ 通过质量验证脚本
+1. 这篇论文是否能支撑制造数字基因？
+2. 它更接近 Digital DNA、Digital RNA，还是 Gene-as-Context / Gene-as-Constraint / Gene-as-Memory？
+3. 它是否能增强 VLA 的语言层、视觉 grounding、动作层或策略层？
+4. 它是否能支持 WAM/world model 的状态转移学习或动作后果预测？
+5. 它是否能支持 HRC 中的人类意图理解、记忆对齐、任务重规划和主动适应？
+6. 它是否能转化为用户可验证的实验？
+7. 它是否能形成用户论文的创新点、方法模块或对比实验？
 
----
+## 质量标准
 
-## 📊 时间估算
+一次有效运行至少应输出：
 
-| Step | 时间 | 备注 |
-|------|------|------|
-| Step 0: 完成度检查 | 1分钟 | 自动检查 |
-| Step 1: 搜索论文 | 10分钟 | 自动执行 |
-| Step 2: 筛选论文 | 10分钟 | 半自动 |
-| Step 3: 精读论文 | 90分钟 | 5个Subagent串行 |
-| Step 4: 更新列表 | 5分钟 | 手动 |
-| Step 5: 生成思考 | 40分钟 | 需要深度思考 |
-| Step 6: 验证质量 | 2分钟 | 自动验证 |
-| Step 7: Git推送 | 2分钟 | 自动执行 |
-| **总计** | **~3小时** | |
+- 3-5 篇候选论文的筛选理由
+- 每篇论文的结构化分析文档
+- 每篇论文与数字基因、VLA/WAM、HRC 的关系判断
+- 至少 3 条新的研究启发
+- 至少 1 个可执行实验设想
+- 至少 1 条对用户当前研究假设的更新
 
-**串行执行说明**（所有Step）:
-- 所有Subagent必须串行执行：等上一个Step完成后才启动下一个
-- Step 3的5篇论文也必须串行：等论文1精读完成后再启动论文2
-- 原因：避免超过5个活跃Subagent限制，确保每个Step完整执行
+## 当前最小可行版本
 
----
+第一阶段不追求完全自动化，先完成以下闭环：
 
-## 🚨 常见问题
-
-### Q1: 为什么所有Step都必须使用Subagent？
-
-**A**: 有5个关键原因：
-
-1. **Token限制**: 主Session有token限制（通常100k-200k），长任务容易超限
-   - Step 3论文分析需要大量token
-   - Step 5思考生成需要大量token
-   - 主Session会累积所有上下文
-
-2. **上下文污染**: 主Session上下文会累积，影响后续步骤
-   - 前面步骤的错误会污染后面步骤
-   - 上下文过长会降低模型性能
-
-3. **独立性**: 每个Step独立执行，失败可以单独重试
-   - Step 7失败不影响Step 1-6的结果
-   - 可以针对特定Step进行调试
-
-4. **可追溯**: 每个subagent有独立的session ID
-   - 可以查看每个Step的完整执行日志
-   - 便于问题定位和调试
-
-5. **完整性**: 确保每个Step完整执行
-   - 不会因为主Session结束而中断
-   - 每个Subagent有自己的生命周期
-
-### Q2: 如何正确调用Subagent？
-
-**A**: 使用`sessions_spawn`工具：
-
-```bash
-# ✅ 正确示例
-sessions_spawn \
-  --runtime subagent \
-  --task "执行Step X: [任务描述]，阅读 steps/step-X-xxx.md 并执行"
-
-# ❌ 错误示例：在主Session中直接执行
-bash steps/step-7-git-push.md  # 不要这样做！
+```text
+输入论文链接或候选论文列表
+→ 按数字基因框架筛选
+→ 精读论文
+→ 输出 paper analysis markdown
+→ 生成 daily / weekly thinking
+→ 更新 research_memory.md
 ```
 
-**参数说明**：
-- `--runtime subagent`: 必须指定为subagent
-- `--task`: 任务描述，包含step文档路径
-- `--timeout`: 可选，超时时间（秒）
-
-### Q3: 如何确保质量？
-
-**A**: 
-1. ✅ Step 3强制使用Subagent（避免token限制）
-2. ✅ Step 6强制验证（11项检查）
-3. ✅ 最多3次重试机制
-4. ✅ 失败则停止任务并报告错误
-
----
-
-## 📚 参考文档
-
-- **详细执行指南**: `steps/step-*.md`
-- **执行检查清单**: `EXECUTION_CHECKLIST.md`
-- **快速开始**: `QUICK_START.md`
-- **脚本目录**: `scripts/`
-
----
-
-## 🔗 相关链接
-
-- **GitHub仓库**: https://github.com/ahangchen/openclaw_research_skill
-- **博客仓库**: https://github.com/ahangchen/spatial_agi
-
----
-
-**关键词**: `#spatial-agi` `#research-skill` `#modular` `#subagent` `#quality-validation`
-
-**维护者**: OpenClaw AI
-**版本历史**: v6.9 → v7.0（模块化重构）→ v7.1（GLM WebReader正式版）
+后续再接入 arXiv API、n8n、GitHub Actions、GLM/Qwen/OpenAI API、Notion/飞书/邮件等自动化能力。
