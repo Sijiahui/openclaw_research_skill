@@ -1,264 +1,249 @@
-# Step 3: 使用GLM WebReader精读每篇论文
+# Step 3: 按数字基因框架精读论文
 
 ## 目标
 
-为每篇筛选出的论文使用GLM WebReader进行深度分析。
+对筛选出的每篇论文进行深度分析。分析目标不是复述论文，而是判断它对用户的 **制造数字基因、DG-VLA、WAM、人机协作和工业数字孪生** 研究有什么价值。
 
 ## 核心原则
 
-```
-╔════════════════════════════════════════════════════════════╗
-║  🎯 质量第一原则                                           ║
-║                                                              ║
-║  ✅ 每篇论文15-20分钟是正常的                              ║
-║  ✅ 深度分析比快速完成更重要                                ║
-║  ✅ 使用Subagent避免token限制                              ║
-║  ✅ 每篇论文独立处理，互不干扰                             ║
-║                                                              ║
-║  ❌ 不要为了省时而创建精简版文档                           ║
-║  ❌ 不要因为token不足而降低质量                            ║
-╚════════════════════════════════════════════════════════════╝
+```text
+1. 质量第一，宁可少读，也要读出可迁移的研究启发。
+2. 每篇论文独立分析，避免上下文污染。
+3. 结论必须回到用户研究主线。
+4. 不只总结方法，还要判断它能否转化为模块、实验、约束或论文贡献。
+5. 对不确定的内容必须明确标注，不要编造论文细节。
 ```
 
-## 执行流程
+## 输入
 
-### 1. 读取筛选后的论文列表
+每篇论文应包含：
 
-```bash
-PAPERS_FILE="/tmp/spatial_agi_papers_$(date +%Y-%m-%d).json"
+- Title
+- Authors
+- Year / Venue
+- Abstract
+- PDF / arXiv / Project URL
+- Code URL（如有）
 
-# 提取论文信息
-PAPERS=$(cat "$PAPERS_FILE" | jq -r '.papers[] | "\(.title)|\(.arxiv_url)|\(.pdf_url)"')
-```
+## 推荐分析流程
 
-### 2. 为每篇论文启动Subagent
+### Phase 1: 论文基本理解
 
-```bash
-for PAPER_INFO in $PAPERS; do
-  IFS='|' read -r TITLE ARXIV_URL PDF_URL <<< "$PAPER_INFO"
-  
-  # 生成paper_id（用于文件命名）
-  PAPER_ID=$(echo "$TITLE" | sed 's/[^a-zA-Z0-9]/_/g')
-  
-  echo "📚 处理论文: $TITLE"
-  
-  # 启动Subagent
-  sessions_spawn \
-    --mode run \
-    --runtime subagent \
-    --task "精读论文: $TITLE
-    
-论文信息:
-- 标题: $TITLE
-- arXiv: $ARXIV_URL
-- PDF: $PDF_URL
-- Paper ID: $PAPER_ID
+回答：
 
-要求:
-1. 使用web_fetch工具读取arXiv HTML页面
-2. 询问3个核心问题（核心算法、与Spatial AGI关系、创新点/局限）
-3. 创建详细markdown文档（至少500行）
-4. 保存到 /home/cwh/coding/spatial_agi/papers/
+1. 这篇论文解决什么问题？
+2. 它的输入、输出和任务场景是什么？
+3. 它的核心方法是什么？
+4. 它和已有方法相比解决了什么不足？
 
-3个核心问题:
-Q1: 这篇文章的核心算法原理是什么？请详细描述：1) 核心思想和动机，2) 主要技术方法，3) 算法流程和关键步骤，4) 输入输出。
-Q2: 这篇文章与通用空间智能（Spatial AGI）有什么关系？请分析：1) 如何理解和表示空间，2) 如何处理空间关系，3) 对Spatial AGI有什么启发，4) 可以应用到哪些Spatial AGI场景。
-Q3: 基于前面的分析，这个方法的主要创新点和局限性是什么？与其他相关工作相比有什么优势和劣势？
+### Phase 2: 三层拆解
 
-输出格式:
-- 返回文档路径
-- 返回文档行数" \
-    --timeout 1500 \
-    --run-timeout 1500
-done
+从感知、认知、动作三层拆解论文：
 
-echo "✅ 所有论文精读完成"
-```
+#### Perception Level
 
-## GLM WebReader精读流程
+- 使用了哪些视觉、空间、几何或传感信息？
+- 是否涉及 3D 场景、对象关系、姿态、拓扑、可供性？
+- 是否能为 Digital DNA 提供稳定对象知识？
 
-### Phase 1: 读取arXiv页面
+#### Cognition / Reasoning Level
 
-```bash
-# 读取arXiv HTML页面
-ARXIV_HTML=$(echo "$ARXIV_URL" | sed 's|/abs/|/html/|')
+- 是否使用 VLM、LLM、world model、memory、task graph、planner 或 policy？
+- 如何表示任务状态、环境状态、人类意图或动作后果？
+- 是否能为 Digital RNA 提供任务激活或动态表达机制？
 
-echo "📥 读取arXiv页面: $ARXIV_HTML"
-# 使用web_fetch工具读取
-# web_fetch会自动提取markdown格式的内容
-```
+#### Action Level
 
-### Phase 2: 分析论文内容
+- 如何生成或引导机器人动作？
+- 输出是轨迹、离散动作、关键帧、策略、约束、计划还是 affordance？
+- 是否可以接入 Gene-as-Constraint 或 Gene-as-Policy Interface？
 
-基于读取的内容，回答3个核心问题：
+### Phase 3: 数字基因关系分析
 
-**Q1: 核心算法原理**
-- 核心思想和动机
-- 主要技术方法
-- 算法流程和关键步骤
-- 输入输出
+必须从以下维度分析：
 
-**Q2: 与Spatial AGI的关系**
-- 如何理解和表示空间
-- 如何处理空间关系
-- 对Spatial AGI有什么启发
-- 可以应用到哪些Spatial AGI场景
+#### Digital DNA
 
-**Q3: 创新点和局限性**
-- 主要创新点
-- 主要局限性
-- 与其他相关工作的对比
+判断论文是否提供稳定对象级制造知识，例如：
 
-### Phase 3: 创建详细文档
+- geometry primitives
+- object attributes
+- material properties
+- part hierarchy
+- affordances
+- assembly relations
+- process constraints
+- interface definitions
 
-```bash
-# 使用收集的信息创建markdown文档
-# 至少500行，包含完整的分析
-# 保存到: /home/cwh/coding/spatial_agi/papers/YYYY-MM-DD_XX_paper_title.md
-```
+#### Digital RNA
 
-## 文档模板
+判断论文是否提供任务级或执行级激活机制，例如：
+
+- task-conditioned activation
+- context-specific constraint selection
+- action sequence generation
+- dynamic topology update
+- human intervention response
+- adaptive replanning
+
+#### Gene-as-Context
+
+判断数字基因能否作为该方法的结构化上下文输入。
+
+#### Gene-as-Constraint
+
+判断数字基因能否作为该方法的约束层，限制不合理感知、规划或动作。
+
+#### Gene-as-Memory
+
+判断数字基因能否成为对象、工艺、工具、场景和协作历史的长期记忆。
+
+#### Gene-as-Policy Interface
+
+判断数字基因能否转换成策略条件、关键帧、动作参数、子任务或执行约束。
+
+### Phase 4: 与 VLA / WAM / HRC 的关系
+
+#### Relation to DG-VLA
+
+回答：
+
+- 它能增强 VLA 的哪个部分？语言层、视觉 grounding、动作层、策略层还是 memory？
+- 数字基因应该以 prompt、retrieval context、constraint layer、memory module 还是 action interface 的方式进入？
+- 它是否有助于未见物体泛化或长程任务执行？
+
+#### Relation to WAM / World Model
+
+回答：
+
+- 它是否学习“世界如何因动作而变化”？
+- 它是否支持状态转移、未来帧预测、动作后果预测？
+- 它是否能与“第三视角连续动态学习 + 第一视角稀疏关键帧对齐”范式结合？
+- 数字基因能否作为 world model 的先验、状态描述或约束？
+
+#### Relation to HRC
+
+回答：
+
+- 它是否支持人类意图理解？
+- 它是否支持人类干预后的任务重规划？
+- 它是否能减少显式人类命令？
+- 它是否能提升协作安全、鲁棒性和可解释性？
+
+### Phase 5: 对用户研究的直接启发
+
+必须给出具体可用结论：
+
+- Possible use in DG-VLA:
+- Possible use in DG-HRC:
+- Possible use in digital twin:
+- Possible experiment:
+- Possible paper contribution:
+- Possible figure / framework update:
+- Possible baseline or comparison:
+
+## 输出文档模板
 
 ```markdown
-# [论文标题]
+# Paper Analysis: [Title]
 
-**发表日期**: YYYY-MM-DD  
-**arXiv链接**: https://arxiv.org/abs/xxxx  
-**PDF链接**: https://arxiv.org/pdf/xxxx  
-**HTML版本**: https://arxiv.org/html/xxxx  
-**作者**: 作者列表
+## 1. Basic Information
 
-## 核心问题
+- Title:
+- Authors:
+- Year / Venue:
+- URL:
+- Code:
+- Keywords:
 
-### Q1: 核心算法原理
+## 2. One-Sentence Summary
 
-**问题**: 这篇文章的核心算法原理是什么？
+用一句话说明这篇论文对用户研究的价值。
 
-**分析**:
-[基于GLM WebReader分析]
+## 3. Core Problem
 
-1. **核心思想和动机**
-   [详细描述]
+### 3.1 Problem Definition
 
-2. **主要技术方法**
-   [详细描述]
+### 3.2 Why It Matters for Embodied Manufacturing
 
-3. **算法流程和关键步骤**
-   [详细描述]
+## 4. Method Summary
 
-4. **输入输出**
-   [详细描述]
+### 4.1 Overall Pipeline
 
-### Q2: 与Spatial AGI的关系
+### 4.2 Perception Level
 
-**问题**: 这篇文章与通用空间智能（Spatial AGI）有什么关系？
+### 4.3 Cognition / Reasoning Level
 
-**分析**:
-[基于GLM WebReader分析]
+### 4.4 Action Level
 
-1. **如何理解和表示空间**
-   [分析]
+## 5. Relation to Manufacturing Digital Gene
 
-2. **如何处理空间关系**
-   [分析]
+### 5.1 Digital DNA
 
-3. **对Spatial AGI的启发**
-   [分析]
+### 5.2 Digital RNA
 
-4. **可以应用的Spatial AGI场景**
-   [分析]
+### 5.3 Gene-as-Context
 
-### Q3: 创新点和局限性
+### 5.4 Gene-as-Constraint
 
-**问题**: 基于前面的分析，这个方法的主要创新点和局限性是什么？
+### 5.5 Gene-as-Memory
 
-**分析**:
-[基于GLM WebReader分析]
+### 5.6 Gene-as-Policy Interface
 
-1. **主要创新点**
-   [列出]
+## 6. Relation to DG-VLA
 
-2. **主要局限性**
-   [列出]
+## 7. Relation to WAM / World Model
 
-3. **与其他相关工作的对比**
-   [对比分析]
+## 8. Relation to Human-Robot Collaboration
 
-## 核心技术发现
+## 9. Possible Integration into User's Framework
 
-- 发现1
-- 发现2
-- 发现3
+### 9.1 Module Position
 
-## 与Spatial AGI的关系
+说明它可以放在 DG-VLA / DG-HRC 框架的哪个模块。
 
-### 直接贡献
-[描述]
+### 9.2 Input / Output Interface
 
-### 技术启发
-[描述]
+说明如果借鉴该方法，输入输出应该是什么。
 
-### 应用场景
-[描述]
+### 9.3 Required Digital Gene Content
 
-## 个人思考
+说明需要哪些数字基因内容作为支撑。
 
-### 最令人兴奋的发现
-[思考]
+## 10. Possible Experiment
 
-### 潜在局限
-[思考]
+- Task:
+- Dataset / Environment:
+- Method:
+- Baselines:
+- Metrics:
+- Expected Results:
 
-### 与昨日研究的关联
-[思考]
+## 11. Paper Contribution Ideas
 
-## 关键数据
+给出 2-3 个可以转化为用户论文创新点的想法。
 
-- 模型参数
-- 数据集
-- 性能指标
+## 12. Limitations
 
-## 总结
+说明该论文不适合直接用于制造场景的地方。
 
-### 核心发现总结
-[总结]
+## 13. Follow-up Questions
 
-### 对Spatial AGI的意义
-[总结]
-
----
-
-**文档创建时间**: YYYY-MM-DD
-**分析方法**: GLM WebReader
+列出后续需要继续查找的文献或问题。
 ```
 
-## 质量要求
+## 输出路径
 
-- ✅ 文档至少500行
-- ✅ 包含完整的3个问题分析
-- ✅ 包含与Spatial AGI的关系分析
-- ✅ 包含个人思考和见解
-- ✅ 包含关键数据
+```text
+output/papers/YYYY-MM-DD_XX_paper_title.md
+```
 
-## GLM WebReader优势
+## 质量检查
 
-| 维度 | GLM WebReader |
-|------|---------------|
-| 响应速度 | ⭐⭐⭐⭐⭐（<10秒） |
-| 稳定性 | ⭐⭐⭐⭐⭐（高可用） |
-| 理解能力 | ⭐⭐⭐⭐（GLM-5，128K上下文） |
-| 无需代理 | ⭐⭐⭐⭐⭐ |
-| 简单直接 | ⭐⭐⭐⭐⭐ |
+一篇论文分析必须包含：
 
-## 注意事项
-
-1. ✅ **必须使用Subagent**：避免主session的token限制
-2. ✅ **每篇独立上下文**：互不干扰
-3. ✅ **质量优先**：宁可多花时间，也要确保质量
-4. ✅ **3个核心问题**：必须完整回答
-
-## 预计时间
-
-- **单篇论文**: 15-20分钟
-- **5篇论文（串行）**: 75-100分钟
-- **5篇论文（并行）**: 20-30分钟
+- 至少一个与 Digital DNA / RNA 的判断
+- 至少一个 DG-VLA 集成方式
+- 至少一个 HRC 或 WAM 相关判断
+- 至少一个可执行实验设想
+- 至少一个可能论文贡献点
