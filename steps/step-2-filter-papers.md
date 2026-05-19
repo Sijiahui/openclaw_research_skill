@@ -1,113 +1,139 @@
-# Step 2: 筛选最有价值的5篇论文
-
-## 🚨 严格约束
-
-```
-╔══════════════════════════════════════════════════════════════════╗
-║  ❌ 绝对不能违反的规则：                                       ║
-║  1. 筛选结果必须恰好5篇，不能多也不能少                         ║
-║  2. 必须排除已经分析过的论文（查看 /home/cwh/coding/spatial_agi/papers/）║
-║  3. 不能选择与昨天/前天重复的论文                               ║
-║  4. 每篇论文编号必须唯一（01-05）                               ║
-╚══════════════════════════════════════════════════════════════════╝
-```
+# Step 2: 筛选最有价值的 3-5 篇论文
 
 ## 目标
 
-从约100篇候选论文中筛选出**恰好5篇**与Spatial AGI最相关、最有价值的论文。
+从候选论文中筛选出 **3-5 篇** 对用户当前研究最有价值的论文。筛选标准不再是泛泛的 Spatial AGI 相关性，而是判断论文是否能够支撑：
 
-## 执行命令
+- 制造数字基因理论构建
+- DG-VLA 框架设计
+- WAM / world model 与数字基因结合
+- 人机协作中的记忆对齐、任务重规划与主动适应
+- 工业数字孪生与动态拓扑建模
 
-```bash
-cd ~/.openclaw/workspace/skills/spatial-agi-research/scripts
+## 严格约束
 
-# 去重（排除已分析的论文）
-python3 spatial_agi_filter_papers.py
-
-# 输出去重后的论文列表到 /tmp/spatial_agi_papers_$(date +%Y-%m-%d).json
+```text
+1. 默认筛选 3-5 篇；如果用户明确要求数量，则按用户要求。
+2. 必须排除已经分析过的论文。
+3. 避免连续多天重复分析同一类论文。
+4. 每篇论文必须给出选择理由和与用户研究的关系。
+5. 不要因为论文热门就选择，必须说明它对制造数字基因 / DG-VLA / HRC 的具体价值。
 ```
 
-## 筛选标准
+## 优先选择规则
 
-### 1. 相关性（0-100分）
+### 1. 与制造数字基因强相关
 
-**Spatial AGI核心相关（80-100分）**:
-- 3D Gaussian Splatting
-- Spatial Memory
-- World Models
-- Embodied AI
-- Video Generation
+高优先级论文通常包含以下内容之一：
 
-**高度相关（60-80分）**:
-- VLM 3D Understanding
-- Spatial Reasoning
-- Scene Understanding
-- Robot Learning
+- 对象级结构化知识表示
+- 几何原语、零件层级、装配关系
+- 可供性、工具功能、操作接口
+- 工艺流程、任务约束、装配/拆解约束
+- 制造知识图谱、数字孪生、动态拓扑
+- CAD / STEP / 3D 表示与机器人操作结合
 
-**中等相关（40-60分）**:
-- Computer Vision
-- Deep Learning
-- Neural Networks
+### 2. 可增强 VLA
 
-### 2. 创新性（0-50分）
+高优先级论文可能提供：
 
-- **方法创新**: 新的算法、架构、表示方法
-- **应用创新**: 新的应用场景、任务
-- **性能提升**: 显著的性能改进
+- 新的 Vision-Language-Action 架构
+- 语言层知识注入机制
+- 视觉 grounding / object grounding 方法
+- action expert / policy interface 设计
+- 长程任务分解与执行
+- 未见物体泛化或跨对象迁移能力
 
-### 3. 影响力（0-30分）
+### 3. 可增强 WAM / World Model
 
-- **机构**: 知名机构（MIT, Stanford, Google等）
-- **作者**: 领域知名作者
-- **引用**: 已有引用数（如果是旧论文）
+高优先级论文可能涉及：
 
-### 4. 时效性（0-20分）
+- action-conditioned world model
+- 机器人操作后果预测
+- 视频生成 / 未来帧预测
+- 状态转移建模
+- 第三视角连续动态学习
+- 第一视角稀疏关键帧对齐
+- latent state 与机器人观测映射
 
-- **最近1周**: 20分
-- **最近1月**: 15分
-- **最近3月**: 10分
-- **更早**: 5分
+### 4. 可支持 HRC
 
-## 评分示例
+高优先级论文可能涉及：
 
+- 人类意图理解
+- 人机任务状态对齐
+- proactive collaboration
+- shared autonomy
+- human intervention handling
+- task replanning
+- 安全、鲁棒、可解释协作
+
+## 排除规则
+
+排除以下论文：
+
+1. 只做通用图文理解，没有空间、动作、机器人或制造关联。
+2. 只做 benchmark，没有方法或研究启发。
+3. 只关注通用 LLM 能力，无法转化为 VLA/WAM/HRC 模块。
+4. 只做纯视觉识别，缺少对象关系、动作、任务或约束信息。
+5. 与用户当前研究主线距离过远，无法形成实验或论文贡献。
+
+## 评分标准
+
+每篇候选论文按 100 分评分：
+
+| 维度 | 分值 | 说明 |
+|---|---:|---|
+| Digital Gene 相关性 | 25 | 是否支持 Digital DNA/RNA、Gene-as-Context/Constraint/Memory |
+| DG-VLA 价值 | 20 | 是否能增强 VLA 的语言、视觉、动作或策略层 |
+| WAM / World Model 价值 | 15 | 是否支持状态转移、动作后果预测或世界模型训练 |
+| HRC 价值 | 15 | 是否支持意图理解、任务重规划、主动适应或协作安全 |
+| 工业制造可迁移性 | 15 | 是否能落到装配、拆解、检测、工艺规划等制造任务 |
+| 新颖性与可写作性 | 10 | 是否能形成论文创新点、实验对比或综述段落 |
+
+## 输出格式
+
+```markdown
+# Selected Papers: YYYY-MM-DD
+
+## Selection Summary
+
+- Candidate papers:
+- Selected papers:
+- Main theme:
+- Reason for today's focus:
+
+## Paper 01: Title
+
+- URL:
+- Score: xx/100
+- Selected because:
+- Relation to Digital Gene:
+  - Digital DNA:
+  - Digital RNA:
+  - Gene-as-Context:
+  - Gene-as-Constraint:
+  - Gene-as-Memory:
+- Relation to DG-VLA:
+- Relation to WAM:
+- Relation to HRC:
+- Possible use in user's research:
+- Priority: High / Medium / Low
+
+## Paper 02: Title
+...
 ```
-论文: Matryoshka Gaussian Splatting
-- 相关性: 95分（3D Gaussian Splatting核心相关）
-- 创新性: 45分（俄罗斯套娃式表示，连续LoD）
-- 影响力: 25分（剑桥大学）
-- 时效性: 20分（2026-03-19）
-总分: 185分
+
+## 筛选后的临时文件
+
+保存为：
+
+```text
+/tmp/dg_vla_hrc_selected_YYYY-MM-DD.json
 ```
 
-## 选择策略
+或手动阶段保存为：
 
-1. **去重（最重要）**: 
-   - 先列出 /home/cwh/coding/spatial_agi/papers/ 下所有已有论文
-   - 排除所有已分析过的论文（按标题匹配）
-   - 特别注意排除昨天和前天的论文
-2. **排序**: 按总分降序排列
-3. **多样性**: 确保覆盖不同主题（避免5篇都是同一主题）
-4. **质量优先**: 宁可少选，不选低质量论文
-5. **恰好5篇**: 最终输出必须恰好5篇，用序号01-05命名
-
-## 输出
-
-- **文件**: `/tmp/spatial_agi_papers_$(date +%Y-%m-%d).json`
-- **内容**: 5篇精选论文的详细信息
-
-## 手动筛选（可选）
-
-如果自动筛选不够准确，可以手动调整：
-
-```bash
-# 查看候选论文
-cat /tmp/today_papers.json | jq '.papers[] | {title, arxiv_url}'
-
-# 手动编辑选择
-vim /tmp/spatial_agi_papers_$(date +%Y-%m-%d).json
+```text
+output/selected/YYYY-MM-DD_selected.md
 ```
-
-## 预计时间
-
-- 10分钟（自动筛选）
-- 5分钟（手动调整，如果需要）
